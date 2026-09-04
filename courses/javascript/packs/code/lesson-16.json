@@ -4,52 +4,354 @@
   "title": "for loop",
   "questions": [
     {
-      "id": "code-16-001",
+      "id": "js-code-16-001",
       "task": "for bilan 1 dan 10 gacha juft sonlarni chiqaring.",
       "sample": "for (let i = 1; i <= 10; i++) {\n  if (i % 2 === 0) console.log(i);\n}",
-      "exp": "for + shart bilan filtrlash."
+      "exp": "for + shart bilan filtrlash.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-16-002",
+      "id": "js-code-16-002",
       "task": "for loop bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
       "sample": "for (let i = 1; i <= 10; i++) {\n  if (i % 2 === 0) console.log(i);\n}",
-      "exp": "for + shart bilan filtrlash."
+      "exp": "for + shart bilan filtrlash.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-16-003",
+      "id": "js-code-16-003",
       "task": "for loop: if/else: ball=75 uchun A/B/C.",
       "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
-      "exp": "if/else if."
+      "exp": "if/else if.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-16-004",
+      "id": "js-code-16-004",
       "task": "for loop: switch kun=3 → Chorshanba.",
       "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
-      "exp": "switch."
+      "exp": "switch.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-16-005",
+      "id": "js-code-16-005",
       "task": "for loop: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
       "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
-      "exp": "Ternary."
+      "exp": "Ternary.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-16-006",
+      "id": "js-code-16-006",
       "task": "for loop: for 1..5 chiqaring.",
       "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
-      "exp": "for."
+      "exp": "for.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-16-007",
+      "id": "js-code-16-007",
       "task": "for loop: while 5..1 kamaytirib chiqaring.",
       "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
-      "exp": "while."
+      "exp": "while.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-16-008",
+      "id": "js-code-16-008",
       "task": "for loop: for da break (i===3).",
       "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
-      "exp": "break."
+      "exp": "break.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-009",
+      "task": "for bilan 1 dan 5 gacha chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) {\n  console.log(i);\n}",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-010",
+      "task": "while bilan 3 marta chiqaring.",
+      "sample": "let i = 0;\nwhile (i < 3) {\n  console.log(i);\n  i++;\n}",
+      "exp": "while.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-011",
+      "task": "for...of bilan massivni chiqaring.",
+      "sample": "let arr = [\"a\", \"b\", \"c\"];\nfor (let x of arr) {\n  console.log(x);\n}",
+      "exp": "for...of.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-012",
+      "task": "break ishlatib 3 da to'xtating.",
+      "sample": "for (let i = 0; i < 10; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-013",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-014",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-015",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-016",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-017",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-018",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-019",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-16-020",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-021",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-022",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-023",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-024",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-16-025",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

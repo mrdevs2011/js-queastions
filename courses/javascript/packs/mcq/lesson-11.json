@@ -4,7 +4,7 @@
   "title": "Asosiy operatorlar",
   "questions": [
     {
-      "id": "mcq-11-001",
+      "id": "js-mcq-11-001",
       "q": "5 ** 2 natijasi?",
       "opts": [
         "10",
@@ -13,10 +13,18 @@
         "3"
       ],
       "correct": 1,
-      "exp": "** — daraja (exponent) operatori."
+      "exp": "** — daraja (exponent) operatori.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-11-002",
+      "id": "js-mcq-11-002",
       "q": "let x=5; x++; console.log(x);",
       "opts": [
         "5",
@@ -25,10 +33,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "x++ qiymatni 1 ga oshiradi."
+      "exp": "x++ qiymatni 1 ga oshiradi.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-11-003",
+      "id": "js-mcq-11-003",
       "q": "\"10\" - 5 natijasi?",
       "opts": [
         "\"105\"",
@@ -37,10 +53,18 @@
         "\"10-5\""
       ],
       "correct": 1,
-      "exp": "- operatori numeric coercion qiladi."
+      "exp": "- operatori numeric coercion qiladi.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-11-004",
+      "id": "js-mcq-11-004",
       "q": "10 % 3 natijasi?",
       "opts": [
         "3",
@@ -49,10 +73,18 @@
         "3.33"
       ],
       "correct": 1,
-      "exp": "Qoldiq: 10 = 3*3 + 1."
+      "exp": "Qoldiq: 10 = 3*3 + 1.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-11-005",
+      "id": "js-mcq-11-005",
       "q": "let a=1; a += 5; a ning qiymati?",
       "opts": [
         "1",
@@ -61,10 +93,18 @@
         "15"
       ],
       "correct": 2,
-      "exp": "a += 5 → a = a + 5."
+      "exp": "a += 5 → a = a + 5.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-006",
+      "id": "js-mcq-11-006",
       "q": "Asosiy operatorlar mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-007",
+      "id": "js-mcq-11-007",
       "q": "Asosiy operatorlar mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-008",
+      "id": "js-mcq-11-008",
       "q": "Asosiy operatorlar mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-009",
+      "id": "js-mcq-11-009",
       "q": "Asosiy operatorlar mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-010",
+      "id": "js-mcq-11-010",
       "q": "Asosiy operatorlar mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-011",
+      "id": "js-mcq-11-011",
       "q": "Asosiy operatorlar mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-012",
+      "id": "js-mcq-11-012",
       "q": "Asosiy operatorlar mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-013",
+      "id": "js-mcq-11-013",
       "q": "5 ** 2 natijasi (qayta / chuqurroq)?",
       "opts": [
         "10",
@@ -157,10 +253,18 @@
         "3"
       ],
       "correct": 1,
-      "exp": "** — daraja (exponent) operatori. Qayta o'qing."
+      "exp": "** — daraja (exponent) operatori. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-11-014",
+      "id": "js-mcq-11-014",
       "q": "let x=5; x++; console.log(x); (qayta / chuqurroq)?",
       "opts": [
         "5",
@@ -169,10 +273,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "x++ qiymatni 1 ga oshiradi. Qayta o'qing."
+      "exp": "x++ qiymatni 1 ga oshiradi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-11-015",
+      "id": "js-mcq-11-015",
       "q": "\"10\" - 5 natijasi (qayta / chuqurroq)?",
       "opts": [
         "\"105\"",
@@ -181,10 +293,18 @@
         "\"10-5\""
       ],
       "correct": 1,
-      "exp": "- operatori numeric coercion qiladi. Qayta o'qing."
+      "exp": "- operatori numeric coercion qiladi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-11-016",
+      "id": "js-mcq-11-016",
       "q": "10 % 3 natijasi (qayta / chuqurroq)?",
       "opts": [
         "3",
@@ -193,10 +313,18 @@
         "3.33"
       ],
       "correct": 1,
-      "exp": "Qoldiq: 10 = 3*3 + 1. Qayta o'qing."
+      "exp": "Qoldiq: 10 = 3*3 + 1. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-11-017",
+      "id": "js-mcq-11-017",
       "q": "let a=1; a += 5; a ning qiymati (qayta / chuqurroq)?",
       "opts": [
         "1",
@@ -205,7 +333,875 @@
         "15"
       ],
       "correct": 2,
-      "exp": "a += 5 → a = a + 5. Qayta o'qing."
+      "exp": "a += 5 → a = a + 5. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-018",
+      "q": "5 + '5' natijasi?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-019",
+      "q": "5 - '3' natijasi?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-020",
+      "q": "2 ** 3 natijasi?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-021",
+      "q": "10 % 3 natijasi?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-022",
+      "q": "true && false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-023",
+      "q": "true || false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "|| — bittasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-024",
+      "q": "!true natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "! — mantiqiy emas.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-025",
+      "q": "5 == '5' natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "NaN"
+      ],
+      "correct": 0,
+      "exp": "== type coercion qiladi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-026",
+      "q": "5 === '5' natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "NaN"
+      ],
+      "correct": 1,
+      "exp": "=== type va qiymatni tekshiradi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-027",
+      "q": "null ?? 'default' natijasi?",
+      "opts": [
+        "null",
+        "'default'",
+        "undefined",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "?? — nullish coalescing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-028",
+      "q": "0 || 'default' natijasi?",
+      "opts": [
+        "0",
+        "'default'",
+        "null",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "|| falsy ni o'tkazib yuboradi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-029",
+      "q": "3 > 2 > 1 natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "true > 1 → 1 > 1 → false.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-030",
+      "q": "5 + '5' natijasi (misol 1)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-031",
+      "q": "5 - '3' natijasi (misol 1)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-032",
+      "q": "2 ** 3 natijasi (misol 1)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-033",
+      "q": "10 % 3 natijasi (misol 1)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-034",
+      "q": "true && false natijasi (misol 1)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-035",
+      "q": "5 + '5' natijasi (misol 2)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-036",
+      "q": "5 - '3' natijasi (misol 2)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-037",
+      "q": "2 ** 3 natijasi (misol 2)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-038",
+      "q": "10 % 3 natijasi (misol 2)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-039",
+      "q": "true && false natijasi (misol 2)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-040",
+      "q": "5 + '5' natijasi (misol 3)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-041",
+      "q": "5 - '3' natijasi (misol 3)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-042",
+      "q": "2 ** 3 natijasi (misol 3)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-043",
+      "q": "10 % 3 natijasi (misol 3)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-044",
+      "q": "true && false natijasi (misol 3)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-045",
+      "q": "5 + '5' natijasi (misol 4)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-11-046",
+      "q": "5 - '3' natijasi (misol 4)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-047",
+      "q": "2 ** 3 natijasi (misol 4)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-048",
+      "q": "10 % 3 natijasi (misol 4)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-049",
+      "q": "true && false natijasi (misol 4)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-050",
+      "q": "5 + '5' natijasi (misol 5)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-051",
+      "q": "5 - '3' natijasi (misol 5)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-052",
+      "q": "2 ** 3 natijasi (misol 5)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-053",
+      "q": "10 % 3 natijasi (misol 5)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-054",
+      "q": "true && false natijasi (misol 5)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-055",
+      "q": "5 + '5' natijasi (misol 6)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-056",
+      "q": "5 - '3' natijasi (misol 6)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-057",
+      "q": "2 ** 3 natijasi (misol 6)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-058",
+      "q": "10 % 3 natijasi (misol 6)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-059",
+      "q": "true && false natijasi (misol 6)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-11-060",
+      "q": "5 + '5' natijasi (misol 7)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

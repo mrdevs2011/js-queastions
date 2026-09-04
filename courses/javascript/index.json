@@ -5,299 +5,299 @@
     {
       "lesson": 1,
       "file": "packs/mcq/lesson-01.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 2,
       "file": "packs/mcq/lesson-02.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 3,
       "file": "packs/mcq/lesson-03.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 4,
       "file": "packs/mcq/lesson-04.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 5,
       "file": "packs/mcq/lesson-05.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 6,
       "file": "packs/mcq/lesson-06.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 7,
       "file": "packs/mcq/lesson-07.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 8,
       "file": "packs/mcq/lesson-08.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 9,
       "file": "packs/mcq/lesson-09.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 10,
       "file": "packs/mcq/lesson-10.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 11,
       "file": "packs/mcq/lesson-11.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 12,
       "file": "packs/mcq/lesson-12.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 13,
       "file": "packs/mcq/lesson-13.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 14,
       "file": "packs/mcq/lesson-14.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 15,
       "file": "packs/mcq/lesson-15.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 16,
       "file": "packs/mcq/lesson-16.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 17,
       "file": "packs/mcq/lesson-17.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 18,
       "file": "packs/mcq/lesson-18.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 19,
       "file": "packs/mcq/lesson-19.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 20,
       "file": "packs/mcq/lesson-20.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 21,
       "file": "packs/mcq/lesson-21.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 22,
       "file": "packs/mcq/lesson-22.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 23,
       "file": "packs/mcq/lesson-23.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 24,
       "file": "packs/mcq/lesson-24.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 25,
       "file": "packs/mcq/lesson-25.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 26,
       "file": "packs/mcq/lesson-26.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 27,
       "file": "packs/mcq/lesson-27.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 28,
       "file": "packs/mcq/lesson-28.json",
-      "count": 17
+      "count": 60
     },
     {
       "lesson": 29,
       "file": "packs/mcq/lesson-29.json",
-      "count": 17
+      "count": 60
     }
   ],
   "code": [
     {
       "lesson": 1,
       "file": "packs/code/lesson-01.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 2,
       "file": "packs/code/lesson-02.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 3,
       "file": "packs/code/lesson-03.json",
-      "count": 8
+      "count": 25
     },
     {
       "lesson": 4,
       "file": "packs/code/lesson-04.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 5,
       "file": "packs/code/lesson-05.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 6,
       "file": "packs/code/lesson-06.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 7,
       "file": "packs/code/lesson-07.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 8,
       "file": "packs/code/lesson-08.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 9,
       "file": "packs/code/lesson-09.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 10,
       "file": "packs/code/lesson-10.json",
-      "count": 2
+      "count": 25
     },
     {
       "lesson": 11,
       "file": "packs/code/lesson-11.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 12,
       "file": "packs/code/lesson-12.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 13,
       "file": "packs/code/lesson-13.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 14,
       "file": "packs/code/lesson-14.json",
-      "count": 3
+      "count": 25
     },
     {
       "lesson": 15,
       "file": "packs/code/lesson-15.json",
-      "count": 12
+      "count": 25
     },
     {
       "lesson": 16,
       "file": "packs/code/lesson-16.json",
-      "count": 8
+      "count": 25
     },
     {
       "lesson": 17,
       "file": "packs/code/lesson-17.json",
-      "count": 8
+      "count": 25
     },
     {
       "lesson": 18,
       "file": "packs/code/lesson-18.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 19,
       "file": "packs/code/lesson-19.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 20,
       "file": "packs/code/lesson-20.json",
-      "count": 12
+      "count": 25
     },
     {
       "lesson": 21,
       "file": "packs/code/lesson-21.json",
-      "count": 2
+      "count": 25
     },
     {
       "lesson": 22,
       "file": "packs/code/lesson-22.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 23,
       "file": "packs/code/lesson-23.json",
-      "count": 12
+      "count": 25
     },
     {
       "lesson": 24,
       "file": "packs/code/lesson-24.json",
-      "count": 16
+      "count": 25
     },
     {
       "lesson": 25,
       "file": "packs/code/lesson-25.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 26,
       "file": "packs/code/lesson-26.json",
-      "count": 4
+      "count": 25
     },
     {
       "lesson": 27,
       "file": "packs/code/lesson-27.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 28,
       "file": "packs/code/lesson-28.json",
-      "count": 6
+      "count": 25
     },
     {
       "lesson": 29,
       "file": "packs/code/lesson-29.json",
-      "count": 6
+      "count": 25
     }
   ],
   "stats": {
-    "mcq": 493,
-    "code": 185,
-    "total": 678
+    "mcq": 1740,
+    "code": 725,
+    "total": 2465
   }
 }

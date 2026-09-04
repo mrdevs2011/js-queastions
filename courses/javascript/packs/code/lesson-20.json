@@ -4,76 +4,354 @@
   "title": "Massivlarga (arrays) kirish",
   "questions": [
     {
-      "id": "code-20-001",
+      "id": "js-code-20-001",
       "task": "5 ta sonli massiv yarating, birinchi va oxirgi elementini chiqaring.",
       "sample": "let sonlar = [10, 20, 30, 40, 50];\nconsole.log(sonlar[0]);\nconsole.log(sonlar[sonlar.length - 1]);",
-      "exp": "Indeks 0 va length-1."
+      "exp": "Indeks 0 va length-1.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-002",
+      "id": "js-code-20-002",
       "task": "Massivlarga (arrays) kirish bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
       "sample": "let sonlar = [10, 20, 30, 40, 50];\nconsole.log(sonlar[0]);\nconsole.log(sonlar[sonlar.length - 1]);",
-      "exp": "Indeks 0 va length-1."
+      "exp": "Indeks 0 va length-1.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-003",
+      "id": "js-code-20-003",
       "task": "Massivlarga (arrays) kirish: console.log orqali 2 ta xabar chiqaring.",
       "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
-      "exp": "console.log."
+      "exp": "console.log.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-004",
+      "id": "js-code-20-004",
       "task": "Massivlarga (arrays) kirish: kichik hisob: 2+2*2 ni chiqaring.",
       "sample": "console.log(2 + 2 * 2); // 6",
-      "exp": "Ustuvorlik."
+      "exp": "Ustuvorlik.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-005",
+      "id": "js-code-20-005",
       "task": "Massivlarga (arrays) kirish: massiv va object ni birga ishlating (qisqa).",
       "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
-      "exp": "Nested ma'lumot."
+      "exp": "Nested ma'lumot.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-006",
+      "id": "js-code-20-006",
       "task": "Massivlarga (arrays) kirish: for...of bilan satr harflarini chiqaring.",
       "sample": "for (const ch of \"JS\") console.log(ch);",
-      "exp": "for...of string."
+      "exp": "for...of string.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-007",
+      "id": "js-code-20-007",
       "task": "Massivlarga (arrays) kirish: [10,20,30] yarating, push 40, length chiqaring.",
       "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
-      "exp": "push, length."
+      "exp": "push, length.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-008",
+      "id": "js-code-20-008",
       "task": "Massivlarga (arrays) kirish: filter bilan juft sonlar.",
       "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
-      "exp": "filter."
+      "exp": "filter.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-009",
+      "id": "js-code-20-009",
       "task": "Massivlarga (arrays) kirish: map bilan *2.",
       "sample": "console.log([1,2,3].map(x => x * 2));",
-      "exp": "map."
+      "exp": "map.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-010",
+      "id": "js-code-20-010",
       "task": "Massivlarga (arrays) kirish: reduce yig'indi.",
       "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
-      "exp": "reduce."
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-011",
+      "id": "js-code-20-011",
       "task": "Massivlarga (arrays) kirish: find bilan 10 dan kattasi.",
       "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
-      "exp": "find."
+      "exp": "find.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-012",
+      "id": "js-code-20-012",
       "task": "Massivlarga (arrays) kirish: slice va splice farqini kichik misolda ko'rsating.",
       "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
-      "exp": "slice nusxa, splice o'zgartiradi."
+      "exp": "slice nusxa, splice o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-013",
+      "task": "[1,2,3] yarating, length chiqaring.",
+      "sample": "let arr = [1, 2, 3];\nconsole.log(arr.length);",
+      "exp": "Array length.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-014",
+      "task": "push bilan element qo'shing.",
+      "sample": "let arr = [1, 2];\narr.push(3);\nconsole.log(arr);",
+      "exp": "push.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-015",
+      "task": "map bilan har birini 2 ga ko'paytiring.",
+      "sample": "let arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));",
+      "exp": "map.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-016",
+      "task": "filter bilan juft sonlarni oling.",
+      "sample": "let arr = [1, 2, 3, 4];\nconsole.log(arr.filter(x => x % 2 === 0));",
+      "exp": "filter.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-017",
+      "task": "reduce bilan yig'indi toping.",
+      "sample": "let arr = [1, 2, 3, 4];\nconsole.log(arr.reduce((a, b) => a + b, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-018",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-019",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-020",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-021",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-022",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-023",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-024",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-20-025",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

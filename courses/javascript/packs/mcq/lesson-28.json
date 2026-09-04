@@ -4,7 +4,7 @@
   "title": "Scope chain",
   "questions": [
     {
-      "id": "mcq-28-001",
+      "id": "js-mcq-28-001",
       "q": "Scope nima?",
       "opts": [
         "Fayl nomi",
@@ -13,10 +13,18 @@
         "HTML elementi"
       ],
       "correct": 1,
-      "exp": "Scope — identifikatorning ko'rinish doirasi."
+      "exp": "Scope — identifikatorning ko'rinish doirasi.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-28-002",
+      "id": "js-mcq-28-002",
       "q": "Global scope qayer?",
       "opts": [
         "Faqat funksiya ichida",
@@ -25,10 +33,18 @@
         "Faqat class da"
       ],
       "correct": 1,
-      "exp": "Tashqi darajadagi o'zgaruvchilar global."
+      "exp": "Tashqi darajadagi o'zgaruvchilar global.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-28-003",
+      "id": "js-mcq-28-003",
       "q": "Ichki funksiya tashqi o'zgaruvchini ko'ra oladimi?",
       "opts": [
         "Yo'q",
@@ -37,10 +53,18 @@
         "Faqat const da"
       ],
       "correct": 1,
-      "exp": "Scope chain: ichkaridan tashqariga qidiriladi."
+      "exp": "Scope chain: ichkaridan tashqariga qidiriladi.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-28-004",
+      "id": "js-mcq-28-004",
       "q": "Tashqi funksiya ichki o'zgaruvchini to'g'ridan-to'g'ri ko'radimi?",
       "opts": [
         "Ha",
@@ -49,10 +73,18 @@
         "Faqat strict da"
       ],
       "correct": 1,
-      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas."
+      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-28-005",
+      "id": "js-mcq-28-005",
       "q": "Scope chain mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -61,10 +93,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-28-006",
+      "id": "js-mcq-28-006",
       "q": "Scope chain mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-007",
+      "id": "js-mcq-28-007",
       "q": "Scope chain mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-008",
+      "id": "js-mcq-28-008",
       "q": "Scope chain mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-009",
+      "id": "js-mcq-28-009",
       "q": "Scope chain mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-010",
+      "id": "js-mcq-28-010",
       "q": "Scope chain mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-011",
+      "id": "js-mcq-28-011",
       "q": "Scope chain mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-012",
+      "id": "js-mcq-28-012",
       "q": "Scope chain mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-013",
+      "id": "js-mcq-28-013",
       "q": "Scope nima (qayta / chuqurroq)?",
       "opts": [
         "Fayl nomi",
@@ -157,10 +253,18 @@
         "HTML elementi"
       ],
       "correct": 1,
-      "exp": "Scope — identifikatorning ko'rinish doirasi. Qayta o'qing."
+      "exp": "Scope — identifikatorning ko'rinish doirasi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-014",
+      "id": "js-mcq-28-014",
       "q": "Global scope qayer (qayta / chuqurroq)?",
       "opts": [
         "Faqat funksiya ichida",
@@ -169,10 +273,18 @@
         "Faqat class da"
       ],
       "correct": 1,
-      "exp": "Tashqi darajadagi o'zgaruvchilar global. Qayta o'qing."
+      "exp": "Tashqi darajadagi o'zgaruvchilar global. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-015",
+      "id": "js-mcq-28-015",
       "q": "Ichki funksiya tashqi o'zgaruvchini ko'ra oladimi (qayta / chuqurroq)?",
       "opts": [
         "Yo'q",
@@ -181,10 +293,18 @@
         "Faqat const da"
       ],
       "correct": 1,
-      "exp": "Scope chain: ichkaridan tashqariga qidiriladi. Qayta o'qing."
+      "exp": "Scope chain: ichkaridan tashqariga qidiriladi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-016",
+      "id": "js-mcq-28-016",
       "q": "Tashqi funksiya ichki o'zgaruvchini to'g'ridan-to'g'ri ko'radimi (qayta / chuqurroq)?",
       "opts": [
         "Ha",
@@ -193,10 +313,18 @@
         "Faqat strict da"
       ],
       "correct": 1,
-      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas. Qayta o'qing."
+      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-28-017",
+      "id": "js-mcq-28-017",
       "q": "Scope chain mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
       "opts": [
         "Noto'g'ri variant A",
@@ -205,7 +333,875 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-018",
+      "q": "Global scope nima?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-28-019",
+      "q": "Block scope qaysilar?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-020",
+      "q": "Lexical scope nima?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-021",
+      "q": "Closure nima?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-022",
+      "q": "Scope chain nima?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-023",
+      "q": "var function scope mi?",
+      "opts": [
+        "yo'q",
+        "ha",
+        "block",
+        "global faqat"
+      ],
+      "correct": 1,
+      "exp": "var function scope ga ega.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-024",
+      "q": "Ichki funksiya tashqi o'zgaruvchini ko'radimi?",
+      "opts": [
+        "yo'q",
+        "ha",
+        "faqat var",
+        "faqat const"
+      ],
+      "correct": 1,
+      "exp": "Ha, lexical scope tufayli.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-025",
+      "q": "Module scope nima?",
+      "opts": [
+        "global bilan bir xil",
+        "fayl darajasidagi scope (ES modules)",
+        "function",
+        "block"
+      ],
+      "correct": 1,
+      "exp": "Har bir modul o'z scope iga ega.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-026",
+      "q": "Shadowing nima?",
+      "opts": [
+        "o'chirish",
+        "ichki scope dagi bir xil nom tashqini yashiradi",
+        "copy",
+        "merge"
+      ],
+      "correct": 1,
+      "exp": "Ichki o'zgaruvchi tashqini yashiradi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-027",
+      "q": "with statement tavsiya qilinadimi?",
+      "opts": [
+        "ha",
+        "yo'q (strict mode da taqiqlangan)",
+        "ba'zan",
+        "faqat node da"
+      ],
+      "correct": 1,
+      "exp": "Tavsiya qilinmaydi, strict da yo'q.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-028",
+      "q": "Global scope nima (misol 1)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-029",
+      "q": "Block scope qaysilar (misol 1)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-030",
+      "q": "Lexical scope nima (misol 1)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-031",
+      "q": "Closure nima (misol 1)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-032",
+      "q": "Scope chain nima (misol 1)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-033",
+      "q": "Global scope nima (misol 2)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-034",
+      "q": "Block scope qaysilar (misol 2)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-035",
+      "q": "Lexical scope nima (misol 2)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-036",
+      "q": "Closure nima (misol 2)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-037",
+      "q": "Scope chain nima (misol 2)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-038",
+      "q": "Global scope nima (misol 3)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-039",
+      "q": "Block scope qaysilar (misol 3)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-040",
+      "q": "Lexical scope nima (misol 3)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-041",
+      "q": "Closure nima (misol 3)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-042",
+      "q": "Scope chain nima (misol 3)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-043",
+      "q": "Global scope nima (misol 4)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-044",
+      "q": "Block scope qaysilar (misol 4)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-045",
+      "q": "Lexical scope nima (misol 4)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-046",
+      "q": "Closure nima (misol 4)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-047",
+      "q": "Scope chain nima (misol 4)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-048",
+      "q": "Global scope nima (misol 5)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-049",
+      "q": "Block scope qaysilar (misol 5)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-050",
+      "q": "Lexical scope nima (misol 5)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-051",
+      "q": "Closure nima (misol 5)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-052",
+      "q": "Scope chain nima (misol 5)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-053",
+      "q": "Global scope nima (misol 6)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-054",
+      "q": "Block scope qaysilar (misol 6)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-055",
+      "q": "Lexical scope nima (misol 6)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-056",
+      "q": "Closure nima (misol 6)?",
+      "opts": [
+        "loop",
+        "ichki funksiya tashqi o'zgaruvchilarni eslab qoladi",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Funksiya o'z scope zanjirini saqlaydi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-057",
+      "q": "Scope chain nima (misol 6)?",
+      "opts": [
+        "massiv",
+        "ichki scopedan tashqariga qidirish zanjiri",
+        "object",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchini qidirish tartibi.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-058",
+      "q": "Global scope nima (misol 7)?",
+      "opts": [
+        "funksiya ichidagi",
+        "kodning eng tashqi qatlami",
+        "block",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Eng tashqi scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-059",
+      "q": "Block scope qaysilar (misol 7)?",
+      "opts": [
+        "var",
+        "let va const",
+        "function",
+        "hammasi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-28-060",
+      "q": "Lexical scope nima (misol 7)?",
+      "opts": [
+        "runtime da aniqlanadi",
+        "yozilgan joyiga qarab aniqlanadi",
+        "global",
+        "dynamic"
+      ],
+      "correct": 1,
+      "exp": "Qayerda yozilganiga bog'liq.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

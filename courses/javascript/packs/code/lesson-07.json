@@ -4,28 +4,354 @@
   "title": "Javascript sintaksisi",
   "questions": [
     {
-      "id": "code-7-001",
+      "id": "js-code-7-001",
       "task": "Javascript sintaksisi: ism, yosh, shahar o'zgaruvchilarini e'lon qilib chiqaring.",
       "sample": "let ism = \"Ali\";\nlet yosh = 20;\nlet shahar = \"Toshkent\";\nconsole.log(ism, yosh, shahar);",
-      "exp": "let bilan e'lon va console.log."
+      "exp": "let bilan e'lon va console.log.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-7-002",
+      "id": "js-code-7-002",
       "task": "Javascript sintaksisi: const PI = 3.14; radius=5; yuzani hisoblang (PI*r*r).",
       "sample": "const PI = 3.14;\nlet r = 5;\nconsole.log(PI * r * r);",
-      "exp": "const va arifmetika."
+      "exp": "const va arifmetika.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-7-003",
+      "id": "js-code-7-003",
       "task": "Javascript sintaksisi: bir qatorda a,b,c e'lon qilib o'rtacha chiqaring.",
       "sample": "let a = 4, b = 6, c = 8;\nconsole.log((a + b + c) / 3);",
-      "exp": "Bir qatorli e'lon."
+      "exp": "Bir qatorli e'lon.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-7-004",
+      "id": "js-code-7-004",
       "task": "Javascript sintaksisi: o'zgaruvchisiz qiymat berilmagan let x; typeof ni chiqaring.",
       "sample": "let x;\nconsole.log(typeof x); // undefined",
-      "exp": "undefined turi."
+      "exp": "undefined turi.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-005",
+      "task": "Template literal ishlating.",
+      "sample": "let n = 5;\nconsole.log(`Qiymat: ${n}`);",
+      "exp": "Template literal.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-006",
+      "task": "Optional chaining ishlating.",
+      "sample": "let user = {};\nconsole.log(user?.address?.city);",
+      "exp": "Optional chaining.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-007",
+      "task": "Nullish coalescing ishlating.",
+      "sample": "let val = null;\nconsole.log(val ?? \"default\");",
+      "exp": "?? operator.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-008",
+      "task": "Spread massivda ishlating.",
+      "sample": "let a = [1, 2];\nlet b = [...a, 3];\nconsole.log(b);",
+      "exp": "Spread.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-009",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-010",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-011",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-012",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-013",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-014",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-015",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-016",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-017",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-7-018",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-019",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-020",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-021",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-022",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-023",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-024",
+      "task": "Object {x:100, y:200} ni chiqaring.",
+      "sample": "console.log({x: 100, y: 200});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-7-025",
+      "task": "syntax: oddiy misol yozing. (#21)",
+      "sample": "console.log('syntax');",
+      "exp": "syntax",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

@@ -4,7 +4,7 @@
   "title": "let, const va var",
   "questions": [
     {
-      "id": "mcq-8-001",
+      "id": "js-mcq-8-001",
       "q": "const ni qayta belgilash mumkinmi?",
       "opts": [
         "Ha",
@@ -13,10 +13,18 @@
         "Faqat object da"
       ],
       "correct": 1,
-      "exp": "const reference ni o'zgartirishga ruxsat bermaydi."
+      "exp": "const reference ni o'zgartirishga ruxsat bermaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-002",
+      "id": "js-mcq-8-002",
       "q": "var ning asosiy muammosi nima?",
       "opts": [
         "Juda sekin",
@@ -25,10 +33,18 @@
         "Faqat ES6 da"
       ],
       "correct": 1,
-      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi."
+      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-003",
+      "id": "js-mcq-8-003",
       "q": "Zamonaviy kodda tavsiya?",
       "opts": [
         "Faqat var",
@@ -37,10 +53,18 @@
         "Hech qaysi"
       ],
       "correct": 1,
-      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun."
+      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-004",
+      "id": "js-mcq-8-004",
       "q": "let x = 1; let x = 2; bir xil scope da?",
       "opts": [
         "Ishlaydi",
@@ -49,10 +73,18 @@
         "2 bo'ladi"
       ],
       "correct": 1,
-      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi."
+      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-005",
+      "id": "js-mcq-8-005",
       "q": "let, const va var mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -61,10 +93,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-006",
+      "id": "js-mcq-8-006",
       "q": "let, const va var mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-007",
+      "id": "js-mcq-8-007",
       "q": "let, const va var mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-008",
+      "id": "js-mcq-8-008",
       "q": "let, const va var mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-009",
+      "id": "js-mcq-8-009",
       "q": "let, const va var mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-010",
+      "id": "js-mcq-8-010",
       "q": "let, const va var mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-011",
+      "id": "js-mcq-8-011",
       "q": "let, const va var mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-012",
+      "id": "js-mcq-8-012",
       "q": "let, const va var mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-8-013",
+      "id": "js-mcq-8-013",
       "q": "const ni qayta belgilash mumkinmi (qayta / chuqurroq)?",
       "opts": [
         "Ha",
@@ -157,10 +253,18 @@
         "Faqat object da"
       ],
       "correct": 1,
-      "exp": "const reference ni o'zgartirishga ruxsat bermaydi. Qayta o'qing."
+      "exp": "const reference ni o'zgartirishga ruxsat bermaydi. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-8-014",
+      "id": "js-mcq-8-014",
       "q": "var ning asosiy muammosi nima (qayta / chuqurroq)?",
       "opts": [
         "Juda sekin",
@@ -169,10 +273,18 @@
         "Faqat ES6 da"
       ],
       "correct": 1,
-      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi. Qayta o'qing."
+      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-8-015",
+      "id": "js-mcq-8-015",
       "q": "Zamonaviy kodda tavsiya (qayta / chuqurroq)?",
       "opts": [
         "Faqat var",
@@ -181,10 +293,18 @@
         "Hech qaysi"
       ],
       "correct": 1,
-      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun. Qayta o'qing."
+      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-8-016",
+      "id": "js-mcq-8-016",
       "q": "let x = 1; let x = 2; bir xil scope da (qayta / chuqurroq)?",
       "opts": [
         "Ishlaydi",
@@ -193,10 +313,18 @@
         "2 bo'ladi"
       ],
       "correct": 1,
-      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi. Qayta o'qing."
+      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-8-017",
+      "id": "js-mcq-8-017",
       "q": "let, const va var mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
       "opts": [
         "Noto'g'ri variant A",
@@ -205,7 +333,875 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-018",
+      "q": "let va var farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-019",
+      "q": "const ni o'zgartirish mumkinmi?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-020",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-021",
+      "q": "Temporal Dead Zone nima?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-022",
+      "q": "Global o'zgaruvchi qayerda?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-023",
+      "q": "let x = 5; x = 10; natija?",
+      "opts": [
+        "xatolik",
+        "x = 10",
+        "x = 5",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "let bilan e'lon qilingan o'zgaruvchini qayta assign qilish mumkin.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-024",
+      "q": "const arr = [1]; arr.push(2); natija?",
+      "opts": [
+        "xatolik",
+        "arr = [1,2]",
+        "o'zgarmaydi",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "const reference ni himoya qiladi, ichidagi qiymatni emas.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-025",
+      "q": "Hoisting nima?",
+      "opts": [
+        "o'zgaruvchini o'chirish",
+        "e'lonni tepaga ko'tarish",
+        "loop",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "var va function declaration lar hoisting qilinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-026",
+      "q": "Qaysi biri block scope?",
+      "opts": [
+        "var",
+        "let va const",
+        "faqat var",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope ga ega.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-027",
+      "q": "undefined va null farqi?",
+      "opts": [
+        "bir xil",
+        "undefined — qiymat berilmagan, null — ataylab bo'sh",
+        "null — xato",
+        "farqi yo'q"
+      ],
+      "correct": 1,
+      "exp": "undefined avtomatik, null dasturchi tomonidan beriladi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-028",
+      "q": "let va var farqi (misol 1)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-029",
+      "q": "const ni o'zgartirish mumkinmi (misol 1)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-030",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 1)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-031",
+      "q": "Temporal Dead Zone nima (misol 1)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-032",
+      "q": "Global o'zgaruvchi qayerda (misol 1)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-033",
+      "q": "let va var farqi (misol 2)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-034",
+      "q": "const ni o'zgartirish mumkinmi (misol 2)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-035",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 2)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-036",
+      "q": "Temporal Dead Zone nima (misol 2)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-037",
+      "q": "Global o'zgaruvchi qayerda (misol 2)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-038",
+      "q": "let va var farqi (misol 3)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-039",
+      "q": "const ni o'zgartirish mumkinmi (misol 3)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-040",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 3)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-041",
+      "q": "Temporal Dead Zone nima (misol 3)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-042",
+      "q": "Global o'zgaruvchi qayerda (misol 3)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-mcq-8-043",
+      "q": "let va var farqi (misol 4)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-044",
+      "q": "const ni o'zgartirish mumkinmi (misol 4)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-045",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 4)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-046",
+      "q": "Temporal Dead Zone nima (misol 4)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-047",
+      "q": "Global o'zgaruvchi qayerda (misol 4)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-048",
+      "q": "let va var farqi (misol 5)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-049",
+      "q": "const ni o'zgartirish mumkinmi (misol 5)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-050",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 5)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-051",
+      "q": "Temporal Dead Zone nima (misol 5)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-052",
+      "q": "Global o'zgaruvchi qayerda (misol 5)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-053",
+      "q": "let va var farqi (misol 6)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-054",
+      "q": "const ni o'zgartirish mumkinmi (misol 6)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-055",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 6)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-056",
+      "q": "Temporal Dead Zone nima (misol 6)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-057",
+      "q": "Global o'zgaruvchi qayerda (misol 6)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-058",
+      "q": "let va var farqi (misol 7)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-059",
+      "q": "const ni o'zgartirish mumkinmi (misol 7)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-8-060",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 7)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

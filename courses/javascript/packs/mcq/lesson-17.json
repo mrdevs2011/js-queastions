@@ -4,7 +4,7 @@
   "title": "while va do...while",
   "questions": [
     {
-      "id": "mcq-17-001",
+      "id": "js-mcq-17-001",
       "q": "while shartni qachon tekshiradi?",
       "opts": [
         "Body dan keyin",
@@ -13,10 +13,18 @@
         "Faqat oxirida"
       ],
       "correct": 1,
-      "exp": "while — avval shart, keyin body."
+      "exp": "while — avval shart, keyin body.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-17-002",
+      "id": "js-mcq-17-002",
       "q": "do...while kamida necha marta bajariladi?",
       "opts": [
         "0",
@@ -25,10 +33,18 @@
         "shartga bog'liq"
       ],
       "correct": 1,
-      "exp": "do...while kamida bir marta ishlaydi."
+      "exp": "do...while kamida bir marta ishlaydi.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-17-003",
+      "id": "js-mcq-17-003",
       "q": "Cheksiz while misoli?",
       "opts": [
         "while (false)",
@@ -37,10 +53,18 @@
         "while (null)"
       ],
       "correct": 1,
-      "exp": "while(true) — break bo'lmasa cheksiz."
+      "exp": "while(true) — break bo'lmasa cheksiz.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-17-004",
+      "id": "js-mcq-17-004",
       "q": "Sikldan chiqish uchun?",
       "opts": [
         "return har doim",
@@ -49,10 +73,18 @@
         "exit"
       ],
       "correct": 1,
-      "exp": "break — siklni to'xtatadi."
+      "exp": "break — siklni to'xtatadi.",
+      "difficulty": 1,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-17-005",
+      "id": "js-mcq-17-005",
       "q": "while va do...while mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -61,10 +93,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-006",
+      "id": "js-mcq-17-006",
       "q": "while va do...while mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-007",
+      "id": "js-mcq-17-007",
       "q": "while va do...while mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-008",
+      "id": "js-mcq-17-008",
       "q": "while va do...while mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-009",
+      "id": "js-mcq-17-009",
       "q": "while va do...while mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-010",
+      "id": "js-mcq-17-010",
       "q": "while va do...while mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-011",
+      "id": "js-mcq-17-011",
       "q": "while va do...while mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-012",
+      "id": "js-mcq-17-012",
       "q": "while va do...while mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-013",
+      "id": "js-mcq-17-013",
       "q": "while shartni qachon tekshiradi (qayta / chuqurroq)?",
       "opts": [
         "Body dan keyin",
@@ -157,10 +253,18 @@
         "Faqat oxirida"
       ],
       "correct": 1,
-      "exp": "while — avval shart, keyin body. Qayta o'qing."
+      "exp": "while — avval shart, keyin body. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-17-014",
+      "id": "js-mcq-17-014",
       "q": "do...while kamida necha marta bajariladi (qayta / chuqurroq)?",
       "opts": [
         "0",
@@ -169,10 +273,18 @@
         "shartga bog'liq"
       ],
       "correct": 1,
-      "exp": "do...while kamida bir marta ishlaydi. Qayta o'qing."
+      "exp": "do...while kamida bir marta ishlaydi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-17-015",
+      "id": "js-mcq-17-015",
       "q": "Cheksiz while misoli (qayta / chuqurroq)?",
       "opts": [
         "while (false)",
@@ -181,10 +293,18 @@
         "while (null)"
       ],
       "correct": 1,
-      "exp": "while(true) — break bo'lmasa cheksiz. Qayta o'qing."
+      "exp": "while(true) — break bo'lmasa cheksiz. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-17-016",
+      "id": "js-mcq-17-016",
       "q": "Sikldan chiqish uchun (qayta / chuqurroq)?",
       "opts": [
         "return har doim",
@@ -193,10 +313,18 @@
         "exit"
       ],
       "correct": 1,
-      "exp": "break — siklni to'xtatadi. Qayta o'qing."
+      "exp": "break — siklni to'xtatadi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-17-017",
+      "id": "js-mcq-17-017",
       "q": "while va do...while mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
       "opts": [
         "Noto'g'ri variant A",
@@ -205,7 +333,875 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-018",
+      "q": "for (let i=0; i<3; i++) necha marta?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-019",
+      "q": "while (false) {...} ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-020",
+      "q": "do...while kamida necha marta?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-021",
+      "q": "for...of nima uchun?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-022",
+      "q": "for...in nima uchun?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-023",
+      "q": "break nima qiladi?",
+      "opts": [
+        "keyingi iteratsiyaga o'tadi",
+        "loopni to'xtatadi",
+        "funksiyani to'xtatadi",
+        "hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Eng yaqin loopni to'xtatadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-024",
+      "q": "continue nima qiladi?",
+      "opts": [
+        "loopni to'xtatadi",
+        "joriy iteratsiyani o'tkazib yuboradi",
+        "funksiyani to'xtatadi",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Keyingi iteratsiyaga o'tadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-025",
+      "q": "for (;; ) nima?",
+      "opts": [
+        "xato",
+        "cheksiz loop",
+        "1 marta",
+        "0 marta"
+      ],
+      "correct": 1,
+      "exp": "Shartsiz for — cheksiz.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-026",
+      "q": "Array.prototype.forEach break ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "faqat return"
+      ],
+      "correct": 1,
+      "exp": "forEach ichida break ishlamaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-027",
+      "q": "let i=0; while(i<3){i++} oxirida i?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "i 3 ga yetganda to'xtaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-028",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 1)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-029",
+      "q": "while (false) {...} ishlaydimi (misol 1)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-030",
+      "q": "do...while kamida necha marta (misol 1)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-031",
+      "q": "for...of nima uchun (misol 1)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-032",
+      "q": "for...in nima uchun (misol 1)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-033",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 2)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-034",
+      "q": "while (false) {...} ishlaydimi (misol 2)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-035",
+      "q": "do...while kamida necha marta (misol 2)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-036",
+      "q": "for...of nima uchun (misol 2)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-037",
+      "q": "for...in nima uchun (misol 2)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-038",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 3)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-039",
+      "q": "while (false) {...} ishlaydimi (misol 3)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-040",
+      "q": "do...while kamida necha marta (misol 3)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-041",
+      "q": "for...of nima uchun (misol 3)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-042",
+      "q": "for...in nima uchun (misol 3)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-043",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 4)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-044",
+      "q": "while (false) {...} ishlaydimi (misol 4)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-045",
+      "q": "do...while kamida necha marta (misol 4)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-17-046",
+      "q": "for...of nima uchun (misol 4)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-047",
+      "q": "for...in nima uchun (misol 4)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-048",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 5)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-049",
+      "q": "while (false) {...} ishlaydimi (misol 5)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-050",
+      "q": "do...while kamida necha marta (misol 5)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-051",
+      "q": "for...of nima uchun (misol 5)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-052",
+      "q": "for...in nima uchun (misol 5)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-053",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 6)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-054",
+      "q": "while (false) {...} ishlaydimi (misol 6)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-055",
+      "q": "do...while kamida necha marta (misol 6)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-056",
+      "q": "for...of nima uchun (misol 6)?",
+      "opts": [
+        "object kalitlari",
+        "iterable (array, string)",
+        "faqat number",
+        "faqat object"
+      ],
+      "correct": 1,
+      "exp": "Iterable larni aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-057",
+      "q": "for...in nima uchun (misol 6)?",
+      "opts": [
+        "array elementlari",
+        "object kalitlari",
+        "faqat string",
+        "faqat number"
+      ],
+      "correct": 1,
+      "exp": "Obyekt kalitlarini aylanadi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-058",
+      "q": "for (let i=0; i<3; i++) necha marta (misol 7)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0,1,2 — 3 marta.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-059",
+      "q": "while (false) {...} ishlaydimi (misol 7)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-17-060",
+      "q": "do...while kamida necha marta (misol 7)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

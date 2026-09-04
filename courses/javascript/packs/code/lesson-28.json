@@ -4,40 +4,354 @@
   "title": "Scope chain",
   "questions": [
     {
-      "id": "code-28-001",
+      "id": "js-code-28-001",
       "task": "Tashqi let x=10; ichida funksiya yozing — u x ni console.log qilsin. Funksiyani chaqiring.",
       "sample": "let x = 10;\nfunction korsat() {\n  console.log(x);\n}\nkorsat(); // 10",
-      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi."
+      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-28-002",
+      "id": "js-code-28-002",
       "task": "Scope chain bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
       "sample": "let x = 10;\nfunction korsat() {\n  console.log(x);\n}\nkorsat(); // 10",
-      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi."
+      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-28-003",
+      "id": "js-code-28-003",
       "task": "Scope chain: tashqi x=10; ichki funksiya x ni log qilsin.",
       "sample": "let x = 10;\nfunction f() { console.log(x); }\nf();",
-      "exp": "Closure/scope chain."
+      "exp": "Closure/scope chain.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-28-004",
+      "id": "js-code-28-004",
       "task": "Scope chain: block scope: { let y=1 } tashqarida y ni ishlatib ko'ring (izohda xato).",
       "sample": "{\n  let y = 1;\n}\n// console.log(y); // ReferenceError",
-      "exp": "Block scope."
+      "exp": "Block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-28-005",
+      "id": "js-code-28-005",
       "task": "Scope chain: rest parametrli funksiya.",
       "sample": "const max = (...nums) => Math.max(...nums);\nconsole.log(max(1, 5, 3));",
-      "exp": "Rest + spread."
+      "exp": "Rest + spread.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-28-006",
+      "id": "js-code-28-006",
       "task": "Scope chain: arguments o'rniga rest ishlating.",
       "sample": "function show(...args) {\n  console.log(args);\n}\nshow(1, 2, 3);",
-      "exp": "Rest zamonaviy arguments."
+      "exp": "Rest zamonaviy arguments.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-007",
+      "task": "Tashqi o'zgaruvchini ichki funksiyada chiqaring.",
+      "sample": "let x = 10;\nfunction f() {\n  console.log(x);\n}\nf();",
+      "exp": "Lexical scope.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-28-008",
+      "task": "Closure yarating.",
+      "sample": "function outer() {\n  let count = 0;\n  return function() {\n    count++;\n    console.log(count);\n  };\n}\nconst inc = outer();\ninc();",
+      "exp": "Closure.",
+      "difficulty": 2,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-28-009",
+      "task": "Block scope farqini ko'rsating.",
+      "sample": "if (true) {\n  let a = 1;\n  console.log(a);\n}",
+      "exp": "Block scope.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-010",
+      "task": "Shadowing misoli.",
+      "sample": "let x = 1;\nfunction f() {\n  let x = 2;\n  console.log(x);\n}\nf();\nconsole.log(x);",
+      "exp": "Shadowing.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-011",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-012",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-013",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-014",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-015",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-016",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-017",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-018",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-019",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-020",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-021",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-022",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-023",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-024",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-28-025",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "scope",
+      "tags": [
+        "scope",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

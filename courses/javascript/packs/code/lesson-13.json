@@ -4,28 +4,354 @@
   "title": "Operatorlarning ustuvorligi",
   "questions": [
     {
-      "id": "code-13-001",
+      "id": "js-code-13-001",
       "task": "Operatorlarning ustuvorligi: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
       "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
-      "exp": "Asosiy operatorlar."
+      "exp": "Asosiy operatorlar.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-13-002",
+      "id": "js-code-13-002",
       "task": "Operatorlarning ustuvorligi: x=10; x+=5; x*=2; x ni chiqaring.",
       "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
-      "exp": "Compound assignment."
+      "exp": "Compound assignment.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-003",
+      "id": "js-code-13-003",
       "task": "Operatorlarning ustuvorligi: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
       "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
-      "exp": "Prefix/postfix."
+      "exp": "Prefix/postfix.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-004",
+      "id": "js-code-13-004",
       "task": "Operatorlarning ustuvorligi: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
       "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
-      "exp": "Coercion farqi."
+      "exp": "Coercion farqi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-005",
+      "task": "5 ** 2 ni chiqaring.",
+      "sample": "console.log(5 ** 2);",
+      "exp": "Daraja.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-13-006",
+      "task": "10 % 4 ni chiqaring.",
+      "sample": "console.log(10 % 4);",
+      "exp": "Qoldiq.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "js-code-13-007",
+      "task": "true && false natijasini chiqaring.",
+      "sample": "console.log(true && false);",
+      "exp": "AND.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-008",
+      "task": "5 === '5' natijasini chiqaring.",
+      "sample": "console.log(5 === \"5\");",
+      "exp": "Strict equality.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-009",
+      "task": "null ?? 'default' ni chiqaring.",
+      "sample": "console.log(null ?? \"default\");",
+      "exp": "Nullish coalescing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-010",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-011",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-012",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-013",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-014",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-015",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-016",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-017",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-018",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-019",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-13-020",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-021",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-022",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-023",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-024",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-13-025",
+      "task": "Object {x:100, y:200} ni chiqaring.",
+      "sample": "console.log({x: 100, y: 200});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

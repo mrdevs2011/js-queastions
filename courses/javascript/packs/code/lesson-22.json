@@ -4,40 +4,354 @@
   "title": "Object asoslari",
   "questions": [
     {
-      "id": "code-22-001",
+      "id": "js-code-22-001",
       "task": "talaba obyekti: ism, yosh, kurs. Uni yarating va ism ni chiqaring.",
       "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
-      "exp": "Object literal + dot access."
+      "exp": "Object literal + dot access.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-22-002",
+      "id": "js-code-22-002",
       "task": "Object asoslari bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
       "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
-      "exp": "Object literal + dot access."
+      "exp": "Object literal + dot access.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-22-003",
+      "id": "js-code-22-003",
       "task": "Object asoslari: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
       "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
-      "exp": "Object literal."
+      "exp": "Object literal.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-22-004",
+      "id": "js-code-22-004",
       "task": "Object asoslari: Object.keys va values chiqaring.",
       "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
-      "exp": "keys/values."
+      "exp": "keys/values.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-22-005",
+      "id": "js-code-22-005",
       "task": "Object asoslari: destrukturatsiya {x,y} = point.",
       "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
-      "exp": "Destructuring."
+      "exp": "Destructuring.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-22-006",
+      "id": "js-code-22-006",
       "task": "Object asoslari: spread bilan obyekt nusxa + yangi maydon.",
       "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
-      "exp": "Object spread."
+      "exp": "Object spread.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-007",
+      "task": "Oddiy object yarating va chiqaring.",
+      "sample": "let user = { name: \"Ali\", age: 25 };\nconsole.log(user.name);",
+      "exp": "Object yaratish.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-22-008",
+      "task": "Object.keys ni ishlating.",
+      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));",
+      "exp": "Object.keys.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-22-009",
+      "task": "Spread bilan nusxa oling.",
+      "sample": "let o1 = { a: 1 };\nlet o2 = { ...o1, b: 2 };\nconsole.log(o2);",
+      "exp": "Spread object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-010",
+      "task": "JSON.stringify qiling.",
+      "sample": "let o = { x: 10 };\nconsole.log(JSON.stringify(o));",
+      "exp": "JSON.stringify.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-011",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-012",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-013",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-014",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-015",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-016",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-017",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-018",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-019",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-020",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-021",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-022",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-023",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-024",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-22-025",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

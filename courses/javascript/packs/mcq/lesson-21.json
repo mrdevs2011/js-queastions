@@ -4,7 +4,7 @@
   "title": "Massiv metodlari: slice, splice, filter va find",
   "questions": [
     {
-      "id": "mcq-21-001",
+      "id": "js-mcq-21-001",
       "q": "slice asl massivni o'zgartiradimi?",
       "opts": [
         "Ha",
@@ -13,10 +13,18 @@
         "O'chiradi"
       ],
       "correct": 1,
-      "exp": "slice — nusxa (shallow copy) qaytaradi."
+      "exp": "slice — nusxa (shallow copy) qaytaradi.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-21-002",
+      "id": "js-mcq-21-002",
       "q": "splice nima qiladi?",
       "opts": [
         "Faqat nusxa",
@@ -25,10 +33,18 @@
         "Saralaydi"
       ],
       "correct": 1,
-      "exp": "splice — destruktiv: element qo'shish/o'chirish."
+      "exp": "splice — destruktiv: element qo'shish/o'chirish.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-21-003",
+      "id": "js-mcq-21-003",
       "q": "filter nima qaytaradi?",
       "opts": [
         "Bitta element",
@@ -37,10 +53,18 @@
         "indeks"
       ],
       "correct": 1,
-      "exp": "filter yangi array qaytaradi."
+      "exp": "filter yangi array qaytaradi.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-21-004",
+      "id": "js-mcq-21-004",
       "q": "find topilmasa nima qaytaradi?",
       "opts": [
         "-1",
@@ -49,10 +73,18 @@
         "false"
       ],
       "correct": 2,
-      "exp": "find mos element yo'q bo'lsa undefined."
+      "exp": "find mos element yo'q bo'lsa undefined.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-21-005",
+      "id": "js-mcq-21-005",
       "q": "[1,2,3,4].filter(x=>x>2) ?",
       "opts": [
         "[1,2]",
@@ -61,10 +93,18 @@
         "3"
       ],
       "correct": 1,
-      "exp": "2 dan katta: 3 va 4."
+      "exp": "2 dan katta: 3 va 4.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-21-006",
+      "id": "js-mcq-21-006",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-007",
+      "id": "js-mcq-21-007",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-008",
+      "id": "js-mcq-21-008",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-009",
+      "id": "js-mcq-21-009",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-010",
+      "id": "js-mcq-21-010",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-011",
+      "id": "js-mcq-21-011",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-012",
+      "id": "js-mcq-21-012",
       "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-013",
+      "id": "js-mcq-21-013",
       "q": "slice asl massivni o'zgartiradimi (qayta / chuqurroq)?",
       "opts": [
         "Ha",
@@ -157,10 +253,18 @@
         "O'chiradi"
       ],
       "correct": 1,
-      "exp": "slice — nusxa (shallow copy) qaytaradi. Qayta o'qing."
+      "exp": "slice — nusxa (shallow copy) qaytaradi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-014",
+      "id": "js-mcq-21-014",
       "q": "splice nima qiladi (qayta / chuqurroq)?",
       "opts": [
         "Faqat nusxa",
@@ -169,10 +273,18 @@
         "Saralaydi"
       ],
       "correct": 1,
-      "exp": "splice — destruktiv: element qo'shish/o'chirish. Qayta o'qing."
+      "exp": "splice — destruktiv: element qo'shish/o'chirish. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-015",
+      "id": "js-mcq-21-015",
       "q": "filter nima qaytaradi (qayta / chuqurroq)?",
       "opts": [
         "Bitta element",
@@ -181,10 +293,18 @@
         "indeks"
       ],
       "correct": 1,
-      "exp": "filter yangi array qaytaradi. Qayta o'qing."
+      "exp": "filter yangi array qaytaradi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-016",
+      "id": "js-mcq-21-016",
       "q": "find topilmasa nima qaytaradi (qayta / chuqurroq)?",
       "opts": [
         "-1",
@@ -193,10 +313,18 @@
         "false"
       ],
       "correct": 2,
-      "exp": "find mos element yo'q bo'lsa undefined. Qayta o'qing."
+      "exp": "find mos element yo'q bo'lsa undefined. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-21-017",
+      "id": "js-mcq-21-017",
       "q": "[1,2,3,4].filter(x=>x>2)  (qayta / chuqurroq)?",
       "opts": [
         "[1,2]",
@@ -205,7 +333,875 @@
         "3"
       ],
       "correct": 1,
-      "exp": "2 dan katta: 3 va 4. Qayta o'qing."
+      "exp": "2 dan katta: 3 va 4. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-018",
+      "q": "[1,2,3].length?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 2,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-21-019",
+      "q": "arr.push(4) nima qiladi?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-020",
+      "q": "arr.pop() nima qiladi?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-021",
+      "q": "[1,2,3].map(x=>x*2)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-022",
+      "q": "[1,2,3,4].filter(x=>x>2)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-023",
+      "q": "[1,2,3].find(x=>x>1)?",
+      "opts": [
+        "1",
+        "2",
+        "[2,3]",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "find birinchi mos elementni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-024",
+      "q": "[1,2,3].includes(2)?",
+      "opts": [
+        "true",
+        "false",
+        "2",
+        "undefined"
+      ],
+      "correct": 0,
+      "exp": "includes bor-yo'qligini tekshiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-025",
+      "q": "[1,2,3].slice(1)?",
+      "opts": [
+        "[1]",
+        "[2,3]",
+        "[1,2]",
+        "[3]"
+      ],
+      "correct": 1,
+      "exp": "slice yangi massiv qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-026",
+      "q": "[1,2,3].splice(1,1)?",
+      "opts": [
+        "[1,3]",
+        "massivni o'zgartiradi",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "splice asl massivni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-027",
+      "q": "[1,2].concat([3,4])?",
+      "opts": [
+        "[1,2,3,4]",
+        "[1,2],[3,4]",
+        "error",
+        "[3,4,1,2]"
+      ],
+      "correct": 0,
+      "exp": "concat birlashtiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-028",
+      "q": "[...'abc'] natijasi?",
+      "opts": [
+        "['a','b','c']",
+        "'abc'",
+        "error",
+        "['abc']"
+      ],
+      "correct": 0,
+      "exp": "Spread stringni massivga aylantiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-029",
+      "q": "[1,2,3].reduce((a,b)=>a+b,0)?",
+      "opts": [
+        "6",
+        "0",
+        "[1,2,3]",
+        "error"
+      ],
+      "correct": 0,
+      "exp": "reduce yig'indini hisoblaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-030",
+      "q": "[1,2,3].length (misol 1)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-031",
+      "q": "arr.push(4) nima qiladi (misol 1)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-032",
+      "q": "arr.pop() nima qiladi (misol 1)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-033",
+      "q": "[1,2,3].map(x=>x*2) (misol 1)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-034",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 1)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-035",
+      "q": "[1,2,3].length (misol 2)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-036",
+      "q": "arr.push(4) nima qiladi (misol 2)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-037",
+      "q": "arr.pop() nima qiladi (misol 2)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-038",
+      "q": "[1,2,3].map(x=>x*2) (misol 2)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-039",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 2)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-040",
+      "q": "[1,2,3].length (misol 3)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-041",
+      "q": "arr.push(4) nima qiladi (misol 3)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-042",
+      "q": "arr.pop() nima qiladi (misol 3)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-043",
+      "q": "[1,2,3].map(x=>x*2) (misol 3)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-044",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 3)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-045",
+      "q": "[1,2,3].length (misol 4)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-046",
+      "q": "arr.push(4) nima qiladi (misol 4)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-047",
+      "q": "arr.pop() nima qiladi (misol 4)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-048",
+      "q": "[1,2,3].map(x=>x*2) (misol 4)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-049",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 4)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-050",
+      "q": "[1,2,3].length (misol 5)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-051",
+      "q": "arr.push(4) nima qiladi (misol 5)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-052",
+      "q": "arr.pop() nima qiladi (misol 5)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-053",
+      "q": "[1,2,3].map(x=>x*2) (misol 5)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-054",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 5)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-055",
+      "q": "[1,2,3].length (misol 6)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-056",
+      "q": "arr.push(4) nima qiladi (misol 6)?",
+      "opts": [
+        "boshiga qo'shadi",
+        "oxiriga qo'shadi",
+        "o'chiradi",
+        "nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Oxiriga element qo'shadi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-057",
+      "q": "arr.pop() nima qiladi (misol 6)?",
+      "opts": [
+        "boshidan olib tashlaydi",
+        "oxiridan olib tashlaydi",
+        "hammasini o'chiradi",
+        "nusxa"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi elementni olib tashlaydi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-058",
+      "q": "[1,2,3].map(x=>x*2) (misol 6)?",
+      "opts": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "map har bir elementni o'zgartiradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-059",
+      "q": "[1,2,3,4].filter(x=>x>2) (misol 6)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga moslarni qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-21-060",
+      "q": "[1,2,3].length (misol 7)?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Elementlar sonini qaytaradi.",
+      "difficulty": 3,
+      "category": "arrays",
+      "tags": [
+        "arrays",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

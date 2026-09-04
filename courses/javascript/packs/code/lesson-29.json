@@ -4,40 +4,354 @@
   "title": "Params va Arguments",
   "questions": [
     {
-      "id": "code-29-001",
+      "id": "js-code-29-001",
       "task": "yigindi nomli funksiya yozing — istalgancha son qabul qilib (rest) ularni qo'shib qaytarsin. 1,2,3,4 bilan tekshiring.",
       "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4)); // 10",
-      "exp": "Rest parametr + reduce."
+      "exp": "Rest parametr + reduce.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-29-002",
+      "id": "js-code-29-002",
       "task": "Params va Arguments bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
       "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4)); // 10",
-      "exp": "Rest parametr + reduce."
+      "exp": "Rest parametr + reduce.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-29-003",
+      "id": "js-code-29-003",
       "task": "Params va Arguments: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
       "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
-      "exp": "Function declaration."
+      "exp": "Function declaration.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-29-004",
+      "id": "js-code-29-004",
       "task": "Params va Arguments: default parametrli salom(ism=\"Mehmon\") yozing.",
       "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
-      "exp": "Default params."
+      "exp": "Default params.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-29-005",
+      "id": "js-code-29-005",
       "task": "Params va Arguments: arrow bilan kvadrat(n) yozing.",
       "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
-      "exp": "Arrow function."
+      "exp": "Arrow function.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-29-006",
+      "id": "js-code-29-006",
       "task": "Params va Arguments: rest bilan yigindi(...sonlar) yozing.",
       "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
-      "exp": "Rest parametr."
+      "exp": "Rest parametr.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-007",
+      "task": "salom nomli funksiya yozib chaqiring.",
+      "sample": "function salom() {\n  console.log(\"Salom\");\n}\nsalom();",
+      "exp": "Function declaration.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-29-008",
+      "task": "Arrow function bilan 2 sonni qo'shing.",
+      "sample": "const add = (a, b) => a + b;\nconsole.log(add(2, 3));",
+      "exp": "Arrow function.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-code-29-009",
+      "task": "Default parametrli funksiya yozing.",
+      "sample": "function greet(name = \"Mehmon\") {\n  console.log(\"Salom, \" + name);\n}\ngreet();",
+      "exp": "Default parameter.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-010",
+      "task": "Rest parametr bilan yig'indi hisoblang.",
+      "sample": "function sum(...nums) {\n  return nums.reduce((a, b) => a + b, 0);\n}\nconsole.log(sum(1, 2, 3));",
+      "exp": "Rest parameter.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-011",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-012",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-013",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-014",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-015",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-016",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-017",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-018",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-019",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-020",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-021",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-022",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-023",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-024",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-code-29-025",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

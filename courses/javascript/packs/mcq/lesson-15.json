@@ -4,7 +4,7 @@
   "title": "switch va ternary operator",
   "questions": [
     {
-      "id": "mcq-15-001",
+      "id": "js-mcq-15-001",
       "q": "switch qat'iy solishtirishdan foydalanadimi?",
       "opts": [
         "Yo'q, ==",
@@ -13,10 +13,18 @@
         "!="
       ],
       "correct": 1,
-      "exp": "switch === bilan solishtiradi."
+      "exp": "switch === bilan solishtiradi.",
+      "difficulty": 1,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-15-002",
+      "id": "js-mcq-15-002",
       "q": "ternary operator sintaksisi?",
       "opts": [
         "shart : a ? b",
@@ -25,10 +33,18 @@
         "shart && a || b"
       ],
       "correct": 1,
-      "exp": "condition ? valueIfTrue : valueIfFalse."
+      "exp": "condition ? valueIfTrue : valueIfFalse.",
+      "difficulty": 1,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-15-003",
+      "id": "js-mcq-15-003",
       "q": "default case nima?",
       "opts": [
         "Birinchi case",
@@ -37,10 +53,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "default — fallback qism."
+      "exp": "default — fallback qism.",
+      "difficulty": 1,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-15-004",
+      "id": "js-mcq-15-004",
       "q": "let n=1; let s = n===1 ? 'bir' : 'boshqa'; — s qiymati?",
       "opts": [
         "boshqa",
@@ -49,10 +73,18 @@
         "true"
       ],
       "correct": 1,
-      "exp": "n===1 true bo'lgani uchun 'bir'."
+      "exp": "n===1 true bo'lgani uchun 'bir'.",
+      "difficulty": 1,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-15-005",
+      "id": "js-mcq-15-005",
       "q": "switch va ternary operator mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -61,10 +93,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-006",
+      "id": "js-mcq-15-006",
       "q": "switch va ternary operator mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-007",
+      "id": "js-mcq-15-007",
       "q": "switch va ternary operator mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-008",
+      "id": "js-mcq-15-008",
       "q": "switch va ternary operator mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-009",
+      "id": "js-mcq-15-009",
       "q": "switch va ternary operator mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-010",
+      "id": "js-mcq-15-010",
       "q": "switch va ternary operator mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-011",
+      "id": "js-mcq-15-011",
       "q": "switch va ternary operator mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-012",
+      "id": "js-mcq-15-012",
       "q": "switch va ternary operator mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-013",
+      "id": "js-mcq-15-013",
       "q": "switch qat'iy solishtirishdan foydalanadimi (qayta / chuqurroq)?",
       "opts": [
         "Yo'q, ==",
@@ -157,10 +253,18 @@
         "!="
       ],
       "correct": 1,
-      "exp": "switch === bilan solishtiradi. Qayta o'qing."
+      "exp": "switch === bilan solishtiradi. Qayta o'qing.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-15-014",
+      "id": "js-mcq-15-014",
       "q": "ternary operator sintaksisi (qayta / chuqurroq)?",
       "opts": [
         "shart : a ? b",
@@ -169,10 +273,18 @@
         "shart && a || b"
       ],
       "correct": 1,
-      "exp": "condition ? valueIfTrue : valueIfFalse. Qayta o'qing."
+      "exp": "condition ? valueIfTrue : valueIfFalse. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-15-015",
+      "id": "js-mcq-15-015",
       "q": "default case nima (qayta / chuqurroq)?",
       "opts": [
         "Birinchi case",
@@ -181,10 +293,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "default — fallback qism. Qayta o'qing."
+      "exp": "default — fallback qism. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-15-016",
+      "id": "js-mcq-15-016",
       "q": "let n=1; let s = n===1 ? 'bir' : 'boshqa'; — s qiymati (qayta / chuqurroq)?",
       "opts": [
         "boshqa",
@@ -193,10 +313,18 @@
         "true"
       ],
       "correct": 1,
-      "exp": "n===1 true bo'lgani uchun 'bir'. Qayta o'qing."
+      "exp": "n===1 true bo'lgani uchun 'bir'. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-15-017",
+      "id": "js-mcq-15-017",
       "q": "switch va ternary operator mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
       "opts": [
         "Noto'g'ri variant A",
@@ -205,7 +333,875 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-018",
+      "q": "if (0) {...} ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-019",
+      "q": "ternary operator sintaksisi?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-020",
+      "q": "switch da break bo'lmasa?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-021",
+      "q": "if/else if/else da nechta shart?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-022",
+      "q": "true ? 'a' : 'b' natijasi?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-023",
+      "q": "if (null) ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "error",
+        "ba'zan"
+      ],
+      "correct": 1,
+      "exp": "null — falsy.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-024",
+      "q": "switch (x) { case 1: ...} da x tipi?",
+      "opts": [
+        "faqat number",
+        "har qanday",
+        "faqat string",
+        "faqat boolean"
+      ],
+      "correct": 1,
+      "exp": "Har qanday tip bo'lishi mumkin.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-025",
+      "q": "else majburiymi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "faqat if da",
+        "switch da"
+      ],
+      "correct": 1,
+      "exp": "else ixtiyoriy.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-026",
+      "q": "if (a = 5) nima bo'ladi?",
+      "opts": [
+        "solishtiradi",
+        "assign qiladi va truthy deb hisoblaydi",
+        "error",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "= assign, == solishtirish.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-027",
+      "q": "nested if nima?",
+      "opts": [
+        "bitta if",
+        "if ichida if",
+        "switch",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "If ichida yana if yozish.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-028",
+      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-029",
+      "q": "ternary operator sintaksisi (misol 1)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-030",
+      "q": "switch da break bo'lmasa (misol 1)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-031",
+      "q": "if/else if/else da nechta shart (misol 1)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-032",
+      "q": "true ? 'a' : 'b' natijasi (misol 1)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-033",
+      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-034",
+      "q": "ternary operator sintaksisi (misol 2)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-035",
+      "q": "switch da break bo'lmasa (misol 2)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-036",
+      "q": "if/else if/else da nechta shart (misol 2)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-037",
+      "q": "true ? 'a' : 'b' natijasi (misol 2)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-038",
+      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-039",
+      "q": "ternary operator sintaksisi (misol 3)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-040",
+      "q": "switch da break bo'lmasa (misol 3)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-041",
+      "q": "if/else if/else da nechta shart (misol 3)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-042",
+      "q": "true ? 'a' : 'b' natijasi (misol 3)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-043",
+      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-044",
+      "q": "ternary operator sintaksisi (misol 4)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-045",
+      "q": "switch da break bo'lmasa (misol 4)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-15-046",
+      "q": "if/else if/else da nechta shart (misol 4)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-047",
+      "q": "true ? 'a' : 'b' natijasi (misol 4)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-048",
+      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-049",
+      "q": "ternary operator sintaksisi (misol 5)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-050",
+      "q": "switch da break bo'lmasa (misol 5)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-051",
+      "q": "if/else if/else da nechta shart (misol 5)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-052",
+      "q": "true ? 'a' : 'b' natijasi (misol 5)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-053",
+      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-054",
+      "q": "ternary operator sintaksisi (misol 6)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-055",
+      "q": "switch da break bo'lmasa (misol 6)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-056",
+      "q": "if/else if/else da nechta shart (misol 6)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-057",
+      "q": "true ? 'a' : 'b' natijasi (misol 6)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-058",
+      "q": "if (0) {...} ishlaydimi (misol 7)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-059",
+      "q": "ternary operator sintaksisi (misol 7)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-15-060",
+      "q": "switch da break bo'lmasa (misol 7)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

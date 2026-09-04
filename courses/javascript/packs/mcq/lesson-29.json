@@ -4,7 +4,7 @@
   "title": "Params va Arguments",
   "questions": [
     {
-      "id": "mcq-29-001",
+      "id": "js-mcq-29-001",
       "q": "arguments obyekti nima?",
       "opts": [
         "Zamonaviy rest",
@@ -13,10 +13,18 @@
         "Global massiv"
       ],
       "correct": 1,
-      "exp": "arguments — array-like, function declaration/expression da bor."
+      "exp": "arguments — array-like, function declaration/expression da bor.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-29-002",
+      "id": "js-mcq-29-002",
       "q": "Arrow function da arguments bormi?",
       "opts": [
         "Ha, har doim",
@@ -25,10 +33,18 @@
         "Faqat brauzerda"
       ],
       "correct": 1,
-      "exp": "Arrow da arguments yo'q — rest (...args) ishlating."
+      "exp": "Arrow da arguments yo'q — rest (...args) ishlating.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-29-003",
+      "id": "js-mcq-29-003",
       "q": "Default parametr misoli?",
       "opts": [
         "function f(x == 5)",
@@ -37,10 +53,18 @@
         "function f(x default 5)"
       ],
       "correct": 1,
-      "exp": "function f(x = 5) — x berilmasa 5."
+      "exp": "function f(x = 5) — x berilmasa 5.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-29-004",
+      "id": "js-mcq-29-004",
       "q": "Rest parametr vs arguments?",
       "opts": [
         "Bir xil",
@@ -49,10 +73,18 @@
         "Rest faqat object da"
       ],
       "correct": 1,
-      "exp": "Rest (...args) — toza array, tavsiya etiladi."
+      "exp": "Rest (...args) — toza array, tavsiya etiladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-29-005",
+      "id": "js-mcq-29-005",
       "q": "Params va Arguments mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -61,10 +93,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-29-006",
+      "id": "js-mcq-29-006",
       "q": "Params va Arguments mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -73,10 +113,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-007",
+      "id": "js-mcq-29-007",
       "q": "Params va Arguments mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -85,10 +133,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-008",
+      "id": "js-mcq-29-008",
       "q": "Params va Arguments mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -97,10 +153,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-009",
+      "id": "js-mcq-29-009",
       "q": "Params va Arguments mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -109,10 +173,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-010",
+      "id": "js-mcq-29-010",
       "q": "Params va Arguments mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -121,10 +193,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-011",
+      "id": "js-mcq-29-011",
       "q": "Params va Arguments mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -133,10 +213,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-012",
+      "id": "js-mcq-29-012",
       "q": "Params va Arguments mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
       "opts": [
         "Noto'g'ri variant A",
@@ -145,10 +233,18 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-013",
+      "id": "js-mcq-29-013",
       "q": "arguments obyekti nima (qayta / chuqurroq)?",
       "opts": [
         "Zamonaviy rest",
@@ -157,10 +253,18 @@
         "Global massiv"
       ],
       "correct": 1,
-      "exp": "arguments — array-like, function declaration/expression da bor. Qayta o'qing."
+      "exp": "arguments — array-like, function declaration/expression da bor. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-014",
+      "id": "js-mcq-29-014",
       "q": "Arrow function da arguments bormi (qayta / chuqurroq)?",
       "opts": [
         "Ha, har doim",
@@ -169,10 +273,18 @@
         "Faqat brauzerda"
       ],
       "correct": 1,
-      "exp": "Arrow da arguments yo'q — rest (...args) ishlating. Qayta o'qing."
+      "exp": "Arrow da arguments yo'q — rest (...args) ishlating. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-015",
+      "id": "js-mcq-29-015",
       "q": "Default parametr misoli (qayta / chuqurroq)?",
       "opts": [
         "function f(x == 5)",
@@ -181,10 +293,18 @@
         "function f(x default 5)"
       ],
       "correct": 1,
-      "exp": "function f(x = 5) — x berilmasa 5. Qayta o'qing."
+      "exp": "function f(x = 5) — x berilmasa 5. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-016",
+      "id": "js-mcq-29-016",
       "q": "Rest parametr vs arguments (qayta / chuqurroq)?",
       "opts": [
         "Bir xil",
@@ -193,10 +313,18 @@
         "Rest faqat object da"
       ],
       "correct": 1,
-      "exp": "Rest (...args) — toza array, tavsiya etiladi. Qayta o'qing."
+      "exp": "Rest (...args) — toza array, tavsiya etiladi. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-29-017",
+      "id": "js-mcq-29-017",
       "q": "Params va Arguments mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
       "opts": [
         "Noto'g'ri variant A",
@@ -205,7 +333,875 @@
         "Noto'g'ri variant D"
       ],
       "correct": 1,
-      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-018",
+      "q": "Function declaration sintaksisi?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-29-019",
+      "q": "Arrow function qaytaradi (bitta ifoda)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-020",
+      "q": "arguments obyekti qaysida bor?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-021",
+      "q": "Default parameter misoli?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-022",
+      "q": "Rest parameter sintaksisi?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-023",
+      "q": "Callback nima?",
+      "opts": [
+        "oddiy o'zgaruvchi",
+        "boshqa funksiyaga uzatiladigan funksiya",
+        "loop",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "Funksiya argument sifatida uzatiladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-024",
+      "q": "IIFE nima?",
+      "opts": [
+        "loop turi",
+        "darhol chaqiriladigan funksiya",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Immediately Invoked Function Expression.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-025",
+      "q": "return dan keyin kod ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "faqat arrow da"
+      ],
+      "correct": 1,
+      "exp": "return funksiyani to'xtatadi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-026",
+      "q": "Pure function nima?",
+      "opts": [
+        "side effect li",
+        "bir xil input → bir xil output, side effect yo'q",
+        "async",
+        "generator"
+      ],
+      "correct": 1,
+      "exp": "Side effect siz, deterministic.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-027",
+      "q": "Function expression vs declaration?",
+      "opts": [
+        "bir xil",
+        "expression hoisting qilinmaydi",
+        "declaration hoisting qilinmaydi",
+        "farqi yo'q"
+      ],
+      "correct": 1,
+      "exp": "Declaration hoisting qilinadi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-028",
+      "q": "Function declaration sintaksisi (misol 1)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-029",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 1)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-030",
+      "q": "arguments obyekti qaysida bor (misol 1)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-031",
+      "q": "Default parameter misoli (misol 1)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-032",
+      "q": "Rest parameter sintaksisi (misol 1)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-033",
+      "q": "Function declaration sintaksisi (misol 2)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-034",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 2)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-035",
+      "q": "arguments obyekti qaysida bor (misol 2)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-036",
+      "q": "Default parameter misoli (misol 2)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-037",
+      "q": "Rest parameter sintaksisi (misol 2)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-038",
+      "q": "Function declaration sintaksisi (misol 3)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-039",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 3)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-040",
+      "q": "arguments obyekti qaysida bor (misol 3)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-041",
+      "q": "Default parameter misoli (misol 3)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-042",
+      "q": "Rest parameter sintaksisi (misol 3)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-043",
+      "q": "Function declaration sintaksisi (misol 4)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-044",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 4)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-045",
+      "q": "arguments obyekti qaysida bor (misol 4)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-046",
+      "q": "Default parameter misoli (misol 4)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-047",
+      "q": "Rest parameter sintaksisi (misol 4)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-048",
+      "q": "Function declaration sintaksisi (misol 5)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-049",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 5)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-050",
+      "q": "arguments obyekti qaysida bor (misol 5)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-051",
+      "q": "Default parameter misoli (misol 5)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-052",
+      "q": "Rest parameter sintaksisi (misol 5)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-053",
+      "q": "Function declaration sintaksisi (misol 6)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-054",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 6)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-055",
+      "q": "arguments obyekti qaysida bor (misol 6)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-056",
+      "q": "Default parameter misoli (misol 6)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-057",
+      "q": "Rest parameter sintaksisi (misol 6)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-058",
+      "q": "Function declaration sintaksisi (misol 7)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-059",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 7)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "js-mcq-29-060",
+      "q": "arguments obyekti qaysida bor (misol 7)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }
