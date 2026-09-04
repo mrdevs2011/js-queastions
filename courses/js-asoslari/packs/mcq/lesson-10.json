@@ -4,7 +4,7 @@
   "title": "Turni (type) o'zgartirish",
   "questions": [
     {
-      "id": "mcq-10-001",
+      "id": "aso-mcq-10-001",
       "q": "Number(\"12abc\") natijasi?",
       "opts": [
         "12",
@@ -13,10 +13,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "To'liq songa aylanmaydigan satr NaN qaytaradi."
+      "exp": "To'liq songa aylanmaydigan satr NaN qaytaradi.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-002",
+      "id": "aso-mcq-10-002",
       "q": "String(123) natijasi?",
       "opts": [
         "123",
@@ -25,10 +33,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "String() qiymatni satrga aylantiradi."
+      "exp": "String() qiymatni satrga aylantiradi.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-003",
+      "id": "aso-mcq-10-003",
       "q": "Boolean(0) natijasi?",
       "opts": [
         "true",
@@ -37,10 +53,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "0, \"\", null, undefined, NaN — falsy qiymatlar."
+      "exp": "0, \"\", null, undefined, NaN — falsy qiymatlar.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-004",
+      "id": "aso-mcq-10-004",
       "q": "parseInt(\"42px\") natijasi?",
       "opts": [
         "NaN",
@@ -49,10 +73,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "parseInt boshidagi sonni o'qiydi, keyingi harflarni tashlaydi."
+      "exp": "parseInt boshidagi sonni o'qiydi, keyingi harflarni tashlaydi.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-005",
+      "id": "aso-mcq-10-005",
       "q": "+\"5\" natijasi?",
       "opts": [
         "\"5\"",
@@ -61,10 +93,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Unary + operatori satrni songa aylantiradi."
+      "exp": "Unary + operatori satrni songa aylantiradi.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-006",
+      "id": "aso-mcq-10-006",
       "q": "parseFloat('3.14abc')?",
       "opts": [
         "NaN",
@@ -73,10 +113,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi kasr."
+      "exp": "Boshidagi kasr.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-10-007",
+      "id": "aso-mcq-10-007",
       "q": "Boolean('false')?",
       "opts": [
         "false",
@@ -85,10 +133,18 @@
         "false (string)"
       ],
       "correct": 1,
-      "exp": "Bo'sh bo'lmagan satr truthy."
+      "exp": "Bo'sh bo'lmagan satr truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-008",
+      "id": "aso-mcq-10-008",
       "q": "Number(undefined)?",
       "opts": [
         "0",
@@ -97,10 +153,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "NaN."
+      "exp": "NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-009",
+      "id": "aso-mcq-10-009",
       "q": "Number(null)?",
       "opts": [
         "NaN",
@@ -109,10 +173,18 @@
         "1"
       ],
       "correct": 1,
-      "exp": "0."
+      "exp": "0.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-010",
+      "id": "aso-mcq-10-010",
       "q": "'' == false?",
       "opts": [
         "false",
@@ -121,10 +193,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "== coercion."
+      "exp": "== coercion.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-011",
+      "id": "aso-mcq-10-011",
       "q": "'' === false?",
       "opts": [
         "true",
@@ -133,10 +213,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qat'iy tenglik."
+      "exp": "Qat'iy tenglik.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-012",
+      "id": "aso-mcq-10-012",
       "q": "String(null)?",
       "opts": [
         "null",
@@ -145,10 +233,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "'null' satri."
+      "exp": "'null' satri.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-013",
+      "id": "aso-mcq-10-013",
       "q": "+'false' (unary)?",
       "opts": [
         "false",
@@ -157,10 +253,18 @@
         "false string"
       ],
       "correct": 1,
-      "exp": "Number('false') → NaN."
+      "exp": "Number('false') → NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-014",
+      "id": "aso-mcq-10-014",
       "q": "parseInt('42px')?",
       "opts": [
         "NaN",
@@ -169,10 +273,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi son."
+      "exp": "Boshidagi son.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-015",
+      "id": "aso-mcq-10-015",
       "q": "!![] ?",
       "opts": [
         "false",
@@ -181,10 +293,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Bo'sh massiv truthy."
+      "exp": "Bo'sh massiv truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-016",
+      "id": "aso-mcq-10-016",
       "q": "parseFloat('3.14abc')?",
       "opts": [
         "NaN",
@@ -193,10 +313,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi kasr."
+      "exp": "Boshidagi kasr.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-017",
+      "id": "aso-mcq-10-017",
       "q": "Boolean('false')?",
       "opts": [
         "false",
@@ -205,10 +333,18 @@
         "false (string)"
       ],
       "correct": 1,
-      "exp": "Bo'sh bo'lmagan satr truthy."
+      "exp": "Bo'sh bo'lmagan satr truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-018",
+      "id": "aso-mcq-10-018",
       "q": "Number(undefined)?",
       "opts": [
         "0",
@@ -217,10 +353,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "NaN."
+      "exp": "NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-019",
+      "id": "aso-mcq-10-019",
       "q": "Number(null)?",
       "opts": [
         "NaN",
@@ -229,10 +373,18 @@
         "1"
       ],
       "correct": 1,
-      "exp": "0."
+      "exp": "0.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-10-020",
+      "id": "aso-mcq-10-020",
       "q": "'' == false?",
       "opts": [
         "false",
@@ -241,10 +393,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "== coercion."
+      "exp": "== coercion.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-10-021",
+      "id": "aso-mcq-10-021",
       "q": "'' === false?",
       "opts": [
         "true",
@@ -253,10 +413,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qat'iy tenglik."
+      "exp": "Qat'iy tenglik.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-10-022",
+      "id": "aso-mcq-10-022",
       "q": "String(null)?",
       "opts": [
         "null",
@@ -265,10 +433,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "'null' satri."
+      "exp": "'null' satri.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-10-023",
+      "id": "aso-mcq-10-023",
       "q": "+'false' (unary)?",
       "opts": [
         "false",
@@ -277,10 +453,18 @@
         "false string"
       ],
       "correct": 1,
-      "exp": "Number('false') → NaN."
+      "exp": "Number('false') → NaN.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-10-024",
+      "id": "aso-mcq-10-024",
       "q": "parseInt('42px')?",
       "opts": [
         "NaN",
@@ -289,10 +473,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi son."
+      "exp": "Boshidagi son.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-10-025",
+      "id": "aso-mcq-10-025",
       "q": "!![] ?",
       "opts": [
         "false",
@@ -301,7 +493,715 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Bo'sh massiv truthy."
+      "exp": "Bo'sh massiv truthy.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-026",
+      "q": "String(123) natijasi?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-027",
+      "q": "Number('123') natijasi?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-028",
+      "q": "Number('abc') natijasi?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-029",
+      "q": "+'42' natijasi?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-030",
+      "q": "Boolean('false') natijasi?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-031",
+      "q": "parseInt('10px') natijasi?",
+      "opts": [
+        "NaN",
+        "10",
+        "10px",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "parseInt boshidagi sonni oladi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-032",
+      "q": "parseFloat('3.14abc')?",
+      "opts": [
+        "NaN",
+        "3.14",
+        "3",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "parseFloat o'nlik sonni oladi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-033",
+      "q": "'' == 0 natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "undefined"
+      ],
+      "correct": 0,
+      "exp": "Bo'sh string 0 ga teng (loose equality).",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-034",
+      "q": "null == undefined?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "NaN"
+      ],
+      "correct": 0,
+      "exp": "null == undefined true (faqat == da).",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-035",
+      "q": "!!'hello' natijasi?",
+      "opts": [
+        "false",
+        "true",
+        "'hello'",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "!! qiymatni boolean ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-036",
+      "q": "String(123) natijasi (misol 1)?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-037",
+      "q": "Number('123') natijasi (misol 1)?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-038",
+      "q": "Number('abc') natijasi (misol 1)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-039",
+      "q": "+'42' natijasi (misol 1)?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-040",
+      "q": "Boolean('false') natijasi (misol 1)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-041",
+      "q": "String(123) natijasi (misol 2)?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-042",
+      "q": "Number('123') natijasi (misol 2)?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-043",
+      "q": "Number('abc') natijasi (misol 2)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-044",
+      "q": "+'42' natijasi (misol 2)?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-045",
+      "q": "Boolean('false') natijasi (misol 2)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-10-046",
+      "q": "String(123) natijasi (misol 3)?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-047",
+      "q": "Number('123') natijasi (misol 3)?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-048",
+      "q": "Number('abc') natijasi (misol 3)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-049",
+      "q": "+'42' natijasi (misol 3)?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-050",
+      "q": "Boolean('false') natijasi (misol 3)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-051",
+      "q": "String(123) natijasi (misol 4)?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-052",
+      "q": "Number('123') natijasi (misol 4)?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-053",
+      "q": "Number('abc') natijasi (misol 4)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-054",
+      "q": "+'42' natijasi (misol 4)?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-055",
+      "q": "Boolean('false') natijasi (misol 4)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-056",
+      "q": "String(123) natijasi (misol 5)?",
+      "opts": [
+        "123",
+        "'123'",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Songa stringga o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-057",
+      "q": "Number('123') natijasi (misol 5)?",
+      "opts": [
+        "'123'",
+        "123",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Stringni songa o'tkazadi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-058",
+      "q": "Number('abc') natijasi (misol 5)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Noto'g'ri string → NaN.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-059",
+      "q": "+'42' natijasi (misol 5)?",
+      "opts": [
+        "'42'",
+        "42",
+        "NaN",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "Unary + type conversion qiladi.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-10-060",
+      "q": "Boolean('false') natijasi (misol 5)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan string — truthy.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

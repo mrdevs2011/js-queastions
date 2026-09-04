@@ -4,7 +4,7 @@
   "title": "Kirish",
   "questions": [
     {
-      "id": "mcq-1-001",
+      "id": "aso-mcq-1-001",
       "q": "JavaScript qaysi turdagi til hisoblanadi?",
       "opts": [
         "Faqat server tili",
@@ -13,10 +13,18 @@
         "Operatsion tizim"
       ],
       "correct": 1,
-      "exp": "JavaScript — brauzerda va serverda bajariladigan interpretatsiya qilinuvchi skript tili."
+      "exp": "JavaScript — brauzerda va serverda bajariladigan interpretatsiya qilinuvchi skript tili.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-002",
+      "id": "aso-mcq-1-002",
       "q": "JavaScript dastlab qaysi maqsadda yaratilgan?",
       "opts": [
         "Veb-sahifalarga interaktivlik qo'shish",
@@ -25,10 +33,18 @@
         "Rasm tahrirlash"
       ],
       "correct": 0,
-      "exp": "JS veb-sahifalarni dinamik va interaktiv qilish uchun yaratilgan."
+      "exp": "JS veb-sahifalarni dinamik va interaktiv qilish uchun yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-003",
+      "id": "aso-mcq-1-003",
       "q": "JavaScript asosan qayerda ishlaydi?",
       "opts": [
         "Faqat serverda",
@@ -37,10 +53,18 @@
         "Faqat ma'lumotlar bazasida"
       ],
       "correct": 2,
-      "exp": "JS dastlab brauzer uchun yaratilgan, hozir Node.js orqali serverda ham ishlaydi."
+      "exp": "JS dastlab brauzer uchun yaratilgan, hozir Node.js orqali serverda ham ishlaydi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-004",
+      "id": "aso-mcq-1-004",
       "q": "JavaScript kim tomonidan yaratilgan?",
       "opts": [
         "Brendan Eich",
@@ -49,10 +73,18 @@
         "Linus Torvalds"
       ],
       "correct": 0,
-      "exp": "JavaScript 1995-yilda Brendan Eich tomonidan Netscape uchun yaratilgan."
+      "exp": "JavaScript 1995-yilda Brendan Eich tomonidan Netscape uchun yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-005",
+      "id": "aso-mcq-1-005",
       "q": "JavaScript qaysi yilda yaratilgan?",
       "opts": [
         "1990",
@@ -61,10 +93,18 @@
         "2005"
       ],
       "correct": 1,
-      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan."
+      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-006",
+      "id": "aso-mcq-1-006",
       "q": "JavaScript dastlab qanday nomlangan?",
       "opts": [
         "Mocha",
@@ -73,10 +113,18 @@
         "Python"
       ],
       "correct": 2,
-      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript."
+      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-007",
+      "id": "aso-mcq-1-007",
       "q": "Client-side JavaScript nima degani?",
       "opts": [
         "Serverda ishlaydi",
@@ -85,10 +133,18 @@
         "Faqat desktop"
       ],
       "correct": 1,
-      "exp": "Client-side — brauzerda bajariladi."
+      "exp": "Client-side — brauzerda bajariladi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-008",
+      "id": "aso-mcq-1-008",
       "q": "JavaScript interaktivlikni qanday ta'minlaydi?",
       "opts": [
         "Faqat rang",
@@ -97,10 +153,18 @@
         "Hech qanday"
       ],
       "correct": 1,
-      "exp": "JS sahifani dinamik qiladi."
+      "exp": "JS sahifani dinamik qiladi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-009",
+      "id": "aso-mcq-1-009",
       "q": "Skript tili nima degani?",
       "opts": [
         "Faqat kompilyatsiya",
@@ -109,10 +173,18 @@
         "Faqat binary"
       ],
       "correct": 1,
-      "exp": "Skript tillari odatda interpretatsiya qilinadi."
+      "exp": "Skript tillari odatda interpretatsiya qilinadi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-010",
+      "id": "aso-mcq-1-010",
       "q": "JS o'rganish uchun nima yetarli?",
       "opts": [
         "Qimmat kurs",
@@ -121,10 +193,18 @@
         "Faqat telefon"
       ],
       "correct": 1,
-      "exp": "Brauzer va muharrir yetarli."
+      "exp": "Brauzer va muharrir yetarli.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-011",
+      "id": "aso-mcq-1-011",
       "q": "Frontend da JS roli?",
       "opts": [
         "Faqat DB",
@@ -133,10 +213,18 @@
         "OS"
       ],
       "correct": 1,
-      "exp": "Frontend — brauzerdagi mantiq."
+      "exp": "Frontend — brauzerdagi mantiq.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-012",
+      "id": "aso-mcq-1-012",
       "q": "Brendan Eich kim?",
       "opts": [
         "CSS muallifi",
@@ -145,10 +233,18 @@
         "HTML muallifi"
       ],
       "correct": 1,
-      "exp": "JS ni Brendan Eich yaratgan."
+      "exp": "JS ni Brendan Eich yaratgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-013",
+      "id": "aso-mcq-1-013",
       "q": "JavaScript qaysi yilda yaratilgan?",
       "opts": [
         "1990",
@@ -157,10 +253,18 @@
         "2005"
       ],
       "correct": 1,
-      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan."
+      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-014",
+      "id": "aso-mcq-1-014",
       "q": "JavaScript dastlab qanday nomlangan?",
       "opts": [
         "Mocha",
@@ -169,10 +273,18 @@
         "Python"
       ],
       "correct": 2,
-      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript."
+      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-1-015",
+      "id": "aso-mcq-1-015",
       "q": "Client-side JavaScript nima degani?",
       "opts": [
         "Serverda ishlaydi",
@@ -181,10 +293,18 @@
         "Faqat desktop"
       ],
       "correct": 1,
-      "exp": "Client-side — brauzerda bajariladi."
+      "exp": "Client-side — brauzerda bajariladi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-1-016",
+      "id": "aso-mcq-1-016",
       "q": "JavaScript interaktivlikni qanday ta'minlaydi?",
       "opts": [
         "Faqat rang",
@@ -193,10 +313,18 @@
         "Hech qanday"
       ],
       "correct": 1,
-      "exp": "JS sahifani dinamik qiladi."
+      "exp": "JS sahifani dinamik qiladi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-1-017",
+      "id": "aso-mcq-1-017",
       "q": "Skript tili nima degani?",
       "opts": [
         "Faqat kompilyatsiya",
@@ -205,10 +333,18 @@
         "Faqat binary"
       ],
       "correct": 1,
-      "exp": "Skript tillari odatda interpretatsiya qilinadi."
+      "exp": "Skript tillari odatda interpretatsiya qilinadi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-1-018",
+      "id": "aso-mcq-1-018",
       "q": "JS o'rganish uchun nima yetarli?",
       "opts": [
         "Qimmat kurs",
@@ -217,10 +353,18 @@
         "Faqat telefon"
       ],
       "correct": 1,
-      "exp": "Brauzer va muharrir yetarli."
+      "exp": "Brauzer va muharrir yetarli.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-1-019",
+      "id": "aso-mcq-1-019",
       "q": "Frontend da JS roli?",
       "opts": [
         "Faqat DB",
@@ -229,10 +373,18 @@
         "OS"
       ],
       "correct": 1,
-      "exp": "Frontend — brauzerdagi mantiq."
+      "exp": "Frontend — brauzerdagi mantiq.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-1-020",
+      "id": "aso-mcq-1-020",
       "q": "Brendan Eich kim?",
       "opts": [
         "CSS muallifi",
@@ -241,7 +393,815 @@
         "HTML muallifi"
       ],
       "correct": 1,
-      "exp": "JS ni Brendan Eich yaratgan."
+      "exp": "JS ni Brendan Eich yaratgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-021",
+      "q": "JavaScript nima?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-022",
+      "q": "JavaScript qayerda ishlaydi?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-023",
+      "q": "JS ni kim yaratgan?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-024",
+      "q": "JS qaysi yilda chiqgan?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-025",
+      "q": "console.log nima qiladi?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-026",
+      "q": "JS qanday til?",
+      "opts": [
+        "Compiled",
+        "Interpreted",
+        "Assembly",
+        "Machine"
+      ],
+      "correct": 1,
+      "exp": "Interpretatsiya qilinuvchi til.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-027",
+      "q": "HTML va JS farqi?",
+      "opts": [
+        "Ikkalasi bir xil",
+        "HTML struktura, JS mantiq",
+        "JS struktura",
+        "Farqi yo'q"
+      ],
+      "correct": 1,
+      "exp": "HTML struktura, JS dinamika va mantiq uchun.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-028",
+      "q": "Node.js nima?",
+      "opts": [
+        "Brauzer",
+        "JS runtime server uchun",
+        "CSS framework",
+        "Database"
+      ],
+      "correct": 1,
+      "exp": "Serverda JS ishlatish imkonini beradi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-029",
+      "q": "JS da o'zgaruvchi e'lon qilish?",
+      "opts": [
+        "faqat var",
+        "let, const, var",
+        "faqat let",
+        "faqat const"
+      ],
+      "correct": 1,
+      "exp": "let, const va var ishlatiladi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-030",
+      "q": "typeof operatori nima qiladi?",
+      "opts": [
+        "Qiymatni o'zgartiradi",
+        "Ma'lumot turini qaytaradi",
+        "O'chiradi",
+        "Nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "Qiymatning turini string ko'rinishida qaytaradi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-031",
+      "q": "JavaScript nima (misol 1)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-032",
+      "q": "JavaScript qayerda ishlaydi (misol 1)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-033",
+      "q": "JS ni kim yaratgan (misol 1)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-034",
+      "q": "JS qaysi yilda chiqgan (misol 1)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-035",
+      "q": "console.log nima qiladi (misol 1)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-036",
+      "q": "JavaScript nima (misol 2)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-037",
+      "q": "JavaScript qayerda ishlaydi (misol 2)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-038",
+      "q": "JS ni kim yaratgan (misol 2)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-039",
+      "q": "JS qaysi yilda chiqgan (misol 2)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-040",
+      "q": "console.log nima qiladi (misol 2)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-041",
+      "q": "JavaScript nima (misol 3)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-042",
+      "q": "JavaScript qayerda ishlaydi (misol 3)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 1,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-1-043",
+      "q": "JS ni kim yaratgan (misol 3)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-044",
+      "q": "JS qaysi yilda chiqgan (misol 3)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-045",
+      "q": "console.log nima qiladi (misol 3)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-046",
+      "q": "JavaScript nima (misol 4)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-047",
+      "q": "JavaScript qayerda ishlaydi (misol 4)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-048",
+      "q": "JS ni kim yaratgan (misol 4)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-049",
+      "q": "JS qaysi yilda chiqgan (misol 4)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-050",
+      "q": "console.log nima qiladi (misol 4)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-051",
+      "q": "JavaScript nima (misol 5)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-052",
+      "q": "JavaScript qayerda ishlaydi (misol 5)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-053",
+      "q": "JS ni kim yaratgan (misol 5)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-054",
+      "q": "JS qaysi yilda chiqgan (misol 5)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-055",
+      "q": "console.log nima qiladi (misol 5)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-056",
+      "q": "JavaScript nima (misol 6)?",
+      "opts": [
+        "Dasturlash tili",
+        "Operatsion tizim",
+        "Ma'lumotlar bazasi",
+        "Brauzer"
+      ],
+      "correct": 0,
+      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-057",
+      "q": "JavaScript qayerda ishlaydi (misol 6)?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil",
+        "Brauzer va Node.js da",
+        "Faqat desktop"
+      ],
+      "correct": 2,
+      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-058",
+      "q": "JS ni kim yaratgan (misol 6)?",
+      "opts": [
+        "Brendan Eich",
+        "Bill Gates",
+        "Linus Torvalds",
+        "Guido van Rossum"
+      ],
+      "correct": 0,
+      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-059",
+      "q": "JS qaysi yilda chiqgan (misol 6)?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "1995-yilda yaratilgan.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-1-060",
+      "q": "console.log nima qiladi (misol 6)?",
+      "opts": [
+        "Xatolik chiqaradi",
+        "Konsolga chiqaradi",
+        "Fayl ochadi",
+        "Sahifani yangilaydi"
+      ],
+      "correct": 1,
+      "exp": "Konsolga ma'lumot chiqaradi.",
+      "difficulty": 2,
+      "category": "introduction",
+      "tags": [
+        "introduction",
+        "test",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

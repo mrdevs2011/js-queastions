@@ -4,34 +4,354 @@
   "title": "let, const va var",
   "questions": [
     {
-      "id": "code-6-001",
+      "id": "aso-code-6-001",
       "task": "const yordamida PI degan o'zgaruvchi yarating (qiymati 3.14) va uni o'zgartirishga urinib ko'ring — nima uchun xato berishini bir gap bilan izohlang (izoh // bilan).",
       "sample": "const PI = 3.14;\n// PI = 3.15; // Xato beradi, chunki const qayta yozib bo'lmaydi",
-      "exp": "const bilan e'lon qilingan qiymat dasturning davomida o'zgartirilmaydi."
+      "exp": "const bilan e'lon qilingan qiymat dasturning davomida o'zgartirilmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-6-002",
+      "id": "aso-code-6-002",
       "task": "let, const va var: ism, yosh, shahar o'zgaruvchilarini e'lon qilib chiqaring.",
       "sample": "let ism = \"Ali\";\nlet yosh = 20;\nlet shahar = \"Toshkent\";\nconsole.log(ism, yosh, shahar);",
-      "exp": "let bilan e'lon va console.log."
+      "exp": "let bilan e'lon va console.log.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-6-003",
+      "id": "aso-code-6-003",
       "task": "let, const va var: const PI = 3.14; radius=5; yuzani hisoblang (PI*r*r).",
       "sample": "const PI = 3.14;\nlet r = 5;\nconsole.log(PI * r * r);",
-      "exp": "const va arifmetika."
+      "exp": "const va arifmetika.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-6-004",
+      "id": "aso-code-6-004",
       "task": "let, const va var: bir qatorda a,b,c e'lon qilib o'rtacha chiqaring.",
       "sample": "let a = 4, b = 6, c = 8;\nconsole.log((a + b + c) / 3);",
-      "exp": "Bir qatorli e'lon."
+      "exp": "Bir qatorli e'lon.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-6-005",
+      "id": "aso-code-6-005",
       "task": "let, const va var: o'zgaruvchisiz qiymat berilmagan let x; typeof ni chiqaring.",
       "sample": "let x;\nconsole.log(typeof x); // undefined",
-      "exp": "undefined turi."
+      "exp": "undefined turi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-006",
+      "task": "let bilan ism e'lon qilib chiqaring.",
+      "sample": "let ism = \"Ali\";\nconsole.log(ism);",
+      "exp": "let e'lon qilish.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-007",
+      "task": "const bilan PI = 3.14 e'lon qiling.",
+      "sample": "const PI = 3.14;\nconsole.log(PI);",
+      "exp": "const.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-008",
+      "task": "let x=5; x ni 10 ga o'zgartiring.",
+      "sample": "let x = 5;\nx = 10;\nconsole.log(x);",
+      "exp": "Qayta assign.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-009",
+      "task": "Ikki o'zgaruvchini qo'shib chiqaring.",
+      "sample": "let a = 4, b = 6;\nconsole.log(a + b);",
+      "exp": "Birga e'lon.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-010",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-011",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-012",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-013",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-014",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-015",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-016",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-017",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-6-018",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-019",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-020",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-021",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-022",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-023",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-024",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-6-025",
+      "task": "Object {x:100, y:200} ni chiqaring.",
+      "sample": "console.log({x: 100, y: 200});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

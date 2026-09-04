@@ -4,7 +4,7 @@
   "title": "let, const va var",
   "questions": [
     {
-      "id": "mcq-6-001",
+      "id": "aso-mcq-6-001",
       "q": "let, const va var orasidagi asosiy farq nima?",
       "opts": [
         "const qiymatini qayta belgilab bo'lmaydi, let/var esa bo'ladi",
@@ -13,10 +13,18 @@
         "let global, const va var lokal bo'ladi"
       ],
       "correct": 0,
-      "exp": "const o'zgarmas qiymat uchun, let/var qayta belgilashga ruxsat beradi."
+      "exp": "const o'zgarmas qiymat uchun, let/var qayta belgilashga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-002",
+      "id": "aso-mcq-6-002",
       "q": "const x = 5; x = 10; nima bo'ladi?",
       "opts": [
         "x 10 bo'ladi",
@@ -25,10 +33,18 @@
         "Hech narsa"
       ],
       "correct": 1,
-      "exp": "const bilan e'lon qilingan o'zgaruvchini qayta belgilab bo'lmaydi."
+      "exp": "const bilan e'lon qilingan o'zgaruvchini qayta belgilab bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-003",
+      "id": "aso-mcq-6-003",
       "q": "Qaysi kalit so'z block scope ga ega EMAS?",
       "opts": [
         "let",
@@ -37,10 +53,18 @@
         "hammasi block scope"
       ],
       "correct": 2,
-      "exp": "var function scope ga ega, let/const esa block scope."
+      "exp": "var function scope ga ega, let/const esa block scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-004",
+      "id": "aso-mcq-6-004",
       "q": "Zamonaviy JS da odatda qaysi kalit so'z tavsiya etiladi?",
       "opts": [
         "var",
@@ -49,10 +73,18 @@
         "faqat let"
       ],
       "correct": 1,
-      "exp": "Zamonaviy kodda let va const ishlatiladi, var eskirgan deb hisoblanadi."
+      "exp": "Zamonaviy kodda let va const ishlatiladi, var eskirgan deb hisoblanadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-005",
+      "id": "aso-mcq-6-005",
       "q": "Block scope qaysilar?",
       "opts": [
         "faqat var",
@@ -61,10 +93,18 @@
         "hech qaysi"
       ],
       "correct": 1,
-      "exp": "let/const block scope."
+      "exp": "let/const block scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-006",
+      "id": "aso-mcq-6-006",
       "q": "var x=1; { var x=2; } console.log(x)?",
       "opts": [
         "1",
@@ -73,10 +113,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "var tashqariga chiqadi."
+      "exp": "var tashqariga chiqadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-007",
+      "id": "aso-mcq-6-007",
       "q": "const arr=[1]; arr.push(2);?",
       "opts": [
         "Yo'q",
@@ -85,10 +133,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Mutatsiya mumkin."
+      "exp": "Mutatsiya mumkin.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-008",
+      "id": "aso-mcq-6-008",
       "q": "Eskirgan deb hisoblanadi?",
       "opts": [
         "let",
@@ -97,10 +153,18 @@
         "arrow"
       ],
       "correct": 2,
-      "exp": "var o'rniga let/const."
+      "exp": "var o'rniga let/const.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-009",
+      "id": "aso-mcq-6-009",
       "q": "Bir scope da let x ikki marta?",
       "opts": [
         "Ishlaydi",
@@ -109,10 +173,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qayta e'lon mumkin emas."
+      "exp": "Qayta e'lon mumkin emas.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-010",
+      "id": "aso-mcq-6-010",
       "q": "const initsiz e'lon?",
       "opts": [
         "OK",
@@ -121,10 +193,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "const ga darhol qiymat."
+      "exp": "const ga darhol qiymat.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-011",
+      "id": "aso-mcq-6-011",
       "q": "for (var i=0;i<3;i++) keyin i?",
       "opts": [
         "undefined",
@@ -133,10 +213,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "var tashqarida 3."
+      "exp": "var tashqarida 3.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-012",
+      "id": "aso-mcq-6-012",
       "q": "for (let i=0;i<3;i++) keyin i?",
       "opts": [
         "3",
@@ -145,10 +233,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "let faqat siklda."
+      "exp": "let faqat siklda.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-013",
+      "id": "aso-mcq-6-013",
       "q": "Block scope qaysilar?",
       "opts": [
         "faqat var",
@@ -157,10 +253,18 @@
         "hech qaysi"
       ],
       "correct": 1,
-      "exp": "let/const block scope."
+      "exp": "let/const block scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-014",
+      "id": "aso-mcq-6-014",
       "q": "var x=1; { var x=2; } console.log(x)?",
       "opts": [
         "1",
@@ -169,10 +273,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "var tashqariga chiqadi."
+      "exp": "var tashqariga chiqadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-6-015",
+      "id": "aso-mcq-6-015",
       "q": "const arr=[1]; arr.push(2);?",
       "opts": [
         "Yo'q",
@@ -181,10 +293,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Mutatsiya mumkin."
+      "exp": "Mutatsiya mumkin.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-6-016",
+      "id": "aso-mcq-6-016",
       "q": "Eskirgan deb hisoblanadi?",
       "opts": [
         "let",
@@ -193,10 +313,18 @@
         "arrow"
       ],
       "correct": 2,
-      "exp": "var o'rniga let/const."
+      "exp": "var o'rniga let/const.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-6-017",
+      "id": "aso-mcq-6-017",
       "q": "Bir scope da let x ikki marta?",
       "opts": [
         "Ishlaydi",
@@ -205,10 +333,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qayta e'lon mumkin emas."
+      "exp": "Qayta e'lon mumkin emas.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-6-018",
+      "id": "aso-mcq-6-018",
       "q": "const initsiz e'lon?",
       "opts": [
         "OK",
@@ -217,10 +353,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "const ga darhol qiymat."
+      "exp": "const ga darhol qiymat.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-6-019",
+      "id": "aso-mcq-6-019",
       "q": "for (var i=0;i<3;i++) keyin i?",
       "opts": [
         "undefined",
@@ -229,10 +373,18 @@
         "0"
       ],
       "correct": 1,
-      "exp": "var tashqarida 3."
+      "exp": "var tashqarida 3.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-6-020",
+      "id": "aso-mcq-6-020",
       "q": "for (let i=0;i<3;i++) keyin i?",
       "opts": [
         "3",
@@ -241,7 +393,815 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "let faqat siklda."
+      "exp": "let faqat siklda.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-021",
+      "q": "let va var farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-022",
+      "q": "const ni o'zgartirish mumkinmi?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-023",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-024",
+      "q": "Temporal Dead Zone nima?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-025",
+      "q": "Global o'zgaruvchi qayerda?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-026",
+      "q": "let x = 5; x = 10; natija?",
+      "opts": [
+        "xatolik",
+        "x = 10",
+        "x = 5",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "let bilan e'lon qilingan o'zgaruvchini qayta assign qilish mumkin.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-027",
+      "q": "const arr = [1]; arr.push(2); natija?",
+      "opts": [
+        "xatolik",
+        "arr = [1,2]",
+        "o'zgarmaydi",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "const reference ni himoya qiladi, ichidagi qiymatni emas.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-028",
+      "q": "Hoisting nima?",
+      "opts": [
+        "o'zgaruvchini o'chirish",
+        "e'lonni tepaga ko'tarish",
+        "loop",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "var va function declaration lar hoisting qilinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-029",
+      "q": "Qaysi biri block scope?",
+      "opts": [
+        "var",
+        "let va const",
+        "faqat var",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let va const block scope ga ega.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-030",
+      "q": "undefined va null farqi?",
+      "opts": [
+        "bir xil",
+        "undefined — qiymat berilmagan, null — ataylab bo'sh",
+        "null — xato",
+        "farqi yo'q"
+      ],
+      "correct": 1,
+      "exp": "undefined avtomatik, null dasturchi tomonidan beriladi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-031",
+      "q": "let va var farqi (misol 1)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-032",
+      "q": "const ni o'zgartirish mumkinmi (misol 1)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-033",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 1)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-034",
+      "q": "Temporal Dead Zone nima (misol 1)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-035",
+      "q": "Global o'zgaruvchi qayerda (misol 1)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-036",
+      "q": "let va var farqi (misol 2)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-037",
+      "q": "const ni o'zgartirish mumkinmi (misol 2)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-038",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 2)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-039",
+      "q": "Temporal Dead Zone nima (misol 2)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-040",
+      "q": "Global o'zgaruvchi qayerda (misol 2)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-041",
+      "q": "let va var farqi (misol 3)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-042",
+      "q": "const ni o'zgartirish mumkinmi (misol 3)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 1,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-6-043",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 3)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-044",
+      "q": "Temporal Dead Zone nima (misol 3)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-045",
+      "q": "Global o'zgaruvchi qayerda (misol 3)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-046",
+      "q": "let va var farqi (misol 4)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-047",
+      "q": "const ni o'zgartirish mumkinmi (misol 4)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-048",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 4)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-049",
+      "q": "Temporal Dead Zone nima (misol 4)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-050",
+      "q": "Global o'zgaruvchi qayerda (misol 4)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-051",
+      "q": "let va var farqi (misol 5)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-052",
+      "q": "const ni o'zgartirish mumkinmi (misol 5)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-053",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 5)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-054",
+      "q": "Temporal Dead Zone nima (misol 5)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-055",
+      "q": "Global o'zgaruvchi qayerda (misol 5)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-056",
+      "q": "let va var farqi (misol 6)?",
+      "opts": [
+        "Farqi yo'q",
+        "let block scope, var function scope",
+        "var block scope",
+        "let global"
+      ],
+      "correct": 1,
+      "exp": "let — block scope, var — function scope.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-057",
+      "q": "const ni o'zgartirish mumkinmi (misol 6)?",
+      "opts": [
+        "Ha",
+        "Yo'q (primitive uchun)",
+        "Faqat array",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-058",
+      "q": "Qaysi kalit so'z qayta e'lon qilishga ruxsat beradi (misol 6)?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hech qaysi"
+      ],
+      "correct": 2,
+      "exp": "var bir scope ichida qayta e'lon qilishga ruxsat beradi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-059",
+      "q": "Temporal Dead Zone nima (misol 6)?",
+      "opts": [
+        "xatolik turi",
+        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
+        "loop",
+        "function"
+      ],
+      "correct": 1,
+      "exp": "let va const uchun TDZ mavjud.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-6-060",
+      "q": "Global o'zgaruvchi qayerda (misol 6)?",
+      "opts": [
+        "faqat funksiya ichida",
+        "barcha joyda ko'rinadi",
+        "faqat block ichida",
+        "hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "difficulty": 2,
+      "category": "variables",
+      "tags": [
+        "variables",
+        "test",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

@@ -4,58 +4,354 @@
   "title": "Funksiyalar bo'yicha amaliyot",
   "questions": [
     {
-      "id": "code-13-001",
+      "id": "aso-code-13-001",
       "task": "salom(ism) funksiyasini yozing — u \"Salom, {ism}!\" qaytarsin. Uni o'z ismingiz bilan chaqiring.",
       "sample": "function salom(ism) {\n  return \"Salom, \" + ism + \"!\";\n}\nconsole.log(salom(\"Ali\"));",
-      "exp": "Parametr qabul qilib, satr qaytaradigan oddiy funksiya."
+      "exp": "Parametr qabul qilib, satr qaytaradigan oddiy funksiya.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-13-002",
+      "id": "aso-code-13-002",
       "task": "Funksiyalar bo'yicha amaliyot: console.log orqali 2 ta xabar chiqaring.",
       "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
-      "exp": "console.log."
+      "exp": "console.log.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-13-003",
+      "id": "aso-code-13-003",
       "task": "Funksiyalar bo'yicha amaliyot: kichik hisob: 2+2*2 ni chiqaring.",
       "sample": "console.log(2 + 2 * 2); // 6",
-      "exp": "Ustuvorlik."
+      "exp": "Ustuvorlik.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-004",
+      "id": "aso-code-13-004",
       "task": "Funksiyalar bo'yicha amaliyot: massiv va object ni birga ishlating (qisqa).",
       "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
-      "exp": "Nested ma'lumot."
+      "exp": "Nested ma'lumot.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-005",
+      "id": "aso-code-13-005",
       "task": "Funksiyalar bo'yicha amaliyot: for...of bilan satr harflarini chiqaring.",
       "sample": "for (const ch of \"JS\") console.log(ch);",
-      "exp": "for...of string."
+      "exp": "for...of string.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-006",
+      "id": "aso-code-13-006",
       "task": "Funksiyalar bo'yicha amaliyot: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
       "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
-      "exp": "Function declaration."
+      "exp": "Function declaration.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-007",
+      "id": "aso-code-13-007",
       "task": "Funksiyalar bo'yicha amaliyot: default parametrli salom(ism=\"Mehmon\") yozing.",
       "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
-      "exp": "Default params."
+      "exp": "Default params.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-13-008",
+      "id": "aso-code-13-008",
       "task": "Funksiyalar bo'yicha amaliyot: arrow bilan kvadrat(n) yozing.",
       "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
-      "exp": "Arrow function."
+      "exp": "Arrow function.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-13-009",
+      "id": "aso-code-13-009",
       "task": "Funksiyalar bo'yicha amaliyot: rest bilan yigindi(...sonlar) yozing.",
       "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
-      "exp": "Rest parametr."
+      "exp": "Rest parametr.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-010",
+      "task": "salom nomli funksiya yozib chaqiring.",
+      "sample": "function salom() {\n  console.log(\"Salom\");\n}\nsalom();",
+      "exp": "Function declaration.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-011",
+      "task": "Arrow function bilan 2 sonni qo'shing.",
+      "sample": "const add = (a, b) => a + b;\nconsole.log(add(2, 3));",
+      "exp": "Arrow function.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-012",
+      "task": "Default parametrli funksiya yozing.",
+      "sample": "function greet(name = \"Mehmon\") {\n  console.log(\"Salom, \" + name);\n}\ngreet();",
+      "exp": "Default parameter.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-013",
+      "task": "Rest parametr bilan yig'indi hisoblang.",
+      "sample": "function sum(...nums) {\n  return nums.reduce((a, b) => a + b, 0);\n}\nconsole.log(sum(1, 2, 3));",
+      "exp": "Rest parameter.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-014",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-015",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-016",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-017",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-018",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-019",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-13-020",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-021",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-022",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-023",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-024",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-13-025",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

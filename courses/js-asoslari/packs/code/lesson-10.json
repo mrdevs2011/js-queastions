@@ -4,64 +4,354 @@
   "title": "Turni (type) o'zgartirish",
   "questions": [
     {
-      "id": "code-10-001",
+      "id": "aso-code-10-001",
       "task": "Turni (type) o'zgartirish: Number(\"42\"), String(42), Boolean(0) chiqaring.",
       "sample": "console.log(Number(\"42\"), String(42), Boolean(0));",
-      "exp": "Type conversion."
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-10-002",
+      "id": "aso-code-10-002",
       "task": "Turni (type) o'zgartirish: parseInt(\"42px\") va +\"7\" chiqaring.",
       "sample": "console.log(parseInt(\"42px\"));\nconsole.log(+\"7\");",
-      "exp": "parseInt va unary +."
+      "exp": "parseInt va unary +.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-10-003",
+      "id": "aso-code-10-003",
       "task": "Turni (type) o'zgartirish: typeof null va typeof [] chiqaring.",
       "sample": "console.log(typeof null);\nconsole.log(typeof []);",
-      "exp": "typeof quirks."
+      "exp": "typeof quirks.",
+      "difficulty": 1,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-10-004",
+      "id": "aso-code-10-004",
       "task": "Turni (type) o'zgartirish: == va === farqini \"5\" va 5 bilan ko'rsating.",
       "sample": "console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);",
-      "exp": "Loose vs strict."
+      "exp": "Loose vs strict.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-10-005",
+      "id": "aso-code-10-005",
       "task": "Turni (type) o'zgartirish: getElementById('title') ni o'zgaruvchiga oling.",
       "sample": "let el = document.getElementById('title');",
-      "exp": "getElementById."
+      "exp": "getElementById.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-10-006",
+      "id": "aso-code-10-006",
       "task": "Turni (type) o'zgartirish: querySelector('.btn') matnini o'zgartiring.",
       "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
-      "exp": "querySelector + textContent."
+      "exp": "querySelector + textContent.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-10-007",
+      "id": "aso-code-10-007",
       "task": "Turni (type) o'zgartirish: createElement('p') + appendChild body.",
       "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
-      "exp": "create + append."
+      "exp": "create + append.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-10-008",
+      "id": "aso-code-10-008",
       "task": "Turni (type) o'zgartirish: addEventListener click log.",
       "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
-      "exp": "addEventListener."
+      "exp": "addEventListener.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-10-009",
+      "id": "aso-code-10-009",
       "task": "Turni (type) o'zgartirish: classList.toggle('active').",
       "sample": "document.querySelector('.card').classList.toggle('active');",
-      "exp": "classList."
+      "exp": "classList.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-10-010",
+      "id": "aso-code-10-010",
       "task": "Turni (type) o'zgartirish: preventDefault forma submit.",
       "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
-      "exp": "preventDefault."
+      "exp": "preventDefault.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-011",
+      "task": "String '25' ni Number ga o'tkazing.",
+      "sample": "let n = Number(\"25\");\nconsole.log(n);",
+      "exp": "Number().",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-012",
+      "task": "Unary + bilan '10' ni songa o'tkazing.",
+      "sample": "console.log(+\"10\");",
+      "exp": "Unary +.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-013",
+      "task": "Boolean('') ni chiqaring.",
+      "sample": "console.log(Boolean(\"\"));",
+      "exp": "Bo'sh string falsy.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-014",
+      "task": "parseInt('42px') ni chiqaring.",
+      "sample": "console.log(parseInt(\"42px\"));",
+      "exp": "parseInt.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-015",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-016",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-017",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-018",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-019",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-10-020",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-021",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-022",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-023",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-024",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-10-025",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "type-conversion",
+      "tags": [
+        "type-conversion",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

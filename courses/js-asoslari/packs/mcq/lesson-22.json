@@ -4,7 +4,7 @@
   "title": "Oqim boshqaruvi bo'yicha amaliyot",
   "questions": [
     {
-      "id": "mcq-22-001",
+      "id": "aso-mcq-22-001",
       "q": "Siklni majburiy to'xtatish uchun qaysi kalit so'z ishlatiladi?",
       "opts": [
         "stop",
@@ -13,10 +13,18 @@
         "exit"
       ],
       "correct": 1,
-      "exp": "break sikldan darhol chiqadi."
+      "exp": "break sikldan darhol chiqadi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-002",
+      "id": "aso-mcq-22-002",
       "q": "continue nima qiladi?",
       "opts": [
         "Siklni to'xtatadi",
@@ -25,10 +33,18 @@
         "Xato beradi"
       ],
       "correct": 1,
-      "exp": "continue joriy qadamni tashlab, siklning keyingi iteratsiyasiga o'tadi."
+      "exp": "continue joriy qadamni tashlab, siklning keyingi iteratsiyasiga o'tadi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-003",
+      "id": "aso-mcq-22-003",
       "q": "Ichma-ich sikllarda break nima qiladi?",
       "opts": [
         "Barcha sikllarni to'xtatadi",
@@ -37,10 +53,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "break faqat eng yaqin siklni to'xtatadi."
+      "exp": "break faqat eng yaqin siklni to'xtatadi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-004",
+      "id": "aso-mcq-22-004",
       "q": "for (let i=0; i<5; i++) { if (i===3) break; } — i ning oxirgi qiymati?",
       "opts": [
         "5",
@@ -49,10 +73,18 @@
         "2"
       ],
       "correct": 1,
-      "exp": "i===3 bo'lganda break ishlaydi, sikl to'xtaydi."
+      "exp": "i===3 bo'lganda break ishlaydi, sikl to'xtaydi.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-005",
+      "id": "aso-mcq-22-005",
       "q": "break funksiyadan?",
       "opts": [
         "Ha",
@@ -61,10 +93,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "return funksiyadan."
+      "exp": "return funksiyadan.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-006",
+      "id": "aso-mcq-22-006",
       "q": "continue switch?",
       "opts": [
         "Ha",
@@ -73,10 +113,18 @@
         "break"
       ],
       "correct": 1,
-      "exp": "continue sikl uchun."
+      "exp": "continue sikl uchun.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-007",
+      "id": "aso-mcq-22-007",
       "q": "Ichki break?",
       "opts": [
         "Tashqini ham",
@@ -85,10 +133,18 @@
         "Ikkalasi"
       ],
       "correct": 1,
-      "exp": "Label siz ichki."
+      "exp": "Label siz ichki.",
+      "difficulty": 2,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-22-008",
+      "id": "aso-mcq-22-008",
       "q": "return siklda?",
       "opts": [
         "Faqat break",
@@ -97,10 +153,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Kuchliroq."
+      "exp": "Kuchliroq.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-009",
+      "id": "aso-mcq-22-009",
       "q": "Dead code?",
       "opts": [
         "Tez kod",
@@ -109,10 +173,18 @@
         "Comment"
       ],
       "correct": 1,
-      "exp": "return dan keyin."
+      "exp": "return dan keyin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-010",
+      "id": "aso-mcq-22-010",
       "q": "Early continue?",
       "opts": [
         "Yo'q",
@@ -121,10 +193,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "O'qish oson."
+      "exp": "O'qish oson.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-011",
+      "id": "aso-mcq-22-011",
       "q": "Oqim vositalari?",
       "opts": [
         "Faqat if",
@@ -133,10 +213,18 @@
         "Faqat function"
       ],
       "correct": 1,
-      "exp": "Birgalikda."
+      "exp": "Birgalikda.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-012",
+      "id": "aso-mcq-22-012",
       "q": "Flag o'zgaruvchi?",
       "opts": [
         "CSS",
@@ -145,10 +233,18 @@
         "HTTP"
       ],
       "correct": 1,
-      "exp": "found=true."
+      "exp": "found=true.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-013",
+      "id": "aso-mcq-22-013",
       "q": "throw siklda?",
       "opts": [
         "Ignor",
@@ -157,10 +253,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "try/catch."
+      "exp": "try/catch.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-014",
+      "id": "aso-mcq-22-014",
       "q": "Debug usuli?",
       "opts": [
         "Taxmin",
@@ -169,10 +273,18 @@
         "Restart"
       ],
       "correct": 1,
-      "exp": "Ko'rinarli holat."
+      "exp": "Ko'rinarli holat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-015",
+      "id": "aso-mcq-22-015",
       "q": "break funksiyadan?",
       "opts": [
         "Ha",
@@ -181,10 +293,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "return funksiyadan."
+      "exp": "return funksiyadan.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-016",
+      "id": "aso-mcq-22-016",
       "q": "continue switch?",
       "opts": [
         "Ha",
@@ -193,10 +313,18 @@
         "break"
       ],
       "correct": 1,
-      "exp": "continue sikl uchun."
+      "exp": "continue sikl uchun.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-017",
+      "id": "aso-mcq-22-017",
       "q": "Ichki break?",
       "opts": [
         "Tashqini ham",
@@ -205,10 +333,18 @@
         "Ikkalasi"
       ],
       "correct": 1,
-      "exp": "Label siz ichki."
+      "exp": "Label siz ichki.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-018",
+      "id": "aso-mcq-22-018",
       "q": "return siklda?",
       "opts": [
         "Faqat break",
@@ -217,10 +353,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Kuchliroq."
+      "exp": "Kuchliroq.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-019",
+      "id": "aso-mcq-22-019",
       "q": "Dead code?",
       "opts": [
         "Tez kod",
@@ -229,10 +373,18 @@
         "Comment"
       ],
       "correct": 1,
-      "exp": "return dan keyin."
+      "exp": "return dan keyin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-020",
+      "id": "aso-mcq-22-020",
       "q": "Early continue?",
       "opts": [
         "Yo'q",
@@ -241,10 +393,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "O'qish oson."
+      "exp": "O'qish oson.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-021",
+      "id": "aso-mcq-22-021",
       "q": "Oqim vositalari?",
       "opts": [
         "Faqat if",
@@ -253,10 +413,18 @@
         "Faqat function"
       ],
       "correct": 1,
-      "exp": "Birgalikda."
+      "exp": "Birgalikda.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-022",
+      "id": "aso-mcq-22-022",
       "q": "Flag o'zgaruvchi?",
       "opts": [
         "CSS",
@@ -265,10 +433,18 @@
         "HTTP"
       ],
       "correct": 1,
-      "exp": "found=true."
+      "exp": "found=true.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-023",
+      "id": "aso-mcq-22-023",
       "q": "throw siklda?",
       "opts": [
         "Ignor",
@@ -277,10 +453,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "try/catch."
+      "exp": "try/catch.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-22-024",
+      "id": "aso-mcq-22-024",
       "q": "Debug usuli?",
       "opts": [
         "Taxmin",
@@ -289,7 +473,735 @@
         "Restart"
       ],
       "correct": 1,
-      "exp": "Ko'rinarli holat."
+      "exp": "Ko'rinarli holat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-025",
+      "q": "if (0) {...} ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-026",
+      "q": "ternary operator sintaksisi?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-027",
+      "q": "switch da break bo'lmasa?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-028",
+      "q": "if/else if/else da nechta shart?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-029",
+      "q": "true ? 'a' : 'b' natijasi?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-030",
+      "q": "if (null) ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "error",
+        "ba'zan"
+      ],
+      "correct": 1,
+      "exp": "null — falsy.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-031",
+      "q": "switch (x) { case 1: ...} da x tipi?",
+      "opts": [
+        "faqat number",
+        "har qanday",
+        "faqat string",
+        "faqat boolean"
+      ],
+      "correct": 1,
+      "exp": "Har qanday tip bo'lishi mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-032",
+      "q": "else majburiymi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "faqat if da",
+        "switch da"
+      ],
+      "correct": 1,
+      "exp": "else ixtiyoriy.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-033",
+      "q": "if (a = 5) nima bo'ladi?",
+      "opts": [
+        "solishtiradi",
+        "assign qiladi va truthy deb hisoblaydi",
+        "error",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "= assign, == solishtirish.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-034",
+      "q": "nested if nima?",
+      "opts": [
+        "bitta if",
+        "if ichida if",
+        "switch",
+        "loop"
+      ],
+      "correct": 1,
+      "exp": "If ichida yana if yozish.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-035",
+      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-036",
+      "q": "ternary operator sintaksisi (misol 1)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-037",
+      "q": "switch da break bo'lmasa (misol 1)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-038",
+      "q": "if/else if/else da nechta shart (misol 1)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-039",
+      "q": "true ? 'a' : 'b' natijasi (misol 1)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-040",
+      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-041",
+      "q": "ternary operator sintaksisi (misol 2)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-042",
+      "q": "switch da break bo'lmasa (misol 2)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-043",
+      "q": "if/else if/else da nechta shart (misol 2)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-044",
+      "q": "true ? 'a' : 'b' natijasi (misol 2)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-045",
+      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-046",
+      "q": "ternary operator sintaksisi (misol 3)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-047",
+      "q": "switch da break bo'lmasa (misol 3)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-048",
+      "q": "if/else if/else da nechta shart (misol 3)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-049",
+      "q": "true ? 'a' : 'b' natijasi (misol 3)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-050",
+      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-051",
+      "q": "ternary operator sintaksisi (misol 4)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-052",
+      "q": "switch da break bo'lmasa (misol 4)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-053",
+      "q": "if/else if/else da nechta shart (misol 4)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-054",
+      "q": "true ? 'a' : 'b' natijasi (misol 4)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-055",
+      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-056",
+      "q": "ternary operator sintaksisi (misol 5)?",
+      "opts": [
+        "a ? b : c",
+        "a : b ? c",
+        "a ?? b : c",
+        "a || b : c"
+      ],
+      "correct": 0,
+      "exp": "shart ? true : false.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-057",
+      "q": "switch da break bo'lmasa (misol 5)?",
+      "opts": [
+        "to'xtaydi",
+        "keyingi case larga tushadi (fall-through)",
+        "error",
+        "default ga"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa fall-through bo'ladi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-058",
+      "q": "if/else if/else da nechta shart (misol 5)?",
+      "opts": [
+        "1",
+        "cheksiz else if",
+        "faqat 2",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-059",
+      "q": "true ? 'a' : 'b' natijasi (misol 5)?",
+      "opts": [
+        "'a'",
+        "'b'",
+        "true",
+        "false"
+      ],
+      "correct": 0,
+      "exp": "Shart true bo'lsa birinchi qiymat.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-22-060",
+      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy, if ga kirmaydi.",
+      "difficulty": 3,
+      "category": "control-flow",
+      "tags": [
+        "control-flow",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

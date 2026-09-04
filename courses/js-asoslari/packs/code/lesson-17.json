@@ -4,28 +4,354 @@
   "title": "Object methods",
   "questions": [
     {
-      "id": "code-17-001",
+      "id": "aso-code-17-001",
       "task": "Object methods: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
       "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
-      "exp": "Object literal."
+      "exp": "Object literal.",
+      "difficulty": 1,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-17-002",
+      "id": "aso-code-17-002",
       "task": "Object methods: Object.keys va values chiqaring.",
       "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
-      "exp": "keys/values."
+      "exp": "keys/values.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-17-003",
+      "id": "aso-code-17-003",
       "task": "Object methods: destrukturatsiya {x,y} = point.",
       "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
-      "exp": "Destructuring."
+      "exp": "Destructuring.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-17-004",
+      "id": "aso-code-17-004",
       "task": "Object methods: spread bilan obyekt nusxa + yangi maydon.",
       "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
-      "exp": "Object spread."
+      "exp": "Object spread.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-005",
+      "task": "Oddiy object yarating va chiqaring.",
+      "sample": "let user = { name: \"Ali\", age: 25 };\nconsole.log(user.name);",
+      "exp": "Object yaratish.",
+      "difficulty": 1,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-17-006",
+      "task": "Object.keys ni ishlating.",
+      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));",
+      "exp": "Object.keys.",
+      "difficulty": 1,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-17-007",
+      "task": "Spread bilan nusxa oling.",
+      "sample": "let o1 = { a: 1 };\nlet o2 = { ...o1, b: 2 };\nconsole.log(o2);",
+      "exp": "Spread object.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-008",
+      "task": "JSON.stringify qiling.",
+      "sample": "let o = { x: 10 };\nconsole.log(JSON.stringify(o));",
+      "exp": "JSON.stringify.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-009",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-010",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-011",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-012",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-013",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-014",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-015",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-016",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-017",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-018",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-019",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-17-020",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-021",
+      "task": "100 dan 200 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-022",
+      "task": "Massiv [100, 200, 50] yig'indisini toping.",
+      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-023",
+      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
+      "sample": "console.log(Number(\"100\") + 200);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-024",
+      "task": "Object {x:100, y:200} ni chiqaring.",
+      "sample": "console.log({x: 100, y: 200});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-17-025",
+      "task": "objects: oddiy misol yozing. (#21)",
+      "sample": "console.log('objects');",
+      "exp": "objects",
+      "difficulty": 3,
+      "category": "objects",
+      "tags": [
+        "objects",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

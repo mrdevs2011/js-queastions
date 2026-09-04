@@ -4,7 +4,7 @@
   "title": "Function expression va arrow function",
   "questions": [
     {
-      "id": "mcq-12-001",
+      "id": "aso-mcq-12-001",
       "q": "const kvadrat = (x) => x * x; console.log(kvadrat(4)); natija?",
       "opts": [
         "8",
@@ -13,10 +13,18 @@
         "Xato beradi"
       ],
       "correct": 1,
-      "exp": "4*4=16."
+      "exp": "4*4=16.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-002",
+      "id": "aso-mcq-12-002",
       "q": "Arrow function qaysi versiyada paydo bo'lgan?",
       "opts": [
         "ES5",
@@ -25,10 +33,18 @@
         "ES2020"
       ],
       "correct": 1,
-      "exp": "Arrow function (=>) ES6 da kiritilgan."
+      "exp": "Arrow function (=>) ES6 da kiritilgan.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-003",
+      "id": "aso-mcq-12-003",
       "q": "const f = () => 5; console.log(f()); natija?",
       "opts": [
         "undefined",
@@ -37,10 +53,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Qavs va return yozilmasa, o'ng tomondagi ifoda avtomatik qaytariladi."
+      "exp": "Qavs va return yozilmasa, o'ng tomondagi ifoda avtomatik qaytariladi.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-004",
+      "id": "aso-mcq-12-004",
       "q": "Arrow function da this qanday ishlaydi?",
       "opts": [
         "O'z this ini yaratadi",
@@ -49,10 +73,18 @@
         "this yo'q"
       ],
       "correct": 1,
-      "exp": "Arrow function o'z this ini yaratmaydi, tashqi this ni meros qiladi."
+      "exp": "Arrow function o'z this ini yaratmaydi, tashqi this ni meros qiladi.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-005",
+      "id": "aso-mcq-12-005",
       "q": "Arrow hoist?",
       "opts": [
         "Ha",
@@ -61,10 +93,18 @@
         "Har doim"
       ],
       "correct": 1,
-      "exp": "const TDZ."
+      "exp": "const TDZ.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-006",
+      "id": "aso-mcq-12-006",
       "q": "Ko'p qatorli arrow return?",
       "opts": [
         "Yo'q",
@@ -73,10 +113,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Blokda return yoziladi."
+      "exp": "Blokda return yoziladi.",
+      "difficulty": 1,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-12-007",
+      "id": "aso-mcq-12-007",
       "q": "Bitta param qavs?",
       "opts": [
         "Majburiy",
@@ -85,10 +133,18 @@
         "Faqat ikki"
       ],
       "correct": 1,
-      "exp": "x => x*2."
+      "exp": "x => x*2.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-008",
+      "id": "aso-mcq-12-008",
       "q": "Arrow this?",
       "opts": [
         "O'z this",
@@ -97,10 +153,18 @@
         "this yo'q"
       ],
       "correct": 1,
-      "exp": "Lexical this."
+      "exp": "Lexical this.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-009",
+      "id": "aso-mcq-12-009",
       "q": "new bilan arrow?",
       "opts": [
         "Ishlaydi",
@@ -109,10 +173,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Constructor emas."
+      "exp": "Constructor emas.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-010",
+      "id": "aso-mcq-12-010",
       "q": "Implicit return?",
       "opts": [
         "() => {1}",
@@ -121,10 +193,18 @@
         "() => return 1"
       ],
       "correct": 1,
-      "exp": "Ifoda avtomatik."
+      "exp": "Ifoda avtomatik.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-011",
+      "id": "aso-mcq-12-011",
       "q": "Arrow arguments?",
       "opts": [
         "Bor",
@@ -133,10 +213,18 @@
         "Node"
       ],
       "correct": 1,
-      "exp": "Rest ishlating."
+      "exp": "Rest ishlating.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-012",
+      "id": "aso-mcq-12-012",
       "q": "setTimeout arrow this?",
       "opts": [
         "window majburiy",
@@ -145,10 +233,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Callback uchun qulay."
+      "exp": "Callback uchun qulay.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-013",
+      "id": "aso-mcq-12-013",
       "q": "obj method arrow this?",
       "opts": [
         "obj",
@@ -157,10 +253,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Arrow method uchun mos emas."
+      "exp": "Arrow method uchun mos emas.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-014",
+      "id": "aso-mcq-12-014",
       "q": "Oddiy function qachon?",
       "opts": [
         "Hech qachon",
@@ -169,10 +273,18 @@
         "ES5"
       ],
       "correct": 1,
-      "exp": "Muayyan this kerak."
+      "exp": "Muayyan this kerak.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-015",
+      "id": "aso-mcq-12-015",
       "q": "Arrow hoist?",
       "opts": [
         "Ha",
@@ -181,10 +293,18 @@
         "Har doim"
       ],
       "correct": 1,
-      "exp": "const TDZ."
+      "exp": "const TDZ.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-016",
+      "id": "aso-mcq-12-016",
       "q": "Ko'p qatorli arrow return?",
       "opts": [
         "Yo'q",
@@ -193,10 +313,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Blokda return yoziladi."
+      "exp": "Blokda return yoziladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-017",
+      "id": "aso-mcq-12-017",
       "q": "Bitta param qavs?",
       "opts": [
         "Majburiy",
@@ -205,10 +333,18 @@
         "Faqat ikki"
       ],
       "correct": 1,
-      "exp": "x => x*2."
+      "exp": "x => x*2.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-018",
+      "id": "aso-mcq-12-018",
       "q": "Arrow this?",
       "opts": [
         "O'z this",
@@ -217,10 +353,18 @@
         "this yo'q"
       ],
       "correct": 1,
-      "exp": "Lexical this."
+      "exp": "Lexical this.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-12-019",
+      "id": "aso-mcq-12-019",
       "q": "new bilan arrow?",
       "opts": [
         "Ishlaydi",
@@ -229,10 +373,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Constructor emas."
+      "exp": "Constructor emas.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-12-020",
+      "id": "aso-mcq-12-020",
       "q": "Implicit return?",
       "opts": [
         "() => {1}",
@@ -241,10 +393,18 @@
         "() => return 1"
       ],
       "correct": 1,
-      "exp": "Ifoda avtomatik."
+      "exp": "Ifoda avtomatik.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-12-021",
+      "id": "aso-mcq-12-021",
       "q": "Arrow arguments?",
       "opts": [
         "Bor",
@@ -253,10 +413,18 @@
         "Node"
       ],
       "correct": 1,
-      "exp": "Rest ishlating."
+      "exp": "Rest ishlating.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-12-022",
+      "id": "aso-mcq-12-022",
       "q": "setTimeout arrow this?",
       "opts": [
         "window majburiy",
@@ -265,10 +433,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Callback uchun qulay."
+      "exp": "Callback uchun qulay.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-12-023",
+      "id": "aso-mcq-12-023",
       "q": "obj method arrow this?",
       "opts": [
         "obj",
@@ -277,10 +453,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Arrow method uchun mos emas."
+      "exp": "Arrow method uchun mos emas.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-12-024",
+      "id": "aso-mcq-12-024",
       "q": "Oddiy function qachon?",
       "opts": [
         "Hech qachon",
@@ -289,7 +473,735 @@
         "ES5"
       ],
       "correct": 1,
-      "exp": "Muayyan this kerak."
+      "exp": "Muayyan this kerak.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-025",
+      "q": "Function declaration sintaksisi?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-026",
+      "q": "Arrow function qaytaradi (bitta ifoda)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-027",
+      "q": "arguments obyekti qaysida bor?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-028",
+      "q": "Default parameter misoli?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-029",
+      "q": "Rest parameter sintaksisi?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-030",
+      "q": "Callback nima?",
+      "opts": [
+        "oddiy o'zgaruvchi",
+        "boshqa funksiyaga uzatiladigan funksiya",
+        "loop",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "Funksiya argument sifatida uzatiladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-031",
+      "q": "IIFE nima?",
+      "opts": [
+        "loop turi",
+        "darhol chaqiriladigan funksiya",
+        "class",
+        "module"
+      ],
+      "correct": 1,
+      "exp": "Immediately Invoked Function Expression.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-032",
+      "q": "return dan keyin kod ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "ba'zan",
+        "faqat arrow da"
+      ],
+      "correct": 1,
+      "exp": "return funksiyani to'xtatadi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-033",
+      "q": "Pure function nima?",
+      "opts": [
+        "side effect li",
+        "bir xil input → bir xil output, side effect yo'q",
+        "async",
+        "generator"
+      ],
+      "correct": 1,
+      "exp": "Side effect siz, deterministic.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-034",
+      "q": "Function expression vs declaration?",
+      "opts": [
+        "bir xil",
+        "expression hoisting qilinmaydi",
+        "declaration hoisting qilinmaydi",
+        "farqi yo'q"
+      ],
+      "correct": 1,
+      "exp": "Declaration hoisting qilinadi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-035",
+      "q": "Function declaration sintaksisi (misol 1)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-036",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 1)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-037",
+      "q": "arguments obyekti qaysida bor (misol 1)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-038",
+      "q": "Default parameter misoli (misol 1)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-039",
+      "q": "Rest parameter sintaksisi (misol 1)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-040",
+      "q": "Function declaration sintaksisi (misol 2)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-041",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 2)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-042",
+      "q": "arguments obyekti qaysida bor (misol 2)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-043",
+      "q": "Default parameter misoli (misol 2)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-044",
+      "q": "Rest parameter sintaksisi (misol 2)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-045",
+      "q": "Function declaration sintaksisi (misol 3)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 2,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-12-046",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 3)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-047",
+      "q": "arguments obyekti qaysida bor (misol 3)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-048",
+      "q": "Default parameter misoli (misol 3)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-049",
+      "q": "Rest parameter sintaksisi (misol 3)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-050",
+      "q": "Function declaration sintaksisi (misol 4)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-051",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 4)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-052",
+      "q": "arguments obyekti qaysida bor (misol 4)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-053",
+      "q": "Default parameter misoli (misol 4)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-054",
+      "q": "Rest parameter sintaksisi (misol 4)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-055",
+      "q": "Function declaration sintaksisi (misol 5)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-056",
+      "q": "Arrow function qaytaradi (bitta ifoda) (misol 5)?",
+      "opts": [
+        "return kerak",
+        "avtomatik return",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-057",
+      "q": "arguments obyekti qaysida bor (misol 5)?",
+      "opts": [
+        "arrow function",
+        "ordinary function",
+        "ikkala",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Arrow function da arguments yo'q.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-058",
+      "q": "Default parameter misoli (misol 5)?",
+      "opts": [
+        "function f(a=1)",
+        "function f(a:1)",
+        "function f(a==1)",
+        "function f(a:=1)"
+      ],
+      "correct": 0,
+      "exp": "a = 1 ko'rinishida.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-059",
+      "q": "Rest parameter sintaksisi (misol 5)?",
+      "opts": [
+        "...args",
+        "*args",
+        "args...",
+        "&args"
+      ],
+      "correct": 0,
+      "exp": "...args qolgan argumentlarni oladi.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-12-060",
+      "q": "Function declaration sintaksisi (misol 6)?",
+      "opts": [
+        "function name() {}",
+        "let name = () => {}",
+        "const name = function() {}",
+        "hammasi to'g'ri"
+      ],
+      "correct": 3,
+      "exp": "Bir necha usul mavjud.",
+      "difficulty": 3,
+      "category": "functions",
+      "tags": [
+        "functions",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

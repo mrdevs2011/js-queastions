@@ -4,7 +4,7 @@
   "title": "Ma'lumot turlari",
   "questions": [
     {
-      "id": "mcq-5-001",
+      "id": "aso-mcq-5-001",
       "q": "typeof 10 nechiga teng?",
       "opts": [
         "\"number\"",
@@ -13,10 +13,18 @@
         "\"NaN\""
       ],
       "correct": 0,
-      "exp": "JSda barcha sonlar (butun va kasr) 'number' turiga kiradi."
+      "exp": "JSda barcha sonlar (butun va kasr) 'number' turiga kiradi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-002",
+      "id": "aso-mcq-5-002",
       "q": "typeof undefined va typeof null mos ravishda qanday?",
       "opts": [
         "\"undefined\" va \"null\"",
@@ -25,10 +33,18 @@
         "\"undefined\" va \"undefined\""
       ],
       "correct": 1,
-      "exp": "typeof null tarixiy xatolik tufayli 'object' qaytaradi."
+      "exp": "typeof null tarixiy xatolik tufayli 'object' qaytaradi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-003",
+      "id": "aso-mcq-5-003",
       "q": "typeof \"Salom\" natijasi?",
       "opts": [
         "\"text\"",
@@ -37,10 +53,18 @@
         "\"char\""
       ],
       "correct": 1,
-      "exp": "Satırlar 'string' turiga tegishli."
+      "exp": "Satırlar 'string' turiga tegishli.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-004",
+      "id": "aso-mcq-5-004",
       "q": "typeof true natijasi?",
       "opts": [
         "\"true\"",
@@ -49,10 +73,18 @@
         "\"number\""
       ],
       "correct": 1,
-      "exp": "true/false — boolean turi."
+      "exp": "true/false — boolean turi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-005",
+      "id": "aso-mcq-5-005",
       "q": "JSda nechta asosiy primitive tur bor?",
       "opts": [
         "3",
@@ -61,10 +93,18 @@
         "10"
       ],
       "correct": 2,
-      "exp": "string, number, boolean, null, undefined, symbol, bigint — 7 ta primitive."
+      "exp": "string, number, boolean, null, undefined, symbol, bigint — 7 ta primitive.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-006",
+      "id": "aso-mcq-5-006",
       "q": "typeof NaN?",
       "opts": [
         "NaN",
@@ -73,10 +113,18 @@
         "object"
       ],
       "correct": 1,
-      "exp": "NaN — number turi."
+      "exp": "NaN — number turi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-007",
+      "id": "aso-mcq-5-007",
       "q": "Symbol nima uchun?",
       "opts": [
         "Matn",
@@ -85,10 +133,18 @@
         "HTML"
       ],
       "correct": 1,
-      "exp": "Unique qiymatlar."
+      "exp": "Unique qiymatlar.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-008",
+      "id": "aso-mcq-5-008",
       "q": "BigInt nima?",
       "opts": [
         "Kichik son",
@@ -97,10 +153,18 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Katta butun sonlar."
+      "exp": "Katta butun sonlar.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-009",
+      "id": "aso-mcq-5-009",
       "q": "typeof (()=>{})?",
       "opts": [
         "object",
@@ -109,10 +173,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Funksiya — function."
+      "exp": "Funksiya — function.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-010",
+      "id": "aso-mcq-5-010",
       "q": "Object va primitive farqi?",
       "opts": [
         "Yo'q",
@@ -121,10 +193,18 @@
         "Primitive faqat string"
       ],
       "correct": 1,
-      "exp": "Reference vs value."
+      "exp": "Reference vs value.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-011",
+      "id": "aso-mcq-5-011",
       "q": "null qachon?",
       "opts": [
         "Har doim",
@@ -133,10 +213,18 @@
         "Faqat string"
       ],
       "correct": 1,
-      "exp": "Ataylab bo'sh."
+      "exp": "Ataylab bo'sh.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-012",
+      "id": "aso-mcq-5-012",
       "q": "undefined qachon?",
       "opts": [
         "Faqat xato",
@@ -145,10 +233,18 @@
         "Hech qachon"
       ],
       "correct": 1,
-      "exp": "Qiymat yo'q."
+      "exp": "Qiymat yo'q.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-013",
+      "id": "aso-mcq-5-013",
       "q": "Array.isArray({})?",
       "opts": [
         "true",
@@ -157,10 +253,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Oddiy object emas."
+      "exp": "Oddiy object emas.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-014",
+      "id": "aso-mcq-5-014",
       "q": "typeof document (brauzer)?",
       "opts": [
         "html",
@@ -169,10 +273,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "DOM obyektlari — object."
+      "exp": "DOM obyektlari — object.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-015",
+      "id": "aso-mcq-5-015",
       "q": "typeof NaN?",
       "opts": [
         "NaN",
@@ -181,10 +293,18 @@
         "object"
       ],
       "correct": 1,
-      "exp": "NaN — number turi."
+      "exp": "NaN — number turi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-016",
+      "id": "aso-mcq-5-016",
       "q": "Symbol nima uchun?",
       "opts": [
         "Matn",
@@ -193,10 +313,18 @@
         "HTML"
       ],
       "correct": 1,
-      "exp": "Unique qiymatlar."
+      "exp": "Unique qiymatlar.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-5-017",
+      "id": "aso-mcq-5-017",
       "q": "BigInt nima?",
       "opts": [
         "Kichik son",
@@ -205,10 +333,18 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Katta butun sonlar."
+      "exp": "Katta butun sonlar.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-018",
+      "id": "aso-mcq-5-018",
       "q": "typeof (()=>{})?",
       "opts": [
         "object",
@@ -217,10 +353,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Funksiya — function."
+      "exp": "Funksiya — function.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-019",
+      "id": "aso-mcq-5-019",
       "q": "Object va primitive farqi?",
       "opts": [
         "Yo'q",
@@ -229,10 +373,18 @@
         "Primitive faqat string"
       ],
       "correct": 1,
-      "exp": "Reference vs value."
+      "exp": "Reference vs value.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-020",
+      "id": "aso-mcq-5-020",
       "q": "null qachon?",
       "opts": [
         "Har doim",
@@ -241,10 +393,18 @@
         "Faqat string"
       ],
       "correct": 1,
-      "exp": "Ataylab bo'sh."
+      "exp": "Ataylab bo'sh.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-021",
+      "id": "aso-mcq-5-021",
       "q": "undefined qachon?",
       "opts": [
         "Faqat xato",
@@ -253,10 +413,18 @@
         "Hech qachon"
       ],
       "correct": 1,
-      "exp": "Qiymat yo'q."
+      "exp": "Qiymat yo'q.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-022",
+      "id": "aso-mcq-5-022",
       "q": "Array.isArray({})?",
       "opts": [
         "true",
@@ -265,10 +433,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Oddiy object emas."
+      "exp": "Oddiy object emas.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-5-023",
+      "id": "aso-mcq-5-023",
       "q": "typeof document (brauzer)?",
       "opts": [
         "html",
@@ -277,7 +453,755 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "DOM obyektlari — object."
+      "exp": "DOM obyektlari — object.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-024",
+      "q": "JS da nechta primitive type bor?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-025",
+      "q": "typeof null natijasi?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-026",
+      "q": "typeof [] natijasi?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-027",
+      "q": "NaN nima?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-028",
+      "q": "typeof NaN?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-029",
+      "q": "Boolean(0) natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy qiymat.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-030",
+      "q": "Qaysi biri falsy?",
+      "opts": [
+        "'0'",
+        "[]",
+        "{}",
+        "null"
+      ],
+      "correct": 3,
+      "exp": "null, undefined, 0, '', NaN, false — falsy.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-031",
+      "q": "BigInt nima uchun?",
+      "opts": [
+        "kichik sonlar",
+        "juda katta butun sonlar",
+        "float",
+        "string"
+      ],
+      "correct": 1,
+      "exp": "Number chegarasidan katta butun sonlar uchun.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-032",
+      "q": "Symbol nima?",
+      "opts": [
+        "string",
+        "unikal identifikator",
+        "number",
+        "boolean"
+      ],
+      "correct": 1,
+      "exp": "Har doim unikal qiymat yaratadi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-033",
+      "q": "typeof function(){} ?",
+      "opts": [
+        "function",
+        "object",
+        "undefined",
+        "callable"
+      ],
+      "correct": 0,
+      "exp": "typeof funksiya uchun 'function' qaytaradi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-034",
+      "q": "JS da nechta primitive type bor (misol 1)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-035",
+      "q": "typeof null natijasi (misol 1)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-036",
+      "q": "typeof [] natijasi (misol 1)?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-037",
+      "q": "NaN nima (misol 1)?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-038",
+      "q": "typeof NaN (misol 1)?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-039",
+      "q": "JS da nechta primitive type bor (misol 2)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-040",
+      "q": "typeof null natijasi (misol 2)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-041",
+      "q": "typeof [] natijasi (misol 2)?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-042",
+      "q": "NaN nima (misol 2)?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 1,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-5-043",
+      "q": "typeof NaN (misol 2)?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-044",
+      "q": "JS da nechta primitive type bor (misol 3)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-045",
+      "q": "typeof null natijasi (misol 3)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-046",
+      "q": "typeof [] natijasi (misol 3)?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-047",
+      "q": "NaN nima (misol 3)?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-048",
+      "q": "typeof NaN (misol 3)?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-049",
+      "q": "JS da nechta primitive type bor (misol 4)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-050",
+      "q": "typeof null natijasi (misol 4)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-051",
+      "q": "typeof [] natijasi (misol 4)?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-052",
+      "q": "NaN nima (misol 4)?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-053",
+      "q": "typeof NaN (misol 4)?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-054",
+      "q": "JS da nechta primitive type bor (misol 5)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-055",
+      "q": "typeof null natijasi (misol 5)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-056",
+      "q": "typeof [] natijasi (misol 5)?",
+      "opts": [
+        "array",
+        "object",
+        "list",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array ham object hisoblanadi.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-057",
+      "q": "NaN nima (misol 5)?",
+      "opts": [
+        "Not a Number",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-058",
+      "q": "typeof NaN (misol 5)?",
+      "opts": [
+        "number",
+        "NaN",
+        "undefined",
+        "object"
+      ],
+      "correct": 0,
+      "exp": "typeof NaN === 'number'.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-059",
+      "q": "JS da nechta primitive type bor (misol 6)?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "string, number, bigint, boolean, undefined, symbol, null — 7 ta.",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-5-060",
+      "q": "typeof null natijasi (misol 6)?",
+      "opts": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "correct": 1,
+      "exp": "typeof null === 'object' (tarixiy xato).",
+      "difficulty": 2,
+      "category": "data-types",
+      "tags": [
+        "data-types",
+        "test",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

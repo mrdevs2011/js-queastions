@@ -4,7 +4,7 @@
   "title": "Mantiqiy operatorlar",
   "questions": [
     {
-      "id": "mcq-9-001",
+      "id": "aso-mcq-9-001",
       "q": "console.log(true && false || true); natija?",
       "opts": [
         "true",
@@ -13,10 +13,18 @@
         "Xato beradi"
       ],
       "correct": 0,
-      "exp": "&& avval bajariladi: true&&false=false, keyin false||true=true."
+      "exp": "&& avval bajariladi: true&&false=false, keyin false||true=true.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-002",
+      "id": "aso-mcq-9-002",
       "q": "!true natijasi?",
       "opts": [
         "true",
@@ -25,10 +33,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "! — inkor operatori, true ni false qiladi."
+      "exp": "! — inkor operatori, true ni false qiladi.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-003",
+      "id": "aso-mcq-9-003",
       "q": "true && true && false natijasi?",
       "opts": [
         "true",
@@ -37,10 +53,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "&& zanjirida bitta false bo'lsa, natija false."
+      "exp": "&& zanjirida bitta false bo'lsa, natija false.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-004",
+      "id": "aso-mcq-9-004",
       "q": "false || false || true natijasi?",
       "opts": [
         "false",
@@ -49,10 +73,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "|| zanjirida bitta true bo'lsa, natija true."
+      "exp": "|| zanjirida bitta true bo'lsa, natija true.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-005",
+      "id": "aso-mcq-9-005",
       "q": "5 > 3 && 2 < 1 natijasi?",
       "opts": [
         "true",
@@ -61,10 +93,18 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "5>3 true, 2<1 false → true && false = false."
+      "exp": "5>3 true, 2<1 false → true && false = false.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-006",
+      "id": "aso-mcq-9-006",
       "q": "true || heavy() — heavy chaqiladimi?",
       "opts": [
         "Ha",
@@ -73,10 +113,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Short-circuit."
+      "exp": "Short-circuit.",
+      "difficulty": 1,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "mcq-9-007",
+      "id": "aso-mcq-9-007",
       "q": "false && heavy() — heavy?",
       "opts": [
         "Ha",
@@ -85,10 +133,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "&& to'xtaydi."
+      "exp": "&& to'xtaydi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-008",
+      "id": "aso-mcq-9-008",
       "q": "?? nima qiladi?",
       "opts": [
         "Faqat false",
@@ -97,10 +153,18 @@
         "Faqat 0"
       ],
       "correct": 1,
-      "exp": "Nullish coalescing."
+      "exp": "Nullish coalescing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-009",
+      "id": "aso-mcq-9-009",
       "q": "0 ?? 5?",
       "opts": [
         "5",
@@ -109,10 +173,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "0 nullish emas."
+      "exp": "0 nullish emas.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-010",
+      "id": "aso-mcq-9-010",
       "q": "null ?? 5?",
       "opts": [
         "null",
@@ -121,10 +193,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "null bo'lsa 5."
+      "exp": "null bo'lsa 5.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-011",
+      "id": "aso-mcq-9-011",
       "q": "!!'salom'?",
       "opts": [
         "false",
@@ -133,10 +213,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Boolean ga."
+      "exp": "Boolean ga.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-012",
+      "id": "aso-mcq-9-012",
       "q": "!!0?",
       "opts": [
         "true",
@@ -145,10 +233,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "0 falsy."
+      "exp": "0 falsy.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-013",
+      "id": "aso-mcq-9-013",
       "q": "true && 0 && 'a'?",
       "opts": [
         "true",
@@ -157,10 +253,18 @@
         "false"
       ],
       "correct": 1,
-      "exp": "Birinchi falsy — 0."
+      "exp": "Birinchi falsy — 0.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-014",
+      "id": "aso-mcq-9-014",
       "q": "null || undefined || 'ok'?",
       "opts": [
         "null",
@@ -169,10 +273,18 @@
         "false"
       ],
       "correct": 2,
-      "exp": "Birinchi truthy."
+      "exp": "Birinchi truthy.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-015",
+      "id": "aso-mcq-9-015",
       "q": "!(x > 5) ekvivalenti?",
       "opts": [
         "x > 5",
@@ -181,10 +293,18 @@
         "x == 5"
       ],
       "correct": 1,
-      "exp": "Inkor."
+      "exp": "Inkor.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-016",
+      "id": "aso-mcq-9-016",
       "q": "true || heavy() — heavy chaqiladimi?",
       "opts": [
         "Ha",
@@ -193,10 +313,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Short-circuit."
+      "exp": "Short-circuit.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-017",
+      "id": "aso-mcq-9-017",
       "q": "false && heavy() — heavy?",
       "opts": [
         "Ha",
@@ -205,10 +333,18 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "&& to'xtaydi."
+      "exp": "&& to'xtaydi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-018",
+      "id": "aso-mcq-9-018",
       "q": "?? nima qiladi?",
       "opts": [
         "Faqat false",
@@ -217,10 +353,18 @@
         "Faqat 0"
       ],
       "correct": 1,
-      "exp": "Nullish coalescing."
+      "exp": "Nullish coalescing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-019",
+      "id": "aso-mcq-9-019",
       "q": "0 ?? 5?",
       "opts": [
         "5",
@@ -229,10 +373,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "0 nullish emas."
+      "exp": "0 nullish emas.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "mcq-9-020",
+      "id": "aso-mcq-9-020",
       "q": "null ?? 5?",
       "opts": [
         "null",
@@ -241,10 +393,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "null bo'lsa 5."
+      "exp": "null bo'lsa 5.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-9-021",
+      "id": "aso-mcq-9-021",
       "q": "!!'salom'?",
       "opts": [
         "false",
@@ -253,10 +413,18 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Boolean ga."
+      "exp": "Boolean ga.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-9-022",
+      "id": "aso-mcq-9-022",
       "q": "!!0?",
       "opts": [
         "true",
@@ -265,10 +433,18 @@
         "null"
       ],
       "correct": 1,
-      "exp": "0 falsy."
+      "exp": "0 falsy.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-9-023",
+      "id": "aso-mcq-9-023",
       "q": "true && 0 && 'a'?",
       "opts": [
         "true",
@@ -277,10 +453,18 @@
         "false"
       ],
       "correct": 1,
-      "exp": "Birinchi falsy — 0."
+      "exp": "Birinchi falsy — 0.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-9-024",
+      "id": "aso-mcq-9-024",
       "q": "null || undefined || 'ok'?",
       "opts": [
         "null",
@@ -289,10 +473,18 @@
         "false"
       ],
       "correct": 2,
-      "exp": "Birinchi truthy."
+      "exp": "Birinchi truthy.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "mcq-9-025",
+      "id": "aso-mcq-9-025",
       "q": "!(x > 5) ekvivalenti?",
       "opts": [
         "x > 5",
@@ -301,7 +493,715 @@
         "x == 5"
       ],
       "correct": 1,
-      "exp": "Inkor."
+      "exp": "Inkor.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-026",
+      "q": "5 + '5' natijasi?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-027",
+      "q": "5 - '3' natijasi?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-028",
+      "q": "2 ** 3 natijasi?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-029",
+      "q": "10 % 3 natijasi?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-030",
+      "q": "true && false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-031",
+      "q": "true || false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "0"
+      ],
+      "correct": 0,
+      "exp": "|| — bittasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-032",
+      "q": "!true natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "! — mantiqiy emas.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-033",
+      "q": "5 == '5' natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "NaN"
+      ],
+      "correct": 0,
+      "exp": "== type coercion qiladi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-034",
+      "q": "5 === '5' natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "NaN"
+      ],
+      "correct": 1,
+      "exp": "=== type va qiymatni tekshiradi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-035",
+      "q": "null ?? 'default' natijasi?",
+      "opts": [
+        "null",
+        "'default'",
+        "undefined",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "?? — nullish coalescing.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-036",
+      "q": "0 || 'default' natijasi?",
+      "opts": [
+        "0",
+        "'default'",
+        "null",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "|| falsy ni o'tkazib yuboradi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-037",
+      "q": "3 > 2 > 1 natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "error",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "true > 1 → 1 > 1 → false.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-038",
+      "q": "5 + '5' natijasi (misol 1)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-039",
+      "q": "5 - '3' natijasi (misol 1)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-040",
+      "q": "2 ** 3 natijasi (misol 1)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-041",
+      "q": "10 % 3 natijasi (misol 1)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-042",
+      "q": "true && false natijasi (misol 1)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-043",
+      "q": "5 + '5' natijasi (misol 2)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-044",
+      "q": "5 - '3' natijasi (misol 2)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-045",
+      "q": "2 ** 3 natijasi (misol 2)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 2,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-mcq-9-046",
+      "q": "10 % 3 natijasi (misol 2)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-047",
+      "q": "true && false natijasi (misol 2)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-048",
+      "q": "5 + '5' natijasi (misol 3)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-049",
+      "q": "5 - '3' natijasi (misol 3)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-050",
+      "q": "2 ** 3 natijasi (misol 3)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-051",
+      "q": "10 % 3 natijasi (misol 3)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-052",
+      "q": "true && false natijasi (misol 3)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-053",
+      "q": "5 + '5' natijasi (misol 4)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-054",
+      "q": "5 - '3' natijasi (misol 4)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-055",
+      "q": "2 ** 3 natijasi (misol 4)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-056",
+      "q": "10 % 3 natijasi (misol 4)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-057",
+      "q": "true && false natijasi (misol 4)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi true bo'lsa true.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-058",
+      "q": "5 + '5' natijasi (misol 5)?",
+      "opts": [
+        "10",
+        "'55'",
+        "NaN",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Number + String → concatenation.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-059",
+      "q": "5 - '3' natijasi (misol 5)?",
+      "opts": [
+        "2",
+        "'53'",
+        "NaN",
+        "8"
+      ],
+      "correct": 0,
+      "exp": "Minus operatori number ga o'tkazadi.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-9-060",
+      "q": "2 ** 3 natijasi (misol 5)?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correct": 1,
+      "exp": "** — daraja operatori.",
+      "difficulty": 3,
+      "category": "operators",
+      "tags": [
+        "operators",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

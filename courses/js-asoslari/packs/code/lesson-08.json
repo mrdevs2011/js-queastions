@@ -4,58 +4,354 @@
   "title": "String",
   "questions": [
     {
-      "id": "code-8-001",
+      "id": "aso-code-8-001",
       "task": "ism o'zgaruvchisiga o'z ismingizni yozing va uni katta harflarga o'tkazib chiqaring.",
       "sample": "let ism = \"Ali\";\nconsole.log(ism.toUpperCase());",
-      "exp": "toUpperCase() satrni katta harflarga o'tkazadi."
+      "exp": "toUpperCase() satrni katta harflarga o'tkazadi.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-002",
+      "id": "aso-code-8-002",
       "task": "split/join bilan so'zlarni '-' qiling.",
       "sample": "let s=\"men js organaman\";\nconsole.log(s.split(\" \").join(\"-\"));",
-      "exp": "split+join."
+      "exp": "split+join.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-003",
+      "id": "aso-code-8-003",
       "task": "Template literal: ism va kasb.",
       "sample": "let ism=\"Ali\", kasb=\"dasturchi\";\nconsole.log(`${ism} — ${kasb}`);",
-      "exp": "Template."
+      "exp": "Template.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-004",
+      "id": "aso-code-8-004",
       "task": "split/join bilan so'zlarni '-' qiling.",
       "sample": "let s=\"men js organaman\";\nconsole.log(s.split(\" \").join(\"-\"));",
-      "exp": "split+join."
+      "exp": "split+join.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-005",
+      "id": "aso-code-8-005",
       "task": "Template literal: ism va kasb.",
       "sample": "let ism=\"Ali\", kasb=\"dasturchi\";\nconsole.log(`${ism} — ${kasb}`);",
-      "exp": "Template."
+      "exp": "Template.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-006",
+      "id": "aso-code-8-006",
       "task": "String: ism ni toUpperCase va length bilan chiqaring.",
       "sample": "let ism = \"ali\";\nconsole.log(ism.toUpperCase(), ism.length);",
-      "exp": "String metodlari."
+      "exp": "String metodlari.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
     },
     {
-      "id": "code-8-007",
+      "id": "aso-code-8-007",
       "task": "String: template literal da \"Salom, {ism}!\" yozing.",
       "sample": "let ism = \"Nodira\";\nconsole.log(`Salom, ${ism}!`);",
-      "exp": "Template literal."
+      "exp": "Template literal.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-8-008",
+      "id": "aso-code-8-008",
       "task": "String: \"a-b-c\" ni split qilib massiv chiqaring.",
       "sample": "console.log(\"a-b-c\".split(\"-\"));",
-      "exp": "split."
+      "exp": "split.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-8-009",
+      "id": "aso-code-8-009",
       "task": "String: trim va includes ishlating.",
       "sample": "let s = \"  javascript  \";\nconsole.log(s.trim());\nconsole.log(s.includes(\"script\"));",
-      "exp": "trim, includes."
+      "exp": "trim, includes.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-010",
+      "task": "'hello' uzunligini chiqaring.",
+      "sample": "console.log(\"hello\".length);",
+      "exp": "length.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-011",
+      "task": "'js'.toUpperCase() ni chiqaring.",
+      "sample": "console.log(\"js\".toUpperCase());",
+      "exp": "toUpperCase.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-012",
+      "task": "Template literal bilan ism chiqaring.",
+      "sample": "let ism = \"Ali\";\nconsole.log(`Salom, ${ism}`);",
+      "exp": "Template literal.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-013",
+      "task": "'a,b,c'.split(',') ni chiqaring.",
+      "sample": "console.log(\"a,b,c\".split(\",\"));",
+      "exp": "split.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-014",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-015",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-016",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-017",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 1,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "easy"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-code-8-018",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-019",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-020",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-021",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-022",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-023",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-024",
+      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
+      "sample": "console.log(Number(\"1\") + 2);",
+      "exp": "Type conversion.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
+    },
+    {
+      "id": "aso-code-8-025",
+      "task": "Object {x:1, y:2} ni chiqaring.",
+      "sample": "console.log({x: 1, y: 2});",
+      "exp": "Object.",
+      "difficulty": 2,
+      "category": "strings",
+      "tags": [
+        "strings",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     }
   ]
 }

@@ -4,70 +4,354 @@
   "title": "for",
   "questions": [
     {
-      "id": "code-20-001",
+      "id": "aso-code-20-001",
       "task": "1 dan 5 gacha sonlarni for sikli yordamida konsolga chiqaring.",
       "sample": "for (let i = 1; i <= 5; i++) {\n  console.log(i);\n}",
-      "exp": "for(boshlang'ich; shart; qadam) sonlarni ketma-ket chop etadi."
+      "exp": "for(boshlang'ich; shart; qadam) sonlarni ketma-ket chop etadi.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-002",
+      "id": "aso-code-20-002",
       "task": "for...of massiv.",
       "sample": "for (const x of [\"a\",\"b\",\"c\"]) console.log(x);",
-      "exp": "for...of."
+      "exp": "for...of.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-003",
+      "id": "aso-code-20-003",
       "task": "break 5 da.",
       "sample": "for(let i=1;i<=10;i++){ if(i===5) break; console.log(i); }",
-      "exp": "break."
+      "exp": "break.",
+      "difficulty": 2,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "medium"
+      ],
+      "points": 2
     },
     {
-      "id": "code-20-004",
+      "id": "aso-code-20-004",
       "task": "for...of massiv.",
       "sample": "for (const x of [\"a\",\"b\",\"c\"]) console.log(x);",
-      "exp": "for...of."
+      "exp": "for...of.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-005",
+      "id": "aso-code-20-005",
       "task": "break 5 da.",
       "sample": "for(let i=1;i<=10;i++){ if(i===5) break; console.log(i); }",
-      "exp": "break."
+      "exp": "break.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-006",
+      "id": "aso-code-20-006",
       "task": "for: if/else: ball=75 uchun A/B/C.",
       "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
-      "exp": "if/else if."
+      "exp": "if/else if.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-007",
+      "id": "aso-code-20-007",
       "task": "for: switch kun=3 → Chorshanba.",
       "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
-      "exp": "switch."
+      "exp": "switch.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-008",
+      "id": "aso-code-20-008",
       "task": "for: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
       "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
-      "exp": "Ternary."
+      "exp": "Ternary.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-009",
+      "id": "aso-code-20-009",
       "task": "for: for 1..5 chiqaring.",
       "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
-      "exp": "for."
+      "exp": "for.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-010",
+      "id": "aso-code-20-010",
       "task": "for: while 5..1 kamaytirib chiqaring.",
       "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
-      "exp": "while."
+      "exp": "while.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     },
     {
-      "id": "code-20-011",
+      "id": "aso-code-20-011",
       "task": "for: for da break (i===3).",
       "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
-      "exp": "break."
+      "exp": "break.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-012",
+      "task": "for bilan 1 dan 5 gacha chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) {\n  console.log(i);\n}",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-013",
+      "task": "while bilan 3 marta chiqaring.",
+      "sample": "let i = 0;\nwhile (i < 3) {\n  console.log(i);\n  i++;\n}",
+      "exp": "while.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-014",
+      "task": "for...of bilan massivni chiqaring.",
+      "sample": "let arr = [\"a\", \"b\", \"c\"];\nfor (let x of arr) {\n  console.log(x);\n}",
+      "exp": "for...of.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-015",
+      "task": "break ishlatib 3 da to'xtating.",
+      "sample": "for (let i = 0; i < 10; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-016",
+      "task": "3 dan 5 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-017",
+      "task": "Massiv [3, 5, 7] yig'indisini toping.",
+      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-018",
+      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
+      "sample": "console.log(Number(\"3\") + 5);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-019",
+      "task": "Object {x:3, y:5} ni chiqaring.",
+      "sample": "console.log({x: 3, y: 5});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-020",
+      "task": "10 dan 20 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-021",
+      "task": "Massiv [10, 20, 30] yig'indisini toping.",
+      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-022",
+      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
+      "sample": "console.log(Number(\"10\") + 20);",
+      "exp": "Type conversion.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-023",
+      "task": "Object {x:10, y:20} ni chiqaring.",
+      "sample": "console.log({x: 10, y: 20});",
+      "exp": "Object.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-024",
+      "task": "1 dan 2 gacha sonlarni chiqaring.",
+      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
+      "exp": "for loop.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-code-20-025",
+      "task": "Massiv [1, 2, 3] yig'indisini toping.",
+      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
+      "exp": "reduce.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "coding",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }
