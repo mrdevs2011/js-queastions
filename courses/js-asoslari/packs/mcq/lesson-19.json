@@ -85,15 +85,15 @@
     },
     {
       "id": "aso-mcq-19-005",
-      "q": "switch === ishlatadimi?",
+      "q": "switch operatori taqqoslashda qanday tenglik ishlatadi?",
       "opts": [
-        "Yo'q ==",
-        "Ha ===",
-        "typeof",
-        "!="
+        "Bo'sh ==",
+        "Qat'iy ===",
+        "Faqat >",
+        "typeof"
       ],
       "correct": 1,
-      "exp": "Qat'iy.",
+      "exp": "switch ichida case lar qat'iy tenglik (===) bilan solishtiriladi.",
       "difficulty": 1,
       "category": "control-flow",
       "tags": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "aso-mcq-19-009",
-      "q": "switch (NaN)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (NaN)",
       "opts": [
         "case NaN ishlaydi",
         "NaN !== NaN",
@@ -225,15 +225,15 @@
     },
     {
       "id": "aso-mcq-19-012",
-      "q": "ternary sintaksis?",
+      "q": "Ternary (uchlik) operatorning to'g'ri sintaksisi qaysi?",
       "opts": [
-        "a : b ? c",
-        "shart ? a : b",
-        "shart ?? a : b",
+        "shart ? trueQiymat : falseQiymat",
+        "shart : true : false",
+        "shart ?? a ?? b",
         "shart && a || b"
       ],
       "correct": 1,
-      "exp": "? :",
+      "exp": "shart ? qiymat1 : qiymat2 — shart true bo'lsa qiymat1, aks holda qiymat2.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -265,7 +265,7 @@
     },
     {
       "id": "aso-mcq-19-014",
-      "q": "switch (true) pattern?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (true) pattern",
       "opts": [
         "Mumkin emas",
         "Oraliq shartlar uchun mumkin",
@@ -285,15 +285,15 @@
     },
     {
       "id": "aso-mcq-19-015",
-      "q": "switch === ishlatadimi?",
+      "q": "switch operatori taqqoslashda qanday tenglik ishlatadi?",
       "opts": [
-        "Yo'q ==",
-        "Ha ===",
-        "typeof",
-        "!="
+        "Bo'sh ==",
+        "Qat'iy ===",
+        "Faqat >",
+        "typeof"
       ],
       "correct": 1,
-      "exp": "Qat'iy.",
+      "exp": "switch ichida case lar qat'iy tenglik (===) bilan solishtiriladi.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -365,7 +365,7 @@
     },
     {
       "id": "aso-mcq-19-019",
-      "q": "switch (NaN)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (NaN)",
       "opts": [
         "case NaN ishlaydi",
         "NaN !== NaN",
@@ -425,15 +425,15 @@
     },
     {
       "id": "aso-mcq-19-022",
-      "q": "ternary sintaksis?",
+      "q": "Ternary (uchlik) operatorning to'g'ri sintaksisi qaysi?",
       "opts": [
-        "a : b ? c",
-        "shart ? a : b",
-        "shart ?? a : b",
+        "shart ? trueQiymat : falseQiymat",
+        "shart : true : false",
+        "shart ?? a ?? b",
         "shart && a || b"
       ],
       "correct": 1,
-      "exp": "? :",
+      "exp": "shart ? qiymat1 : qiymat2 — shart true bo'lsa qiymat1, aks holda qiymat2.",
       "difficulty": 3,
       "category": "control-flow",
       "tags": [
@@ -465,7 +465,7 @@
     },
     {
       "id": "aso-mcq-19-024",
-      "q": "switch (true) pattern?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (true) pattern",
       "opts": [
         "Mumkin emas",
         "Oraliq shartlar uchun mumkin",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-19-025",
-      "q": "if (0) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-19-030",
-      "q": "if (null) ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (null) ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-19-031",
-      "q": "switch (x) { case 1: ...} da x tipi?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (x) { case 1: ...} da x tipi",
       "opts": [
         "faqat number",
         "har qanday",
@@ -665,15 +665,15 @@
     },
     {
       "id": "aso-mcq-19-034",
-      "q": "nested if nima?",
+      "q": "nested if (ichma-ich if) nima degani?",
       "opts": [
-        "bitta if",
-        "if ichida if",
-        "switch",
-        "loop"
+        "Bitta if operatori",
+        "if bloki ichida yana if yozish",
+        "switch operatori",
+        "for yoki while sikli"
       ],
       "correct": 1,
-      "exp": "If ichida yana if yozish.",
+      "exp": "Nested if — if ichida yana if yozish. Masalan: if (a) { if (b) { ... } }",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-19-035",
-      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 1)",
       "opts": [
         "ha",
         "yo'q",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-19-036",
-      "q": "ternary operator sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 1)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-19-037",
-      "q": "switch da break bo'lmasa (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 1)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-19-038",
-      "q": "if/else if/else da nechta shart (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 1)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-19-040",
-      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 2)",
       "opts": [
         "ha",
         "yo'q",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-19-041",
-      "q": "ternary operator sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 2)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-19-042",
-      "q": "switch da break bo'lmasa (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 2)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-19-043",
-      "q": "if/else if/else da nechta shart (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 2)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-19-045",
-      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 3)",
       "opts": [
         "ha",
         "yo'q",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-19-046",
-      "q": "ternary operator sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 3)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-19-047",
-      "q": "switch da break bo'lmasa (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 3)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-19-048",
-      "q": "if/else if/else da nechta shart (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 3)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-19-050",
-      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 4)",
       "opts": [
         "ha",
         "yo'q",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-19-051",
-      "q": "ternary operator sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 4)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-19-052",
-      "q": "switch da break bo'lmasa (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 4)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-19-053",
-      "q": "if/else if/else da nechta shart (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 4)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-19-055",
-      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 5)",
       "opts": [
         "ha",
         "yo'q",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-19-056",
-      "q": "ternary operator sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 5)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-19-057",
-      "q": "switch da break bo'lmasa (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 5)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-19-058",
-      "q": "if/else if/else da nechta shart (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 5)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-19-060",
-      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 6)",
       "opts": [
         "ha",
         "yo'q",

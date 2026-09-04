@@ -85,15 +85,15 @@
     },
     {
       "id": "aso-mcq-4-005",
-      "q": "Declaration nima?",
+      "q": "O'zgaruvchi declaration (e'lon qilish) nima degani?",
       "opts": [
-        "Qiymat berish",
-        "Nom yaratish (let x)",
-        "Chaqirish",
-        "HTML"
+        "Qiymat berish (assignment)",
+        "Nom yaratish, masalan: let x",
+        "Funksiyani chaqirish",
+        "HTML yozish"
       ],
       "correct": 1,
-      "exp": "E'lon qilish.",
+      "exp": "Declaration — o'zgaruvchini e'lon qilish (let x). Assignment esa qiymat berish (x = 5).",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -105,7 +105,7 @@
     },
     {
       "id": "aso-mcq-4-006",
-      "q": "camelCase misoli?",
+      "q": "camelCase usulida yozilgan nomga to'g'ri misol qaysi?",
       "opts": [
         "my_name",
         "myName",
@@ -113,7 +113,7 @@
         "MYNAME"
       ],
       "correct": 1,
-      "exp": "myName.",
+      "exp": "camelCase da birinchi so'z kichik, keyingilar bosh harf bilan: myName, userAge.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -125,15 +125,15 @@
     },
     {
       "id": "aso-mcq-4-007",
-      "q": "$ nomda ruxsatmi?",
+      "q": "O'zgaruvchi nomida $ belgisi ishlatish mumkinmi?",
       "opts": [
         "Yo'q",
-        "Ha",
+        "Ha, ruxsat etiladi",
         "Faqat oxirida",
         "Faqat boshida emas"
       ],
       "correct": 1,
-      "exp": "$ va _ ruxsat.",
+      "exp": "JavaScript da o'zgaruvchi nomi $ yoki _ bilan boshlanishi mumkin.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -145,15 +145,15 @@
     },
     {
       "id": "aso-mcq-4-008",
-      "q": "const obyekt ichini o'zgartirish?",
+      "q": "const bilan e'lon qilingan obyektning ichki xususiyatini o'zgartirish mumkinmi?",
       "opts": [
-        "Hech qachon",
-        "Reference o'zgarmasa mumkin",
-        "Faqat array",
-        "Xato"
+        "Hech qachon mumkin emas",
+        "Reference o'zgarmasa, ichini o'zgartirish mumkin",
+        "Faqat array da",
+        "Har doim xato"
       ],
       "correct": 1,
-      "exp": "Ichki mutatsiya mumkin.",
+      "exp": "const reference ni qayta bog'lashni taqiqlaydi, lekin obyekt/array ichini o'zgartirish (mutatsiya) mumkin.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -185,15 +185,15 @@
     },
     {
       "id": "aso-mcq-4-010",
-      "q": "Hoisting nima?",
+      "q": "Hoisting nima degani?",
       "opts": [
-        "Fayl yuklash",
-        "E'lonlarning yuqoriga ko'tarilishi",
+        "Faylni yuklash",
+        "E'lonlarning (declaration) kod boshiga ko'tarilishi",
         "Animatsiya",
-        "HTTP"
+        "HTTP so'rov"
       ],
       "correct": 1,
-      "exp": "var/function hoist.",
+      "exp": "Hoisting — var va function declaration larning scope boshiga ko'tarilishi. let/const ham hoist bo'ladi, lekin TDZ tufayli oldin ishlatib bo'lmaydi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -205,15 +205,15 @@
     },
     {
       "id": "aso-mcq-4-011",
-      "q": "let dan oldin murojaat?",
+      "q": "let bilan e'lon qilingan o'zgaruvchiga e'lon qilishdan oldin murojaat qilsangiz nima bo'ladi?",
       "opts": [
-        "undefined",
-        "ReferenceError (TDZ)",
-        "null",
-        "0"
+        "undefined chiqadi",
+        "ReferenceError (Temporal Dead Zone)",
+        "null chiqadi",
+        "0 chiqadi"
       ],
       "correct": 1,
-      "exp": "Temporal Dead Zone.",
+      "exp": "let/const uchun Temporal Dead Zone bor — e'londan oldin murojaat ReferenceError beradi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -225,15 +225,15 @@
     },
     {
       "id": "aso-mcq-4-012",
-      "q": "Global o'zgaruvchi muammosi?",
+      "q": "Global o'zgaruvchilarning asosiy muammosi nima?",
       "opts": [
-        "Juda tez",
-        "Nom to'qnashuvi",
-        "Ishlamaydi",
-        "Faqat mobil"
+        "Juda tez ishlaydi",
+        "Nom to'qnashuvi va scope ifloslanishi",
+        "Umuman ishlamaydi",
+        "Faqat mobilda muammo"
       ],
       "correct": 1,
-      "exp": "Scope ifloslanishi.",
+      "exp": "Global o'zgaruvchilar boshqa kod bilan nom to'qnashishi mumkin — imkon qadar kam ishlating.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-4-013",
-      "q": "O'zbek harflari nomda?",
+      "q": "O'zgaruvchi nomida o'zbek harflarini ishlatish mumkinmi?",
       "opts": [
         "Odatda ishlaydi, inglizcha tavsiya",
         "Hech qachon",
@@ -253,7 +253,7 @@
         "Faqat string"
       ],
       "correct": 0,
-      "exp": "Unicode mumkin, lekin inglizcha yaxshi.",
+      "exp": "Texnik jihatdan Unicode ishlaydi, lekin amalda inglizcha nomlar tavsiya etiladi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -265,15 +265,15 @@
     },
     {
       "id": "aso-mcq-4-014",
-      "q": "Declaration nima?",
+      "q": "O'zgaruvchi declaration (e'lon qilish) nima degani?",
       "opts": [
-        "Qiymat berish",
-        "Nom yaratish (let x)",
-        "Chaqirish",
-        "HTML"
+        "Qiymat berish (assignment)",
+        "Nom yaratish, masalan: let x",
+        "Funksiyani chaqirish",
+        "HTML yozish"
       ],
       "correct": 1,
-      "exp": "E'lon qilish.",
+      "exp": "Declaration — o'zgaruvchini e'lon qilish (let x). Assignment esa qiymat berish (x = 5).",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-4-015",
-      "q": "camelCase misoli?",
+      "q": "camelCase usulida yozilgan nomga to'g'ri misol qaysi?",
       "opts": [
         "my_name",
         "myName",
@@ -293,7 +293,7 @@
         "MYNAME"
       ],
       "correct": 1,
-      "exp": "myName.",
+      "exp": "camelCase da birinchi so'z kichik, keyingilar bosh harf bilan: myName, userAge.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -305,15 +305,15 @@
     },
     {
       "id": "aso-mcq-4-016",
-      "q": "$ nomda ruxsatmi?",
+      "q": "O'zgaruvchi nomida $ belgisi ishlatish mumkinmi?",
       "opts": [
         "Yo'q",
-        "Ha",
+        "Ha, ruxsat etiladi",
         "Faqat oxirida",
         "Faqat boshida emas"
       ],
       "correct": 1,
-      "exp": "$ va _ ruxsat.",
+      "exp": "JavaScript da o'zgaruvchi nomi $ yoki _ bilan boshlanishi mumkin.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -325,15 +325,15 @@
     },
     {
       "id": "aso-mcq-4-017",
-      "q": "const obyekt ichini o'zgartirish?",
+      "q": "const bilan e'lon qilingan obyektning ichki xususiyatini o'zgartirish mumkinmi?",
       "opts": [
-        "Hech qachon",
-        "Reference o'zgarmasa mumkin",
-        "Faqat array",
-        "Xato"
+        "Hech qachon mumkin emas",
+        "Reference o'zgarmasa, ichini o'zgartirish mumkin",
+        "Faqat array da",
+        "Har doim xato"
       ],
       "correct": 1,
-      "exp": "Ichki mutatsiya mumkin.",
+      "exp": "const reference ni qayta bog'lashni taqiqlaydi, lekin obyekt/array ichini o'zgartirish (mutatsiya) mumkin.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -365,15 +365,15 @@
     },
     {
       "id": "aso-mcq-4-019",
-      "q": "Hoisting nima?",
+      "q": "Hoisting nima degani?",
       "opts": [
-        "Fayl yuklash",
-        "E'lonlarning yuqoriga ko'tarilishi",
+        "Faylni yuklash",
+        "E'lonlarning (declaration) kod boshiga ko'tarilishi",
         "Animatsiya",
-        "HTTP"
+        "HTTP so'rov"
       ],
       "correct": 1,
-      "exp": "var/function hoist.",
+      "exp": "Hoisting — var va function declaration larning scope boshiga ko'tarilishi. let/const ham hoist bo'ladi, lekin TDZ tufayli oldin ishlatib bo'lmaydi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -385,15 +385,15 @@
     },
     {
       "id": "aso-mcq-4-020",
-      "q": "let dan oldin murojaat?",
+      "q": "let bilan e'lon qilingan o'zgaruvchiga e'lon qilishdan oldin murojaat qilsangiz nima bo'ladi?",
       "opts": [
-        "undefined",
-        "ReferenceError (TDZ)",
-        "null",
-        "0"
+        "undefined chiqadi",
+        "ReferenceError (Temporal Dead Zone)",
+        "null chiqadi",
+        "0 chiqadi"
       ],
       "correct": 1,
-      "exp": "Temporal Dead Zone.",
+      "exp": "let/const uchun Temporal Dead Zone bor — e'londan oldin murojaat ReferenceError beradi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -405,15 +405,15 @@
     },
     {
       "id": "aso-mcq-4-021",
-      "q": "Global o'zgaruvchi muammosi?",
+      "q": "Global o'zgaruvchilarning asosiy muammosi nima?",
       "opts": [
-        "Juda tez",
-        "Nom to'qnashuvi",
-        "Ishlamaydi",
-        "Faqat mobil"
+        "Juda tez ishlaydi",
+        "Nom to'qnashuvi va scope ifloslanishi",
+        "Umuman ishlamaydi",
+        "Faqat mobilda muammo"
       ],
       "correct": 1,
-      "exp": "Scope ifloslanishi.",
+      "exp": "Global o'zgaruvchilar boshqa kod bilan nom to'qnashishi mumkin — imkon qadar kam ishlating.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-4-022",
-      "q": "O'zbek harflari nomda?",
+      "q": "O'zgaruvchi nomida o'zbek harflarini ishlatish mumkinmi?",
       "opts": [
         "Odatda ishlaydi, inglizcha tavsiya",
         "Hech qachon",
@@ -433,7 +433,7 @@
         "Faqat string"
       ],
       "correct": 0,
-      "exp": "Unicode mumkin, lekin inglizcha yaxshi.",
+      "exp": "Texnik jihatdan Unicode ishlaydi, lekin amalda inglizcha nomlar tavsiya etiladi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-4-023",
-      "q": "let va var farqi?",
+      "q": "let va var o'rtasidagi asosiy farq nima?",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -453,7 +453,7 @@
         "let global"
       ],
       "correct": 1,
-      "exp": "let — block scope, var — function scope.",
+      "exp": "let — block scope, var — function scope. let TDZ ga ega, var esa hoist qilib undefined beradi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -465,7 +465,7 @@
     },
     {
       "id": "aso-mcq-4-024",
-      "q": "const ni o'zgartirish mumkinmi?",
+      "q": "const bilan e'lon qilingan o'zgaruvchiga yangi qiymat berish mumkinmi?",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -473,7 +473,7 @@
         "Faqat object"
       ],
       "correct": 1,
-      "exp": "Primitive qiymatlarni o'zgartirib bo'lmaydi.",
+      "exp": "Primitive uchun yo'q (TypeError). Obyekt/array reference o'zgarmasa, ichini o'zgartirish mumkin.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -505,15 +505,15 @@
     },
     {
       "id": "aso-mcq-4-026",
-      "q": "Temporal Dead Zone nima?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -525,7 +525,7 @@
     },
     {
       "id": "aso-mcq-4-027",
-      "q": "Global o'zgaruvchi qayerda?",
+      "q": "Global scope da e'lon qilingan o'zgaruvchi qayerda ko'rinadi?",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -533,7 +533,7 @@
         "hech qayerda"
       ],
       "correct": 1,
-      "exp": "Global scope da e'lon qilingan o'zgaruvchi hamma joyda ko'rinadi.",
+      "exp": "Dastur (yoki skript) bo'ylab deyarli hamma joyda ko'rinadi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -585,15 +585,15 @@
     },
     {
       "id": "aso-mcq-4-030",
-      "q": "Hoisting nima?",
+      "q": "Hoisting nima degani?",
       "opts": [
-        "o'zgaruvchini o'chirish",
-        "e'lonni tepaga ko'tarish",
-        "loop",
-        "object"
+        "Faylni yuklash",
+        "E'lonlarning (declaration) kod boshiga ko'tarilishi",
+        "Animatsiya",
+        "HTTP so'rov"
       ],
       "correct": 1,
-      "exp": "var va function declaration lar hoisting qilinadi.",
+      "exp": "Hoisting — var va function declaration larning scope boshiga ko'tarilishi. let/const ham hoist bo'ladi, lekin TDZ tufayli oldin ishlatib bo'lmaydi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-4-031",
-      "q": "Qaysi biri block scope?",
+      "q": "Qaysi kalit so'z(lar) block scope ga ega?",
       "opts": [
         "var",
         "let va const",
@@ -613,7 +613,7 @@
         "hech qaysi"
       ],
       "correct": 1,
-      "exp": "let va const block scope ga ega.",
+      "exp": "let va const block scope ({} ichida), var esa function scope.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -625,15 +625,15 @@
     },
     {
       "id": "aso-mcq-4-032",
-      "q": "undefined va null farqi?",
+      "q": "undefined va null o'rtasidagi farq nima?",
       "opts": [
-        "bir xil",
-        "undefined — qiymat berilmagan, null — ataylab bo'sh",
-        "null — xato",
-        "farqi yo'q"
+        "Bir xil narsa",
+        "undefined — qiymat berilmagan; null — ataylab bo'sh qiymat",
+        "null — bu xato",
+        "Farqi yo'q"
       ],
       "correct": 1,
-      "exp": "undefined avtomatik, null dasturchi tomonidan beriladi.",
+      "exp": "undefined odatda avtomatik (qiymat berilmagan), null ni dasturchi ataylab qo'yadi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-4-033",
-      "q": "let va var farqi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 1)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-4-034",
-      "q": "const ni o'zgartirish mumkinmi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 1)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -705,15 +705,15 @@
     },
     {
       "id": "aso-mcq-4-036",
-      "q": "Temporal Dead Zone nima (misol 1)?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-4-037",
-      "q": "Global o'zgaruvchi qayerda (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nGlobal o'zgaruvchi qayerda (misol 1)",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-4-038",
-      "q": "let va var farqi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 2)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -765,7 +765,7 @@
     },
     {
       "id": "aso-mcq-4-039",
-      "q": "const ni o'zgartirish mumkinmi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 2)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -805,15 +805,15 @@
     },
     {
       "id": "aso-mcq-4-041",
-      "q": "Temporal Dead Zone nima (misol 2)?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 1,
       "category": "variables",
       "tags": [
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-4-042",
-      "q": "Global o'zgaruvchi qayerda (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nGlobal o'zgaruvchi qayerda (misol 2)",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-4-043",
-      "q": "let va var farqi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 3)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -865,7 +865,7 @@
     },
     {
       "id": "aso-mcq-4-044",
-      "q": "const ni o'zgartirish mumkinmi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 3)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -905,15 +905,15 @@
     },
     {
       "id": "aso-mcq-4-046",
-      "q": "Temporal Dead Zone nima (misol 3)?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-4-047",
-      "q": "Global o'zgaruvchi qayerda (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nGlobal o'zgaruvchi qayerda (misol 3)",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-4-048",
-      "q": "let va var farqi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 4)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -965,7 +965,7 @@
     },
     {
       "id": "aso-mcq-4-049",
-      "q": "const ni o'zgartirish mumkinmi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 4)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -1005,15 +1005,15 @@
     },
     {
       "id": "aso-mcq-4-051",
-      "q": "Temporal Dead Zone nima (misol 4)?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-4-052",
-      "q": "Global o'zgaruvchi qayerda (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nGlobal o'zgaruvchi qayerda (misol 4)",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-4-053",
-      "q": "let va var farqi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 5)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "aso-mcq-4-054",
-      "q": "const ni o'zgartirish mumkinmi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 5)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",
@@ -1105,15 +1105,15 @@
     },
     {
       "id": "aso-mcq-4-056",
-      "q": "Temporal Dead Zone nima (misol 5)?",
+      "q": "Temporal Dead Zone (TDZ) nima?",
       "opts": [
-        "xatolik turi",
-        "let/const e'lon qilinmaguncha foydalanib bo'lmaydigan zona",
-        "loop",
-        "function"
+        "Oddiy xatolik turi",
+        "let/const e'lon qilinmaguncha ularga murojaat qilib bo'lmaydigan zona",
+        "Sikl turi",
+        "Funksiya turi"
       ],
       "correct": 1,
-      "exp": "let va const uchun TDZ mavjud.",
+      "exp": "TDZ — let yoki const e'lon qilingan qatordan oldin o'sha o'zgaruvchidan foydalanib bo'lmaydi; murojaat qilsangiz ReferenceError chiqadi.",
       "difficulty": 2,
       "category": "variables",
       "tags": [
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-4-057",
-      "q": "Global o'zgaruvchi qayerda (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nGlobal o'zgaruvchi qayerda (misol 5)",
       "opts": [
         "faqat funksiya ichida",
         "barcha joyda ko'rinadi",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-4-058",
-      "q": "let va var farqi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet va var farqi (misol 6)",
       "opts": [
         "Farqi yo'q",
         "let block scope, var function scope",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "aso-mcq-4-059",
-      "q": "const ni o'zgartirish mumkinmi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst ni o'zgartirish mumkinmi (misol 6)",
       "opts": [
         "Ha",
         "Yo'q (primitive uchun)",

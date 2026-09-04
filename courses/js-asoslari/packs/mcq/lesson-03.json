@@ -65,7 +65,7 @@
     },
     {
       "id": "aso-mcq-3-004",
-      "q": "console.log(2 + 2) nima chiqaradi?",
+      "q": "console.log(2 + 2) konsolga nima chiqaradi?",
       "opts": [
         "\"2 + 2\"",
         "4",
@@ -73,7 +73,7 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "console.log ifodani hisoblab, natijani konsolga chiqaradi.",
+      "exp": "2+2=4 chiqadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -85,7 +85,7 @@
     },
     {
       "id": "aso-mcq-3-005",
-      "q": "console.log(1+2) natija?",
+      "q": "console.log(1 + 2) konsolga nima chiqaradi?",
       "opts": [
         "1+2",
         "3",
@@ -93,7 +93,7 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Ifoda hisoblanadi.",
+      "exp": "1+2=3, shuning uchun konsolga 3 chiqadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -105,7 +105,7 @@
     },
     {
       "id": "aso-mcq-3-006",
-      "q": "console.warn nima uchun?",
+      "q": "console.warn() nima uchun ishlatiladi?",
       "opts": [
         "Oddiy xabar",
         "Ogohlantirish",
@@ -113,7 +113,7 @@
         "Rasm"
       ],
       "correct": 1,
-      "exp": "Sariq ogohlantirish.",
+      "exp": "Ogohlantirish xabarini konsolga chiqaradi (sariq ogohlantirish).",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-3-007",
-      "q": "console.error nima uchun?",
+      "q": "console.error() nima uchun ishlatiladi?",
       "opts": [
         "Muvaffaqiyat",
         "Xato xabari",
@@ -133,7 +133,7 @@
         "Hech narsa"
       ],
       "correct": 1,
-      "exp": "Xatolarni ajratadi.",
+      "exp": "Xato xabarini konsolga chiqaradi — odatda qizil rangda.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "aso-mcq-3-008",
-      "q": "Bir nechta qiymat console.log da?",
+      "q": "console.log ga bir nechta qiymat uzatish mumkinmi?",
       "opts": [
         "Mumkin emas",
         "console.log(a,b,c)",
@@ -153,7 +153,7 @@
         "Faqat array"
       ],
       "correct": 1,
-      "exp": "Vergul bilan argumentlar.",
+      "exp": "Ha: console.log(a, b, c) — barcha qiymatlar konsolga chiqadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "aso-mcq-3-009",
-      "q": "alert() nima qiladi?",
+      "q": "alert() funksiyasi nima qiladi?",
       "opts": [
         "Konsol",
         "Modal oynacha",
@@ -173,7 +173,7 @@
         "Yopish"
       ],
       "correct": 1,
-      "exp": "Bloklovchi xabar.",
+      "exp": "Foydalanuvchiga brauzerda oddiy xabar oynasini ko'rsatadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -185,7 +185,7 @@
     },
     {
       "id": "aso-mcq-3-010",
-      "q": "prompt() nima qaytaradi?",
+      "q": "prompt() foydalanuvchi kiritgan qiymatni qanday qaytaradi?",
       "opts": [
         "true",
         "Satr yoki null",
@@ -193,7 +193,7 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Foydalanuvchi kiritmasi.",
+      "exp": "Foydalanuvchi yozgan matnni string sifatida qaytaradi; Cancel bo'lsa null.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -205,15 +205,15 @@
     },
     {
       "id": "aso-mcq-3-011",
-      "q": "confirm() qaytaradi?",
+      "q": "confirm() funksiyasi foydalanuvchi javobiga qarab nima qaytaradi?",
       "opts": [
         "string",
-        "boolean",
+        "boolean (true/false)",
         "number",
         "object"
       ],
       "correct": 1,
-      "exp": "OK/Cancel — true/false.",
+      "exp": "OK → true, Cancel → false.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -225,15 +225,15 @@
     },
     {
       "id": "aso-mcq-3-012",
-      "q": "Kodda xato bo'lsa konsolda?",
+      "q": "Kodda xato bo'lsa brauzer konsolida odatda nima ko'rinadi?",
       "opts": [
         "Hech narsa",
-        "Xato turi va qator",
-        "Yashil",
-        "Yopiladi"
+        "Xato turi va qator raqami",
+        "Yashil xabar",
+        "Sahifa yopiladi"
       ],
       "correct": 1,
-      "exp": "Brauzer xato joyini ko'rsatadi.",
+      "exp": "Konsol xato turi, matni va qatorini ko'rsatadi — debug uchun muhim.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-3-013",
-      "q": "console.log(1+2) natija?",
+      "q": "console.log(1 + 2) konsolga nima chiqaradi?",
       "opts": [
         "1+2",
         "3",
@@ -253,7 +253,7 @@
         "xato"
       ],
       "correct": 1,
-      "exp": "Ifoda hisoblanadi.",
+      "exp": "1+2=3, shuning uchun konsolga 3 chiqadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -265,7 +265,7 @@
     },
     {
       "id": "aso-mcq-3-014",
-      "q": "console.warn nima uchun?",
+      "q": "console.warn() nima uchun ishlatiladi?",
       "opts": [
         "Oddiy xabar",
         "Ogohlantirish",
@@ -273,7 +273,7 @@
         "Rasm"
       ],
       "correct": 1,
-      "exp": "Sariq ogohlantirish.",
+      "exp": "Ogohlantirish xabarini konsolga chiqaradi (sariq ogohlantirish).",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-3-015",
-      "q": "console.error nima uchun?",
+      "q": "console.error() nima uchun ishlatiladi?",
       "opts": [
         "Muvaffaqiyat",
         "Xato xabari",
@@ -293,7 +293,7 @@
         "Hech narsa"
       ],
       "correct": 1,
-      "exp": "Xatolarni ajratadi.",
+      "exp": "Xato xabarini konsolga chiqaradi — odatda qizil rangda.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -305,7 +305,7 @@
     },
     {
       "id": "aso-mcq-3-016",
-      "q": "Bir nechta qiymat console.log da?",
+      "q": "console.log ga bir nechta qiymat uzatish mumkinmi?",
       "opts": [
         "Mumkin emas",
         "console.log(a,b,c)",
@@ -313,7 +313,7 @@
         "Faqat array"
       ],
       "correct": 1,
-      "exp": "Vergul bilan argumentlar.",
+      "exp": "Ha: console.log(a, b, c) — barcha qiymatlar konsolga chiqadi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -325,7 +325,7 @@
     },
     {
       "id": "aso-mcq-3-017",
-      "q": "alert() nima qiladi?",
+      "q": "alert() funksiyasi nima qiladi?",
       "opts": [
         "Konsol",
         "Modal oynacha",
@@ -333,7 +333,7 @@
         "Yopish"
       ],
       "correct": 1,
-      "exp": "Bloklovchi xabar.",
+      "exp": "Foydalanuvchiga brauzerda oddiy xabar oynasini ko'rsatadi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "aso-mcq-3-018",
-      "q": "prompt() nima qaytaradi?",
+      "q": "prompt() foydalanuvchi kiritgan qiymatni qanday qaytaradi?",
       "opts": [
         "true",
         "Satr yoki null",
@@ -353,7 +353,7 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Foydalanuvchi kiritmasi.",
+      "exp": "Foydalanuvchi yozgan matnni string sifatida qaytaradi; Cancel bo'lsa null.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -365,15 +365,15 @@
     },
     {
       "id": "aso-mcq-3-019",
-      "q": "confirm() qaytaradi?",
+      "q": "confirm() funksiyasi foydalanuvchi javobiga qarab nima qaytaradi?",
       "opts": [
         "string",
-        "boolean",
+        "boolean (true/false)",
         "number",
         "object"
       ],
       "correct": 1,
-      "exp": "OK/Cancel — true/false.",
+      "exp": "OK → true, Cancel → false.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -385,15 +385,15 @@
     },
     {
       "id": "aso-mcq-3-020",
-      "q": "Kodda xato bo'lsa konsolda?",
+      "q": "Kodda xato bo'lsa brauzer konsolida odatda nima ko'rinadi?",
       "opts": [
         "Hech narsa",
-        "Xato turi va qator",
-        "Yashil",
-        "Yopiladi"
+        "Xato turi va qator raqami",
+        "Yashil xabar",
+        "Sahifa yopiladi"
       ],
       "correct": 1,
-      "exp": "Brauzer xato joyini ko'rsatadi.",
+      "exp": "Konsol xato turi, matni va qatorini ko'rsatadi — debug uchun muhim.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -413,7 +413,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-3-022",
-      "q": "JavaScript qayerda ishlaydi?",
+      "q": "JavaScript qayerda ishlashi mumkin?",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -433,7 +433,7 @@
         "Faqat desktop"
       ],
       "correct": 2,
-      "exp": "JS brauzerda va Node.js orqali serverda ishlaydi.",
+      "exp": "Asosan brauzerda va Node.js orqali serverda.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-3-023",
-      "q": "JS ni kim yaratgan?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-3-025",
-      "q": "console.log nima qiladi?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -493,7 +493,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -505,15 +505,15 @@
     },
     {
       "id": "aso-mcq-3-026",
-      "q": "JS qanday til?",
+      "q": "JavaScript qanday turdagi dasturlash tili?",
       "opts": [
-        "Compiled",
-        "Interpreted",
+        "Compiled (oldindan kompilyatsiya)",
+        "Interpreted (interpretatsiya qilinadi)",
         "Assembly",
-        "Machine"
+        "Machine code"
       ],
       "correct": 1,
-      "exp": "Interpretatsiya qilinuvchi til.",
+      "exp": "JavaScript odatda interpretatsiya qilinuvchi til — kod ketma-ket bajariladi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -525,15 +525,15 @@
     },
     {
       "id": "aso-mcq-3-027",
-      "q": "HTML va JS farqi?",
+      "q": "HTML va JavaScript o'rtasidagi asosiy farq nima?",
       "opts": [
         "Ikkalasi bir xil",
-        "HTML struktura, JS mantiq",
-        "JS struktura",
+        "HTML — struktura, JS — mantiq va interaktivlik",
+        "JS — faqat struktura",
         "Farqi yo'q"
       ],
       "correct": 1,
-      "exp": "HTML struktura, JS dinamika va mantiq uchun.",
+      "exp": "HTML sahifa tuzilishini, JavaScript esa dinamika va mantiqni beradi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -548,12 +548,12 @@
       "q": "Node.js nima?",
       "opts": [
         "Brauzer",
-        "JS runtime server uchun",
+        "Serverda JavaScript ishlatish uchun runtime muhit",
         "CSS framework",
-        "Database"
+        "Ma'lumotlar bazasi"
       ],
       "correct": 1,
-      "exp": "Serverda JS ishlatish imkonini beradi.",
+      "exp": "Node.js — brauzerdan tashqarida (serverda) JavaScript ishlatish imkonini beruvchi muhit.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -565,7 +565,7 @@
     },
     {
       "id": "aso-mcq-3-029",
-      "q": "JS da o'zgaruvchi e'lon qilish?",
+      "q": "JavaScript da o'zgaruvchini e'lon qilish uchun qaysi kalit so'zlar ishlatiladi?",
       "opts": [
         "faqat var",
         "let, const, var",
@@ -573,7 +573,7 @@
         "faqat const"
       ],
       "correct": 1,
-      "exp": "let, const va var ishlatiladi.",
+      "exp": "Zamonaviy JS da asosan let va const, eski kodda var ham uchraydi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -593,7 +593,7 @@
         "Nusxa oladi"
       ],
       "correct": 1,
-      "exp": "Qiymatning turini string ko'rinishida qaytaradi.",
+      "exp": "typeof qiymatning turini string ko'rinishida qaytaradi, masalan typeof 5 → 'number'.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-3-031",
-      "q": "JavaScript nima (misol 1)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -613,7 +613,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -625,7 +625,7 @@
     },
     {
       "id": "aso-mcq-3-032",
-      "q": "JavaScript qayerda ishlaydi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 1)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-3-033",
-      "q": "JS ni kim yaratgan (misol 1)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-3-035",
-      "q": "console.log nima qiladi (misol 1)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -693,7 +693,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-3-036",
-      "q": "JavaScript nima (misol 2)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -713,7 +713,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-3-037",
-      "q": "JavaScript qayerda ishlaydi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 2)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-3-038",
-      "q": "JS ni kim yaratgan (misol 2)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-3-040",
-      "q": "console.log nima qiladi (misol 2)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -793,7 +793,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-3-041",
-      "q": "JavaScript nima (misol 3)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -813,7 +813,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-3-042",
-      "q": "JavaScript qayerda ishlaydi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 3)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-3-043",
-      "q": "JS ni kim yaratgan (misol 3)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-3-045",
-      "q": "console.log nima qiladi (misol 3)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -893,7 +893,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-3-046",
-      "q": "JavaScript nima (misol 4)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -913,7 +913,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-3-047",
-      "q": "JavaScript qayerda ishlaydi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 4)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-3-048",
-      "q": "JS ni kim yaratgan (misol 4)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-3-050",
-      "q": "console.log nima qiladi (misol 4)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -993,7 +993,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-3-051",
-      "q": "JavaScript nima (misol 5)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -1013,7 +1013,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-3-052",
-      "q": "JavaScript qayerda ishlaydi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 5)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-3-053",
-      "q": "JS ni kim yaratgan (misol 5)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-3-055",
-      "q": "console.log nima qiladi (misol 5)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -1093,7 +1093,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-3-056",
-      "q": "JavaScript nima (misol 6)?",
+      "q": "JavaScript nima?",
       "opts": [
         "Dasturlash tili",
         "Operatsion tizim",
@@ -1113,7 +1113,7 @@
         "Brauzer"
       ],
       "correct": 0,
-      "exp": "JavaScript — yuqori darajali dasturlash tili.",
+      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-3-057",
-      "q": "JavaScript qayerda ishlaydi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nJavaScript qayerda ishlaydi (misol 6)",
       "opts": [
         "Faqat serverda",
         "Faqat mobil",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-3-058",
-      "q": "JS ni kim yaratgan (misol 6)?",
+      "q": "JavaScript tilini kim yaratgan?",
       "opts": [
         "Brendan Eich",
         "Bill Gates",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-3-060",
-      "q": "console.log nima qiladi (misol 6)?",
+      "q": "console.log() nima qiladi?",
       "opts": [
         "Xatolik chiqaradi",
         "Konsolga chiqaradi",
@@ -1193,7 +1193,7 @@
         "Sahifani yangilaydi"
       ],
       "correct": 1,
-      "exp": "Konsolga ma'lumot chiqaradi.",
+      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [

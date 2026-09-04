@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-7-013",
-      "q": "let x=5; x*=3; x?",
+      "q": "Quyidagi kodning natijasi nima?\nlet x=5; x*=3; x",
       "opts": [
         "5",
         "3",
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-7-023",
-      "q": "let x=5; x*=3; x?",
+      "q": "Quyidagi kodning natijasi nima?\nlet x=5; x*=3; x",
       "opts": [
         "5",
         "3",

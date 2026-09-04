@@ -185,7 +185,7 @@
     },
     {
       "id": "aso-mcq-15-010",
-      "q": "every()?",
+      "q": "Quyidagi kodning natijasi nima?\nevery()",
       "opts": [
         "Birortasi",
         "Hammasi mosmi",
@@ -205,15 +205,15 @@
     },
     {
       "id": "aso-mcq-15-011",
-      "q": "findIndex topilmasa?",
+      "q": "findIndex element topilmasa nima qaytaradi?",
       "opts": [
-        "undefined",
+        "0",
         "-1",
         "null",
-        "0"
+        "undefined"
       ],
       "correct": 1,
-      "exp": "-1.",
+      "exp": "Topilmasa findIndex -1 qaytaradi (indexOf kabi).",
       "difficulty": 2,
       "category": "arrays",
       "tags": [
@@ -225,7 +225,7 @@
     },
     {
       "id": "aso-mcq-15-012",
-      "q": "sort() aslni?",
+      "q": "Quyidagi kodning natijasi nima?\nsort() aslni",
       "opts": [
         "O'zgartirmaydi",
         "O'zgartiradi",
@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-15-013",
-      "q": "[10,2].sort() default?",
+      "q": "Quyidagi kodning natijasi nima?\n[10,2].sort() default",
       "opts": [
         "[2,10]",
         "[10,2] string tartib",
@@ -265,7 +265,7 @@
     },
     {
       "id": "aso-mcq-15-014",
-      "q": "flat()?",
+      "q": "Quyidagi kodning natijasi nima?\nflat()",
       "opts": [
         "Saralaydi",
         "Ichki massivlarni yoyadi",
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-15-015",
-      "q": "includes(NaN)?",
+      "q": "Quyidagi kodning natijasi nima?\nincludes(NaN)",
       "opts": [
         "false",
         "true",
@@ -385,7 +385,7 @@
     },
     {
       "id": "aso-mcq-15-020",
-      "q": "every()?",
+      "q": "Quyidagi kodning natijasi nima?\nevery()",
       "opts": [
         "Birortasi",
         "Hammasi mosmi",
@@ -405,15 +405,15 @@
     },
     {
       "id": "aso-mcq-15-021",
-      "q": "findIndex topilmasa?",
+      "q": "findIndex element topilmasa nima qaytaradi?",
       "opts": [
-        "undefined",
+        "0",
         "-1",
         "null",
-        "0"
+        "undefined"
       ],
       "correct": 1,
-      "exp": "-1.",
+      "exp": "Topilmasa findIndex -1 qaytaradi (indexOf kabi).",
       "difficulty": 3,
       "category": "arrays",
       "tags": [
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-15-022",
-      "q": "sort() aslni?",
+      "q": "Quyidagi kodning natijasi nima?\nsort() aslni",
       "opts": [
         "O'zgartirmaydi",
         "O'zgartiradi",
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-15-023",
-      "q": "[10,2].sort() default?",
+      "q": "Quyidagi kodning natijasi nima?\n[10,2].sort() default",
       "opts": [
         "[2,10]",
         "[10,2] string tartib",
@@ -465,7 +465,7 @@
     },
     {
       "id": "aso-mcq-15-024",
-      "q": "flat()?",
+      "q": "Quyidagi kodning natijasi nima?\nflat()",
       "opts": [
         "Saralaydi",
         "Ichki massivlarni yoyadi",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-15-025",
-      "q": "includes(NaN)?",
+      "q": "Quyidagi kodning natijasi nima?\nincludes(NaN)",
       "opts": [
         "false",
         "true",
@@ -565,7 +565,7 @@
     },
     {
       "id": "aso-mcq-15-029",
-      "q": "[1,2,3].map(x=>x*2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-15-030",
-      "q": "[1,2,3,4].filter(x=>x>2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-15-031",
-      "q": "[1,2,3].find(x=>x>1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].find(x=>x>1)",
       "opts": [
         "1",
         "2",
@@ -625,7 +625,7 @@
     },
     {
       "id": "aso-mcq-15-032",
-      "q": "[1,2,3].includes(2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].includes(2)",
       "opts": [
         "true",
         "false",
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-15-033",
-      "q": "[1,2,3].slice(1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].slice(1)",
       "opts": [
         "[1]",
         "[2,3]",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-15-034",
-      "q": "[1,2,3].splice(1,1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].splice(1,1)",
       "opts": [
         "[1,3]",
         "massivni o'zgartiradi",
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-15-035",
-      "q": "[1,2].concat([3,4])?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2].concat([3,4])",
       "opts": [
         "[1,2,3,4]",
         "[1,2],[3,4]",
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-15-037",
-      "q": "[1,2,3].reduce((a,b)=>a+b,0)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].reduce((a,b)=>a+b,0)",
       "opts": [
         "6",
         "0",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-15-038",
-      "q": "[1,2,3].length (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 1)",
       "opts": [
         "2",
         "3",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-15-041",
-      "q": "[1,2,3].map(x=>x*2) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 1)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-15-042",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 1)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-15-043",
-      "q": "[1,2,3].length (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 2)",
       "opts": [
         "2",
         "3",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-15-046",
-      "q": "[1,2,3].map(x=>x*2) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-15-047",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-15-048",
-      "q": "[1,2,3].length (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 3)",
       "opts": [
         "2",
         "3",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-15-051",
-      "q": "[1,2,3].map(x=>x*2) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 3)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-15-052",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 3)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-15-053",
-      "q": "[1,2,3].length (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 4)",
       "opts": [
         "2",
         "3",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-15-056",
-      "q": "[1,2,3].map(x=>x*2) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 4)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-15-057",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 4)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-15-058",
-      "q": "[1,2,3].length (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 5)",
       "opts": [
         "2",
         "3",

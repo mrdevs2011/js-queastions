@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-21-007",
-      "q": "while (x) to'xtash?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (x) to'xtash",
       "opts": [
         "true",
         "falsy",
@@ -205,7 +205,7 @@
     },
     {
       "id": "aso-mcq-21-011",
-      "q": "while (arr.length) pop?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (arr.length) pop",
       "opts": [
         "Hech narsa",
         "Bo'shatadi",
@@ -225,7 +225,7 @@
     },
     {
       "id": "aso-mcq-21-012",
-      "q": "do while(false)?",
+      "q": "Quyidagi kodning natijasi nima?\ndo while(false)",
       "opts": [
         "0",
         "1",
@@ -325,7 +325,7 @@
     },
     {
       "id": "aso-mcq-21-017",
-      "q": "while (x) to'xtash?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (x) to'xtash",
       "opts": [
         "true",
         "falsy",
@@ -405,7 +405,7 @@
     },
     {
       "id": "aso-mcq-21-021",
-      "q": "while (arr.length) pop?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (arr.length) pop",
       "opts": [
         "Hech narsa",
         "Bo'shatadi",
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-21-022",
-      "q": "do while(false)?",
+      "q": "Quyidagi kodning natijasi nima?\ndo while(false)",
       "opts": [
         "0",
         "1",
@@ -505,7 +505,7 @@
     },
     {
       "id": "aso-mcq-21-026",
-      "q": "while (false) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-21-034",
-      "q": "let i=0; while(i<3){i++} oxirida i?",
+      "q": "Quyidagi kodning natijasi nima?\nlet i=0; while(i<3){i++} oxirida i",
       "opts": [
         "2",
         "3",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-21-036",
-      "q": "while (false) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 1)",
       "opts": [
         "ha",
         "yo'q",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-21-041",
-      "q": "while (false) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 2)",
       "opts": [
         "ha",
         "yo'q",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-21-046",
-      "q": "while (false) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 3)",
       "opts": [
         "ha",
         "yo'q",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-21-051",
-      "q": "while (false) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 4)",
       "opts": [
         "ha",
         "yo'q",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-21-056",
-      "q": "while (false) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 5)",
       "opts": [
         "ha",
         "yo'q",
@@ -1205,7 +1205,7 @@
     },
     {
       "id": "aso-mcq-21-m20-026",
-      "q": "while (false) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -1245,7 +1245,7 @@
     },
     {
       "id": "aso-mcq-21-m20-034",
-      "q": "let i=0; while(i<3){i++} oxirida i?",
+      "q": "Quyidagi kodning natijasi nima?\nlet i=0; while(i<3){i++} oxirida i",
       "opts": [
         "2",
         "3",
@@ -1265,7 +1265,7 @@
     },
     {
       "id": "aso-mcq-21-m20-036",
-      "q": "while (false) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 1)",
       "opts": [
         "ha",
         "yo'q",
@@ -1305,7 +1305,7 @@
     },
     {
       "id": "aso-mcq-21-m20-041",
-      "q": "while (false) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 2)",
       "opts": [
         "ha",
         "yo'q",
@@ -1345,7 +1345,7 @@
     },
     {
       "id": "aso-mcq-21-m20-046",
-      "q": "while (false) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 3)",
       "opts": [
         "ha",
         "yo'q",
@@ -1385,7 +1385,7 @@
     },
     {
       "id": "aso-mcq-21-m20-051",
-      "q": "while (false) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 4)",
       "opts": [
         "ha",
         "yo'q",
@@ -1425,7 +1425,7 @@
     },
     {
       "id": "aso-mcq-21-m20-056",
-      "q": "while (false) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 5)",
       "opts": [
         "ha",
         "yo'q",

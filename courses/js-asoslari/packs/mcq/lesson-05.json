@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "aso-mcq-5-001",
-      "q": "typeof 10 nechiga teng?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof 10 nechiga teng",
       "opts": [
         "\"number\"",
         "\"int\"",
@@ -45,7 +45,7 @@
     },
     {
       "id": "aso-mcq-5-003",
-      "q": "typeof \"Salom\" natijasi?",
+      "q": "typeof \"Salom\" nima qaytaradi?",
       "opts": [
         "\"text\"",
         "\"string\"",
@@ -53,7 +53,7 @@
         "\"char\""
       ],
       "correct": 1,
-      "exp": "Satırlar 'string' turiga tegishli.",
+      "exp": "Matn (string) turi — typeof \"Salom\" → \"string\".",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -65,7 +65,7 @@
     },
     {
       "id": "aso-mcq-5-004",
-      "q": "typeof true natijasi?",
+      "q": "typeof true nima qaytaradi?",
       "opts": [
         "\"true\"",
         "\"boolean\"",
@@ -73,7 +73,7 @@
         "\"number\""
       ],
       "correct": 1,
-      "exp": "true/false — boolean turi.",
+      "exp": "typeof true → \"boolean\".",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -105,15 +105,15 @@
     },
     {
       "id": "aso-mcq-5-006",
-      "q": "typeof NaN?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "NaN",
-        "number",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 1,
-      "exp": "NaN — number turi.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-5-007",
-      "q": "Symbol nima uchun?",
+      "q": "Symbol turi asosan nima uchun ishlatiladi?",
       "opts": [
         "Matn",
         "Noyob identifikator",
@@ -133,7 +133,7 @@
         "HTML"
       ],
       "correct": 1,
-      "exp": "Unique qiymatlar.",
+      "exp": "Noyob (unique) identifikator yaratish uchun — odatda obyekt kalitlari uchun.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -153,7 +153,7 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Katta butun sonlar.",
+      "exp": "Juda katta butun sonlar uchun maxsus tur (ordinary number chegarasidan katta).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "aso-mcq-5-009",
-      "q": "typeof (()=>{})?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof (()=>{})",
       "opts": [
         "object",
         "function",
@@ -185,7 +185,7 @@
     },
     {
       "id": "aso-mcq-5-010",
-      "q": "Object va primitive farqi?",
+      "q": "Object va primitive qiymatlarning asosiy farqi nima?",
       "opts": [
         "Yo'q",
         "Primitive qiymat, object reference",
@@ -193,7 +193,7 @@
         "Primitive faqat string"
       ],
       "correct": 1,
-      "exp": "Reference vs value.",
+      "exp": "Primitive (number, string, boolean...) oddiy qiymat; object esa xususiyatlar to'plami (reference).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -205,7 +205,7 @@
     },
     {
       "id": "aso-mcq-5-011",
-      "q": "null qachon?",
+      "q": "null qiymati odatda qachon ishlatiladi?",
       "opts": [
         "Har doim",
         "Qasddan bo'sh qiymat",
@@ -213,7 +213,7 @@
         "Faqat string"
       ],
       "correct": 1,
-      "exp": "Ataylab bo'sh.",
+      "exp": "Dasturchi ataylab 'bo'sh' qiymat belgilash uchun null qo'yadi.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -225,15 +225,15 @@
     },
     {
       "id": "aso-mcq-5-012",
-      "q": "undefined qachon?",
+      "q": "O'zgaruvchi qachon undefined bo'ladi?",
       "opts": [
-        "Faqat xato",
-        "Qiymat berilmaganda",
-        "Faqat null keyin",
+        "Faqat xato bo'lganda",
+        "Qiymat berilmaganda yoki funksiya hech narsa qaytarmaganda",
+        "Faqat null bilan",
         "Hech qachon"
       ],
       "correct": 1,
-      "exp": "Qiymat yo'q.",
+      "exp": "Qiymat berilmagan o'zgaruvchi yoki return siz funksiya undefined beradi.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-5-013",
-      "q": "Array.isArray({})?",
+      "q": "Quyidagi kodning natijasi nima?\nArray.isArray({})",
       "opts": [
         "true",
         "false",
@@ -265,7 +265,7 @@
     },
     {
       "id": "aso-mcq-5-014",
-      "q": "typeof document (brauzer)?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof document (brauzer)",
       "opts": [
         "html",
         "object",
@@ -285,15 +285,15 @@
     },
     {
       "id": "aso-mcq-5-015",
-      "q": "typeof NaN?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "NaN",
-        "number",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 1,
-      "exp": "NaN — number turi.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -305,7 +305,7 @@
     },
     {
       "id": "aso-mcq-5-016",
-      "q": "Symbol nima uchun?",
+      "q": "Symbol turi asosan nima uchun ishlatiladi?",
       "opts": [
         "Matn",
         "Noyob identifikator",
@@ -313,7 +313,7 @@
         "HTML"
       ],
       "correct": 1,
-      "exp": "Unique qiymatlar.",
+      "exp": "Noyob (unique) identifikator yaratish uchun — odatda obyekt kalitlari uchun.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -333,7 +333,7 @@
         "Boolean"
       ],
       "correct": 1,
-      "exp": "Katta butun sonlar.",
+      "exp": "Juda katta butun sonlar uchun maxsus tur (ordinary number chegarasidan katta).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "aso-mcq-5-018",
-      "q": "typeof (()=>{})?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof (()=>{})",
       "opts": [
         "object",
         "function",
@@ -365,7 +365,7 @@
     },
     {
       "id": "aso-mcq-5-019",
-      "q": "Object va primitive farqi?",
+      "q": "Object va primitive qiymatlarning asosiy farqi nima?",
       "opts": [
         "Yo'q",
         "Primitive qiymat, object reference",
@@ -373,7 +373,7 @@
         "Primitive faqat string"
       ],
       "correct": 1,
-      "exp": "Reference vs value.",
+      "exp": "Primitive (number, string, boolean...) oddiy qiymat; object esa xususiyatlar to'plami (reference).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -385,7 +385,7 @@
     },
     {
       "id": "aso-mcq-5-020",
-      "q": "null qachon?",
+      "q": "null qiymati odatda qachon ishlatiladi?",
       "opts": [
         "Har doim",
         "Qasddan bo'sh qiymat",
@@ -393,7 +393,7 @@
         "Faqat string"
       ],
       "correct": 1,
-      "exp": "Ataylab bo'sh.",
+      "exp": "Dasturchi ataylab 'bo'sh' qiymat belgilash uchun null qo'yadi.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -405,15 +405,15 @@
     },
     {
       "id": "aso-mcq-5-021",
-      "q": "undefined qachon?",
+      "q": "O'zgaruvchi qachon undefined bo'ladi?",
       "opts": [
-        "Faqat xato",
-        "Qiymat berilmaganda",
-        "Faqat null keyin",
+        "Faqat xato bo'lganda",
+        "Qiymat berilmaganda yoki funksiya hech narsa qaytarmaganda",
+        "Faqat null bilan",
         "Hech qachon"
       ],
       "correct": 1,
-      "exp": "Qiymat yo'q.",
+      "exp": "Qiymat berilmagan o'zgaruvchi yoki return siz funksiya undefined beradi.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-5-022",
-      "q": "Array.isArray({})?",
+      "q": "Quyidagi kodning natijasi nima?\nArray.isArray({})",
       "opts": [
         "true",
         "false",
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-5-023",
-      "q": "typeof document (brauzer)?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof document (brauzer)",
       "opts": [
         "html",
         "object",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-5-025",
-      "q": "typeof null natijasi?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -493,7 +493,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -505,7 +505,7 @@
     },
     {
       "id": "aso-mcq-5-026",
-      "q": "typeof [] natijasi?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -513,7 +513,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -525,15 +525,15 @@
     },
     {
       "id": "aso-mcq-5-027",
-      "q": "NaN nima?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -545,15 +545,15 @@
     },
     {
       "id": "aso-mcq-5-028",
-      "q": "typeof NaN?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -565,7 +565,7 @@
     },
     {
       "id": "aso-mcq-5-029",
-      "q": "Boolean(0) natijasi?",
+      "q": "Boolean(0) nima qaytaradi?",
       "opts": [
         "true",
         "false",
@@ -573,7 +573,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "0 — falsy qiymat.",
+      "exp": "0 falsy qiymat — Boolean(0) → false.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-5-033",
-      "q": "typeof function(){} ?",
+      "q": "Quyidagi kodning natijasi nima?\ntypeof function(){}",
       "opts": [
         "function",
         "object",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-5-034",
-      "q": "JS da nechta primitive type bor (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 1)",
       "opts": [
         "5",
         "6",
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-5-035",
-      "q": "typeof null natijasi (misol 1)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -693,7 +693,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-5-036",
-      "q": "typeof [] natijasi (misol 1)?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -713,7 +713,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -725,15 +725,15 @@
     },
     {
       "id": "aso-mcq-5-037",
-      "q": "NaN nima (misol 1)?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -745,15 +745,15 @@
     },
     {
       "id": "aso-mcq-5-038",
-      "q": "typeof NaN (misol 1)?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -765,7 +765,7 @@
     },
     {
       "id": "aso-mcq-5-039",
-      "q": "JS da nechta primitive type bor (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 2)",
       "opts": [
         "5",
         "6",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-5-040",
-      "q": "typeof null natijasi (misol 2)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -793,7 +793,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-5-041",
-      "q": "typeof [] natijasi (misol 2)?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -813,7 +813,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -825,15 +825,15 @@
     },
     {
       "id": "aso-mcq-5-042",
-      "q": "NaN nima (misol 2)?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 1,
       "category": "data-types",
       "tags": [
@@ -845,15 +845,15 @@
     },
     {
       "id": "aso-mcq-5-043",
-      "q": "typeof NaN (misol 2)?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -865,7 +865,7 @@
     },
     {
       "id": "aso-mcq-5-044",
-      "q": "JS da nechta primitive type bor (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 3)",
       "opts": [
         "5",
         "6",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-5-045",
-      "q": "typeof null natijasi (misol 3)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -893,7 +893,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-5-046",
-      "q": "typeof [] natijasi (misol 3)?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -913,7 +913,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -925,15 +925,15 @@
     },
     {
       "id": "aso-mcq-5-047",
-      "q": "NaN nima (misol 3)?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -945,15 +945,15 @@
     },
     {
       "id": "aso-mcq-5-048",
-      "q": "typeof NaN (misol 3)?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -965,7 +965,7 @@
     },
     {
       "id": "aso-mcq-5-049",
-      "q": "JS da nechta primitive type bor (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 4)",
       "opts": [
         "5",
         "6",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-5-050",
-      "q": "typeof null natijasi (misol 4)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -993,7 +993,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-5-051",
-      "q": "typeof [] natijasi (misol 4)?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -1013,7 +1013,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1025,15 +1025,15 @@
     },
     {
       "id": "aso-mcq-5-052",
-      "q": "NaN nima (misol 4)?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1045,15 +1045,15 @@
     },
     {
       "id": "aso-mcq-5-053",
-      "q": "typeof NaN (misol 4)?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "aso-mcq-5-054",
-      "q": "JS da nechta primitive type bor (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 5)",
       "opts": [
         "5",
         "6",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-5-055",
-      "q": "typeof null natijasi (misol 5)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -1093,7 +1093,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-5-056",
-      "q": "typeof [] natijasi (misol 5)?",
+      "q": "typeof [] nima qaytaradi?",
       "opts": [
         "array",
         "object",
@@ -1113,7 +1113,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "Array ham object hisoblanadi.",
+      "exp": "Massiv ham obyekt: typeof [] → 'object'. Array.isArray([]) bilan tekshiriladi.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1125,15 +1125,15 @@
     },
     {
       "id": "aso-mcq-5-057",
-      "q": "NaN nima (misol 5)?",
+      "q": "NaN nima degani?",
       "opts": [
-        "Not a Number",
-        "null",
-        "undefined",
+        "Oddiy son",
+        "Not a Number — son emas degan maxsus qiymat",
+        "null bilan bir xil",
         "0"
       ],
       "correct": 0,
-      "exp": "Not a Number — son bo'lmagan qiymat.",
+      "exp": "NaN (Not a Number) — sonli amal muvaffaqiyatsiz bo'lganda chiqadigan maxsus qiymat.",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1145,15 +1145,15 @@
     },
     {
       "id": "aso-mcq-5-058",
-      "q": "typeof NaN (misol 5)?",
+      "q": "typeof NaN nima qaytaradi?",
       "opts": [
-        "number",
-        "NaN",
-        "undefined",
-        "object"
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\"",
+        "\"object\""
       ],
       "correct": 0,
-      "exp": "typeof NaN === 'number'.",
+      "exp": "Garchi 'son emas' bo'lsa ham, typeof NaN → 'number' (JS ning o'ziga xos tomoni).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "aso-mcq-5-059",
-      "q": "JS da nechta primitive type bor (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nJS da nechta primitive type bor (misol 6)",
       "opts": [
         "5",
         "6",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-5-060",
-      "q": "typeof null natijasi (misol 6)?",
+      "q": "typeof null nima qaytaradi?",
       "opts": [
         "null",
         "object",
@@ -1193,7 +1193,7 @@
         "number"
       ],
       "correct": 1,
-      "exp": "typeof null === 'object' (tarixiy xato).",
+      "exp": "typeof null → 'object' (JS dagi tarixiy xato/xususiyat).",
       "difficulty": 2,
       "category": "data-types",
       "tags": [

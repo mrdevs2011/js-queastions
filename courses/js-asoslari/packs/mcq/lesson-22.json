@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-22-025",
-      "q": "if (0) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-22-030",
-      "q": "if (null) ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (null) ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-22-031",
-      "q": "switch (x) { case 1: ...} da x tipi?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (x) { case 1: ...} da x tipi",
       "opts": [
         "faqat number",
         "har qanday",
@@ -665,15 +665,15 @@
     },
     {
       "id": "aso-mcq-22-034",
-      "q": "nested if nima?",
+      "q": "nested if (ichma-ich if) nima degani?",
       "opts": [
-        "bitta if",
-        "if ichida if",
-        "switch",
-        "loop"
+        "Bitta if operatori",
+        "if bloki ichida yana if yozish",
+        "switch operatori",
+        "for yoki while sikli"
       ],
       "correct": 1,
-      "exp": "If ichida yana if yozish.",
+      "exp": "Nested if — if ichida yana if yozish. Masalan: if (a) { if (b) { ... } }",
       "difficulty": 3,
       "category": "control-flow",
       "tags": [
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-22-035",
-      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 1)",
       "opts": [
         "ha",
         "yo'q",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-22-036",
-      "q": "ternary operator sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 1)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-22-037",
-      "q": "switch da break bo'lmasa (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 1)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-22-038",
-      "q": "if/else if/else da nechta shart (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 1)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-22-040",
-      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 2)",
       "opts": [
         "ha",
         "yo'q",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-22-041",
-      "q": "ternary operator sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 2)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-22-042",
-      "q": "switch da break bo'lmasa (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 2)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-22-043",
-      "q": "if/else if/else da nechta shart (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 2)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-22-045",
-      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 3)",
       "opts": [
         "ha",
         "yo'q",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-22-046",
-      "q": "ternary operator sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 3)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-22-047",
-      "q": "switch da break bo'lmasa (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 3)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-22-048",
-      "q": "if/else if/else da nechta shart (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 3)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-22-050",
-      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 4)",
       "opts": [
         "ha",
         "yo'q",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-22-051",
-      "q": "ternary operator sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 4)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-22-052",
-      "q": "switch da break bo'lmasa (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 4)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-22-053",
-      "q": "if/else if/else da nechta shart (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 4)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-22-055",
-      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 5)",
       "opts": [
         "ha",
         "yo'q",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-22-056",
-      "q": "ternary operator sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 5)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-22-057",
-      "q": "switch da break bo'lmasa (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 5)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-22-058",
-      "q": "if/else if/else da nechta shart (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 5)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-22-060",
-      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 6)",
       "opts": [
         "ha",
         "yo'q",

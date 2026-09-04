@@ -13,7 +13,7 @@
         "Xato beradi"
       ],
       "correct": 1,
-      "exp": "4*4=16.",
+      "exp": "To'g'ri javob: 16.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
@@ -485,15 +485,15 @@
     },
     {
       "id": "aso-mcq-12-025",
-      "q": "Function declaration sintaksisi?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -545,15 +545,15 @@
     },
     {
       "id": "aso-mcq-12-028",
-      "q": "Default parameter misoli?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -685,15 +685,15 @@
     },
     {
       "id": "aso-mcq-12-035",
-      "q": "Function declaration sintaksisi (misol 1)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -745,15 +745,15 @@
     },
     {
       "id": "aso-mcq-12-038",
-      "q": "Default parameter misoli (misol 1)?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -765,7 +765,7 @@
     },
     {
       "id": "aso-mcq-12-039",
-      "q": "Rest parameter sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 1)",
       "opts": [
         "...args",
         "*args",
@@ -785,15 +785,15 @@
     },
     {
       "id": "aso-mcq-12-040",
-      "q": "Function declaration sintaksisi (misol 2)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -845,15 +845,15 @@
     },
     {
       "id": "aso-mcq-12-043",
-      "q": "Default parameter misoli (misol 2)?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -865,7 +865,7 @@
     },
     {
       "id": "aso-mcq-12-044",
-      "q": "Rest parameter sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 2)",
       "opts": [
         "...args",
         "*args",
@@ -885,15 +885,15 @@
     },
     {
       "id": "aso-mcq-12-045",
-      "q": "Function declaration sintaksisi (misol 3)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
@@ -945,15 +945,15 @@
     },
     {
       "id": "aso-mcq-12-048",
-      "q": "Default parameter misoli (misol 3)?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
@@ -965,7 +965,7 @@
     },
     {
       "id": "aso-mcq-12-049",
-      "q": "Rest parameter sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 3)",
       "opts": [
         "...args",
         "*args",
@@ -985,15 +985,15 @@
     },
     {
       "id": "aso-mcq-12-050",
-      "q": "Function declaration sintaksisi (misol 4)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
@@ -1045,15 +1045,15 @@
     },
     {
       "id": "aso-mcq-12-053",
-      "q": "Default parameter misoli (misol 4)?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "aso-mcq-12-054",
-      "q": "Rest parameter sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 4)",
       "opts": [
         "...args",
         "*args",
@@ -1085,15 +1085,15 @@
     },
     {
       "id": "aso-mcq-12-055",
-      "q": "Function declaration sintaksisi (misol 5)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
@@ -1145,15 +1145,15 @@
     },
     {
       "id": "aso-mcq-12-058",
-      "q": "Default parameter misoli (misol 5)?",
+      "q": "Default parametrning to'g'ri yozilishi qaysi?",
       "opts": [
-        "function f(a=1)",
-        "function f(a:1)",
-        "function f(a==1)",
-        "function f(a:=1)"
+        "function f(a = 1) {}",
+        "function f(a:1) {}",
+        "function f(a==1) {}",
+        "function f(a:=1) {}"
       ],
       "correct": 0,
-      "exp": "a = 1 ko'rinishida.",
+      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "aso-mcq-12-059",
-      "q": "Rest parameter sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 5)",
       "opts": [
         "...args",
         "*args",
@@ -1185,15 +1185,15 @@
     },
     {
       "id": "aso-mcq-12-060",
-      "q": "Function declaration sintaksisi (misol 6)?",
+      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
       "opts": [
         "function name() {}",
         "let name = () => {}",
         "const name = function() {}",
-        "hammasi to'g'ri"
+        "hammasi to'g'ri usul, lekin declaration — function name() {}"
       ],
       "correct": 3,
-      "exp": "Bir necha usul mavjud.",
+      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
       "difficulty": 3,
       "category": "functions",
       "tags": [

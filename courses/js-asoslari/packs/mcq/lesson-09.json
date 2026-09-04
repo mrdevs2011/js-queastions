@@ -105,7 +105,7 @@
     },
     {
       "id": "aso-mcq-9-006",
-      "q": "true || heavy() — heavy chaqiladimi?",
+      "q": "Quyidagi kodning natijasi nima?\ntrue || heavy() — heavy chaqiladimi",
       "opts": [
         "Ha",
         "Yo'q",
@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-9-007",
-      "q": "false && heavy() — heavy?",
+      "q": "Quyidagi kodning natijasi nima?\nfalse && heavy() — heavy",
       "opts": [
         "Ha",
         "Yo'q",
@@ -225,7 +225,7 @@
     },
     {
       "id": "aso-mcq-9-012",
-      "q": "!!0?",
+      "q": "!!0 ifodasining natijasi nima? (!! — boolean ga o'tkazish)",
       "opts": [
         "true",
         "false",
@@ -233,7 +233,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "0 falsy.",
+      "exp": "0 falsy qiymat. Birinchi ! uni true qiladi, ikkinchi ! yana false qiladi. Natija: false.",
       "difficulty": 2,
       "category": "operators",
       "tags": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-9-015",
-      "q": "!(x > 5) ekvivalenti?",
+      "q": "!(x > 5) ifodasi qaysi ifodaga teng?",
       "opts": [
         "x > 5",
         "x <= 5",
@@ -293,7 +293,7 @@
         "x == 5"
       ],
       "correct": 1,
-      "exp": "Inkor.",
+      "exp": "Inkor: x 5 dan katta emas degani — x <= 5.",
       "difficulty": 2,
       "category": "operators",
       "tags": [
@@ -305,7 +305,7 @@
     },
     {
       "id": "aso-mcq-9-016",
-      "q": "true || heavy() — heavy chaqiladimi?",
+      "q": "Quyidagi kodning natijasi nima?\ntrue || heavy() — heavy chaqiladimi",
       "opts": [
         "Ha",
         "Yo'q",
@@ -325,7 +325,7 @@
     },
     {
       "id": "aso-mcq-9-017",
-      "q": "false && heavy() — heavy?",
+      "q": "Quyidagi kodning natijasi nima?\nfalse && heavy() — heavy",
       "opts": [
         "Ha",
         "Yo'q",
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-9-022",
-      "q": "!!0?",
+      "q": "!!0 ifodasining natijasi nima? (!! — boolean ga o'tkazish)",
       "opts": [
         "true",
         "false",
@@ -433,7 +433,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "0 falsy.",
+      "exp": "0 falsy qiymat. Birinchi ! uni true qiladi, ikkinchi ! yana false qiladi. Natija: false.",
       "difficulty": 3,
       "category": "operators",
       "tags": [
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-9-025",
-      "q": "!(x > 5) ekvivalenti?",
+      "q": "!(x > 5) ifodasi qaysi ifodaga teng?",
       "opts": [
         "x > 5",
         "x <= 5",
@@ -493,7 +493,7 @@
         "x == 5"
       ],
       "correct": 1,
-      "exp": "Inkor.",
+      "exp": "Inkor: x 5 dan katta emas degani — x <= 5.",
       "difficulty": 3,
       "category": "operators",
       "tags": [

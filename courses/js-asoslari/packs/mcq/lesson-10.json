@@ -45,7 +45,7 @@
     },
     {
       "id": "aso-mcq-10-003",
-      "q": "Boolean(0) natijasi?",
+      "q": "Boolean(0) nima qaytaradi?",
       "opts": [
         "true",
         "false",
@@ -53,7 +53,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "0, \"\", null, undefined, NaN — falsy qiymatlar.",
+      "exp": "0 falsy qiymat — Boolean(0) → false.",
       "difficulty": 1,
       "category": "type-conversion",
       "tags": [
@@ -105,7 +105,7 @@
     },
     {
       "id": "aso-mcq-10-006",
-      "q": "parseFloat('3.14abc')?",
+      "q": "parseFloat('3.14abc') nima qaytaradi?",
       "opts": [
         "NaN",
         "3.14",
@@ -113,7 +113,7 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi kasr.",
+      "exp": "parseFloat boshidagi kasr sonni oladi: 3.14.",
       "difficulty": 1,
       "category": "type-conversion",
       "tags": [
@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-10-007",
-      "q": "Boolean('false')?",
+      "q": "Boolean('false') nima qaytaradi?",
       "opts": [
         "false",
         "true",
@@ -133,7 +133,7 @@
         "false (string)"
       ],
       "correct": 1,
-      "exp": "Bo'sh bo'lmagan satr truthy.",
+      "exp": "Bo'sh bo'lmagan har qanday satr truthy — 'false' satri ham true.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "aso-mcq-10-008",
-      "q": "Number(undefined)?",
+      "q": "Number(undefined) nima qaytaradi?",
       "opts": [
         "0",
         "NaN",
@@ -153,7 +153,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "NaN.",
+      "exp": "undefined ni songa o'tkazib bo'lmaydi — natija NaN.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "aso-mcq-10-009",
-      "q": "Number(null)?",
+      "q": "Number(null) nima qaytaradi?",
       "opts": [
         "NaN",
         "0",
@@ -173,7 +173,7 @@
         "1"
       ],
       "correct": 1,
-      "exp": "0.",
+      "exp": "Number(null) → 0 (maxsus qoida).",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -185,7 +185,7 @@
     },
     {
       "id": "aso-mcq-10-010",
-      "q": "'' == false?",
+      "q": "'' == false taqqoslashining natijasi nima?",
       "opts": [
         "false",
         "true",
@@ -193,7 +193,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "== coercion.",
+      "exp": "== operator tipi o'zgartiradi (coercion); bo'sh satr va false teng deb hisoblanadi.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -205,7 +205,7 @@
     },
     {
       "id": "aso-mcq-10-011",
-      "q": "'' === false?",
+      "q": "'' === false taqqoslashining natijasi nima?",
       "opts": [
         "true",
         "false",
@@ -213,7 +213,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qat'iy tenglik.",
+      "exp": "=== qat'iy tenglik — turlar farq qilsa (string vs boolean) false.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -225,15 +225,15 @@
     },
     {
       "id": "aso-mcq-10-012",
-      "q": "String(null)?",
+      "q": "String(null) nima qaytaradi?",
       "opts": [
-        "null",
-        "null (string)",
-        "",
+        "null (qiymat)",
+        "\"null\" satri",
+        "bo'sh satr ''",
         "undefined"
       ],
       "correct": 1,
-      "exp": "'null' satri.",
+      "exp": "String(null) → 'null' (matn).",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -245,7 +245,7 @@
     },
     {
       "id": "aso-mcq-10-013",
-      "q": "+'false' (unary)?",
+      "q": "Quyidagi kodning natijasi nima?\n+'false' (unary)",
       "opts": [
         "false",
         "NaN",
@@ -265,7 +265,7 @@
     },
     {
       "id": "aso-mcq-10-014",
-      "q": "parseInt('42px')?",
+      "q": "parseInt('42px') nima qaytaradi?",
       "opts": [
         "NaN",
         "42",
@@ -273,7 +273,7 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi son.",
+      "exp": "parseInt boshidagi sonni oladi: 42. Keyingi 'px' to'xtatadi.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-10-015",
-      "q": "!![] ?",
+      "q": "!![] ifodasining natijasi nima?",
       "opts": [
         "false",
         "true",
@@ -293,7 +293,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Bo'sh massiv truthy.",
+      "exp": "Bo'sh massiv [] truthy hisoblanadi, shuning uchun !![] → true.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -305,7 +305,7 @@
     },
     {
       "id": "aso-mcq-10-016",
-      "q": "parseFloat('3.14abc')?",
+      "q": "parseFloat('3.14abc') nima qaytaradi?",
       "opts": [
         "NaN",
         "3.14",
@@ -313,7 +313,7 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi kasr.",
+      "exp": "parseFloat boshidagi kasr sonni oladi: 3.14.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -325,7 +325,7 @@
     },
     {
       "id": "aso-mcq-10-017",
-      "q": "Boolean('false')?",
+      "q": "Boolean('false') nima qaytaradi?",
       "opts": [
         "false",
         "true",
@@ -333,7 +333,7 @@
         "false (string)"
       ],
       "correct": 1,
-      "exp": "Bo'sh bo'lmagan satr truthy.",
+      "exp": "Bo'sh bo'lmagan har qanday satr truthy — 'false' satri ham true.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "aso-mcq-10-018",
-      "q": "Number(undefined)?",
+      "q": "Number(undefined) nima qaytaradi?",
       "opts": [
         "0",
         "NaN",
@@ -353,7 +353,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "NaN.",
+      "exp": "undefined ni songa o'tkazib bo'lmaydi — natija NaN.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -365,7 +365,7 @@
     },
     {
       "id": "aso-mcq-10-019",
-      "q": "Number(null)?",
+      "q": "Number(null) nima qaytaradi?",
       "opts": [
         "NaN",
         "0",
@@ -373,7 +373,7 @@
         "1"
       ],
       "correct": 1,
-      "exp": "0.",
+      "exp": "Number(null) → 0 (maxsus qoida).",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -385,7 +385,7 @@
     },
     {
       "id": "aso-mcq-10-020",
-      "q": "'' == false?",
+      "q": "'' == false taqqoslashining natijasi nima?",
       "opts": [
         "false",
         "true",
@@ -393,7 +393,7 @@
         "undefined"
       ],
       "correct": 1,
-      "exp": "== coercion.",
+      "exp": "== operator tipi o'zgartiradi (coercion); bo'sh satr va false teng deb hisoblanadi.",
       "difficulty": 3,
       "category": "type-conversion",
       "tags": [
@@ -405,7 +405,7 @@
     },
     {
       "id": "aso-mcq-10-021",
-      "q": "'' === false?",
+      "q": "'' === false taqqoslashining natijasi nima?",
       "opts": [
         "true",
         "false",
@@ -413,7 +413,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Qat'iy tenglik.",
+      "exp": "=== qat'iy tenglik — turlar farq qilsa (string vs boolean) false.",
       "difficulty": 3,
       "category": "type-conversion",
       "tags": [
@@ -425,15 +425,15 @@
     },
     {
       "id": "aso-mcq-10-022",
-      "q": "String(null)?",
+      "q": "String(null) nima qaytaradi?",
       "opts": [
-        "null",
-        "null (string)",
-        "",
+        "null (qiymat)",
+        "\"null\" satri",
+        "bo'sh satr ''",
         "undefined"
       ],
       "correct": 1,
-      "exp": "'null' satri.",
+      "exp": "String(null) → 'null' (matn).",
       "difficulty": 3,
       "category": "type-conversion",
       "tags": [
@@ -445,7 +445,7 @@
     },
     {
       "id": "aso-mcq-10-023",
-      "q": "+'false' (unary)?",
+      "q": "Quyidagi kodning natijasi nima?\n+'false' (unary)",
       "opts": [
         "false",
         "NaN",
@@ -465,7 +465,7 @@
     },
     {
       "id": "aso-mcq-10-024",
-      "q": "parseInt('42px')?",
+      "q": "parseInt('42px') nima qaytaradi?",
       "opts": [
         "NaN",
         "42",
@@ -473,7 +473,7 @@
         "0"
       ],
       "correct": 1,
-      "exp": "Boshidagi son.",
+      "exp": "parseInt boshidagi sonni oladi: 42. Keyingi 'px' to'xtatadi.",
       "difficulty": 3,
       "category": "type-conversion",
       "tags": [
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-10-025",
-      "q": "!![] ?",
+      "q": "!![] ifodasining natijasi nima?",
       "opts": [
         "false",
         "true",
@@ -493,7 +493,7 @@
         "null"
       ],
       "correct": 1,
-      "exp": "Bo'sh massiv truthy.",
+      "exp": "Bo'sh massiv [] truthy hisoblanadi, shuning uchun !![] → true.",
       "difficulty": 3,
       "category": "type-conversion",
       "tags": [
@@ -625,7 +625,7 @@
     },
     {
       "id": "aso-mcq-10-032",
-      "q": "parseFloat('3.14abc')?",
+      "q": "parseFloat('3.14abc') nima qaytaradi?",
       "opts": [
         "NaN",
         "3.14",
@@ -633,7 +633,7 @@
         "0"
       ],
       "correct": 1,
-      "exp": "parseFloat o'nlik sonni oladi.",
+      "exp": "parseFloat boshidagi kasr sonni oladi: 3.14.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-10-034",
-      "q": "null == undefined?",
+      "q": "null == undefined taqqoslashining natijasi nima?",
       "opts": [
         "true",
         "false",
@@ -673,7 +673,7 @@
         "NaN"
       ],
       "correct": 0,
-      "exp": "null == undefined true (faqat == da).",
+      "exp": "Faqat == da null va undefined teng deb hisoblanadi. === da false.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [

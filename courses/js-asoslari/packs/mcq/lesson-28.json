@@ -253,7 +253,7 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Touch.",
+      "exp": "To'g'ri javob: Mobil sensor.",
       "difficulty": 3,
       "category": "events",
       "tags": [
@@ -453,7 +453,7 @@
         "Xato"
       ],
       "correct": 1,
-      "exp": "Touch.",
+      "exp": "To'g'ri javob: Mobil sensor.",
       "difficulty": 3,
       "category": "events",
       "tags": [
@@ -505,7 +505,7 @@
     },
     {
       "id": "aso-mcq-28-026",
-      "q": "element.addEventListener('click', fn) ?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -545,7 +545,7 @@
     },
     {
       "id": "aso-mcq-28-028",
-      "q": "event.stopPropagation()?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation()",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-28-036",
-      "q": "element.addEventListener('click', fn)  (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 1)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-28-038",
-      "q": "event.stopPropagation() (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 1)",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-28-040",
-      "q": "'DOMContentLoaded' qachon (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 1)",
       "opts": [
         "hamma resurs yuklanganda",
         "HTML parse bo'lganda",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-28-041",
-      "q": "element.addEventListener('click', fn)  (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 2)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-28-043",
-      "q": "event.stopPropagation() (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 2)",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-28-045",
-      "q": "'DOMContentLoaded' qachon (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 2)",
       "opts": [
         "hamma resurs yuklanganda",
         "HTML parse bo'lganda",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-28-046",
-      "q": "element.addEventListener('click', fn)  (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 3)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-28-048",
-      "q": "event.stopPropagation() (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 3)",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-28-050",
-      "q": "'DOMContentLoaded' qachon (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 3)",
       "opts": [
         "hamma resurs yuklanganda",
         "HTML parse bo'lganda",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-28-051",
-      "q": "element.addEventListener('click', fn)  (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 4)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-28-053",
-      "q": "event.stopPropagation() (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 4)",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-28-055",
-      "q": "'DOMContentLoaded' qachon (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 4)",
       "opts": [
         "hamma resurs yuklanganda",
         "HTML parse bo'lganda",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-28-056",
-      "q": "element.addEventListener('click', fn)  (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 5)",
       "opts": [
         "onclick o'rniga",
         "hodisa tinglovchi qo'shadi",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-28-058",
-      "q": "event.stopPropagation() (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 5)",
       "opts": [
         "default ni to'xtatadi",
         "bubbling ni to'xtatadi",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-28-060",
-      "q": "'DOMContentLoaded' qachon (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 5)",
       "opts": [
         "hamma resurs yuklanganda",
         "HTML parse bo'lganda",

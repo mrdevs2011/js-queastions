@@ -85,7 +85,7 @@
     },
     {
       "id": "aso-mcq-20-005",
-      "q": "for (;;)?",
+      "q": "Quyidagi kodning natijasi nima?\nfor (;;)",
       "opts": [
         "Yo'q",
         "Cheksiz, break kerak",
@@ -113,7 +113,7 @@
         "in faqat array"
       ],
       "correct": 1,
-      "exp": "Farq shu.",
+      "exp": "To'g'ri javob: of qiymat, in kalit. Farq shu.",
       "difficulty": 2,
       "category": "loops",
       "tags": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "aso-mcq-20-008",
-      "q": "for (const x of null)?",
+      "q": "Quyidagi kodning natijasi nima?\nfor (const x of null)",
       "opts": [
         "Hech narsa",
         "TypeError",
@@ -233,7 +233,7 @@
         "Yo'q"
       ],
       "correct": 1,
-      "exp": "Block scope.",
+      "exp": "To'g'ri javob: Har iteratsiya / blok. Block scope.",
       "difficulty": 3,
       "category": "loops",
       "tags": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-20-015",
-      "q": "for (;;)?",
+      "q": "Quyidagi kodning natijasi nima?\nfor (;;)",
       "opts": [
         "Yo'q",
         "Cheksiz, break kerak",
@@ -313,7 +313,7 @@
         "in faqat array"
       ],
       "correct": 1,
-      "exp": "Farq shu.",
+      "exp": "To'g'ri javob: of qiymat, in kalit. Farq shu.",
       "difficulty": 3,
       "category": "loops",
       "tags": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "aso-mcq-20-018",
-      "q": "for (const x of null)?",
+      "q": "Quyidagi kodning natijasi nima?\nfor (const x of null)",
       "opts": [
         "Hech narsa",
         "TypeError",
@@ -433,7 +433,7 @@
         "Yo'q"
       ],
       "correct": 1,
-      "exp": "Block scope.",
+      "exp": "To'g'ri javob: Har iteratsiya / blok. Block scope.",
       "difficulty": 3,
       "category": "loops",
       "tags": [

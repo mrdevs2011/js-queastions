@@ -505,7 +505,7 @@
     },
     {
       "id": "aso-mcq-23-026",
-      "q": "querySelector('.class')?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class')",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-23-030",
-      "q": "element.classList.add('x')?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.classList.add('x')",
       "opts": [
         "class ni o'chiradi",
         "class qo'shadi",
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-23-031",
-      "q": "element.setAttribute('data-id', '5')?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.setAttribute('data-id', '5')",
       "opts": [
         "o'chiradi",
         "attribute o'rnatadi",
@@ -625,7 +625,7 @@
     },
     {
       "id": "aso-mcq-23-032",
-      "q": "document.createElement('div')?",
+      "q": "Quyidagi kodning natijasi nima?\ndocument.createElement('div')",
       "opts": [
         "mavjud elementni oladi",
         "yangi element yaratadi",
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-23-033",
-      "q": "parent.appendChild(child)?",
+      "q": "Quyidagi kodning natijasi nima?\nparent.appendChild(child)",
       "opts": [
         "boshiga qo'shadi",
         "oxiriga qo'shadi",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-23-034",
-      "q": "element.remove()?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.remove()",
       "opts": [
         "yashiradi",
         "DOM dan olib tashlaydi",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-23-036",
-      "q": "querySelector('.class') (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 1)",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -765,7 +765,7 @@
     },
     {
       "id": "aso-mcq-23-039",
-      "q": "element.textContent farqi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 1)",
       "opts": [
         "HTML ni parse qiladi",
         "faqat matn, xavfsizroq",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-23-041",
-      "q": "querySelector('.class') (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 2)",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -865,7 +865,7 @@
     },
     {
       "id": "aso-mcq-23-044",
-      "q": "element.textContent farqi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 2)",
       "opts": [
         "HTML ni parse qiladi",
         "faqat matn, xavfsizroq",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-23-046",
-      "q": "querySelector('.class') (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 3)",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -965,7 +965,7 @@
     },
     {
       "id": "aso-mcq-23-049",
-      "q": "element.textContent farqi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 3)",
       "opts": [
         "HTML ni parse qiladi",
         "faqat matn, xavfsizroq",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-23-051",
-      "q": "querySelector('.class') (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 4)",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "aso-mcq-23-054",
-      "q": "element.textContent farqi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 4)",
       "opts": [
         "HTML ni parse qiladi",
         "faqat matn, xavfsizroq",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-23-056",
-      "q": "querySelector('.class') (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 5)",
       "opts": [
         "barcha elementlar",
         "birinchi mos element",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "aso-mcq-23-059",
-      "q": "element.textContent farqi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 5)",
       "opts": [
         "HTML ni parse qiladi",
         "faqat matn, xavfsizroq",

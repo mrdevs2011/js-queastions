@@ -25,7 +25,7 @@
     },
     {
       "id": "aso-mcq-18-002",
-      "q": "if (0) { ... } bloki bajariladimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) { ... } bloki bajariladimi",
       "opts": [
         "Ha",
         "Yo'q",
@@ -85,7 +85,7 @@
     },
     {
       "id": "aso-mcq-18-005",
-      "q": "if (x=5) muammo?",
+      "q": "Quyidagi kodning natijasi nima?\nif (x=5) muammo",
       "opts": [
         "Yo'q",
         "Tayinlash, solishtirish emas",
@@ -145,15 +145,15 @@
     },
     {
       "id": "aso-mcq-18-008",
-      "q": "Nesting tavsiya?",
+      "q": "if ichida if yozish (ichma-ich shart, nesting) haqida qanday yondashuv tavsiya etiladi?",
       "opts": [
-        "Cheksiz",
-        "Sayoz, early return",
-        "Kamida 5",
-        "Faqat 1"
+        "Cheksiz chuqur nesting qilish",
+        "Imkon qadar sayoz yozish, early return ishlatish",
+        "Kamida 5 ta daraja nesting",
+        "Faqat bitta if ishlatish"
       ],
       "correct": 1,
-      "exp": "O'qish oson.",
+      "exp": "Chuqur ichma-ich if (nesting) kodni o'qishni qiyinlashtiradi. Erta return (early return) bilan shartlarni sayoz yozish yaxshi amaliyot.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "aso-mcq-18-009",
-      "q": "if (!arr.length)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (!arr.length)",
       "opts": [
         "To'la",
         "Bo'sh",
@@ -205,7 +205,7 @@
     },
     {
       "id": "aso-mcq-18-011",
-      "q": "Boolean('')?",
+      "q": "Quyidagi kodning natijasi nima?\nBoolean('')",
       "opts": [
         "true",
         "false",
@@ -225,7 +225,7 @@
     },
     {
       "id": "aso-mcq-18-012",
-      "q": "if (1) else?",
+      "q": "Quyidagi kodning natijasi nima?\nif (1) else",
       "opts": [
         "else bajariladi",
         "else bajarilmaydi",
@@ -285,7 +285,7 @@
     },
     {
       "id": "aso-mcq-18-015",
-      "q": "if (x=5) muammo?",
+      "q": "Quyidagi kodning natijasi nima?\nif (x=5) muammo",
       "opts": [
         "Yo'q",
         "Tayinlash, solishtirish emas",
@@ -345,15 +345,15 @@
     },
     {
       "id": "aso-mcq-18-018",
-      "q": "Nesting tavsiya?",
+      "q": "if ichida if yozish (ichma-ich shart, nesting) haqida qanday yondashuv tavsiya etiladi?",
       "opts": [
-        "Cheksiz",
-        "Sayoz, early return",
-        "Kamida 5",
-        "Faqat 1"
+        "Cheksiz chuqur nesting qilish",
+        "Imkon qadar sayoz yozish, early return ishlatish",
+        "Kamida 5 ta daraja nesting",
+        "Faqat bitta if ishlatish"
       ],
       "correct": 1,
-      "exp": "O'qish oson.",
+      "exp": "Chuqur ichma-ich if (nesting) kodni o'qishni qiyinlashtiradi. Erta return (early return) bilan shartlarni sayoz yozish yaxshi amaliyot.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -365,7 +365,7 @@
     },
     {
       "id": "aso-mcq-18-019",
-      "q": "if (!arr.length)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (!arr.length)",
       "opts": [
         "To'la",
         "Bo'sh",
@@ -405,7 +405,7 @@
     },
     {
       "id": "aso-mcq-18-021",
-      "q": "Boolean('')?",
+      "q": "Quyidagi kodning natijasi nima?\nBoolean('')",
       "opts": [
         "true",
         "false",
@@ -425,7 +425,7 @@
     },
     {
       "id": "aso-mcq-18-022",
-      "q": "if (1) else?",
+      "q": "Quyidagi kodning natijasi nima?\nif (1) else",
       "opts": [
         "else bajariladi",
         "else bajarilmaydi",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-18-025",
-      "q": "if (0) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-18-030",
-      "q": "if (null) ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (null) ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -605,7 +605,7 @@
     },
     {
       "id": "aso-mcq-18-031",
-      "q": "switch (x) { case 1: ...} da x tipi?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (x) { case 1: ...} da x tipi",
       "opts": [
         "faqat number",
         "har qanday",
@@ -665,15 +665,15 @@
     },
     {
       "id": "aso-mcq-18-034",
-      "q": "nested if nima?",
+      "q": "nested if (ichma-ich if) nima degani?",
       "opts": [
-        "bitta if",
-        "if ichida if",
-        "switch",
-        "loop"
+        "Bitta if operatori",
+        "if bloki ichida yana if yozish",
+        "switch operatori",
+        "for yoki while sikli"
       ],
       "correct": 1,
-      "exp": "If ichida yana if yozish.",
+      "exp": "Nested if — if ichida yana if yozish. Masalan: if (a) { if (b) { ... } }",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-18-035",
-      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 1)",
       "opts": [
         "ha",
         "yo'q",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-18-036",
-      "q": "ternary operator sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 1)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-18-037",
-      "q": "switch da break bo'lmasa (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 1)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-18-038",
-      "q": "if/else if/else da nechta shart (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 1)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-18-040",
-      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 2)",
       "opts": [
         "ha",
         "yo'q",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-18-041",
-      "q": "ternary operator sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 2)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-18-042",
-      "q": "switch da break bo'lmasa (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 2)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-18-043",
-      "q": "if/else if/else da nechta shart (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 2)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-18-045",
-      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 3)",
       "opts": [
         "ha",
         "yo'q",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-18-046",
-      "q": "ternary operator sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 3)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-18-047",
-      "q": "switch da break bo'lmasa (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 3)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-18-048",
-      "q": "if/else if/else da nechta shart (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 3)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-18-050",
-      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 4)",
       "opts": [
         "ha",
         "yo'q",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-18-051",
-      "q": "ternary operator sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 4)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-18-052",
-      "q": "switch da break bo'lmasa (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 4)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-18-053",
-      "q": "if/else if/else da nechta shart (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 4)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-18-055",
-      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 5)",
       "opts": [
         "ha",
         "yo'q",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-18-056",
-      "q": "ternary operator sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 5)",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-18-057",
-      "q": "switch da break bo'lmasa (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 5)",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-18-058",
-      "q": "if/else if/else da nechta shart (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 5)",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-18-060",
-      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 6)",
       "opts": [
         "ha",
         "yo'q",

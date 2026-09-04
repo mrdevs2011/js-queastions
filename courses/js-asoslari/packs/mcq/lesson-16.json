@@ -125,7 +125,7 @@
     },
     {
       "id": "aso-mcq-16-007",
-      "q": "Shorthand {ism}?",
+      "q": "Quyidagi kodning natijasi nima?\nShorthand {ism}",
       "opts": [
         "Hech qachon",
         "ism o'zgaruvchisi bo'lsa",
@@ -145,15 +145,15 @@
     },
     {
       "id": "aso-mcq-16-008",
-      "q": "for...in beradi?",
+      "q": "for...in sikli obyekt bo'yicha aylanayotganda nima beradi?",
       "opts": [
-        "Qiymat",
-        "Kalitlar",
-        "Faqat indeks",
-        "length"
+        "Qiymatlar (values)",
+        "Kalitlar (keys)",
+        "Faqat array elementlari",
+        "Faqat sonlar"
       ],
       "correct": 1,
-      "exp": "Keys.",
+      "exp": "for...in — obyekt kalitlari (property nomlari) bo'yicha aylanadi.",
       "difficulty": 2,
       "category": "objects",
       "tags": [
@@ -205,7 +205,7 @@
     },
     {
       "id": "aso-mcq-16-011",
-      "q": "JSON.stringify({a:undefined})?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:undefined})",
       "opts": [
         "{a:undefined}",
         "{}",
@@ -325,7 +325,7 @@
     },
     {
       "id": "aso-mcq-16-017",
-      "q": "Shorthand {ism}?",
+      "q": "Quyidagi kodning natijasi nima?\nShorthand {ism}",
       "opts": [
         "Hech qachon",
         "ism o'zgaruvchisi bo'lsa",
@@ -345,15 +345,15 @@
     },
     {
       "id": "aso-mcq-16-018",
-      "q": "for...in beradi?",
+      "q": "for...in sikli obyekt bo'yicha aylanayotganda nima beradi?",
       "opts": [
-        "Qiymat",
-        "Kalitlar",
-        "Faqat indeks",
-        "length"
+        "Qiymatlar (values)",
+        "Kalitlar (keys)",
+        "Faqat array elementlari",
+        "Faqat sonlar"
       ],
       "correct": 1,
-      "exp": "Keys.",
+      "exp": "for...in — obyekt kalitlari (property nomlari) bo'yicha aylanadi.",
       "difficulty": 2,
       "category": "objects",
       "tags": [
@@ -405,7 +405,7 @@
     },
     {
       "id": "aso-mcq-16-021",
-      "q": "JSON.stringify({a:undefined})?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:undefined})",
       "opts": [
         "{a:undefined}",
         "{}",
@@ -485,7 +485,7 @@
     },
     {
       "id": "aso-mcq-16-025",
-      "q": "const o = {a:1}; o.a?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -525,7 +525,7 @@
     },
     {
       "id": "aso-mcq-16-027",
-      "q": "Object.keys({a:1,b:2})?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -545,7 +545,7 @@
     },
     {
       "id": "aso-mcq-16-028",
-      "q": "Object.values({a:1,b:2})?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -585,7 +585,7 @@
     },
     {
       "id": "aso-mcq-16-030",
-      "q": "obj.hasOwnProperty('a')?",
+      "q": "Quyidagi kodning natijasi nima?\nobj.hasOwnProperty('a')",
       "opts": [
         "true/false qaytaradi",
         "error",
@@ -625,7 +625,7 @@
     },
     {
       "id": "aso-mcq-16-032",
-      "q": "Object.assign({}, o1, o2) ?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.assign({}, o1, o2)",
       "opts": [
         "deep merge",
         "shallow merge",
@@ -645,7 +645,7 @@
     },
     {
       "id": "aso-mcq-16-033",
-      "q": "JSON.stringify({a:1})?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:1})",
       "opts": [
         "{a:1}",
         "'{\"a\":1}'",
@@ -665,7 +665,7 @@
     },
     {
       "id": "aso-mcq-16-034",
-      "q": "JSON.parse('{\"a\":1}')?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.parse('{\"a\":1}')",
       "opts": [
         "string",
         "{a:1}",
@@ -685,7 +685,7 @@
     },
     {
       "id": "aso-mcq-16-035",
-      "q": "const o = {a:1}; o.a (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 1)",
       "opts": [
         "undefined",
         "1",
@@ -705,7 +705,7 @@
     },
     {
       "id": "aso-mcq-16-036",
-      "q": "o['a'] sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 1)",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -725,7 +725,7 @@
     },
     {
       "id": "aso-mcq-16-037",
-      "q": "Object.keys({a:1,b:2}) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 1)",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -745,7 +745,7 @@
     },
     {
       "id": "aso-mcq-16-038",
-      "q": "Object.values({a:1,b:2}) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 1)",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -785,7 +785,7 @@
     },
     {
       "id": "aso-mcq-16-040",
-      "q": "const o = {a:1}; o.a (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 2)",
       "opts": [
         "undefined",
         "1",
@@ -805,7 +805,7 @@
     },
     {
       "id": "aso-mcq-16-041",
-      "q": "o['a'] sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 2)",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -825,7 +825,7 @@
     },
     {
       "id": "aso-mcq-16-042",
-      "q": "Object.keys({a:1,b:2}) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 2)",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -845,7 +845,7 @@
     },
     {
       "id": "aso-mcq-16-043",
-      "q": "Object.values({a:1,b:2}) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 2)",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -885,7 +885,7 @@
     },
     {
       "id": "aso-mcq-16-045",
-      "q": "const o = {a:1}; o.a (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 3)",
       "opts": [
         "undefined",
         "1",
@@ -905,7 +905,7 @@
     },
     {
       "id": "aso-mcq-16-046",
-      "q": "o['a'] sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 3)",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -925,7 +925,7 @@
     },
     {
       "id": "aso-mcq-16-047",
-      "q": "Object.keys({a:1,b:2}) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 3)",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -945,7 +945,7 @@
     },
     {
       "id": "aso-mcq-16-048",
-      "q": "Object.values({a:1,b:2}) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 3)",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -985,7 +985,7 @@
     },
     {
       "id": "aso-mcq-16-050",
-      "q": "const o = {a:1}; o.a (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 4)",
       "opts": [
         "undefined",
         "1",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "aso-mcq-16-051",
-      "q": "o['a'] sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 4)",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "aso-mcq-16-052",
-      "q": "Object.keys({a:1,b:2}) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 4)",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "aso-mcq-16-053",
-      "q": "Object.values({a:1,b:2}) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 4)",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "aso-mcq-16-055",
-      "q": "const o = {a:1}; o.a (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 5)",
       "opts": [
         "undefined",
         "1",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "aso-mcq-16-056",
-      "q": "o['a'] sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 5)",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "aso-mcq-16-057",
-      "q": "Object.keys({a:1,b:2}) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 5)",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "aso-mcq-16-058",
-      "q": "Object.values({a:1,b:2}) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 5)",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "aso-mcq-16-060",
-      "q": "const o = {a:1}; o.a (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 6)",
       "opts": [
         "undefined",
         "1",
