@@ -1,0 +1,211 @@
+{
+  "lesson": 26,
+  "type": "mcq",
+  "title": "Google, ChatGPT va boshqa manbalar",
+  "questions": [
+    {
+      "id": "mcq-26-001",
+      "q": "Noma'lum xato chiqsa birinchi qadam?",
+      "opts": [
+        "Kodni o'chirish",
+        "Xato matnini o'qish va qidirish",
+        "Kompyuterni restart",
+        "Kursni tashlash"
+      ],
+      "correct": 1,
+      "exp": "Xato xabari + Google/ChatGPT — eng tezkor yordam."
+    },
+    {
+      "id": "mcq-26-002",
+      "q": "MDN nima?",
+      "opts": [
+        "O'yin",
+        "Mozilla Developer Network — ishonchli hujjatlar",
+        "Chatbot",
+        "IDE"
+      ],
+      "correct": 1,
+      "exp": "MDN — web texnologiyalar bo'yicha eng ishonchli manba."
+    },
+    {
+      "id": "mcq-26-003",
+      "q": "AI dan kod so'rashda nima muhim?",
+      "opts": [
+        "Butun loyihani so'rash",
+        "Tushunib olish va o'zgartira olish",
+        "Hech o'qimasdan nusxa",
+        "Faqat to'liq dastur"
+      ],
+      "correct": 1,
+      "exp": "AI yordamchi, lekin tushunish o'zingizda qolishi kerak."
+    },
+    {
+      "id": "mcq-26-004",
+      "q": "Stack Overflow nima uchun foydali?",
+      "opts": [
+        "Faqat o'yin",
+        "Haqiqiy muammolar va yechimlar muhokamasi",
+        "Faqat yangiliklar",
+        "Video darslar"
+      ],
+      "correct": 1,
+      "exp": "Ko'p uchraydigan xatolar bo'yicha jamoaviy javoblar."
+    },
+    {
+      "id": "mcq-26-005",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-006",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-007",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-008",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-009",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-010",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-011",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-012",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-26-013",
+      "q": "Noma'lum xato chiqsa birinchi qadam (qayta / chuqurroq)?",
+      "opts": [
+        "Kodni o'chirish",
+        "Xato matnini o'qish va qidirish",
+        "Kompyuterni restart",
+        "Kursni tashlash"
+      ],
+      "correct": 1,
+      "exp": "Xato xabari + Google/ChatGPT — eng tezkor yordam. Qayta o'qing."
+    },
+    {
+      "id": "mcq-26-014",
+      "q": "MDN nima (qayta / chuqurroq)?",
+      "opts": [
+        "O'yin",
+        "Mozilla Developer Network — ishonchli hujjatlar",
+        "Chatbot",
+        "IDE"
+      ],
+      "correct": 1,
+      "exp": "MDN — web texnologiyalar bo'yicha eng ishonchli manba. Qayta o'qing."
+    },
+    {
+      "id": "mcq-26-015",
+      "q": "AI dan kod so'rashda nima muhim (qayta / chuqurroq)?",
+      "opts": [
+        "Butun loyihani so'rash",
+        "Tushunib olish va o'zgartira olish",
+        "Hech o'qimasdan nusxa",
+        "Faqat to'liq dastur"
+      ],
+      "correct": 1,
+      "exp": "AI yordamchi, lekin tushunish o'zingizda qolishi kerak. Qayta o'qing."
+    },
+    {
+      "id": "mcq-26-016",
+      "q": "Stack Overflow nima uchun foydali (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat o'yin",
+        "Haqiqiy muammolar va yechimlar muhokamasi",
+        "Faqat yangiliklar",
+        "Video darslar"
+      ],
+      "correct": 1,
+      "exp": "Ko'p uchraydigan xatolar bo'yicha jamoaviy javoblar. Qayta o'qing."
+    },
+    {
+      "id": "mcq-26-017",
+      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

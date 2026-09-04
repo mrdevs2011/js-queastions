@@ -1,0 +1,63 @@
+{
+  "version": "1.2.0",
+  "name": "quest-questions",
+  "description": "Ulugbek Samigjonov JavaScript kurslari uchun ochiq savollar banki. CDN orqali ulanadi.",
+  "updated": "2026-09-04",
+  "cdn": {
+    "jsdelivr": "https://cdn.jsdelivr.net/gh/USER/quest-questions@main/",
+    "raw": "https://raw.githubusercontent.com/USER/quest-questions/main/"
+  },
+  "courses": [
+    {
+      "id": "js-asoslari",
+      "title": "Javascript asoslari",
+      "author": "Ulugbek Samigjonov",
+      "lessons": 30,
+      "path": "courses/js-asoslari/",
+      "stats": {
+        "mcq": 698,
+        "code": 218,
+        "total": 916
+      }
+    },
+    {
+      "id": "javascript",
+      "title": "Javascript",
+      "author": "Ulugbek Samigjonov",
+      "lessons": 29,
+      "path": "courses/javascript/",
+      "stats": {
+        "mcq": 493,
+        "code": 185,
+        "total": 678
+      }
+    }
+  ],
+  "types": [
+    {
+      "id": "mcq",
+      "title": "Test savollari (variantli)",
+      "pathPattern": "packs/mcq/lesson-XX.json"
+    },
+    {
+      "id": "code",
+      "title": "Kod yozish savollari",
+      "pathPattern": "packs/code/lesson-XX.json"
+    }
+  ],
+  "usage": {
+    "steps": [
+      "1. manifest.json — kurslar ro'yxati",
+      "2. courses/{id}/lessons.json — dars nomlari",
+      "3. courses/{id}/packs/{mcq|code}/lesson-XX.json — savollar",
+      "4. courses/{id}/index.json — barcha packlar va count"
+    ],
+    "exampleBaseUrl": "https://cdn.jsdelivr.net/gh/USER/quest-questions@main/"
+  },
+  "totals": {
+    "courses": 2,
+    "questions": 1594,
+    "mcq": 1191,
+    "code": 403
+  }
+}

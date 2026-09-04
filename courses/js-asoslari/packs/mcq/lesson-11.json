@@ -1,0 +1,295 @@
+{
+  "lesson": 11,
+  "type": "mcq",
+  "title": "Funksiya va uni e'lon qilish",
+  "questions": [
+    {
+      "id": "mcq-11-001",
+      "q": "Funksiyani to'g'ri e'lon qilish qaysi?",
+      "opts": [
+        "function salom() { return \"Salom\"; }",
+        "func salom() { return \"Salom\"; }",
+        "define salom() { return \"Salom\"; }",
+        "salom function() { return \"Salom\"; }"
+      ],
+      "correct": 0,
+      "exp": "Funksiya 'function' kalit so'zi bilan e'lon qilinadi."
+    },
+    {
+      "id": "mcq-11-002",
+      "q": "Funksiya natijasini qaytarish uchun qaysi kalit so'z ishlatiladi?",
+      "opts": [
+        "yield",
+        "return",
+        "output",
+        "result"
+      ],
+      "correct": 1,
+      "exp": "return — funksiyadan qiymat qaytaradi va bajarilishni to'xtatadi."
+    },
+    {
+      "id": "mcq-11-003",
+      "q": "function qosh(a, b) { return a + b; } — bu yerda a va b nima?",
+      "opts": [
+        "Argumentlar",
+        "Parametrlar",
+        "O'zgaruvchilar emas",
+        "Global qiymatlar"
+      ],
+      "correct": 1,
+      "exp": "Funksiya e'lonida yozilganlar — parametrlar, chaqirilganda berilganlar — argumentlar."
+    },
+    {
+      "id": "mcq-11-004",
+      "q": "Funksiya chaqirilmasa nima bo'ladi?",
+      "opts": [
+        "Avtomatik bajariladi",
+        "Hech narsa bajarilmaydi",
+        "Xato beradi",
+        "Sahifa yangilanadi"
+      ],
+      "correct": 1,
+      "exp": "Funksiya faqat chaqirilganda ishga tushadi."
+    },
+    {
+      "id": "mcq-11-005",
+      "q": "Function declaration hoist?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat nom",
+        "Faqat arrow"
+      ],
+      "correct": 1,
+      "exp": "To'liq hoist."
+    },
+    {
+      "id": "mcq-11-006",
+      "q": "Default parametr qachon?",
+      "opts": [
+        "Har doim",
+        "undefined yoki argument yo'q",
+        "null da ham",
+        "Faqat 0"
+      ],
+      "correct": 1,
+      "exp": "undefined da default."
+    },
+    {
+      "id": "mcq-11-007",
+      "q": "Funksiya obyektmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat class",
+        "Faqat arrow"
+      ],
+      "correct": 1,
+      "exp": "First-class object."
+    },
+    {
+      "id": "mcq-11-008",
+      "q": "IIFE nima?",
+      "opts": [
+        "Sikl",
+        "Darhol chaqiriladigan funksiya",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "(function(){})()."
+    },
+    {
+      "id": "mcq-11-009",
+      "q": "return; qaytaradi?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "Bo'sh return."
+    },
+    {
+      "id": "mcq-11-010",
+      "q": "Nested function?",
+      "opts": [
+        "Mumkin emas",
+        "Mumkin",
+        "Faqat arrow",
+        "Faqat global"
+      ],
+      "correct": 1,
+      "exp": "Ichma-ich mumkin."
+    },
+    {
+      "id": "mcq-11-011",
+      "q": "arguments.length?",
+      "opts": [
+        "Parametrlar",
+        "Uzatilgan argumentlar soni",
+        "0",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Haqiqiy argumentlar."
+    },
+    {
+      "id": "mcq-11-012",
+      "q": "Pure function?",
+      "opts": [
+        "DOM o'zgartiradi",
+        "Bir xil input → bir xil output",
+        "Faqat arrow",
+        "Random"
+      ],
+      "correct": 1,
+      "exp": "Side-effect siz."
+    },
+    {
+      "id": "mcq-11-013",
+      "q": "Funksiyani o'zgaruvchiga?",
+      "opts": [
+        "Mumkin emas",
+        "Ha",
+        "Faqat const",
+        "Faqat var"
+      ],
+      "correct": 1,
+      "exp": "First-class."
+    },
+    {
+      "id": "mcq-11-014",
+      "q": "Callback nima?",
+      "opts": [
+        "Xato funksiya",
+        "Argument sifatida funksiya",
+        "Faqat arrow",
+        "Global"
+      ],
+      "correct": 1,
+      "exp": "Uzatiladigan funksiya."
+    },
+    {
+      "id": "mcq-11-015",
+      "q": "Function declaration hoist?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat nom",
+        "Faqat arrow"
+      ],
+      "correct": 1,
+      "exp": "To'liq hoist."
+    },
+    {
+      "id": "mcq-11-016",
+      "q": "Default parametr qachon?",
+      "opts": [
+        "Har doim",
+        "undefined yoki argument yo'q",
+        "null da ham",
+        "Faqat 0"
+      ],
+      "correct": 1,
+      "exp": "undefined da default."
+    },
+    {
+      "id": "mcq-11-017",
+      "q": "Funksiya obyektmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat class",
+        "Faqat arrow"
+      ],
+      "correct": 1,
+      "exp": "First-class object."
+    },
+    {
+      "id": "mcq-11-018",
+      "q": "IIFE nima?",
+      "opts": [
+        "Sikl",
+        "Darhol chaqiriladigan funksiya",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "(function(){})()."
+    },
+    {
+      "id": "mcq-11-019",
+      "q": "return; qaytaradi?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "Bo'sh return."
+    },
+    {
+      "id": "mcq-11-020",
+      "q": "Nested function?",
+      "opts": [
+        "Mumkin emas",
+        "Mumkin",
+        "Faqat arrow",
+        "Faqat global"
+      ],
+      "correct": 1,
+      "exp": "Ichma-ich mumkin."
+    },
+    {
+      "id": "mcq-11-021",
+      "q": "arguments.length?",
+      "opts": [
+        "Parametrlar",
+        "Uzatilgan argumentlar soni",
+        "0",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Haqiqiy argumentlar."
+    },
+    {
+      "id": "mcq-11-022",
+      "q": "Pure function?",
+      "opts": [
+        "DOM o'zgartiradi",
+        "Bir xil input → bir xil output",
+        "Faqat arrow",
+        "Random"
+      ],
+      "correct": 1,
+      "exp": "Side-effect siz."
+    },
+    {
+      "id": "mcq-11-023",
+      "q": "Funksiyani o'zgaruvchiga?",
+      "opts": [
+        "Mumkin emas",
+        "Ha",
+        "Faqat const",
+        "Faqat var"
+      ],
+      "correct": 1,
+      "exp": "First-class."
+    },
+    {
+      "id": "mcq-11-024",
+      "q": "Callback nima?",
+      "opts": [
+        "Xato funksiya",
+        "Argument sifatida funksiya",
+        "Faqat arrow",
+        "Global"
+      ],
+      "correct": 1,
+      "exp": "Uzatiladigan funksiya."
+    }
+  ]
+}

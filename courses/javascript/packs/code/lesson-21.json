@@ -1,0 +1,19 @@
+{
+  "lesson": 21,
+  "type": "code",
+  "title": "Massiv metodlari: slice, splice, filter va find",
+  "questions": [
+    {
+      "id": "code-21-001",
+      "task": "[5,12,8,130,44] dan 10 dan katta birinchi elementni find bilan toping.",
+      "sample": "let arr = [5, 12, 8, 130, 44];\nconsole.log(arr.find(x => x > 10)); // 12",
+      "exp": "find birinchi mos elementni qaytaradi."
+    },
+    {
+      "id": "code-21-002",
+      "task": "Massiv metodlari: slice, splice, filter va find bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let arr = [5, 12, 8, 130, 44];\nconsole.log(arr.find(x => x > 10)); // 12",
+      "exp": "find birinchi mos elementni qaytaradi."
+    }
+  ]
+}

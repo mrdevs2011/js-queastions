@@ -1,0 +1,43 @@
+{
+  "lesson": 19,
+  "type": "code",
+  "title": "switch",
+  "questions": [
+    {
+      "id": "code-19-001",
+      "task": "switch: if/else: ball=75 uchun A/B/C.",
+      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
+      "exp": "if/else if."
+    },
+    {
+      "id": "code-19-002",
+      "task": "switch: switch kun=3 → Chorshanba.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch."
+    },
+    {
+      "id": "code-19-003",
+      "task": "switch: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-19-004",
+      "task": "switch: for 1..5 chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
+      "exp": "for."
+    },
+    {
+      "id": "code-19-005",
+      "task": "switch: while 5..1 kamaytirib chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while."
+    },
+    {
+      "id": "code-19-006",
+      "task": "switch: for da break (i===3).",
+      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break."
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "lesson": 4,
+  "type": "mcq",
+  "title": "Qiymatlar va o'zgaruvchilar",
+  "questions": [
+    {
+      "id": "mcq-4-001",
+      "q": "Qaysi biri o'zgaruvchi nomi sifatida NOTO'G'RI?",
+      "opts": [
+        "let yosh1",
+        "let 1yosh",
+        "let _yosh",
+        "let yosh_1"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchi nomi raqam bilan boshlana olmaydi."
+    },
+    {
+      "id": "mcq-4-002",
+      "q": "let ism; console.log(ism); natija nima bo'ladi?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "Xato beradi"
+      ],
+      "correct": 2,
+      "exp": "Qiymat berilmagan o'zgaruvchi avtomatik ravishda undefined bo'ladi."
+    },
+    {
+      "id": "mcq-4-003",
+      "q": "O'zgaruvchiga qiymat berish qanday ataladi?",
+      "opts": [
+        "Deklaratsiya",
+        "Initsializatsiya (tayinlash)",
+        "Import",
+        "Export"
+      ],
+      "correct": 1,
+      "exp": "Qiymat berish — initsializatsiya yoki assignment deb ataladi."
+    },
+    {
+      "id": "mcq-4-004",
+      "q": "JavaScript da o'zgaruvchi nomida bo'sh joy bo'lishi mumkinmi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat const da",
+        "Faqat let da"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchi nomida bo'sh joy bo'lishi mumkin emas."
+    },
+    {
+      "id": "mcq-4-005",
+      "q": "Declaration nima?",
+      "opts": [
+        "Qiymat berish",
+        "Nom yaratish (let x)",
+        "Chaqirish",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "E'lon qilish."
+    },
+    {
+      "id": "mcq-4-006",
+      "q": "camelCase misoli?",
+      "opts": [
+        "my_name",
+        "myName",
+        "My-Name",
+        "MYNAME"
+      ],
+      "correct": 1,
+      "exp": "myName."
+    },
+    {
+      "id": "mcq-4-007",
+      "q": "$ nomda ruxsatmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat oxirida",
+        "Faqat boshida emas"
+      ],
+      "correct": 1,
+      "exp": "$ va _ ruxsat."
+    },
+    {
+      "id": "mcq-4-008",
+      "q": "const obyekt ichini o'zgartirish?",
+      "opts": [
+        "Hech qachon",
+        "Reference o'zgarmasa mumkin",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ichki mutatsiya mumkin."
+    },
+    {
+      "id": "mcq-4-009",
+      "q": "Bir qatorda bir nechta o'zgaruvchi?",
+      "opts": [
+        "Mumkin emas",
+        "let a=1, b=2;",
+        "Faqat var",
+        "Faqat const"
+      ],
+      "correct": 1,
+      "exp": "Vergul bilan."
+    },
+    {
+      "id": "mcq-4-010",
+      "q": "Hoisting nima?",
+      "opts": [
+        "Fayl yuklash",
+        "E'lonlarning yuqoriga ko'tarilishi",
+        "Animatsiya",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "var/function hoist."
+    },
+    {
+      "id": "mcq-4-011",
+      "q": "let dan oldin murojaat?",
+      "opts": [
+        "undefined",
+        "ReferenceError (TDZ)",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Temporal Dead Zone."
+    },
+    {
+      "id": "mcq-4-012",
+      "q": "Global o'zgaruvchi muammosi?",
+      "opts": [
+        "Juda tez",
+        "Nom to'qnashuvi",
+        "Ishlamaydi",
+        "Faqat mobil"
+      ],
+      "correct": 1,
+      "exp": "Scope ifloslanishi."
+    },
+    {
+      "id": "mcq-4-013",
+      "q": "O'zbek harflari nomda?",
+      "opts": [
+        "Odatda ishlaydi, inglizcha tavsiya",
+        "Hech qachon",
+        "Faqat const",
+        "Faqat string"
+      ],
+      "correct": 0,
+      "exp": "Unicode mumkin, lekin inglizcha yaxshi."
+    },
+    {
+      "id": "mcq-4-014",
+      "q": "Declaration nima?",
+      "opts": [
+        "Qiymat berish",
+        "Nom yaratish (let x)",
+        "Chaqirish",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "E'lon qilish."
+    },
+    {
+      "id": "mcq-4-015",
+      "q": "camelCase misoli?",
+      "opts": [
+        "my_name",
+        "myName",
+        "My-Name",
+        "MYNAME"
+      ],
+      "correct": 1,
+      "exp": "myName."
+    },
+    {
+      "id": "mcq-4-016",
+      "q": "$ nomda ruxsatmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat oxirida",
+        "Faqat boshida emas"
+      ],
+      "correct": 1,
+      "exp": "$ va _ ruxsat."
+    },
+    {
+      "id": "mcq-4-017",
+      "q": "const obyekt ichini o'zgartirish?",
+      "opts": [
+        "Hech qachon",
+        "Reference o'zgarmasa mumkin",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ichki mutatsiya mumkin."
+    },
+    {
+      "id": "mcq-4-018",
+      "q": "Bir qatorda bir nechta o'zgaruvchi?",
+      "opts": [
+        "Mumkin emas",
+        "let a=1, b=2;",
+        "Faqat var",
+        "Faqat const"
+      ],
+      "correct": 1,
+      "exp": "Vergul bilan."
+    },
+    {
+      "id": "mcq-4-019",
+      "q": "Hoisting nima?",
+      "opts": [
+        "Fayl yuklash",
+        "E'lonlarning yuqoriga ko'tarilishi",
+        "Animatsiya",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "var/function hoist."
+    },
+    {
+      "id": "mcq-4-020",
+      "q": "let dan oldin murojaat?",
+      "opts": [
+        "undefined",
+        "ReferenceError (TDZ)",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Temporal Dead Zone."
+    },
+    {
+      "id": "mcq-4-021",
+      "q": "Global o'zgaruvchi muammosi?",
+      "opts": [
+        "Juda tez",
+        "Nom to'qnashuvi",
+        "Ishlamaydi",
+        "Faqat mobil"
+      ],
+      "correct": 1,
+      "exp": "Scope ifloslanishi."
+    },
+    {
+      "id": "mcq-4-022",
+      "q": "O'zbek harflari nomda?",
+      "opts": [
+        "Odatda ishlaydi, inglizcha tavsiya",
+        "Hech qachon",
+        "Faqat const",
+        "Faqat string"
+      ],
+      "correct": 0,
+      "exp": "Unicode mumkin, lekin inglizcha yaxshi."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lesson": 9,
+  "type": "code",
+  "title": "Mantiqiy operatorlar",
+  "questions": [
+    {
+      "id": "code-9-001",
+      "task": "yosh o'zgaruvchisi 20 bo'lsin. yosh 18 dan katta VA 65 dan kichik ekanligini tekshiruvchi mantiqiy ifodani yozib, natijasini chiqaring.",
+      "sample": "let yosh = 20;\nconsole.log(yosh > 18 && yosh < 65); // true",
+      "exp": "&& ikkala shart ham to'g'ri bo'lgandagina true qaytaradi."
+    },
+    {
+      "id": "code-9-002",
+      "task": "Mantiqiy operatorlar: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-9-003",
+      "task": "Mantiqiy operatorlar: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-9-004",
+      "task": "Mantiqiy operatorlar: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-9-005",
+      "task": "Mantiqiy operatorlar: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    },
+    {
+      "id": "code-9-006",
+      "task": "Mantiqiy operatorlar: yosh>=18 && yosh<65 ni tekshirib chiqaring.",
+      "sample": "let yosh = 25;\nconsole.log(yosh >= 18 && yosh < 65);",
+      "exp": "&&."
+    },
+    {
+      "id": "code-9-007",
+      "task": "Mantiqiy operatorlar: null ?? \"default\" va 0 ?? 5 ni chiqaring.",
+      "sample": "console.log(null ?? \"default\");\nconsole.log(0 ?? 5);",
+      "exp": "Nullish coalescing."
+    },
+    {
+      "id": "code-9-008",
+      "task": "Mantiqiy operatorlar: !!\"\" va !![] ni chiqaring.",
+      "sample": "console.log(!!\"\");\nconsole.log(!![]);",
+      "exp": "Boolean coercion."
+    },
+    {
+      "id": "code-9-009",
+      "task": "Mantiqiy operatorlar: true && 0 || \"ok\" natijasini chiqaring.",
+      "sample": "console.log(true && 0 || \"ok\");",
+      "exp": "Short-circuit."
+    }
+  ]
+}

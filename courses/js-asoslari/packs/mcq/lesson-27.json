@@ -1,0 +1,295 @@
+{
+  "lesson": 27,
+  "type": "mcq",
+  "title": "Hodisalar (events)",
+  "questions": [
+    {
+      "id": "mcq-27-001",
+      "q": "Elementga bosilganda funksiya ishga tushishi uchun qaysi kod to'g'ri?",
+      "opts": [
+        "element.addEvent('click', fn)",
+        "element.addEventListener('click', fn)",
+        "element.onEvent('click', fn)",
+        "element.click(fn)"
+      ],
+      "correct": 1,
+      "exp": "addEventListener() hodisa (event) tinglovchisini qo'shadi."
+    },
+    {
+      "id": "mcq-27-002",
+      "q": "addEventListener birinchi argumenti nima?",
+      "opts": [
+        "Funksiya",
+        "Hodisa turi (masalan 'click')",
+        "Element",
+        "CSS selektor"
+      ],
+      "correct": 1,
+      "exp": "Birinchi argument — tinglanadigan hodisa nomi."
+    },
+    {
+      "id": "mcq-27-003",
+      "q": "Bir elementga bir nechta click listener qo'yish mumkinmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat bitta",
+        "Faqat arrow da"
+      ],
+      "correct": 1,
+      "exp": "addEventListener bir xil hodisaga bir nechta funksiya qo'shishga ruxsat beradi."
+    },
+    {
+      "id": "mcq-27-004",
+      "q": "removeEventListener nima uchun kerak?",
+      "opts": [
+        "Element o'chirish",
+        "Oldin qo'shilgan tinglovchini olib tashlash",
+        "Sahifani yangilash",
+        "CSS o'zgartirish"
+      ],
+      "correct": 1,
+      "exp": "Kerak bo'lmagan listenerlarni olib tashlash uchun ishlatiladi."
+    },
+    {
+      "id": "mcq-27-005",
+      "q": "Capturing vs bubbling?",
+      "opts": [
+        "Bir xil",
+        "Yuqoridan past / pastdan yuqori",
+        "Faqat bubble",
+        "Faqat capture"
+      ],
+      "correct": 1,
+      "exp": "Ikki bosqich."
+    },
+    {
+      "id": "mcq-27-006",
+      "q": "currentTarget?",
+      "opts": [
+        "Asl element",
+        "Listener o'rnatilgan",
+        "window",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "target vs currentTarget."
+    },
+    {
+      "id": "mcq-27-007",
+      "q": "once: true?",
+      "opts": [
+        "Qo'lda remove",
+        "Bir marta ishlaydi",
+        "Mumkin emas",
+        "Faqat click"
+      ],
+      "correct": 1,
+      "exp": "Avtomatik olib tashlash."
+    },
+    {
+      "id": "mcq-27-008",
+      "q": "passive: true?",
+      "opts": [
+        "Sekin",
+        "Scroll performance",
+        "O'chiradi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "preventDefault yo'q deb."
+    },
+    {
+      "id": "mcq-27-009",
+      "q": "Delegation?",
+      "opts": [
+        "Har bolaga",
+        "Otada bitta listener",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Dynamic ro'yxat."
+    },
+    {
+      "id": "mcq-27-010",
+      "q": "removeEventListener?",
+      "opts": [
+        "Yangi arrow OK",
+        "Xuddi shu reference",
+        "Nom yetarli",
+        "Id"
+      ],
+      "correct": 1,
+      "exp": "Reference muhim."
+    },
+    {
+      "id": "mcq-27-011",
+      "q": "event.key?",
+      "opts": [
+        "Faqat code",
+        "Enter, a kabi",
+        "Faqat keyCode",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy key."
+    },
+    {
+      "id": "mcq-27-012",
+      "q": "preventDefault?",
+      "opts": [
+        "stop bilan bir",
+        "Standart harakatni to'xtatadi",
+        "return false standart",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Forma submit va h.k."
+    },
+    {
+      "id": "mcq-27-013",
+      "q": "CustomEvent?",
+      "opts": [
+        "Yo'q",
+        "O'z hodisasi",
+        "Faqat click",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "dispatchEvent."
+    },
+    {
+      "id": "mcq-27-014",
+      "q": "addEventListener 3-arg?",
+      "opts": [
+        "Yo'q",
+        "capture yoki options",
+        "Faqat boolean eski",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "true = capture."
+    },
+    {
+      "id": "mcq-27-015",
+      "q": "Capturing vs bubbling?",
+      "opts": [
+        "Bir xil",
+        "Yuqoridan past / pastdan yuqori",
+        "Faqat bubble",
+        "Faqat capture"
+      ],
+      "correct": 1,
+      "exp": "Ikki bosqich."
+    },
+    {
+      "id": "mcq-27-016",
+      "q": "currentTarget?",
+      "opts": [
+        "Asl element",
+        "Listener o'rnatilgan",
+        "window",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "target vs currentTarget."
+    },
+    {
+      "id": "mcq-27-017",
+      "q": "once: true?",
+      "opts": [
+        "Qo'lda remove",
+        "Bir marta ishlaydi",
+        "Mumkin emas",
+        "Faqat click"
+      ],
+      "correct": 1,
+      "exp": "Avtomatik olib tashlash."
+    },
+    {
+      "id": "mcq-27-018",
+      "q": "passive: true?",
+      "opts": [
+        "Sekin",
+        "Scroll performance",
+        "O'chiradi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "preventDefault yo'q deb."
+    },
+    {
+      "id": "mcq-27-019",
+      "q": "Delegation?",
+      "opts": [
+        "Har bolaga",
+        "Otada bitta listener",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Dynamic ro'yxat."
+    },
+    {
+      "id": "mcq-27-020",
+      "q": "removeEventListener?",
+      "opts": [
+        "Yangi arrow OK",
+        "Xuddi shu reference",
+        "Nom yetarli",
+        "Id"
+      ],
+      "correct": 1,
+      "exp": "Reference muhim."
+    },
+    {
+      "id": "mcq-27-021",
+      "q": "event.key?",
+      "opts": [
+        "Faqat code",
+        "Enter, a kabi",
+        "Faqat keyCode",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy key."
+    },
+    {
+      "id": "mcq-27-022",
+      "q": "preventDefault?",
+      "opts": [
+        "stop bilan bir",
+        "Standart harakatni to'xtatadi",
+        "return false standart",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Forma submit va h.k."
+    },
+    {
+      "id": "mcq-27-023",
+      "q": "CustomEvent?",
+      "opts": [
+        "Yo'q",
+        "O'z hodisasi",
+        "Faqat click",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "dispatchEvent."
+    },
+    {
+      "id": "mcq-27-024",
+      "q": "addEventListener 3-arg?",
+      "opts": [
+        "Yo'q",
+        "capture yoki options",
+        "Faqat boolean eski",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "true = capture."
+    }
+  ]
+}

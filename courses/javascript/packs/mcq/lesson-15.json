@@ -1,0 +1,211 @@
+{
+  "lesson": 15,
+  "type": "mcq",
+  "title": "switch va ternary operator",
+  "questions": [
+    {
+      "id": "mcq-15-001",
+      "q": "switch qat'iy solishtirishdan foydalanadimi?",
+      "opts": [
+        "Yo'q, ==",
+        "Ha, ===",
+        "typeof",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "switch === bilan solishtiradi."
+    },
+    {
+      "id": "mcq-15-002",
+      "q": "ternary operator sintaksisi?",
+      "opts": [
+        "shart : a ? b",
+        "shart ? a : b",
+        "shart ?? a : b",
+        "shart && a || b"
+      ],
+      "correct": 1,
+      "exp": "condition ? valueIfTrue : valueIfFalse."
+    },
+    {
+      "id": "mcq-15-003",
+      "q": "default case nima?",
+      "opts": [
+        "Birinchi case",
+        "Hech qaysi case mos kelmasa bajariladigan qism",
+        "Oxirgi case majburiy",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "default — fallback qism."
+    },
+    {
+      "id": "mcq-15-004",
+      "q": "let n=1; let s = n===1 ? 'bir' : 'boshqa'; — s qiymati?",
+      "opts": [
+        "boshqa",
+        "bir",
+        "1",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "n===1 true bo'lgani uchun 'bir'."
+    },
+    {
+      "id": "mcq-15-005",
+      "q": "switch va ternary operator mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-006",
+      "q": "switch va ternary operator mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-007",
+      "q": "switch va ternary operator mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-008",
+      "q": "switch va ternary operator mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-009",
+      "q": "switch va ternary operator mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-010",
+      "q": "switch va ternary operator mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-011",
+      "q": "switch va ternary operator mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-012",
+      "q": "switch va ternary operator mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-15-013",
+      "q": "switch qat'iy solishtirishdan foydalanadimi (qayta / chuqurroq)?",
+      "opts": [
+        "Yo'q, ==",
+        "Ha, ===",
+        "typeof",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "switch === bilan solishtiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-15-014",
+      "q": "ternary operator sintaksisi (qayta / chuqurroq)?",
+      "opts": [
+        "shart : a ? b",
+        "shart ? a : b",
+        "shart ?? a : b",
+        "shart && a || b"
+      ],
+      "correct": 1,
+      "exp": "condition ? valueIfTrue : valueIfFalse. Qayta o'qing."
+    },
+    {
+      "id": "mcq-15-015",
+      "q": "default case nima (qayta / chuqurroq)?",
+      "opts": [
+        "Birinchi case",
+        "Hech qaysi case mos kelmasa bajariladigan qism",
+        "Oxirgi case majburiy",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "default — fallback qism. Qayta o'qing."
+    },
+    {
+      "id": "mcq-15-016",
+      "q": "let n=1; let s = n===1 ? 'bir' : 'boshqa'; — s qiymati (qayta / chuqurroq)?",
+      "opts": [
+        "boshqa",
+        "bir",
+        "1",
+        "true"
+      ],
+      "correct": 1,
+      "exp": "n===1 true bo'lgani uchun 'bir'. Qayta o'qing."
+    },
+    {
+      "id": "mcq-15-017",
+      "q": "switch va ternary operator mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "switch va ternary operator bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

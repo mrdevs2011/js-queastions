@@ -1,0 +1,247 @@
+{
+  "lesson": 2,
+  "type": "mcq",
+  "title": "Javascript va uning versiyalari",
+  "questions": [
+    {
+      "id": "mcq-2-001",
+      "q": "Zamonaviy JavaScript standarti qanday nomlanadi?",
+      "opts": [
+        "HTML5",
+        "ECMAScript (ES)",
+        "CSS3",
+        "JSON"
+      ],
+      "correct": 1,
+      "exp": "JavaScript ECMAScript standartiga asoslanadi (ES5, ES6/ES2015 va h.k.)."
+    },
+    {
+      "id": "mcq-2-002",
+      "q": "let va const kalit so'zlari qaysi versiyada kiritilgan?",
+      "opts": [
+        "ES3",
+        "ES5",
+        "ES6 (ES2015)",
+        "ES1"
+      ],
+      "correct": 2,
+      "exp": "let, const, arrow function kabi imkoniyatlar ES6 (2015) bilan kirib keldi."
+    },
+    {
+      "id": "mcq-2-003",
+      "q": "ES6 qaysi yilda chiqarilgan?",
+      "opts": [
+        "2010",
+        "2015",
+        "2018",
+        "2009"
+      ],
+      "correct": 1,
+      "exp": "ES6 (ES2015) 2015-yilda rasmiylashtirilgan."
+    },
+    {
+      "id": "mcq-2-004",
+      "q": "JavaScript va Java bir xil tilmi?",
+      "opts": [
+        "Ha, bir xil",
+        "Yo'q, umuman boshqa tillar",
+        "JavaScript Java ning qisqartmasi",
+        "Faqat sintaksisi bir xil"
+      ],
+      "correct": 1,
+      "exp": "JavaScript va Java — turli tillar. Nom o'xshashligi marketing maqsadida qo'yilgan."
+    },
+    {
+      "id": "mcq-2-005",
+      "q": "ECMAScript nima?",
+      "opts": [
+        "CSS framework",
+        "JS rasmiy standarti",
+        "Database",
+        "Brauzer"
+      ],
+      "correct": 1,
+      "exp": "ECMAScript — JS standarti."
+    },
+    {
+      "id": "mcq-2-006",
+      "q": "ES2015 boshqa nomi?",
+      "opts": [
+        "ES5",
+        "ES6",
+        "ES7",
+        "ES3"
+      ],
+      "correct": 1,
+      "exp": "ES6 = ES2015."
+    },
+    {
+      "id": "mcq-2-007",
+      "q": "Transpiler nima uchun?",
+      "opts": [
+        "Rasm siqish",
+        "Yangi JS ni eski brauzer kodiga aylantirish",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "Babel kabi vositalar."
+    },
+    {
+      "id": "mcq-2-008",
+      "q": "ES6 yangiliklari?",
+      "opts": [
+        "var",
+        "let/const va arrow",
+        "document.write",
+        "alert"
+      ],
+      "correct": 1,
+      "exp": "let, const, arrow — ES6."
+    },
+    {
+      "id": "mcq-2-009",
+      "q": "JS engine misoli?",
+      "opts": [
+        "V8",
+        "Photoshop",
+        "MySQL",
+        "Nginx"
+      ],
+      "correct": 0,
+      "exp": "V8 — Chrome/Node."
+    },
+    {
+      "id": "mcq-2-010",
+      "q": "Strict mode nima qiladi?",
+      "opts": [
+        "Sekinlashtiradi",
+        "Qattiqroq qoidalar",
+        "CSS o'chiradi",
+        "HTML o'zgartiradi"
+      ],
+      "correct": 1,
+      "exp": "use strict xatolarni erta ochadi."
+    },
+    {
+      "id": "mcq-2-011",
+      "q": "Polyfill nima?",
+      "opts": [
+        "CSS lib",
+        "Eski muhitda yangi API taqlidi",
+        "Rasm",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy API ni eski brauzerda."
+    },
+    {
+      "id": "mcq-2-012",
+      "q": "ES modules qachon?",
+      "opts": [
+        "ES3",
+        "ES5",
+        "ES6 dan keyin",
+        "Hech qachon"
+      ],
+      "correct": 2,
+      "exp": "import/export ES6."
+    },
+    {
+      "id": "mcq-2-013",
+      "q": "ECMAScript nima?",
+      "opts": [
+        "CSS framework",
+        "JS rasmiy standarti",
+        "Database",
+        "Brauzer"
+      ],
+      "correct": 1,
+      "exp": "ECMAScript — JS standarti."
+    },
+    {
+      "id": "mcq-2-014",
+      "q": "ES2015 boshqa nomi?",
+      "opts": [
+        "ES5",
+        "ES6",
+        "ES7",
+        "ES3"
+      ],
+      "correct": 1,
+      "exp": "ES6 = ES2015."
+    },
+    {
+      "id": "mcq-2-015",
+      "q": "Transpiler nima uchun?",
+      "opts": [
+        "Rasm siqish",
+        "Yangi JS ni eski brauzer kodiga aylantirish",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "Babel kabi vositalar."
+    },
+    {
+      "id": "mcq-2-016",
+      "q": "ES6 yangiliklari?",
+      "opts": [
+        "var",
+        "let/const va arrow",
+        "document.write",
+        "alert"
+      ],
+      "correct": 1,
+      "exp": "let, const, arrow — ES6."
+    },
+    {
+      "id": "mcq-2-017",
+      "q": "JS engine misoli?",
+      "opts": [
+        "V8",
+        "Photoshop",
+        "MySQL",
+        "Nginx"
+      ],
+      "correct": 0,
+      "exp": "V8 — Chrome/Node."
+    },
+    {
+      "id": "mcq-2-018",
+      "q": "Strict mode nima qiladi?",
+      "opts": [
+        "Sekinlashtiradi",
+        "Qattiqroq qoidalar",
+        "CSS o'chiradi",
+        "HTML o'zgartiradi"
+      ],
+      "correct": 1,
+      "exp": "use strict xatolarni erta ochadi."
+    },
+    {
+      "id": "mcq-2-019",
+      "q": "Polyfill nima?",
+      "opts": [
+        "CSS lib",
+        "Eski muhitda yangi API taqlidi",
+        "Rasm",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy API ni eski brauzerda."
+    },
+    {
+      "id": "mcq-2-020",
+      "q": "ES modules qachon?",
+      "opts": [
+        "ES3",
+        "ES5",
+        "ES6 dan keyin",
+        "Hech qachon"
+      ],
+      "correct": 2,
+      "exp": "import/export ES6."
+    }
+  ]
+}

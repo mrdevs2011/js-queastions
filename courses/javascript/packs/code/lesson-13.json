@@ -1,0 +1,31 @@
+{
+  "lesson": 13,
+  "type": "code",
+  "title": "Operatorlarning ustuvorligi",
+  "questions": [
+    {
+      "id": "code-13-001",
+      "task": "Operatorlarning ustuvorligi: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-13-002",
+      "task": "Operatorlarning ustuvorligi: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-13-003",
+      "task": "Operatorlarning ustuvorligi: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-13-004",
+      "task": "Operatorlarning ustuvorligi: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    }
+  ]
+}

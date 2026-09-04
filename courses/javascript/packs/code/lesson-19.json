@@ -1,0 +1,43 @@
+{
+  "lesson": 19,
+  "type": "code",
+  "title": "Function expression va arrow function",
+  "questions": [
+    {
+      "id": "code-19-001",
+      "task": "arrow function bilan ikki sonning o'rtachasini hisoblaydigan ortacha yozing. 4 va 10 bilan tekshiring.",
+      "sample": "const ortacha = (a, b) => (a + b) / 2;\nconsole.log(ortacha(4, 10)); // 7",
+      "exp": "Arrow function qisqa yozuvi."
+    },
+    {
+      "id": "code-19-002",
+      "task": "Function expression va arrow function bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "const ortacha = (a, b) => (a + b) / 2;\nconsole.log(ortacha(4, 10)); // 7",
+      "exp": "Arrow function qisqa yozuvi."
+    },
+    {
+      "id": "code-19-003",
+      "task": "Function expression va arrow function: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
+      "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
+      "exp": "Function declaration."
+    },
+    {
+      "id": "code-19-004",
+      "task": "Function expression va arrow function: default parametrli salom(ism=\"Mehmon\") yozing.",
+      "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
+      "exp": "Default params."
+    },
+    {
+      "id": "code-19-005",
+      "task": "Function expression va arrow function: arrow bilan kvadrat(n) yozing.",
+      "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
+      "exp": "Arrow function."
+    },
+    {
+      "id": "code-19-006",
+      "task": "Function expression va arrow function: rest bilan yigindi(...sonlar) yozing.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
+      "exp": "Rest parametr."
+    }
+  ]
+}

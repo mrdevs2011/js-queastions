@@ -1,0 +1,211 @@
+{
+  "lesson": 20,
+  "type": "mcq",
+  "title": "Massivlarga (arrays) kirish",
+  "questions": [
+    {
+      "id": "mcq-20-001",
+      "q": "Array indeksi qayerdan?",
+      "opts": [
+        "1",
+        "0",
+        "-1",
+        "ixtiyoriy"
+      ],
+      "correct": 1,
+      "exp": "Birinchi element — indeks 0."
+    },
+    {
+      "id": "mcq-20-002",
+      "q": "let a=[1,2]; a[2] qiymati?",
+      "opts": [
+        "2",
+        "undefined",
+        "null",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Mavjud bo'lmagan indeks — undefined."
+    },
+    {
+      "id": "mcq-20-003",
+      "q": "Array.isArray([]) ?",
+      "opts": [
+        "false",
+        "true",
+        "undefined",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "Array.isArray massiv ekanligini tekshiradi."
+    },
+    {
+      "id": "mcq-20-004",
+      "q": "arr.length ni kamaytirish nima qiladi?",
+      "opts": [
+        "Hech narsa",
+        "Oxirgi elementlarni kesib tashlaydi",
+        "Xato",
+        "Nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "length ni kichiklashtirish massivni qisqartiradi."
+    },
+    {
+      "id": "mcq-20-005",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-006",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-007",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-008",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-009",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-010",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-011",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-012",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-20-013",
+      "q": "Array indeksi qayerdan (qayta / chuqurroq)?",
+      "opts": [
+        "1",
+        "0",
+        "-1",
+        "ixtiyoriy"
+      ],
+      "correct": 1,
+      "exp": "Birinchi element — indeks 0. Qayta o'qing."
+    },
+    {
+      "id": "mcq-20-014",
+      "q": "let a=[1,2]; a[2] qiymati (qayta / chuqurroq)?",
+      "opts": [
+        "2",
+        "undefined",
+        "null",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Mavjud bo'lmagan indeks — undefined. Qayta o'qing."
+    },
+    {
+      "id": "mcq-20-015",
+      "q": "Array.isArray([])  (qayta / chuqurroq)?",
+      "opts": [
+        "false",
+        "true",
+        "undefined",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "Array.isArray massiv ekanligini tekshiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-20-016",
+      "q": "arr.length ni kamaytirish nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Hech narsa",
+        "Oxirgi elementlarni kesib tashlaydi",
+        "Xato",
+        "Nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "length ni kichiklashtirish massivni qisqartiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-20-017",
+      "q": "Massivlarga (arrays) kirish mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massivlarga (arrays) kirish bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

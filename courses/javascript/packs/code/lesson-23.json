@@ -1,0 +1,79 @@
+{
+  "lesson": 23,
+  "type": "code",
+  "title": "Array va Object destruction",
+  "questions": [
+    {
+      "id": "code-23-001",
+      "task": "const point = {x:10, y:20}; dan x va y ni destrukturatsiya qilib oling va chiqaring.",
+      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
+      "exp": "Object destructuring."
+    },
+    {
+      "id": "code-23-002",
+      "task": "Array va Object destruction bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
+      "exp": "Object destructuring."
+    },
+    {
+      "id": "code-23-003",
+      "task": "Array va Object destruction: [10,20,30] yarating, push 40, length chiqaring.",
+      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
+      "exp": "push, length."
+    },
+    {
+      "id": "code-23-004",
+      "task": "Array va Object destruction: filter bilan juft sonlar.",
+      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
+      "exp": "filter."
+    },
+    {
+      "id": "code-23-005",
+      "task": "Array va Object destruction: map bilan *2.",
+      "sample": "console.log([1,2,3].map(x => x * 2));",
+      "exp": "map."
+    },
+    {
+      "id": "code-23-006",
+      "task": "Array va Object destruction: reduce yig'indi.",
+      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-23-007",
+      "task": "Array va Object destruction: find bilan 10 dan kattasi.",
+      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
+      "exp": "find."
+    },
+    {
+      "id": "code-23-008",
+      "task": "Array va Object destruction: slice va splice farqini kichik misolda ko'rsating.",
+      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
+      "exp": "slice nusxa, splice o'zgartiradi."
+    },
+    {
+      "id": "code-23-009",
+      "task": "Array va Object destruction: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
+      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
+      "exp": "Object literal."
+    },
+    {
+      "id": "code-23-010",
+      "task": "Array va Object destruction: Object.keys va values chiqaring.",
+      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
+      "exp": "keys/values."
+    },
+    {
+      "id": "code-23-011",
+      "task": "Array va Object destruction: destrukturatsiya {x,y} = point.",
+      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
+      "exp": "Destructuring."
+    },
+    {
+      "id": "code-23-012",
+      "task": "Array va Object destruction: spread bilan obyekt nusxa + yangi maydon.",
+      "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
+      "exp": "Object spread."
+    }
+  ]
+}

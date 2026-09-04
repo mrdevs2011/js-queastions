@@ -1,0 +1,211 @@
+{
+  "lesson": 3,
+  "type": "mcq",
+  "title": "Dasturlash muhiti",
+  "questions": [
+    {
+      "id": "mcq-3-001",
+      "q": "Kod yozish uchun qaysi muharrir ko'p tavsiya etiladi?",
+      "opts": [
+        "Paint",
+        "VS Code",
+        "Calculator",
+        "Notepad majburiy"
+      ],
+      "correct": 1,
+      "exp": "VS Code — bepul, qulay va keng tarqalgan kod muharriri."
+    },
+    {
+      "id": "mcq-3-002",
+      "q": "Brauzer konsolini qanday ochish mumkin?",
+      "opts": [
+        "Faqat maxsus dastur bilan",
+        "F12 yoki Ctrl+Shift+I",
+        "Faqat terminal",
+        "Mumkin emas"
+      ],
+      "correct": 1,
+      "exp": "F12 yoki o'ng tugma → Inspect → Console."
+    },
+    {
+      "id": "mcq-3-003",
+      "q": "console.log nima uchun ishlatiladi?",
+      "opts": [
+        "Sahifani yangilash",
+        "Konsolga ma'lumot chiqarish",
+        "Fayl saqlash",
+        "CSS o'zgartirish"
+      ],
+      "correct": 1,
+      "exp": "Debug va natijani ko'rish uchun console.log ishlatiladi."
+    },
+    {
+      "id": "mcq-3-004",
+      "q": "Kodni ishga tushirish uchun nima qilish kerak?",
+      "opts": [
+        "Faqat yozib qo'yish",
+        "Brauzerda ochish yoki Node orqali ishlatish",
+        "Chop etish",
+        "Email yuborish"
+      ],
+      "correct": 1,
+      "exp": "JS brauzerda yoki Node.js da bajariladi."
+    },
+    {
+      "id": "mcq-3-005",
+      "q": "Dasturlash muhiti mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-006",
+      "q": "Dasturlash muhiti mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-007",
+      "q": "Dasturlash muhiti mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-008",
+      "q": "Dasturlash muhiti mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-009",
+      "q": "Dasturlash muhiti mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-010",
+      "q": "Dasturlash muhiti mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-011",
+      "q": "Dasturlash muhiti mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-012",
+      "q": "Dasturlash muhiti mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-3-013",
+      "q": "Kod yozish uchun qaysi muharrir ko'p tavsiya etiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Paint",
+        "VS Code",
+        "Calculator",
+        "Notepad majburiy"
+      ],
+      "correct": 1,
+      "exp": "VS Code — bepul, qulay va keng tarqalgan kod muharriri. Qayta o'qing."
+    },
+    {
+      "id": "mcq-3-014",
+      "q": "Brauzer konsolini qanday ochish mumkin (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat maxsus dastur bilan",
+        "F12 yoki Ctrl+Shift+I",
+        "Faqat terminal",
+        "Mumkin emas"
+      ],
+      "correct": 1,
+      "exp": "F12 yoki o'ng tugma → Inspect → Console. Qayta o'qing."
+    },
+    {
+      "id": "mcq-3-015",
+      "q": "console.log nima uchun ishlatiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Sahifani yangilash",
+        "Konsolga ma'lumot chiqarish",
+        "Fayl saqlash",
+        "CSS o'zgartirish"
+      ],
+      "correct": 1,
+      "exp": "Debug va natijani ko'rish uchun console.log ishlatiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-3-016",
+      "q": "Kodni ishga tushirish uchun nima qilish kerak (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat yozib qo'yish",
+        "Brauzerda ochish yoki Node orqali ishlatish",
+        "Chop etish",
+        "Email yuborish"
+      ],
+      "correct": 1,
+      "exp": "JS brauzerda yoki Node.js da bajariladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-3-017",
+      "q": "Dasturlash muhiti mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Dasturlash muhiti bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

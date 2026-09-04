@@ -1,0 +1,307 @@
+{
+  "lesson": 15,
+  "type": "mcq",
+  "title": "Array methods",
+  "questions": [
+    {
+      "id": "mcq-15-001",
+      "q": "let arr=[1,2,3]; arr.push(4); console.log(arr.length); natija?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "push() oxiriga element qo'shadi: [1,2,3,4] -> length 4."
+    },
+    {
+      "id": "mcq-15-002",
+      "q": "pop() metodi nima qiladi?",
+      "opts": [
+        "Boshidagi elementni olib tashlaydi",
+        "Oxirgi elementni olib tashlaydi",
+        "Hammasini tozalaydi",
+        "Teskari qiladi"
+      ],
+      "correct": 1,
+      "exp": "pop() oxirgi elementni olib tashlaydi va uni qaytaradi."
+    },
+    {
+      "id": "mcq-15-003",
+      "q": "[1,2,3,4].filter(x => x > 2) natijasi?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[1,2,3,4]"
+      ],
+      "correct": 1,
+      "exp": "filter shartga mos elementlarni yangi array qilib qaytaradi."
+    },
+    {
+      "id": "mcq-15-004",
+      "q": "map() metodi nima qiladi?",
+      "opts": [
+        "Elementlarni o'chiradi",
+        "Har bir elementni o'zgartirib yangi array qaytaradi",
+        "Faqat qidiradi",
+        "Saralaydi"
+      ],
+      "correct": 1,
+      "exp": "map() har bir elementga funksiya qo'llab, yangi array qaytaradi."
+    },
+    {
+      "id": "mcq-15-005",
+      "q": "arr.includes(5) nima qaytaradi (agar 5 bo'lmasa)?",
+      "opts": [
+        "undefined",
+        "false",
+        "-1",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "includes() element bor-yo'qligini boolean qilib qaytaradi."
+    },
+    {
+      "id": "mcq-15-006",
+      "q": "map aslni o'zgartiradimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat object",
+        "Faqat number"
+      ],
+      "correct": 1,
+      "exp": "Yangi massiv."
+    },
+    {
+      "id": "mcq-15-007",
+      "q": "forEach return?",
+      "opts": [
+        "Yangi array",
+        "undefined",
+        "true",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "undefined."
+    },
+    {
+      "id": "mcq-15-008",
+      "q": "reduce initial yo'q?",
+      "opts": [
+        "Xato",
+        "Birinchi element initial",
+        "0",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Birinchi element."
+    },
+    {
+      "id": "mcq-15-009",
+      "q": "some() qaytaradi?",
+      "opts": [
+        "array",
+        "boolean",
+        "element",
+        "count"
+      ],
+      "correct": 1,
+      "exp": "Kamida bittasi."
+    },
+    {
+      "id": "mcq-15-010",
+      "q": "every()?",
+      "opts": [
+        "Birortasi",
+        "Hammasi mosmi",
+        "map",
+        "filter"
+      ],
+      "correct": 1,
+      "exp": "Barchasi true."
+    },
+    {
+      "id": "mcq-15-011",
+      "q": "findIndex topilmasa?",
+      "opts": [
+        "undefined",
+        "-1",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "-1."
+    },
+    {
+      "id": "mcq-15-012",
+      "q": "sort() aslni?",
+      "opts": [
+        "O'zgartirmaydi",
+        "O'zgartiradi",
+        "Faqat nusxa",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "In-place."
+    },
+    {
+      "id": "mcq-15-013",
+      "q": "[10,2].sort() default?",
+      "opts": [
+        "[2,10]",
+        "[10,2] string tartib",
+        "xato",
+        "[10,2,0]"
+      ],
+      "correct": 1,
+      "exp": "Comparator yozing."
+    },
+    {
+      "id": "mcq-15-014",
+      "q": "flat()?",
+      "opts": [
+        "Saralaydi",
+        "Ichki massivlarni yoyadi",
+        "O'chiradi",
+        "Nusxa"
+      ],
+      "correct": 1,
+      "exp": "[1,[2]].flat()."
+    },
+    {
+      "id": "mcq-15-015",
+      "q": "includes(NaN)?",
+      "opts": [
+        "false",
+        "true",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "NaN topiladi."
+    },
+    {
+      "id": "mcq-15-016",
+      "q": "map aslni o'zgartiradimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat object",
+        "Faqat number"
+      ],
+      "correct": 1,
+      "exp": "Yangi massiv."
+    },
+    {
+      "id": "mcq-15-017",
+      "q": "forEach return?",
+      "opts": [
+        "Yangi array",
+        "undefined",
+        "true",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "undefined."
+    },
+    {
+      "id": "mcq-15-018",
+      "q": "reduce initial yo'q?",
+      "opts": [
+        "Xato",
+        "Birinchi element initial",
+        "0",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Birinchi element."
+    },
+    {
+      "id": "mcq-15-019",
+      "q": "some() qaytaradi?",
+      "opts": [
+        "array",
+        "boolean",
+        "element",
+        "count"
+      ],
+      "correct": 1,
+      "exp": "Kamida bittasi."
+    },
+    {
+      "id": "mcq-15-020",
+      "q": "every()?",
+      "opts": [
+        "Birortasi",
+        "Hammasi mosmi",
+        "map",
+        "filter"
+      ],
+      "correct": 1,
+      "exp": "Barchasi true."
+    },
+    {
+      "id": "mcq-15-021",
+      "q": "findIndex topilmasa?",
+      "opts": [
+        "undefined",
+        "-1",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "-1."
+    },
+    {
+      "id": "mcq-15-022",
+      "q": "sort() aslni?",
+      "opts": [
+        "O'zgartirmaydi",
+        "O'zgartiradi",
+        "Faqat nusxa",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "In-place."
+    },
+    {
+      "id": "mcq-15-023",
+      "q": "[10,2].sort() default?",
+      "opts": [
+        "[2,10]",
+        "[10,2] string tartib",
+        "xato",
+        "[10,2,0]"
+      ],
+      "correct": 1,
+      "exp": "Comparator yozing."
+    },
+    {
+      "id": "mcq-15-024",
+      "q": "flat()?",
+      "opts": [
+        "Saralaydi",
+        "Ichki massivlarni yoyadi",
+        "O'chiradi",
+        "Nusxa"
+      ],
+      "correct": 1,
+      "exp": "[1,[2]].flat()."
+    },
+    {
+      "id": "mcq-15-025",
+      "q": "includes(NaN)?",
+      "opts": [
+        "false",
+        "true",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "NaN topiladi."
+    }
+  ]
+}

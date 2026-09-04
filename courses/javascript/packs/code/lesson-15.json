@@ -1,0 +1,79 @@
+{
+  "lesson": 15,
+  "type": "code",
+  "title": "switch va ternary operator",
+  "questions": [
+    {
+      "id": "code-15-001",
+      "task": "kun=3. switch orqali 1=Dushanba, 2=Seshanba, 3=Chorshanba, default=Noma'lum chiqaring.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch + break + default."
+    },
+    {
+      "id": "code-15-002",
+      "task": "switch va ternary operator bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch + break + default."
+    },
+    {
+      "id": "code-15-003",
+      "task": "switch va ternary operator: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-15-004",
+      "task": "switch va ternary operator: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-15-005",
+      "task": "switch va ternary operator: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-15-006",
+      "task": "switch va ternary operator: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    },
+    {
+      "id": "code-15-007",
+      "task": "switch va ternary operator: if/else: ball=75 uchun A/B/C.",
+      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
+      "exp": "if/else if."
+    },
+    {
+      "id": "code-15-008",
+      "task": "switch va ternary operator: switch kun=3 → Chorshanba.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch."
+    },
+    {
+      "id": "code-15-009",
+      "task": "switch va ternary operator: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-15-010",
+      "task": "switch va ternary operator: for 1..5 chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
+      "exp": "for."
+    },
+    {
+      "id": "code-15-011",
+      "task": "switch va ternary operator: while 5..1 kamaytirib chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while."
+    },
+    {
+      "id": "code-15-012",
+      "task": "switch va ternary operator: for da break (i===3).",
+      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break."
+    }
+  ]
+}

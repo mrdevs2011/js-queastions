@@ -1,0 +1,61 @@
+{
+  "lesson": 4,
+  "type": "code",
+  "title": "Qiymatlar va o'zgaruvchilar",
+  "questions": [
+    {
+      "id": "code-4-001",
+      "task": "ism va yosh nomli ikkita o'zgaruvchi e'lon qiling (o'zingiznikini yozing) va ularni console.log orqali chiqaring.",
+      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nconsole.log(ism);\nconsole.log(yosh);",
+      "exp": "O'zgaruvchi let bilan e'lon qilinadi, teng belgisi orqali qiymat beriladi, satrlar tirnoqda yoziladi."
+    },
+    {
+      "id": "code-4-002",
+      "task": "const TUGILGAN_YIL va 2026 dan yosh hisoblang.",
+      "sample": "const TUGILGAN_YIL = 2000;\nconsole.log(2026 - TUGILGAN_YIL);",
+      "exp": "const va arifmetika."
+    },
+    {
+      "id": "code-4-003",
+      "task": "let a=1,b=2,c=3 bir qatorda, yig'indi chiqaring.",
+      "sample": "let a=1, b=2, c=3;\nconsole.log(a+b+c);",
+      "exp": "Bir qatorli e'lon."
+    },
+    {
+      "id": "code-4-004",
+      "task": "const TUGILGAN_YIL va 2026 dan yosh hisoblang.",
+      "sample": "const TUGILGAN_YIL = 2000;\nconsole.log(2026 - TUGILGAN_YIL);",
+      "exp": "const va arifmetika."
+    },
+    {
+      "id": "code-4-005",
+      "task": "let a=1,b=2,c=3 bir qatorda, yig'indi chiqaring.",
+      "sample": "let a=1, b=2, c=3;\nconsole.log(a+b+c);",
+      "exp": "Bir qatorli e'lon."
+    },
+    {
+      "id": "code-4-006",
+      "task": "Qiymatlar va o'zgaruvchilar: ism, yosh, shahar o'zgaruvchilarini e'lon qilib chiqaring.",
+      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nlet shahar = \"Toshkent\";\nconsole.log(ism, yosh, shahar);",
+      "exp": "let bilan e'lon va console.log."
+    },
+    {
+      "id": "code-4-007",
+      "task": "Qiymatlar va o'zgaruvchilar: const PI = 3.14; radius=5; yuzani hisoblang (PI*r*r).",
+      "sample": "const PI = 3.14;\nlet r = 5;\nconsole.log(PI * r * r);",
+      "exp": "const va arifmetika."
+    },
+    {
+      "id": "code-4-008",
+      "task": "Qiymatlar va o'zgaruvchilar: bir qatorda a,b,c e'lon qilib o'rtacha chiqaring.",
+      "sample": "let a = 4, b = 6, c = 8;\nconsole.log((a + b + c) / 3);",
+      "exp": "Bir qatorli e'lon."
+    },
+    {
+      "id": "code-4-009",
+      "task": "Qiymatlar va o'zgaruvchilar: o'zgaruvchisiz qiymat berilmagan let x; typeof ni chiqaring.",
+      "sample": "let x;\nconsole.log(typeof x); // undefined",
+      "exp": "undefined turi."
+    }
+  ]
+}

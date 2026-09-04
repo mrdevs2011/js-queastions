@@ -1,0 +1,211 @@
+{
+  "lesson": 11,
+  "type": "mcq",
+  "title": "Asosiy operatorlar",
+  "questions": [
+    {
+      "id": "mcq-11-001",
+      "q": "5 ** 2 natijasi?",
+      "opts": [
+        "10",
+        "25",
+        "7",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "** — daraja (exponent) operatori."
+    },
+    {
+      "id": "mcq-11-002",
+      "q": "let x=5; x++; console.log(x);",
+      "opts": [
+        "5",
+        "6",
+        "4",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "x++ qiymatni 1 ga oshiradi."
+    },
+    {
+      "id": "mcq-11-003",
+      "q": "\"10\" - 5 natijasi?",
+      "opts": [
+        "\"105\"",
+        "5",
+        "NaN",
+        "\"10-5\""
+      ],
+      "correct": 1,
+      "exp": "- operatori numeric coercion qiladi."
+    },
+    {
+      "id": "mcq-11-004",
+      "q": "10 % 3 natijasi?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "3.33"
+      ],
+      "correct": 1,
+      "exp": "Qoldiq: 10 = 3*3 + 1."
+    },
+    {
+      "id": "mcq-11-005",
+      "q": "let a=1; a += 5; a ning qiymati?",
+      "opts": [
+        "1",
+        "5",
+        "6",
+        "15"
+      ],
+      "correct": 2,
+      "exp": "a += 5 → a = a + 5."
+    },
+    {
+      "id": "mcq-11-006",
+      "q": "Asosiy operatorlar mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-007",
+      "q": "Asosiy operatorlar mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-008",
+      "q": "Asosiy operatorlar mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-009",
+      "q": "Asosiy operatorlar mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-010",
+      "q": "Asosiy operatorlar mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-011",
+      "q": "Asosiy operatorlar mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-012",
+      "q": "Asosiy operatorlar mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Asosiy operatorlar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-11-013",
+      "q": "5 ** 2 natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "10",
+        "25",
+        "7",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "** — daraja (exponent) operatori. Qayta o'qing."
+    },
+    {
+      "id": "mcq-11-014",
+      "q": "let x=5; x++; console.log(x); (qayta / chuqurroq)?",
+      "opts": [
+        "5",
+        "6",
+        "4",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "x++ qiymatni 1 ga oshiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-11-015",
+      "q": "\"10\" - 5 natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "\"105\"",
+        "5",
+        "NaN",
+        "\"10-5\""
+      ],
+      "correct": 1,
+      "exp": "- operatori numeric coercion qiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-11-016",
+      "q": "10 % 3 natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "3",
+        "1",
+        "0",
+        "3.33"
+      ],
+      "correct": 1,
+      "exp": "Qoldiq: 10 = 3*3 + 1. Qayta o'qing."
+    },
+    {
+      "id": "mcq-11-017",
+      "q": "let a=1; a += 5; a ning qiymati (qayta / chuqurroq)?",
+      "opts": [
+        "1",
+        "5",
+        "6",
+        "15"
+      ],
+      "correct": 2,
+      "exp": "a += 5 → a = a + 5. Qayta o'qing."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "lesson": 28,
+  "type": "mcq",
+  "title": "Ko'p uchraydigan hodisalar",
+  "questions": [
+    {
+      "id": "mcq-28-001",
+      "q": "Sahifa to'liq yuklanganini aniqlash uchun qaysi hodisa ishlatiladi?",
+      "opts": [
+        "load",
+        "click",
+        "change",
+        "submit"
+      ],
+      "correct": 0,
+      "exp": "load hodisasi sahifa (yoki resurs) to'liq yuklanganda ishga tushadi."
+    },
+    {
+      "id": "mcq-28-002",
+      "q": "input maydoniga yozilganda qaysi hodisa ishlaydi?",
+      "opts": [
+        "click",
+        "input yoki change",
+        "load",
+        "submit"
+      ],
+      "correct": 1,
+      "exp": "input — har yozilganda, change — fokus yo'qolganda ishlaydi."
+    },
+    {
+      "id": "mcq-28-003",
+      "q": "Forma yuborilganda qaysi hodisa?",
+      "opts": [
+        "click",
+        "submit",
+        "load",
+        "change"
+      ],
+      "correct": 1,
+      "exp": "submit — forma yuborilish hodisasi."
+    },
+    {
+      "id": "mcq-28-004",
+      "q": "sichqoncha element ustiga kelganda?",
+      "opts": [
+        "click",
+        "mouseover / mouseenter",
+        "keydown",
+        "scroll"
+      ],
+      "correct": 1,
+      "exp": "mouseover yoki mouseenter — sichqoncha kirganda."
+    },
+    {
+      "id": "mcq-28-005",
+      "q": "Klaviatura tugmasi bosilganda?",
+      "opts": [
+        "click",
+        "keydown / keyup",
+        "submit",
+        "load"
+      ],
+      "correct": 1,
+      "exp": "keydown (bosilganda), keyup (qo'yib yuborilganda)."
+    },
+    {
+      "id": "mcq-28-006",
+      "q": "input vs change?",
+      "opts": [
+        "Bir xil",
+        "input har o'zgarish, change keyinroq",
+        "change tez",
+        "input yo'q"
+      ],
+      "correct": 1,
+      "exp": "Real-time input."
+    },
+    {
+      "id": "mcq-28-007",
+      "q": "submit Enter?",
+      "opts": [
+        "Yo'q",
+        "Formada mumkin",
+        "Faqat tugma",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "preventDefault."
+    },
+    {
+      "id": "mcq-28-008",
+      "q": "dblclick?",
+      "opts": [
+        "Yo'q",
+        "Ikki marta bosish",
+        "Uch",
+        "Long"
+      ],
+      "correct": 1,
+      "exp": "dblclick."
+    },
+    {
+      "id": "mcq-28-009",
+      "q": "contextmenu?",
+      "opts": [
+        "Chap",
+        "O'ng menyu",
+        "Scroll",
+        "Drag"
+      ],
+      "correct": 1,
+      "exp": "O'ng tugma."
+    },
+    {
+      "id": "mcq-28-010",
+      "q": "scroll hodisasi?",
+      "opts": [
+        "Faqat window",
+        "Element yoki window",
+        "Faqat document",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Throttle tavsiya."
+    },
+    {
+      "id": "mcq-28-011",
+      "q": "resize?",
+      "opts": [
+        "Har element",
+        "window",
+        "Faqat body",
+        "input"
+      ],
+      "correct": 1,
+      "exp": "window resize."
+    },
+    {
+      "id": "mcq-28-012",
+      "q": "drag hodisalari?",
+      "opts": [
+        "Faqat click",
+        "dragstart, drop",
+        "Faqat mousedown",
+        "touch"
+      ],
+      "correct": 1,
+      "exp": "HTML5 DnD."
+    },
+    {
+      "id": "mcq-28-013",
+      "q": "touchstart?",
+      "opts": [
+        "Yo'q",
+        "Mobil sensor",
+        "Faqat desktop",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Touch."
+    },
+    {
+      "id": "mcq-28-014",
+      "q": "pointer events?",
+      "opts": [
+        "Eski",
+        "Sichqoncha+touch birlashma",
+        "Faqat IE",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy."
+    },
+    {
+      "id": "mcq-28-015",
+      "q": "transitionend?",
+      "opts": [
+        "Click",
+        "CSS transition tugashi",
+        "Load",
+        "Submit"
+      ],
+      "correct": 1,
+      "exp": "Animatsiya oxiri."
+    },
+    {
+      "id": "mcq-28-016",
+      "q": "input vs change?",
+      "opts": [
+        "Bir xil",
+        "input har o'zgarish, change keyinroq",
+        "change tez",
+        "input yo'q"
+      ],
+      "correct": 1,
+      "exp": "Real-time input."
+    },
+    {
+      "id": "mcq-28-017",
+      "q": "submit Enter?",
+      "opts": [
+        "Yo'q",
+        "Formada mumkin",
+        "Faqat tugma",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "preventDefault."
+    },
+    {
+      "id": "mcq-28-018",
+      "q": "dblclick?",
+      "opts": [
+        "Yo'q",
+        "Ikki marta bosish",
+        "Uch",
+        "Long"
+      ],
+      "correct": 1,
+      "exp": "dblclick."
+    },
+    {
+      "id": "mcq-28-019",
+      "q": "contextmenu?",
+      "opts": [
+        "Chap",
+        "O'ng menyu",
+        "Scroll",
+        "Drag"
+      ],
+      "correct": 1,
+      "exp": "O'ng tugma."
+    },
+    {
+      "id": "mcq-28-020",
+      "q": "scroll hodisasi?",
+      "opts": [
+        "Faqat window",
+        "Element yoki window",
+        "Faqat document",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Throttle tavsiya."
+    },
+    {
+      "id": "mcq-28-021",
+      "q": "resize?",
+      "opts": [
+        "Har element",
+        "window",
+        "Faqat body",
+        "input"
+      ],
+      "correct": 1,
+      "exp": "window resize."
+    },
+    {
+      "id": "mcq-28-022",
+      "q": "drag hodisalari?",
+      "opts": [
+        "Faqat click",
+        "dragstart, drop",
+        "Faqat mousedown",
+        "touch"
+      ],
+      "correct": 1,
+      "exp": "HTML5 DnD."
+    },
+    {
+      "id": "mcq-28-023",
+      "q": "touchstart?",
+      "opts": [
+        "Yo'q",
+        "Mobil sensor",
+        "Faqat desktop",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Touch."
+    },
+    {
+      "id": "mcq-28-024",
+      "q": "pointer events?",
+      "opts": [
+        "Eski",
+        "Sichqoncha+touch birlashma",
+        "Faqat IE",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy."
+    },
+    {
+      "id": "mcq-28-025",
+      "q": "transitionend?",
+      "opts": [
+        "Click",
+        "CSS transition tugashi",
+        "Load",
+        "Submit"
+      ],
+      "correct": 1,
+      "exp": "Animatsiya oxiri."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 19,
+  "type": "mcq",
+  "title": "Function expression va arrow function",
+  "questions": [
+    {
+      "id": "mcq-19-001",
+      "q": "const f = function() {} — bu nima?",
+      "opts": [
+        "Function declaration",
+        "Function expression",
+        "Arrow majburiy",
+        "Class"
+      ],
+      "correct": 1,
+      "exp": "Ifoda sifatida yozilgan funksiya — function expression."
+    },
+    {
+      "id": "mcq-19-002",
+      "q": "Arrow function qisqa shakli?",
+      "opts": [
+        "function(x) x*x",
+        "(x) => x * x",
+        "x -> x*x",
+        "lambda x: x*x"
+      ],
+      "correct": 1,
+      "exp": "(param) => ifoda"
+    },
+    {
+      "id": "mcq-19-003",
+      "q": "Arrow function o'z this ini yaratadimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat strict da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Arrow tashqi this ni oladi."
+    },
+    {
+      "id": "mcq-19-004",
+      "q": "Bir qatorli arrow da return yoziladimi?",
+      "opts": [
+        "Majburiy",
+        "Yozilmasa avtomatik return",
+        "Mumkin emas",
+        "Faqat async da"
+      ],
+      "correct": 1,
+      "exp": "() => 5 — avtomatik 5 qaytaradi."
+    },
+    {
+      "id": "mcq-19-005",
+      "q": "Function expression va arrow function mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-006",
+      "q": "Function expression va arrow function mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-007",
+      "q": "Function expression va arrow function mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-008",
+      "q": "Function expression va arrow function mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-009",
+      "q": "Function expression va arrow function mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-010",
+      "q": "Function expression va arrow function mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-011",
+      "q": "Function expression va arrow function mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-012",
+      "q": "Function expression va arrow function mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-19-013",
+      "q": "const f = function() {} — bu nima (qayta / chuqurroq)?",
+      "opts": [
+        "Function declaration",
+        "Function expression",
+        "Arrow majburiy",
+        "Class"
+      ],
+      "correct": 1,
+      "exp": "Ifoda sifatida yozilgan funksiya — function expression. Qayta o'qing."
+    },
+    {
+      "id": "mcq-19-014",
+      "q": "Arrow function qisqa shakli (qayta / chuqurroq)?",
+      "opts": [
+        "function(x) x*x",
+        "(x) => x * x",
+        "x -> x*x",
+        "lambda x: x*x"
+      ],
+      "correct": 1,
+      "exp": "(param) => ifoda Qayta o'qing."
+    },
+    {
+      "id": "mcq-19-015",
+      "q": "Arrow function o'z this ini yaratadimi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat strict da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Arrow tashqi this ni oladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-19-016",
+      "q": "Bir qatorli arrow da return yoziladimi (qayta / chuqurroq)?",
+      "opts": [
+        "Majburiy",
+        "Yozilmasa avtomatik return",
+        "Mumkin emas",
+        "Faqat async da"
+      ],
+      "correct": 1,
+      "exp": "() => 5 — avtomatik 5 qaytaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-19-017",
+      "q": "Function expression va arrow function mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Function expression va arrow function bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

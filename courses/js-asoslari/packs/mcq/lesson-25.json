@@ -1,0 +1,295 @@
+{
+  "lesson": 25,
+  "type": "mcq",
+  "title": "Elementlarni o'zgartirish",
+  "questions": [
+    {
+      "id": "mcq-25-001",
+      "q": "Elementning matnini o'zgartirish uchun qaysi xususiyat ishlatiladi?",
+      "opts": [
+        "element.text",
+        "element.textContent",
+        "element.value",
+        "element.string"
+      ],
+      "correct": 1,
+      "exp": "textContent element ichidagi matnni o'qish/o'zgartirish uchun ishlatiladi."
+    },
+    {
+      "id": "mcq-25-002",
+      "q": "element.innerHTML nima qiladi?",
+      "opts": [
+        "Faqat matn o'qiydi",
+        "HTML bilan birga o'qiydi/yozadi",
+        "Faqat atributlarni o'zgartiradi",
+        "Elementni o'chiradi"
+      ],
+      "correct": 1,
+      "exp": "innerHTML HTML teglarini ham o'qiydi va yozadi."
+    },
+    {
+      "id": "mcq-25-003",
+      "q": "element.style.color = 'red' nima qiladi?",
+      "opts": [
+        "Class qo'shadi",
+        "Matn rangini qizil qiladi",
+        "Elementni o'chiradi",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "style orqali inline CSS o'zgartiriladi."
+    },
+    {
+      "id": "mcq-25-004",
+      "q": "element.setAttribute('id', 'x') nima qiladi?",
+      "opts": [
+        "id ni o'qiydi",
+        "id atributini 'x' qilib qo'yadi",
+        "Element yaratadi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "setAttribute atribut qiymatini o'rnatadi."
+    },
+    {
+      "id": "mcq-25-005",
+      "q": "classList.add?",
+      "opts": [
+        "Almashtiradi",
+        "Qo'shadi",
+        "O'chiradi",
+        "toggle"
+      ],
+      "correct": 1,
+      "exp": "class qo'shish."
+    },
+    {
+      "id": "mcq-25-006",
+      "q": "classList.toggle?",
+      "opts": [
+        "Har doim qo'shadi",
+        "Bor-yo'qligini almashtiradi",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Toggle."
+    },
+    {
+      "id": "mcq-25-007",
+      "q": "style.backgroundColor?",
+      "opts": [
+        "css matn",
+        "CamelCase xususiyat",
+        "cssText",
+        "class"
+      ],
+      "correct": 1,
+      "exp": "JS da camelCase."
+    },
+    {
+      "id": "mcq-25-008",
+      "q": "dataset?",
+      "opts": [
+        "Bir xil setAttribute",
+        "data-* uchun qulay",
+        "Yo'q",
+        "Faqat id"
+      ],
+      "correct": 1,
+      "exp": "data-user-id."
+    },
+    {
+      "id": "mcq-25-009",
+      "q": "removeAttribute?",
+      "opts": [
+        "Bo'sh qiladi",
+        "Olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "Atribut yo'qoladi."
+    },
+    {
+      "id": "mcq-25-010",
+      "q": "el.hidden=true?",
+      "opts": [
+        "CSS majburiy",
+        "Yashiradi",
+        "Yo'q",
+        "Faqat class"
+      ],
+      "correct": 1,
+      "exp": "Boolean attribute."
+    },
+    {
+      "id": "mcq-25-011",
+      "q": "innerHTML=''?",
+      "opts": [
+        "Hech narsa",
+        "Bolalarni tozalaydi",
+        "Element o'chadi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Ichini bo'shatadi."
+    },
+    {
+      "id": "mcq-25-012",
+      "q": "insertAdjacentHTML?",
+      "opts": [
+        "Yo'q",
+        "Aniq pozitsiyaga HTML",
+        "Faqat append",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "beforebegin va h.k."
+    },
+    {
+      "id": "mcq-25-013",
+      "q": "getComputedStyle?",
+      "opts": [
+        "Faqat inline",
+        "Yakuniy CSS",
+        "Faqat class",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Hisoblangan stillar."
+    },
+    {
+      "id": "mcq-25-014",
+      "q": "textContent vs innerHTML?",
+      "opts": [
+        "Bir xil",
+        "textContent matn, innerHTML HTML",
+        "innerHTML xavfsiz",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "Xavfsizlik farqi."
+    },
+    {
+      "id": "mcq-25-015",
+      "q": "classList.add?",
+      "opts": [
+        "Almashtiradi",
+        "Qo'shadi",
+        "O'chiradi",
+        "toggle"
+      ],
+      "correct": 1,
+      "exp": "class qo'shish."
+    },
+    {
+      "id": "mcq-25-016",
+      "q": "classList.toggle?",
+      "opts": [
+        "Har doim qo'shadi",
+        "Bor-yo'qligini almashtiradi",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Toggle."
+    },
+    {
+      "id": "mcq-25-017",
+      "q": "style.backgroundColor?",
+      "opts": [
+        "css matn",
+        "CamelCase xususiyat",
+        "cssText",
+        "class"
+      ],
+      "correct": 1,
+      "exp": "JS da camelCase."
+    },
+    {
+      "id": "mcq-25-018",
+      "q": "dataset?",
+      "opts": [
+        "Bir xil setAttribute",
+        "data-* uchun qulay",
+        "Yo'q",
+        "Faqat id"
+      ],
+      "correct": 1,
+      "exp": "data-user-id."
+    },
+    {
+      "id": "mcq-25-019",
+      "q": "removeAttribute?",
+      "opts": [
+        "Bo'sh qiladi",
+        "Olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "Atribut yo'qoladi."
+    },
+    {
+      "id": "mcq-25-020",
+      "q": "el.hidden=true?",
+      "opts": [
+        "CSS majburiy",
+        "Yashiradi",
+        "Yo'q",
+        "Faqat class"
+      ],
+      "correct": 1,
+      "exp": "Boolean attribute."
+    },
+    {
+      "id": "mcq-25-021",
+      "q": "innerHTML=''?",
+      "opts": [
+        "Hech narsa",
+        "Bolalarni tozalaydi",
+        "Element o'chadi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Ichini bo'shatadi."
+    },
+    {
+      "id": "mcq-25-022",
+      "q": "insertAdjacentHTML?",
+      "opts": [
+        "Yo'q",
+        "Aniq pozitsiyaga HTML",
+        "Faqat append",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "beforebegin va h.k."
+    },
+    {
+      "id": "mcq-25-023",
+      "q": "getComputedStyle?",
+      "opts": [
+        "Faqat inline",
+        "Yakuniy CSS",
+        "Faqat class",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Hisoblangan stillar."
+    },
+    {
+      "id": "mcq-25-024",
+      "q": "textContent vs innerHTML?",
+      "opts": [
+        "Bir xil",
+        "textContent matn, innerHTML HTML",
+        "innerHTML xavfsiz",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "Xavfsizlik farqi."
+    }
+  ]
+}

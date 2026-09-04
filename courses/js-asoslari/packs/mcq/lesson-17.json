@@ -1,0 +1,295 @@
+{
+  "lesson": 17,
+  "type": "mcq",
+  "title": "Object methods",
+  "questions": [
+    {
+      "id": "mcq-17-001",
+      "q": "Object.keys({a:1,b:2,c:3}) nima qaytaradi?",
+      "opts": [
+        "[1,2,3]",
+        "[\"a\",\"b\",\"c\"]",
+        "{a:1,b:2,c:3}",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Object.keys() kalitlar ro'yxatini array qilib qaytaradi."
+    },
+    {
+      "id": "mcq-17-002",
+      "q": "Object.values({x:10,y:20}) natijasi?",
+      "opts": [
+        "[\"x\",\"y\"]",
+        "[10,20]",
+        "{x:10,y:20}",
+        "30"
+      ],
+      "correct": 1,
+      "exp": "Object.values() qiymatlar ro'yxatini qaytaradi."
+    },
+    {
+      "id": "mcq-17-003",
+      "q": "Object.entries({a:1}) nima qaytaradi?",
+      "opts": [
+        "[[\"a\",1]]",
+        "[\"a\",1]",
+        "{a:1}",
+        "1"
+      ],
+      "correct": 0,
+      "exp": "Object.entries() [kalit, qiymat] juftliklari arrayini qaytaradi."
+    },
+    {
+      "id": "mcq-17-004",
+      "q": "obj.hasOwnProperty('x') nima tekshiradi?",
+      "opts": [
+        "Qiymatni",
+        "O'zida 'x' kaliti bor-yo'qligini",
+        "Uzunligini",
+        "Turini"
+      ],
+      "correct": 1,
+      "exp": "hasOwnProperty obyektning o'zida shu kalit borligini tekshiradi."
+    },
+    {
+      "id": "mcq-17-005",
+      "q": "Object.freeze?",
+      "opts": [
+        "O'chiradi",
+        "O'zgartirishni taqiqlaydi",
+        "Nusxa",
+        "Tezlashtiradi"
+      ],
+      "correct": 1,
+      "exp": "Shallow freeze."
+    },
+    {
+      "id": "mcq-17-006",
+      "q": "Object.seal farqi?",
+      "opts": [
+        "Bir xil",
+        "Mavjudni o'zgartirish mumkin, yangi yo'q",
+        "Qattiqroq",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "seal vs freeze."
+    },
+    {
+      "id": "mcq-17-007",
+      "q": "hasOwn vs in?",
+      "opts": [
+        "Bir xil",
+        "in prototipni ham",
+        "hasOwn prototipni ham",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "in zanjir bo'ylab."
+    },
+    {
+      "id": "mcq-17-008",
+      "q": "Object.fromEntries?",
+      "opts": [
+        "O'chiradi",
+        "entries dan obyekt",
+        "freeze",
+        "keys"
+      ],
+      "correct": 1,
+      "exp": "Teskari entries."
+    },
+    {
+      "id": "mcq-17-009",
+      "q": "obj.toString default?",
+      "opts": [
+        "JSON",
+        "[object Object]",
+        "",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Default toString."
+    },
+    {
+      "id": "mcq-17-010",
+      "q": "Object.keys tartibi?",
+      "opts": [
+        "Random",
+        "Integer keyin qo'shilish tartibi",
+        "Alifbo",
+        "Teskari"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy tartib."
+    },
+    {
+      "id": "mcq-17-011",
+      "q": "Object.values?",
+      "opts": [
+        "Kalitlar",
+        "Qiymatlar massivi",
+        "Juftliklar",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "Values."
+    },
+    {
+      "id": "mcq-17-012",
+      "q": "Object.entries?",
+      "opts": [
+        "Faqat keys",
+        "[kalit,qiymat] juftliklari",
+        "Faqat values",
+        "string"
+      ],
+      "correct": 1,
+      "exp": "Entries."
+    },
+    {
+      "id": "mcq-17-013",
+      "q": "obj?.()?",
+      "opts": [
+        "Har doim",
+        "Funksiya bo'lsa chaqiradi",
+        "xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Optional call."
+    },
+    {
+      "id": "mcq-17-014",
+      "q": "freeze deepmi?",
+      "opts": [
+        "Ha",
+        "Yo'q, shallow",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ichki obyektlar ochiq."
+    },
+    {
+      "id": "mcq-17-015",
+      "q": "Object.freeze?",
+      "opts": [
+        "O'chiradi",
+        "O'zgartirishni taqiqlaydi",
+        "Nusxa",
+        "Tezlashtiradi"
+      ],
+      "correct": 1,
+      "exp": "Shallow freeze."
+    },
+    {
+      "id": "mcq-17-016",
+      "q": "Object.seal farqi?",
+      "opts": [
+        "Bir xil",
+        "Mavjudni o'zgartirish mumkin, yangi yo'q",
+        "Qattiqroq",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "seal vs freeze."
+    },
+    {
+      "id": "mcq-17-017",
+      "q": "hasOwn vs in?",
+      "opts": [
+        "Bir xil",
+        "in prototipni ham",
+        "hasOwn prototipni ham",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "in zanjir bo'ylab."
+    },
+    {
+      "id": "mcq-17-018",
+      "q": "Object.fromEntries?",
+      "opts": [
+        "O'chiradi",
+        "entries dan obyekt",
+        "freeze",
+        "keys"
+      ],
+      "correct": 1,
+      "exp": "Teskari entries."
+    },
+    {
+      "id": "mcq-17-019",
+      "q": "obj.toString default?",
+      "opts": [
+        "JSON",
+        "[object Object]",
+        "",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Default toString."
+    },
+    {
+      "id": "mcq-17-020",
+      "q": "Object.keys tartibi?",
+      "opts": [
+        "Random",
+        "Integer keyin qo'shilish tartibi",
+        "Alifbo",
+        "Teskari"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy tartib."
+    },
+    {
+      "id": "mcq-17-021",
+      "q": "Object.values?",
+      "opts": [
+        "Kalitlar",
+        "Qiymatlar massivi",
+        "Juftliklar",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "Values."
+    },
+    {
+      "id": "mcq-17-022",
+      "q": "Object.entries?",
+      "opts": [
+        "Faqat keys",
+        "[kalit,qiymat] juftliklari",
+        "Faqat values",
+        "string"
+      ],
+      "correct": 1,
+      "exp": "Entries."
+    },
+    {
+      "id": "mcq-17-023",
+      "q": "obj?.()?",
+      "opts": [
+        "Har doim",
+        "Funksiya bo'lsa chaqiradi",
+        "xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Optional call."
+    },
+    {
+      "id": "mcq-17-024",
+      "q": "freeze deepmi?",
+      "opts": [
+        "Ha",
+        "Yo'q, shallow",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ichki obyektlar ochiq."
+    }
+  ]
+}

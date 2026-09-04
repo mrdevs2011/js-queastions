@@ -1,0 +1,307 @@
+{
+  "lesson": 14,
+  "type": "mcq",
+  "title": "Array",
+  "questions": [
+    {
+      "id": "mcq-14-001",
+      "q": "let arr = [10, 20, 30]; console.log(arr[1]); natija?",
+      "opts": [
+        "10",
+        "20",
+        "30",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Indeks 0 dan boshlanadi, arr[1] — ikkinchi element (20)."
+    },
+    {
+      "id": "mcq-14-002",
+      "q": "Array yaratishning to'g'ri usuli?",
+      "opts": [
+        "let a = (1,2,3)",
+        "let a = [1,2,3]",
+        "let a = {1,2,3}",
+        "let a = <1,2,3>"
+      ],
+      "correct": 1,
+      "exp": "Array kvadrat qavs [] bilan yaratiladi."
+    },
+    {
+      "id": "mcq-14-003",
+      "q": "let a = [1,2,3]; console.log(a.length); natija?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "length — elementlar sonini qaytaradi."
+    },
+    {
+      "id": "mcq-14-004",
+      "q": "arr[10] mavjud bo'lmagan indeksda nima qaytaradi?",
+      "opts": [
+        "0",
+        "null",
+        "undefined",
+        "xato"
+      ],
+      "correct": 2,
+      "exp": "Mavjud bo'lmagan indeks undefined qaytaradi."
+    },
+    {
+      "id": "mcq-14-005",
+      "q": "Array da indekslar qayerdan boshlanadi?",
+      "opts": [
+        "1 dan",
+        "0 dan",
+        "-1 dan",
+        "ixtiyoriy"
+      ],
+      "correct": 1,
+      "exp": "JSda massiv indekslari 0 dan boshlanadi."
+    },
+    {
+      "id": "mcq-14-006",
+      "q": "const a=[]; a[0]=1; length?",
+      "opts": [
+        "0",
+        "1",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "length yangilanadi."
+    },
+    {
+      "id": "mcq-14-007",
+      "q": "[...'ab']?",
+      "opts": [
+        "[ab]",
+        "[a,b]",
+        "a,b",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "String iterable."
+    },
+    {
+      "id": "mcq-14-008",
+      "q": "Array.from('ab')?",
+      "opts": [
+        "[ab]",
+        "[a,b]",
+        "ab",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Massivga."
+    },
+    {
+      "id": "mcq-14-009",
+      "q": "arr.at(-1)?",
+      "opts": [
+        "Birinchi",
+        "Oxirgi",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi element."
+    },
+    {
+      "id": "mcq-14-010",
+      "q": "[1,2]+[3,4]?",
+      "opts": [
+        "[1,2,3,4]",
+        "1,23,4",
+        "[4,6]",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "String qilib qo'shadi."
+    },
+    {
+      "id": "mcq-14-011",
+      "q": "arr.length=0?",
+      "opts": [
+        "Xato",
+        "Tozalaydi",
+        "Faqat length",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Elementlar ketadi."
+    },
+    {
+      "id": "mcq-14-012",
+      "q": "const a=[1]; const b=a; b.push(2); a?",
+      "opts": [
+        "[1]",
+        "[1,2]",
+        "xato",
+        "[2]"
+      ],
+      "correct": 1,
+      "exp": "Bir reference."
+    },
+    {
+      "id": "mcq-14-013",
+      "q": "Multidimensional?",
+      "opts": [
+        "Mumkin emas",
+        "Massiv ichida massiv",
+        "Faqat typed",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "[[1,2],[3,4]]."
+    },
+    {
+      "id": "mcq-14-014",
+      "q": "Sparse array?",
+      "opts": [
+        "Yo'q",
+        "Bo'sh indekslar bor",
+        "Faqat string",
+        "Tezroq"
+      ],
+      "correct": 1,
+      "exp": "Teshikli massiv."
+    },
+    {
+      "id": "mcq-14-015",
+      "q": "Indeks qayerdan?",
+      "opts": [
+        "1",
+        "0",
+        "-1",
+        "ixtiyoriy"
+      ],
+      "correct": 1,
+      "exp": "0-based."
+    },
+    {
+      "id": "mcq-14-016",
+      "q": "const a=[]; a[0]=1; length?",
+      "opts": [
+        "0",
+        "1",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "length yangilanadi."
+    },
+    {
+      "id": "mcq-14-017",
+      "q": "[...'ab']?",
+      "opts": [
+        "[ab]",
+        "[a,b]",
+        "a,b",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "String iterable."
+    },
+    {
+      "id": "mcq-14-018",
+      "q": "Array.from('ab')?",
+      "opts": [
+        "[ab]",
+        "[a,b]",
+        "ab",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Massivga."
+    },
+    {
+      "id": "mcq-14-019",
+      "q": "arr.at(-1)?",
+      "opts": [
+        "Birinchi",
+        "Oxirgi",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Oxirgi element."
+    },
+    {
+      "id": "mcq-14-020",
+      "q": "[1,2]+[3,4]?",
+      "opts": [
+        "[1,2,3,4]",
+        "1,23,4",
+        "[4,6]",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "String qilib qo'shadi."
+    },
+    {
+      "id": "mcq-14-021",
+      "q": "arr.length=0?",
+      "opts": [
+        "Xato",
+        "Tozalaydi",
+        "Faqat length",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Elementlar ketadi."
+    },
+    {
+      "id": "mcq-14-022",
+      "q": "const a=[1]; const b=a; b.push(2); a?",
+      "opts": [
+        "[1]",
+        "[1,2]",
+        "xato",
+        "[2]"
+      ],
+      "correct": 1,
+      "exp": "Bir reference."
+    },
+    {
+      "id": "mcq-14-023",
+      "q": "Multidimensional?",
+      "opts": [
+        "Mumkin emas",
+        "Massiv ichida massiv",
+        "Faqat typed",
+        "Faqat object"
+      ],
+      "correct": 1,
+      "exp": "[[1,2],[3,4]]."
+    },
+    {
+      "id": "mcq-14-024",
+      "q": "Sparse array?",
+      "opts": [
+        "Yo'q",
+        "Bo'sh indekslar bor",
+        "Faqat string",
+        "Tezroq"
+      ],
+      "correct": 1,
+      "exp": "Teshikli massiv."
+    },
+    {
+      "id": "mcq-14-025",
+      "q": "Indeks qayerdan?",
+      "opts": [
+        "1",
+        "0",
+        "-1",
+        "ixtiyoriy"
+      ],
+      "correct": 1,
+      "exp": "0-based."
+    }
+  ]
+}

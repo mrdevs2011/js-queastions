@@ -1,0 +1,43 @@
+{
+  "lesson": 9,
+  "type": "code",
+  "title": "Javascriptdagi ma'lumot turlari",
+  "questions": [
+    {
+      "id": "code-9-001",
+      "task": "Turli turdagi 4 ta qiymat yarating (string, number, boolean, null) va typeof orqali turlarini chiqaring.",
+      "sample": "console.log(typeof \"matn\");\nconsole.log(typeof 42);\nconsole.log(typeof true);\nconsole.log(typeof null);",
+      "exp": "typeof operator turi qaytaradi (null uchun 'object')."
+    },
+    {
+      "id": "code-9-002",
+      "task": "Javascriptdagi ma'lumot turlari bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "console.log(typeof \"matn\");\nconsole.log(typeof 42);\nconsole.log(typeof true);\nconsole.log(typeof null);",
+      "exp": "typeof operator turi qaytaradi (null uchun 'object')."
+    },
+    {
+      "id": "code-9-003",
+      "task": "Javascriptdagi ma'lumot turlari: Number(\"42\"), String(42), Boolean(0) chiqaring.",
+      "sample": "console.log(Number(\"42\"), String(42), Boolean(0));",
+      "exp": "Type conversion."
+    },
+    {
+      "id": "code-9-004",
+      "task": "Javascriptdagi ma'lumot turlari: parseInt(\"42px\") va +\"7\" chiqaring.",
+      "sample": "console.log(parseInt(\"42px\"));\nconsole.log(+\"7\");",
+      "exp": "parseInt va unary +."
+    },
+    {
+      "id": "code-9-005",
+      "task": "Javascriptdagi ma'lumot turlari: typeof null va typeof [] chiqaring.",
+      "sample": "console.log(typeof null);\nconsole.log(typeof []);",
+      "exp": "typeof quirks."
+    },
+    {
+      "id": "code-9-006",
+      "task": "Javascriptdagi ma'lumot turlari: == va === farqini \"5\" va 5 bilan ko'rsating.",
+      "sample": "console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);",
+      "exp": "Loose vs strict."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "lesson": 13,
+  "type": "mcq",
+  "title": "Funksiyalar bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "mcq-13-001",
+      "q": "Funksiya ichida boshqa funksiya chaqirish mumkinmi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat arrow da",
+        "Faqat global da"
+      ],
+      "correct": 1,
+      "exp": "Funksiyalar ichma-ich chaqirilishi mumkin."
+    },
+    {
+      "id": "mcq-13-002",
+      "q": "Default parametr nima?",
+      "opts": [
+        "Funksiya nomi",
+        "Argument berilmasa ishlatiladigan qiymat",
+        "Return qiymati",
+        "Global o'zgaruvchi"
+      ],
+      "correct": 1,
+      "exp": "function f(x = 10) — x berilmasa 10 bo'ladi."
+    },
+    {
+      "id": "mcq-13-003",
+      "q": "Funksiya o'zini o'zi chaqirishi nima deb ataladi?",
+      "opts": [
+        "Callback",
+        "Rekursiya",
+        "Closure",
+        "Hoisting"
+      ],
+      "correct": 1,
+      "exp": "O'zini o'zi chaqiruvchi funksiya — rekursiya."
+    },
+    {
+      "id": "mcq-13-004",
+      "q": "Callback funksiya nima?",
+      "opts": [
+        "Xato qaytaruvchi funksiya",
+        "Boshqa funksiyaga argument sifatida beriladigan funksiya",
+        "Faqat arrow function",
+        "Global funksiya"
+      ],
+      "correct": 1,
+      "exp": "Callback — boshqa funksiyaga uzatiladigan funksiya."
+    },
+    {
+      "id": "mcq-13-005",
+      "q": "Callback hell?",
+      "opts": [
+        "Xato turi",
+        "Ichma-ich callbacklar",
+        "Tez kod",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "Promise yechim."
+    },
+    {
+      "id": "mcq-13-006",
+      "q": "Higher-order function?",
+      "opts": [
+        "Faqat math",
+        "Funksiya qabul/qaytaradi",
+        "Faqat arrow",
+        "Global"
+      ],
+      "correct": 1,
+      "exp": "map, filter."
+    },
+    {
+      "id": "mcq-13-007",
+      "q": "Closure?",
+      "opts": [
+        "Xato",
+        "Ichki funksiya tashqi scope ni eslaydi",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Scope saqlash."
+    },
+    {
+      "id": "mcq-13-008",
+      "q": "Recursion to'xtashi?",
+      "opts": [
+        "Hech narsa",
+        "Base case",
+        "Faqat for",
+        "Faqat while"
+      ],
+      "correct": 1,
+      "exp": "Base case shart."
+    },
+    {
+      "id": "mcq-13-009",
+      "q": "Rest vs arguments?",
+      "opts": [
+        "Bir xil",
+        "Rest — haqiqiy array",
+        "arguments yaxshi",
+        "Rest faqat object"
+      ],
+      "correct": 1,
+      "exp": "Rest zamonaviy."
+    },
+    {
+      "id": "mcq-13-010",
+      "q": "Side effect?",
+      "opts": [
+        "return a+b",
+        "console.log yoki DOM",
+        "const x=1",
+        "2+2"
+      ],
+      "correct": 1,
+      "exp": "Tashqi holat o'zgarishi."
+    },
+    {
+      "id": "mcq-13-011",
+      "q": "Memoization?",
+      "opts": [
+        "O'chirish",
+        "Natijani keshlash",
+        "Sikl",
+        "Sort"
+      ],
+      "correct": 1,
+      "exp": "Qayta hisoblamaslik."
+    },
+    {
+      "id": "mcq-13-012",
+      "q": "Amaliyotda muhim?",
+      "opts": [
+        "Faqat nazariya",
+        "O'zingiz yechish",
+        "Faqat nusxa",
+        "Faqat video"
+      ],
+      "correct": 1,
+      "exp": "Yozib ko'rish."
+    },
+    {
+      "id": "mcq-13-013",
+      "q": "Currying?",
+      "opts": [
+        "Sikl",
+        "Zanjirli bir argumentli funksiyalar",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "f(a)(b)."
+    },
+    {
+      "id": "mcq-13-014",
+      "q": "IIFE foydasi (tarixiy)?",
+      "opts": [
+        "Yo'q",
+        "Scope izolyatsiyasi",
+        "Faqat ES6",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Global ifloslanmasin."
+    },
+    {
+      "id": "mcq-13-015",
+      "q": "Callback hell?",
+      "opts": [
+        "Xato turi",
+        "Ichma-ich callbacklar",
+        "Tez kod",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "Promise yechim."
+    },
+    {
+      "id": "mcq-13-016",
+      "q": "Higher-order function?",
+      "opts": [
+        "Faqat math",
+        "Funksiya qabul/qaytaradi",
+        "Faqat arrow",
+        "Global"
+      ],
+      "correct": 1,
+      "exp": "map, filter."
+    },
+    {
+      "id": "mcq-13-017",
+      "q": "Closure?",
+      "opts": [
+        "Xato",
+        "Ichki funksiya tashqi scope ni eslaydi",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Scope saqlash."
+    },
+    {
+      "id": "mcq-13-018",
+      "q": "Recursion to'xtashi?",
+      "opts": [
+        "Hech narsa",
+        "Base case",
+        "Faqat for",
+        "Faqat while"
+      ],
+      "correct": 1,
+      "exp": "Base case shart."
+    },
+    {
+      "id": "mcq-13-019",
+      "q": "Rest vs arguments?",
+      "opts": [
+        "Bir xil",
+        "Rest — haqiqiy array",
+        "arguments yaxshi",
+        "Rest faqat object"
+      ],
+      "correct": 1,
+      "exp": "Rest zamonaviy."
+    },
+    {
+      "id": "mcq-13-020",
+      "q": "Side effect?",
+      "opts": [
+        "return a+b",
+        "console.log yoki DOM",
+        "const x=1",
+        "2+2"
+      ],
+      "correct": 1,
+      "exp": "Tashqi holat o'zgarishi."
+    },
+    {
+      "id": "mcq-13-021",
+      "q": "Memoization?",
+      "opts": [
+        "O'chirish",
+        "Natijani keshlash",
+        "Sikl",
+        "Sort"
+      ],
+      "correct": 1,
+      "exp": "Qayta hisoblamaslik."
+    },
+    {
+      "id": "mcq-13-022",
+      "q": "Amaliyotda muhim?",
+      "opts": [
+        "Faqat nazariya",
+        "O'zingiz yechish",
+        "Faqat nusxa",
+        "Faqat video"
+      ],
+      "correct": 1,
+      "exp": "Yozib ko'rish."
+    },
+    {
+      "id": "mcq-13-023",
+      "q": "Currying?",
+      "opts": [
+        "Sikl",
+        "Zanjirli bir argumentli funksiyalar",
+        "HTML",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "f(a)(b)."
+    },
+    {
+      "id": "mcq-13-024",
+      "q": "IIFE foydasi (tarixiy)?",
+      "opts": [
+        "Yo'q",
+        "Scope izolyatsiyasi",
+        "Faqat ES6",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Global ifloslanmasin."
+    }
+  ]
+}

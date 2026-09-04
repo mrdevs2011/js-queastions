@@ -1,0 +1,49 @@
+{
+  "lesson": 25,
+  "type": "code",
+  "title": "Elementlarni o'zgartirish",
+  "questions": [
+    {
+      "id": "code-25-001",
+      "task": "id='title' elementining matnini \"Yangi sarlavha\" ga o'zgartiring.",
+      "sample": "document.getElementById('title').textContent = 'Yangi sarlavha';",
+      "exp": "textContent orqali element matni o'zgartiriladi."
+    },
+    {
+      "id": "code-25-002",
+      "task": "Elementlarni o'zgartirish: getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-25-003",
+      "task": "Elementlarni o'zgartirish: querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-25-004",
+      "task": "Elementlarni o'zgartirish: createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-25-005",
+      "task": "Elementlarni o'zgartirish: addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-25-006",
+      "task": "Elementlarni o'zgartirish: classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-25-007",
+      "task": "Elementlarni o'zgartirish: preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

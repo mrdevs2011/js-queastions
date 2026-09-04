@@ -1,0 +1,307 @@
+{
+  "lesson": 24,
+  "type": "mcq",
+  "title": "Elementlarni tanlab olish",
+  "questions": [
+    {
+      "id": "mcq-24-001",
+      "q": "id bo'yicha elementni tanlash uchun qaysi metod ishlatiladi?",
+      "opts": [
+        "document.getElementById()",
+        "document.getClass()",
+        "document.selectId()",
+        "document.findId()"
+      ],
+      "correct": 0,
+      "exp": "getElementById() id orqali bitta elementni topadi."
+    },
+    {
+      "id": "mcq-24-002",
+      "q": "document.querySelector('.btn') nima qaytaradi?",
+      "opts": [
+        "Barcha .btn lar",
+        "Birinchi .btn elementi",
+        "null har doim",
+        "array"
+      ],
+      "correct": 1,
+      "exp": "querySelector CSS selektor bo'yicha birinchi mos elementni qaytaradi."
+    },
+    {
+      "id": "mcq-24-003",
+      "q": "document.querySelectorAll('p') nima qaytaradi?",
+      "opts": [
+        "Bitta p",
+        "NodeList (barcha p lar)",
+        "string",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "querySelectorAll barcha mos elementlarni NodeList qilib qaytaradi."
+    },
+    {
+      "id": "mcq-24-004",
+      "q": "getElementsByClassName('x') nima qaytaradi?",
+      "opts": [
+        "Bitta element",
+        "HTMLCollection",
+        "string",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "getElementsByClassName HTMLCollection qaytaradi."
+    },
+    {
+      "id": "mcq-24-005",
+      "q": "Element topilmasa getElementById nima qaytaradi?",
+      "opts": [
+        "undefined",
+        "null",
+        "false",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Topilmasa null qaytaradi."
+    },
+    {
+      "id": "mcq-24-006",
+      "q": "#id va getElementById?",
+      "opts": [
+        "Farqli",
+        "Bir xil element",
+        "query majburiy",
+        "id yo'q"
+      ],
+      "correct": 1,
+      "exp": "Id unique."
+    },
+    {
+      "id": "mcq-24-007",
+      "q": "querySelector('div p')?",
+      "opts": [
+        "Barcha p",
+        "Birinchi mos",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Birinchi match."
+    },
+    {
+      "id": "mcq-24-008",
+      "q": "closest('.card')?",
+      "opts": [
+        "Bolalar",
+        "O'zi yoki ajdod",
+        "Faqat ota",
+        "window"
+      ],
+      "correct": 1,
+      "exp": "Yuqoriga qidiruv."
+    },
+    {
+      "id": "mcq-24-009",
+      "q": "matches selektor?",
+      "opts": [
+        "Bolalar",
+        "O'zi mosmi",
+        "Ota",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Tekshiruv."
+    },
+    {
+      "id": "mcq-24-010",
+      "q": "getElementById null?",
+      "opts": [
+        "Xato majburiy",
+        "Tekshirib ishlating",
+        "undefined",
+        "bo'sh object"
+      ],
+      "correct": 1,
+      "exp": "if (el)."
+    },
+    {
+      "id": "mcq-24-011",
+      "q": "getElementsByName?",
+      "opts": [
+        "Faqat id",
+        "name bo'yicha",
+        "query taqiqlangan",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "Name atributi."
+    },
+    {
+      "id": "mcq-24-012",
+      "q": "Bir xil id bir nechta?",
+      "opts": [
+        "OK",
+        "Noto'g'ri HTML",
+        "Xato majburiy",
+        "Array"
+      ],
+      "correct": 1,
+      "exp": "Unique bo'lsin."
+    },
+    {
+      "id": "mcq-24-013",
+      "q": "querySelectorAll length?",
+      "opts": [
+        "Yo'q",
+        "Bor",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "NodeList length."
+    },
+    {
+      "id": "mcq-24-014",
+      "q": "Shadow DOM query?",
+      "opts": [
+        "Oddiy QS",
+        "Shadow root orqali",
+        "Mumkin emas",
+        "Faqat id"
+      ],
+      "correct": 1,
+      "exp": "Oddiy qidiruv kirmaydi."
+    },
+    {
+      "id": "mcq-24-015",
+      "q": "class bo'yicha?",
+      "opts": [
+        "Faqat id",
+        "getElementsByClassName yoki QS",
+        "Mumkin emas",
+        "Faqat tag"
+      ],
+      "correct": 1,
+      "exp": "Class selektor."
+    },
+    {
+      "id": "mcq-24-016",
+      "q": "#id va getElementById?",
+      "opts": [
+        "Farqli",
+        "Bir xil element",
+        "query majburiy",
+        "id yo'q"
+      ],
+      "correct": 1,
+      "exp": "Id unique."
+    },
+    {
+      "id": "mcq-24-017",
+      "q": "querySelector('div p')?",
+      "opts": [
+        "Barcha p",
+        "Birinchi mos",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Birinchi match."
+    },
+    {
+      "id": "mcq-24-018",
+      "q": "closest('.card')?",
+      "opts": [
+        "Bolalar",
+        "O'zi yoki ajdod",
+        "Faqat ota",
+        "window"
+      ],
+      "correct": 1,
+      "exp": "Yuqoriga qidiruv."
+    },
+    {
+      "id": "mcq-24-019",
+      "q": "matches selektor?",
+      "opts": [
+        "Bolalar",
+        "O'zi mosmi",
+        "Ota",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Tekshiruv."
+    },
+    {
+      "id": "mcq-24-020",
+      "q": "getElementById null?",
+      "opts": [
+        "Xato majburiy",
+        "Tekshirib ishlating",
+        "undefined",
+        "bo'sh object"
+      ],
+      "correct": 1,
+      "exp": "if (el)."
+    },
+    {
+      "id": "mcq-24-021",
+      "q": "getElementsByName?",
+      "opts": [
+        "Faqat id",
+        "name bo'yicha",
+        "query taqiqlangan",
+        "CSS"
+      ],
+      "correct": 1,
+      "exp": "Name atributi."
+    },
+    {
+      "id": "mcq-24-022",
+      "q": "Bir xil id bir nechta?",
+      "opts": [
+        "OK",
+        "Noto'g'ri HTML",
+        "Xato majburiy",
+        "Array"
+      ],
+      "correct": 1,
+      "exp": "Unique bo'lsin."
+    },
+    {
+      "id": "mcq-24-023",
+      "q": "querySelectorAll length?",
+      "opts": [
+        "Yo'q",
+        "Bor",
+        "Faqat array",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "NodeList length."
+    },
+    {
+      "id": "mcq-24-024",
+      "q": "Shadow DOM query?",
+      "opts": [
+        "Oddiy QS",
+        "Shadow root orqali",
+        "Mumkin emas",
+        "Faqat id"
+      ],
+      "correct": 1,
+      "exp": "Oddiy qidiruv kirmaydi."
+    },
+    {
+      "id": "mcq-24-025",
+      "q": "class bo'yicha?",
+      "opts": [
+        "Faqat id",
+        "getElementsByClassName yoki QS",
+        "Mumkin emas",
+        "Faqat tag"
+      ],
+      "correct": 1,
+      "exp": "Class selektor."
+    }
+  ]
+}

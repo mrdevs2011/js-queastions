@@ -1,0 +1,211 @@
+{
+  "lesson": 8,
+  "type": "mcq",
+  "title": "let, const va var",
+  "questions": [
+    {
+      "id": "mcq-8-001",
+      "q": "const ni qayta belgilash mumkinmi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat sonlarda",
+        "Faqat object da"
+      ],
+      "correct": 1,
+      "exp": "const reference ni o'zgartirishga ruxsat bermaydi."
+    },
+    {
+      "id": "mcq-8-002",
+      "q": "var ning asosiy muammosi nima?",
+      "opts": [
+        "Juda sekin",
+        "Function scope va hoisting chalkashligi",
+        "Ishlamaydi",
+        "Faqat ES6 da"
+      ],
+      "correct": 1,
+      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi."
+    },
+    {
+      "id": "mcq-8-003",
+      "q": "Zamonaviy kodda tavsiya?",
+      "opts": [
+        "Faqat var",
+        "let va const",
+        "Faqat var va let",
+        "Hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun."
+    },
+    {
+      "id": "mcq-8-004",
+      "q": "let x = 1; let x = 2; bir xil scope da?",
+      "opts": [
+        "Ishlaydi",
+        "Xato (qayta e'lon)",
+        "undefined",
+        "2 bo'ladi"
+      ],
+      "correct": 1,
+      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi."
+    },
+    {
+      "id": "mcq-8-005",
+      "q": "let, const va var mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-006",
+      "q": "let, const va var mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-007",
+      "q": "let, const va var mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-008",
+      "q": "let, const va var mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-009",
+      "q": "let, const va var mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-010",
+      "q": "let, const va var mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-011",
+      "q": "let, const va var mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-012",
+      "q": "let, const va var mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-8-013",
+      "q": "const ni qayta belgilash mumkinmi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat sonlarda",
+        "Faqat object da"
+      ],
+      "correct": 1,
+      "exp": "const reference ni o'zgartirishga ruxsat bermaydi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-8-014",
+      "q": "var ning asosiy muammosi nima (qayta / chuqurroq)?",
+      "opts": [
+        "Juda sekin",
+        "Function scope va hoisting chalkashligi",
+        "Ishlamaydi",
+        "Faqat ES6 da"
+      ],
+      "correct": 1,
+      "exp": "var block scope ga ega emas, chalkashlik keltirib chiqaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-8-015",
+      "q": "Zamonaviy kodda tavsiya (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat var",
+        "let va const",
+        "Faqat var va let",
+        "Hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let — o'zgaruvchan, const — o'zgarmas uchun. Qayta o'qing."
+    },
+    {
+      "id": "mcq-8-016",
+      "q": "let x = 1; let x = 2; bir xil scope da (qayta / chuqurroq)?",
+      "opts": [
+        "Ishlaydi",
+        "Xato (qayta e'lon)",
+        "undefined",
+        "2 bo'ladi"
+      ],
+      "correct": 1,
+      "exp": "Bir scope da let/const ni qayta e'lon qilib bo'lmaydi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-8-017",
+      "q": "let, const va var mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "let, const va var bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

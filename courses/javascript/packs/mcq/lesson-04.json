@@ -1,0 +1,211 @@
+{
+  "lesson": 4,
+  "type": "mcq",
+  "title": "Javascript va HTML",
+  "questions": [
+    {
+      "id": "mcq-4-001",
+      "q": "HTML ichiga JS qanday qo'shiladi?",
+      "opts": [
+        "<js>",
+        "<script>",
+        "<javascript>",
+        "<code>"
+      ],
+      "correct": 1,
+      "exp": "<script> tegi orqali JS HTML ga ulanadi."
+    },
+    {
+      "id": "mcq-4-002",
+      "q": "Tashqi JS faylini ulash uchun?",
+      "opts": [
+        "<script href='app.js'>",
+        "<script src='app.js'></script>",
+        "<link src='app.js'>",
+        "<js src='app.js'>"
+      ],
+      "correct": 1,
+      "exp": "src atributi orqali tashqi fayl ulanadi."
+    },
+    {
+      "id": "mcq-4-003",
+      "q": "script tegi odatda qayerga qo'yiladi?",
+      "opts": [
+        "Faqat <head> da",
+        "Ko'pincha </body> dan oldin",
+        "Faqat CSS dan keyin",
+        "Hech qayerga"
+      ],
+      "correct": 1,
+      "exp": "Sahifa yuklanishini bloklamaslik uchun ko'pincha body oxiriga qo'yiladi."
+    },
+    {
+      "id": "mcq-4-004",
+      "q": "defer atributi nima qiladi?",
+      "opts": [
+        "Skriptni o'chiradi",
+        "HTML parse bo'lgach skriptni ishga tushiradi",
+        "CSS yuklaydi",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "defer — HTML to'liq parse bo'lgach skriptni bajaradi."
+    },
+    {
+      "id": "mcq-4-005",
+      "q": "Javascript va HTML mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-006",
+      "q": "Javascript va HTML mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-007",
+      "q": "Javascript va HTML mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-008",
+      "q": "Javascript va HTML mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-009",
+      "q": "Javascript va HTML mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-010",
+      "q": "Javascript va HTML mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-011",
+      "q": "Javascript va HTML mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-012",
+      "q": "Javascript va HTML mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-4-013",
+      "q": "HTML ichiga JS qanday qo'shiladi (qayta / chuqurroq)?",
+      "opts": [
+        "<js>",
+        "<script>",
+        "<javascript>",
+        "<code>"
+      ],
+      "correct": 1,
+      "exp": "<script> tegi orqali JS HTML ga ulanadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-4-014",
+      "q": "Tashqi JS faylini ulash uchun (qayta / chuqurroq)?",
+      "opts": [
+        "<script href='app.js'>",
+        "<script src='app.js'></script>",
+        "<link src='app.js'>",
+        "<js src='app.js'>"
+      ],
+      "correct": 1,
+      "exp": "src atributi orqali tashqi fayl ulanadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-4-015",
+      "q": "script tegi odatda qayerga qo'yiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat <head> da",
+        "Ko'pincha </body> dan oldin",
+        "Faqat CSS dan keyin",
+        "Hech qayerga"
+      ],
+      "correct": 1,
+      "exp": "Sahifa yuklanishini bloklamaslik uchun ko'pincha body oxiriga qo'yiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-4-016",
+      "q": "defer atributi nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Skriptni o'chiradi",
+        "HTML parse bo'lgach skriptni ishga tushiradi",
+        "CSS yuklaydi",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "defer — HTML to'liq parse bo'lgach skriptni bajaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-4-017",
+      "q": "Javascript va HTML mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript va HTML bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

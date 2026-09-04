@@ -1,0 +1,175 @@
+{
+  "lesson": 30,
+  "type": "mcq",
+  "title": "Kurs yakuni",
+  "questions": [
+    {
+      "id": "mcq-30-001",
+      "q": "Kursni yakunlagandan so'ng keyingi mantiqiy qadam nima bo'lishi mumkin?",
+      "opts": [
+        "To'xtab qolish",
+        "Amaliy loyihalar qilish va DOM/funksiyalarni mustahkamlash",
+        "JSni butunlay unutish",
+        "Faqat nazariya o'qishda davom etish"
+      ],
+      "correct": 1,
+      "exp": "Bilimni mustahkamlashning eng yaxshi yo'li — amaliy kichik loyihalar qilish."
+    },
+    {
+      "id": "mcq-30-002",
+      "q": "O'rganishni mustahkamlash uchun eng yaxshi usul?",
+      "opts": [
+        "Faqat video ko'rish",
+        "Kod yozib amaliyot qilish",
+        "Faqat o'qish",
+        "Hech narsa qilmaslik"
+      ],
+      "correct": 1,
+      "exp": "Amaliyot — dasturlashni o'rganishning asosiy yo'li."
+    },
+    {
+      "id": "mcq-30-003",
+      "q": "Keyingi bosqichda nimalarni o'rganish mumkin?",
+      "opts": [
+        "Faqat HTML",
+        "Asinxronlik, API, frameworklar (masalan React)",
+        "Faqat CSS",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Asoslardan keyin asinxron JS, API ishlash, frameworklar keladi."
+    },
+    {
+      "id": "mcq-30-004",
+      "q": "Xato qilish o'rganishda qanday rol o'ynaydi?",
+      "opts": [
+        "Yomon narsa",
+        "Normal va foydali jarayon",
+        "To'xtash kerak degani",
+        "Faqat boshlang'ichda"
+      ],
+      "correct": 1,
+      "exp": "Xatolar orqali o'rganiladi — debug qilish muhim ko'nikma."
+    },
+    {
+      "id": "mcq-30-005",
+      "q": "Keyingi: asinxronlik?",
+      "opts": [
+        "Kerak emas",
+        "Promise, async/await, fetch",
+        "Faqat callback",
+        "setTimeout yetarli"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy JS."
+    },
+    {
+      "id": "mcq-30-006",
+      "q": "Framework qachon?",
+      "opts": [
+        "Birinchi kun",
+        "Asoslardan keyin",
+        "Hech qachon",
+        "Faqat jQuery"
+      ],
+      "correct": 1,
+      "exp": "Vanilla avval."
+    },
+    {
+      "id": "mcq-30-007",
+      "q": "Portfolio?",
+      "opts": [
+        "Tutorial nusxa",
+        "O'z loyihalari",
+        "Faqat nazariya",
+        "Video"
+      ],
+      "correct": 1,
+      "exp": "Shaxsiy isbot."
+    },
+    {
+      "id": "mcq-30-008",
+      "q": "Git?",
+      "opts": [
+        "Kechiktirish",
+        "Iloji boricha erta",
+        "Faqat ishda",
+        "Kerak emas"
+      ],
+      "correct": 1,
+      "exp": "Versiya nazorati."
+    },
+    {
+      "id": "mcq-30-009",
+      "q": "Burnout?",
+      "opts": [
+        "24/7",
+        "Dam va kichik maqsad",
+        "Faqat kechasi",
+        "Faqat nazariya"
+      ],
+      "correct": 1,
+      "exp": "Barqarorlik."
+    },
+    {
+      "id": "mcq-30-010",
+      "q": "MDN?",
+      "opts": [
+        "Vaqt yo'qotish",
+        "Ishonchli hujjatlar",
+        "Faqat YouTube",
+        "Faqat AI"
+      ],
+      "correct": 1,
+      "exp": "Rasmiy manba."
+    },
+    {
+      "id": "mcq-30-011",
+      "q": "Har kuni kod?",
+      "opts": [
+        "Mukammal nazariya",
+        "Muntazam amaliyot",
+        "Faqat reja",
+        "Kutish"
+      ],
+      "correct": 1,
+      "exp": "Odat — ustalik."
+    },
+    {
+      "id": "mcq-30-012",
+      "q": "Jamiyat?",
+      "opts": [
+        "Yolg'iz",
+        "Savol va ochiq loyihalar",
+        "Faqat raqobat",
+        "Yopiq"
+      ],
+      "correct": 1,
+      "exp": "Birgalikda o'sish."
+    },
+    {
+      "id": "mcq-30-013",
+      "q": "Test boshlang'ich?",
+      "opts": [
+        "Juda erta",
+        "Oddiy assert dan",
+        "Hech qachon",
+        "Faqat framework"
+      ],
+      "correct": 1,
+      "exp": "Sifat odatlari."
+    },
+    {
+      "id": "mcq-30-014",
+      "q": "Eng muhim?",
+      "opts": [
+        "Mukammal nazariya",
+        "Har kuni biroz yozish",
+        "Faqat reja",
+        "Kutish"
+      ],
+      "correct": 1,
+      "exp": "Muntazamlik."
+    }
+  ]
+}

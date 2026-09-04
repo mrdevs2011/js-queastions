@@ -1,0 +1,43 @@
+{
+  "lesson": 22,
+  "type": "code",
+  "title": "Object asoslari",
+  "questions": [
+    {
+      "id": "code-22-001",
+      "task": "talaba obyekti: ism, yosh, kurs. Uni yarating va ism ni chiqaring.",
+      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
+      "exp": "Object literal + dot access."
+    },
+    {
+      "id": "code-22-002",
+      "task": "Object asoslari bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
+      "exp": "Object literal + dot access."
+    },
+    {
+      "id": "code-22-003",
+      "task": "Object asoslari: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
+      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
+      "exp": "Object literal."
+    },
+    {
+      "id": "code-22-004",
+      "task": "Object asoslari: Object.keys va values chiqaring.",
+      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
+      "exp": "keys/values."
+    },
+    {
+      "id": "code-22-005",
+      "task": "Object asoslari: destrukturatsiya {x,y} = point.",
+      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
+      "exp": "Destructuring."
+    },
+    {
+      "id": "code-22-006",
+      "task": "Object asoslari: spread bilan obyekt nusxa + yangi maydon.",
+      "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
+      "exp": "Object spread."
+    }
+  ]
+}

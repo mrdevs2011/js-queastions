@@ -1,0 +1,61 @@
+{
+  "lesson": 18,
+  "type": "code",
+  "title": "if/else",
+  "questions": [
+    {
+      "id": "code-18-001",
+      "task": "son nomli o'zgaruvchi qiymati 7 bo'lsin. Agar u 10 dan katta bo'lsa \"Katta\", aks holda \"Kichik\" deb chiqaradigan if/else yozing.",
+      "sample": "let son = 7;\nif (son > 10) {\n  console.log(\"Katta\");\n} else {\n  console.log(\"Kichik\");\n}",
+      "exp": "if shartni tekshiradi, false bo'lsa else blokiga o'tadi."
+    },
+    {
+      "id": "code-18-002",
+      "task": "Ternary: musbat/manfiy/nol (son=0).",
+      "sample": "let son=0;\nconsole.log(son>0?\"musbat\":son<0?\"manfiy\":\"nol\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-18-003",
+      "task": "Ternary: musbat/manfiy/nol (son=0).",
+      "sample": "let son=0;\nconsole.log(son>0?\"musbat\":son<0?\"manfiy\":\"nol\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-18-004",
+      "task": "if/else: if/else: ball=75 uchun A/B/C.",
+      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
+      "exp": "if/else if."
+    },
+    {
+      "id": "code-18-005",
+      "task": "if/else: switch kun=3 → Chorshanba.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch."
+    },
+    {
+      "id": "code-18-006",
+      "task": "if/else: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-18-007",
+      "task": "if/else: for 1..5 chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
+      "exp": "for."
+    },
+    {
+      "id": "code-18-008",
+      "task": "if/else: while 5..1 kamaytirib chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while."
+    },
+    {
+      "id": "code-18-009",
+      "task": "if/else: for da break (i===3).",
+      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "lesson": 5,
+  "type": "code",
+  "title": "Ma'lumot turlari",
+  "questions": [
+    {
+      "id": "code-5-001",
+      "task": "Ma'lumot turlari: Number(\"42\"), String(42), Boolean(0) chiqaring.",
+      "sample": "console.log(Number(\"42\"), String(42), Boolean(0));",
+      "exp": "Type conversion."
+    },
+    {
+      "id": "code-5-002",
+      "task": "Ma'lumot turlari: parseInt(\"42px\") va +\"7\" chiqaring.",
+      "sample": "console.log(parseInt(\"42px\"));\nconsole.log(+\"7\");",
+      "exp": "parseInt va unary +."
+    },
+    {
+      "id": "code-5-003",
+      "task": "Ma'lumot turlari: typeof null va typeof [] chiqaring.",
+      "sample": "console.log(typeof null);\nconsole.log(typeof []);",
+      "exp": "typeof quirks."
+    },
+    {
+      "id": "code-5-004",
+      "task": "Ma'lumot turlari: == va === farqini \"5\" va 5 bilan ko'rsating.",
+      "sample": "console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);",
+      "exp": "Loose vs strict."
+    }
+  ]
+}

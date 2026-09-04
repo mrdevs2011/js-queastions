@@ -1,0 +1,211 @@
+{
+  "lesson": 27,
+  "type": "mcq",
+  "title": "2-bo'lim uchun amaliyot",
+  "questions": [
+    {
+      "id": "mcq-27-001",
+      "q": "Amaliyotning maqsadi?",
+      "opts": [
+        "Vaqt o'tkazish",
+        "Oldingi mavzularni birlashtirib qo'llash",
+        "Yangi sintaksis o'rganish majburiy",
+        "Imtihon topshirish"
+      ],
+      "correct": 1,
+      "exp": "Amaliyot — bilimlarni birlashtirish."
+    },
+    {
+      "id": "mcq-27-002",
+      "q": "Kichik loyiha tanlashda nima muhim?",
+      "opts": [
+        "Juda murakkab bo'lsin",
+        "Bajarib bo'ladigan, qiziqarli bo'lsin",
+        "Faqat kopiya",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Real, lekin kuch yetadigan vazifa eng foydali."
+    },
+    {
+      "id": "mcq-27-003",
+      "q": "Kod yozayotganda tartib?",
+      "opts": [
+        "Hammasini birga",
+        "Kichik qadamlarga bo'lib, tekshirib borish",
+        "Oxirida tekshirish",
+        "Faqat AI ga yozdirish"
+      ],
+      "correct": 1,
+      "exp": "Kichik qadam + tez-tez ishga tushirish — kam xato."
+    },
+    {
+      "id": "mcq-27-004",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-005",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-006",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-007",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-008",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-009",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-010",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-011",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-012",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 9: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-27-013",
+      "q": "Amaliyotning maqsadi (qayta / chuqurroq)?",
+      "opts": [
+        "Vaqt o'tkazish",
+        "Oldingi mavzularni birlashtirib qo'llash",
+        "Yangi sintaksis o'rganish majburiy",
+        "Imtihon topshirish"
+      ],
+      "correct": 1,
+      "exp": "Amaliyot — bilimlarni birlashtirish. Qayta o'qing."
+    },
+    {
+      "id": "mcq-27-014",
+      "q": "Kichik loyiha tanlashda nima muhim (qayta / chuqurroq)?",
+      "opts": [
+        "Juda murakkab bo'lsin",
+        "Bajarib bo'ladigan, qiziqarli bo'lsin",
+        "Faqat kopiya",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Real, lekin kuch yetadigan vazifa eng foydali. Qayta o'qing."
+    },
+    {
+      "id": "mcq-27-015",
+      "q": "Kod yozayotganda tartib (qayta / chuqurroq)?",
+      "opts": [
+        "Hammasini birga",
+        "Kichik qadamlarga bo'lib, tekshirib borish",
+        "Oxirida tekshirish",
+        "Faqat AI ga yozdirish"
+      ],
+      "correct": 1,
+      "exp": "Kichik qadam + tez-tez ishga tushirish — kam xato. Qayta o'qing."
+    },
+    {
+      "id": "mcq-27-016",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    },
+    {
+      "id": "mcq-27-017",
+      "q": "2-bo'lim uchun amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "2-bo'lim uchun amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

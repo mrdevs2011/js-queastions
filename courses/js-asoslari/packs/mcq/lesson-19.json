@@ -1,0 +1,295 @@
+{
+  "lesson": 19,
+  "type": "mcq",
+  "title": "switch",
+  "questions": [
+    {
+      "id": "mcq-19-001",
+      "q": "switch operatorida break yozilmasa nima bo'ladi?",
+      "opts": [
+        "Xato chiqadi",
+        "Keyingi case'lar ham bajariladi (fall-through)",
+        "Hech narsa o'zgarmaydi",
+        "switch to'xtaydi"
+      ],
+      "correct": 1,
+      "exp": "break bo'lmasa, kod keyingi case'larga 'tushib' davom etadi."
+    },
+    {
+      "id": "mcq-19-002",
+      "q": "switch da mos kelmasa qaysi qism bajariladi?",
+      "opts": [
+        "birinchi case",
+        "default",
+        "oxirgi case",
+        "hech narsa"
+      ],
+      "correct": 1,
+      "exp": "default — hech qaysi case mos kelmasa bajariladi."
+    },
+    {
+      "id": "mcq-19-003",
+      "q": "switch (x) case larni nima bilan solishtiradi?",
+      "opts": [
+        "==",
+        "===",
+        "!=",
+        "typeof"
+      ],
+      "correct": 1,
+      "exp": "switch qat'iy tenglik (===) bilan solishtiradi."
+    },
+    {
+      "id": "mcq-19-004",
+      "q": "Bir case da bir nechta qiymatni qanday yozish mumkin?",
+      "opts": [
+        "case 1,2,3:",
+        "case 1: case 2: case 3:",
+        "case [1,2,3]:",
+        "mumkin emas"
+      ],
+      "correct": 1,
+      "exp": "Bir nechta case ni ketma-ket yozib, bitta blokga birlashtirish mumkin."
+    },
+    {
+      "id": "mcq-19-005",
+      "q": "switch === ishlatadimi?",
+      "opts": [
+        "Yo'q ==",
+        "Ha ===",
+        "typeof",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "Qat'iy."
+    },
+    {
+      "id": "mcq-19-006",
+      "q": "Fall-through?",
+      "opts": [
+        "Xato",
+        "break yo'qsa keyingi case",
+        "Hech narsa",
+        "To'xtaydi"
+      ],
+      "correct": 1,
+      "exp": "Qasddan ishlatiladi."
+    },
+    {
+      "id": "mcq-19-007",
+      "q": "default?",
+      "opts": [
+        "Birinchi",
+        "Mos kelmasa",
+        "Oxirgi majburiy",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Fallback."
+    },
+    {
+      "id": "mcq-19-008",
+      "q": "case 1: case 2:?",
+      "opts": [
+        "Xato",
+        "Bir nechta qiymat bitta blok",
+        "Faqat 1",
+        "Array"
+      ],
+      "correct": 1,
+      "exp": "Ketma-ket case."
+    },
+    {
+      "id": "mcq-19-009",
+      "q": "switch (NaN)?",
+      "opts": [
+        "case NaN ishlaydi",
+        "NaN !== NaN",
+        "Xato",
+        "default o'tmaydi"
+      ],
+      "correct": 1,
+      "exp": "NaN teng emas."
+    },
+    {
+      "id": "mcq-19-010",
+      "q": "case da let?",
+      "opts": [
+        "Erkin",
+        "{} blok tavsiya",
+        "Mumkin emas",
+        "Faqat var"
+      ],
+      "correct": 1,
+      "exp": "Scope muammosi."
+    },
+    {
+      "id": "mcq-19-011",
+      "q": "switch vs if?",
+      "opts": [
+        "switch har doim tez",
+        "Ko'p tenglikda switch qulay",
+        "if taqiqlangan",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "O'qilish."
+    },
+    {
+      "id": "mcq-19-012",
+      "q": "ternary sintaksis?",
+      "opts": [
+        "a : b ? c",
+        "shart ? a : b",
+        "shart ?? a : b",
+        "shart && a || b"
+      ],
+      "correct": 1,
+      "exp": "? :"
+    },
+    {
+      "id": "mcq-19-013",
+      "q": "return switch da?",
+      "opts": [
+        "Mumkin emas",
+        "Funksiyadan chiqadi",
+        "Xato",
+        "Faqat default"
+      ],
+      "correct": 1,
+      "exp": "return break o'rnini bosadi."
+    },
+    {
+      "id": "mcq-19-014",
+      "q": "switch (true) pattern?",
+      "opts": [
+        "Mumkin emas",
+        "Oraliq shartlar uchun mumkin",
+        "Faqat number",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "case x>5:"
+    },
+    {
+      "id": "mcq-19-015",
+      "q": "switch === ishlatadimi?",
+      "opts": [
+        "Yo'q ==",
+        "Ha ===",
+        "typeof",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "Qat'iy."
+    },
+    {
+      "id": "mcq-19-016",
+      "q": "Fall-through?",
+      "opts": [
+        "Xato",
+        "break yo'qsa keyingi case",
+        "Hech narsa",
+        "To'xtaydi"
+      ],
+      "correct": 1,
+      "exp": "Qasddan ishlatiladi."
+    },
+    {
+      "id": "mcq-19-017",
+      "q": "default?",
+      "opts": [
+        "Birinchi",
+        "Mos kelmasa",
+        "Oxirgi majburiy",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Fallback."
+    },
+    {
+      "id": "mcq-19-018",
+      "q": "case 1: case 2:?",
+      "opts": [
+        "Xato",
+        "Bir nechta qiymat bitta blok",
+        "Faqat 1",
+        "Array"
+      ],
+      "correct": 1,
+      "exp": "Ketma-ket case."
+    },
+    {
+      "id": "mcq-19-019",
+      "q": "switch (NaN)?",
+      "opts": [
+        "case NaN ishlaydi",
+        "NaN !== NaN",
+        "Xato",
+        "default o'tmaydi"
+      ],
+      "correct": 1,
+      "exp": "NaN teng emas."
+    },
+    {
+      "id": "mcq-19-020",
+      "q": "case da let?",
+      "opts": [
+        "Erkin",
+        "{} blok tavsiya",
+        "Mumkin emas",
+        "Faqat var"
+      ],
+      "correct": 1,
+      "exp": "Scope muammosi."
+    },
+    {
+      "id": "mcq-19-021",
+      "q": "switch vs if?",
+      "opts": [
+        "switch har doim tez",
+        "Ko'p tenglikda switch qulay",
+        "if taqiqlangan",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "O'qilish."
+    },
+    {
+      "id": "mcq-19-022",
+      "q": "ternary sintaksis?",
+      "opts": [
+        "a : b ? c",
+        "shart ? a : b",
+        "shart ?? a : b",
+        "shart && a || b"
+      ],
+      "correct": 1,
+      "exp": "? :"
+    },
+    {
+      "id": "mcq-19-023",
+      "q": "return switch da?",
+      "opts": [
+        "Mumkin emas",
+        "Funksiyadan chiqadi",
+        "Xato",
+        "Faqat default"
+      ],
+      "correct": 1,
+      "exp": "return break o'rnini bosadi."
+    },
+    {
+      "id": "mcq-19-024",
+      "q": "switch (true) pattern?",
+      "opts": [
+        "Mumkin emas",
+        "Oraliq shartlar uchun mumkin",
+        "Faqat number",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "case x>5:"
+    }
+  ]
+}

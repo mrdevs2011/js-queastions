@@ -1,0 +1,25 @@
+{
+  "lesson": 14,
+  "type": "code",
+  "title": "Shartli operatorlar va boshqaruv oqimi",
+  "questions": [
+    {
+      "id": "code-14-001",
+      "task": "ball=75. Agar 90+ 'A', 70+ 'B', aks holda 'C' chiqaradigan if/else if/else yozing.",
+      "sample": "let ball = 75;\nif (ball >= 90) {\n  console.log(\"A\");\n} else if (ball >= 70) {\n  console.log(\"B\");\n} else {\n  console.log(\"C\");\n}",
+      "exp": "Ketma-ket shart tekshirish."
+    },
+    {
+      "id": "code-14-002",
+      "task": "Shartli operatorlar va boshqaruv oqimi bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let ball = 75;\nif (ball >= 90) {\n  console.log(\"A\");\n} else if (ball >= 70) {\n  console.log(\"B\");\n} else {\n  console.log(\"C\");\n}",
+      "exp": "Ketma-ket shart tekshirish."
+    },
+    {
+      "id": "code-14-003",
+      "task": "Shartli operatorlar va boshqaruv oqimi: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 7,
+  "type": "mcq",
+  "title": "Javascript sintaksisi",
+  "questions": [
+    {
+      "id": "mcq-7-001",
+      "q": "JavaScript da gap (statement) odatda nima bilan tugaydi?",
+      "opts": [
+        "nuqta",
+        "nuqta-vergul (;)",
+        "vergul",
+        "ikki nuqta"
+      ],
+      "correct": 1,
+      "exp": "Statementlar odatda ; bilan tugaydi (ASI avtomatik qo'shishi ham mumkin)."
+    },
+    {
+      "id": "mcq-7-002",
+      "q": "Izoh (comment) qanday yoziladi?",
+      "opts": [
+        "# izoh",
+        "// izoh yoki /* izoh */",
+        "<!-- izoh -->",
+        "-- izoh"
+      ],
+      "correct": 1,
+      "exp": "// bir qator, /* */ ko'p qatorli izoh."
+    },
+    {
+      "id": "mcq-7-003",
+      "q": "Kattaa-kichik harf sezgirligi (case-sensitive) bormi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat string da",
+        "Faqat funksiyada"
+      ],
+      "correct": 1,
+      "exp": "ism va Ism — turli identifikatorlar."
+    },
+    {
+      "id": "mcq-7-004",
+      "q": "Blok qanday belgilanadi?",
+      "opts": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "correct": 2,
+      "exp": "Kod bloki jingalak qavs {} ichida yoziladi."
+    },
+    {
+      "id": "mcq-7-005",
+      "q": "Javascript sintaksisi mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-006",
+      "q": "Javascript sintaksisi mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-007",
+      "q": "Javascript sintaksisi mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-008",
+      "q": "Javascript sintaksisi mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-009",
+      "q": "Javascript sintaksisi mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-010",
+      "q": "Javascript sintaksisi mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-011",
+      "q": "Javascript sintaksisi mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-012",
+      "q": "Javascript sintaksisi mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-7-013",
+      "q": "JavaScript da gap (statement) odatda nima bilan tugaydi (qayta / chuqurroq)?",
+      "opts": [
+        "nuqta",
+        "nuqta-vergul (;)",
+        "vergul",
+        "ikki nuqta"
+      ],
+      "correct": 1,
+      "exp": "Statementlar odatda ; bilan tugaydi (ASI avtomatik qo'shishi ham mumkin). Qayta o'qing."
+    },
+    {
+      "id": "mcq-7-014",
+      "q": "Izoh (comment) qanday yoziladi (qayta / chuqurroq)?",
+      "opts": [
+        "# izoh",
+        "// izoh yoki /* izoh */",
+        "<!-- izoh -->",
+        "-- izoh"
+      ],
+      "correct": 1,
+      "exp": "// bir qator, /* */ ko'p qatorli izoh. Qayta o'qing."
+    },
+    {
+      "id": "mcq-7-015",
+      "q": "Kattaa-kichik harf sezgirligi (case-sensitive) bormi (qayta / chuqurroq)?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat string da",
+        "Faqat funksiyada"
+      ],
+      "correct": 1,
+      "exp": "ism va Ism — turli identifikatorlar. Qayta o'qing."
+    },
+    {
+      "id": "mcq-7-016",
+      "q": "Blok qanday belgilanadi (qayta / chuqurroq)?",
+      "opts": [
+        "()",
+        "[]",
+        "{}",
+        "<>"
+      ],
+      "correct": 2,
+      "exp": "Kod bloki jingalak qavs {} ichida yoziladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-7-017",
+      "q": "Javascript sintaksisi mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

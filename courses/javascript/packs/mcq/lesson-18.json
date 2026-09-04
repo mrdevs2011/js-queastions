@@ -1,0 +1,211 @@
+{
+  "lesson": 18,
+  "type": "mcq",
+  "title": "Funksiya va uni e'lon qilish",
+  "questions": [
+    {
+      "id": "mcq-18-001",
+      "q": "Function declaration qanday boshlanadi?",
+      "opts": [
+        "func",
+        "function",
+        "def",
+        "fn"
+      ],
+      "correct": 1,
+      "exp": "function nomi(paramlar) { ... }"
+    },
+    {
+      "id": "mcq-18-002",
+      "q": "return dan keyin kod bajariladimi?",
+      "opts": [
+        "Ha",
+        "Yo'q, funksiya to'xtaydi",
+        "Faqat xato bo'lsa",
+        "Faqat async da"
+      ],
+      "correct": 1,
+      "exp": "return bajarilishni darhol to'xtatadi va qiymat qaytaradi."
+    },
+    {
+      "id": "mcq-18-003",
+      "q": "Parametr va argument farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "Parametr — e'londagi, argument — chaqiruvdagi qiymat",
+        "Argument faqat son",
+        "Parametr faqat string"
+      ],
+      "correct": 1,
+      "exp": "function f(x) — x parametr; f(5) — 5 argument."
+    },
+    {
+      "id": "mcq-18-004",
+      "q": "Funksiya qiymat qaytarmasa nima qaytaradi?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "return yo'q bo'lsa undefined qaytadi."
+    },
+    {
+      "id": "mcq-18-005",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-006",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-007",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-008",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-009",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-010",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-011",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-012",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-18-013",
+      "q": "Function declaration qanday boshlanadi (qayta / chuqurroq)?",
+      "opts": [
+        "func",
+        "function",
+        "def",
+        "fn"
+      ],
+      "correct": 1,
+      "exp": "function nomi(paramlar) { ... } Qayta o'qing."
+    },
+    {
+      "id": "mcq-18-014",
+      "q": "return dan keyin kod bajariladimi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q, funksiya to'xtaydi",
+        "Faqat xato bo'lsa",
+        "Faqat async da"
+      ],
+      "correct": 1,
+      "exp": "return bajarilishni darhol to'xtatadi va qiymat qaytaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-18-015",
+      "q": "Parametr va argument farqi (qayta / chuqurroq)?",
+      "opts": [
+        "Farqi yo'q",
+        "Parametr — e'londagi, argument — chaqiruvdagi qiymat",
+        "Argument faqat son",
+        "Parametr faqat string"
+      ],
+      "correct": 1,
+      "exp": "function f(x) — x parametr; f(5) — 5 argument. Qayta o'qing."
+    },
+    {
+      "id": "mcq-18-016",
+      "q": "Funksiya qiymat qaytarmasa nima qaytaradi (qayta / chuqurroq)?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "return yo'q bo'lsa undefined qaytadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-18-017",
+      "q": "Funksiya va uni e'lon qilish mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Funksiya va uni e'lon qilish bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "lesson": 16,
+  "type": "mcq",
+  "title": "Objects",
+  "questions": [
+    {
+      "id": "mcq-16-001",
+      "q": "let odam={ism:\"Ali\",yosh:20}; console.log(odam.yosh); natija?",
+      "opts": [
+        "\"yosh\"",
+        "20",
+        "undefined",
+        "Xato beradi"
+      ],
+      "correct": 1,
+      "exp": "Nuqta orqali murojaat kalitning qiymatini qaytaradi."
+    },
+    {
+      "id": "mcq-16-002",
+      "q": "Object yaratishning to'g'ri usuli?",
+      "opts": [
+        "let o = [a:1]",
+        "let o = {a:1}",
+        "let o = (a:1)",
+        "let o = <a:1>"
+      ],
+      "correct": 1,
+      "exp": "Object jingalak qavs {} bilan yaratiladi."
+    },
+    {
+      "id": "mcq-16-003",
+      "q": "let o = {a:1}; console.log(o[\"a\"]); natija?",
+      "opts": [
+        "undefined",
+        "1",
+        "\"a\"",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Kvadrat qavs orqali ham xususiyatga murojaat qilish mumkin."
+    },
+    {
+      "id": "mcq-16-004",
+      "q": "Object da kalitlar nima bilan ajratiladi?",
+      "opts": [
+        "nuqta-vergul",
+        "vergul",
+        "ikki nuqta",
+        "bo'sh joy"
+      ],
+      "correct": 1,
+      "exp": "Xususiyatlar vergul bilan ajratiladi: {a:1, b:2}."
+    },
+    {
+      "id": "mcq-16-005",
+      "q": "obj.a va obj['a']?",
+      "opts": [
+        "Hech qachon",
+        "Oddiy kalitlarda bir xil",
+        "Faqat array",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "Dot va bracket."
+    },
+    {
+      "id": "mcq-16-006",
+      "q": "Dinamik kalit?",
+      "opts": [
+        "Faqat dot",
+        "obj[o'zgaruvchi]",
+        "Mumkin emas",
+        "Faqat Symbol"
+      ],
+      "correct": 1,
+      "exp": "Bracket."
+    },
+    {
+      "id": "mcq-16-007",
+      "q": "Shorthand {ism}?",
+      "opts": [
+        "Hech qachon",
+        "ism o'zgaruvchisi bo'lsa",
+        "Faqat const",
+        "Faqat string"
+      ],
+      "correct": 1,
+      "exp": "Property shorthand."
+    },
+    {
+      "id": "mcq-16-008",
+      "q": "for...in beradi?",
+      "opts": [
+        "Qiymat",
+        "Kalitlar",
+        "Faqat indeks",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "Keys."
+    },
+    {
+      "id": "mcq-16-009",
+      "q": "Object.assign?",
+      "opts": [
+        "O'chiradi",
+        "Ko'chiradi (mutatsiya)",
+        "Yangi har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Target o'zgaradi."
+    },
+    {
+      "id": "mcq-16-010",
+      "q": "Shallow copy?",
+      "opts": [
+        "Deep",
+        "Birinchi qavat",
+        "Nusxa yo'q",
+        "Faqat array"
+      ],
+      "correct": 1,
+      "exp": "Ichki reference."
+    },
+    {
+      "id": "mcq-16-011",
+      "q": "JSON.stringify({a:undefined})?",
+      "opts": [
+        "{a:undefined}",
+        "{}",
+        "{a:null}",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "undefined tashlanadi."
+    },
+    {
+      "id": "mcq-16-012",
+      "q": "delete obj.x?",
+      "opts": [
+        "null qiladi",
+        "Kalitni olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "Olib tashlaydi."
+    },
+    {
+      "id": "mcq-16-013",
+      "q": "Optional chaining obj?.a?",
+      "opts": [
+        "Xato eski",
+        "Yo'q bo'lsa undefined",
+        "null majburiy",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Xavfsiz murojaat."
+    },
+    {
+      "id": "mcq-16-014",
+      "q": "Yangi xususiyat?",
+      "opts": [
+        "Mumkin emas",
+        "obj.yangi = 1",
+        "Faqat constructor",
+        "Faqat freeze oldin"
+      ],
+      "correct": 1,
+      "exp": "Tayinlash."
+    },
+    {
+      "id": "mcq-16-015",
+      "q": "obj.a va obj['a']?",
+      "opts": [
+        "Hech qachon",
+        "Oddiy kalitlarda bir xil",
+        "Faqat array",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "Dot va bracket."
+    },
+    {
+      "id": "mcq-16-016",
+      "q": "Dinamik kalit?",
+      "opts": [
+        "Faqat dot",
+        "obj[o'zgaruvchi]",
+        "Mumkin emas",
+        "Faqat Symbol"
+      ],
+      "correct": 1,
+      "exp": "Bracket."
+    },
+    {
+      "id": "mcq-16-017",
+      "q": "Shorthand {ism}?",
+      "opts": [
+        "Hech qachon",
+        "ism o'zgaruvchisi bo'lsa",
+        "Faqat const",
+        "Faqat string"
+      ],
+      "correct": 1,
+      "exp": "Property shorthand."
+    },
+    {
+      "id": "mcq-16-018",
+      "q": "for...in beradi?",
+      "opts": [
+        "Qiymat",
+        "Kalitlar",
+        "Faqat indeks",
+        "length"
+      ],
+      "correct": 1,
+      "exp": "Keys."
+    },
+    {
+      "id": "mcq-16-019",
+      "q": "Object.assign?",
+      "opts": [
+        "O'chiradi",
+        "Ko'chiradi (mutatsiya)",
+        "Yangi har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Target o'zgaradi."
+    },
+    {
+      "id": "mcq-16-020",
+      "q": "Shallow copy?",
+      "opts": [
+        "Deep",
+        "Birinchi qavat",
+        "Nusxa yo'q",
+        "Faqat array"
+      ],
+      "correct": 1,
+      "exp": "Ichki reference."
+    },
+    {
+      "id": "mcq-16-021",
+      "q": "JSON.stringify({a:undefined})?",
+      "opts": [
+        "{a:undefined}",
+        "{}",
+        "{a:null}",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "undefined tashlanadi."
+    },
+    {
+      "id": "mcq-16-022",
+      "q": "delete obj.x?",
+      "opts": [
+        "null qiladi",
+        "Kalitni olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "Olib tashlaydi."
+    },
+    {
+      "id": "mcq-16-023",
+      "q": "Optional chaining obj?.a?",
+      "opts": [
+        "Xato eski",
+        "Yo'q bo'lsa undefined",
+        "null majburiy",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Xavfsiz murojaat."
+    },
+    {
+      "id": "mcq-16-024",
+      "q": "Yangi xususiyat?",
+      "opts": [
+        "Mumkin emas",
+        "obj.yangi = 1",
+        "Faqat constructor",
+        "Faqat freeze oldin"
+      ],
+      "correct": 1,
+      "exp": "Tayinlash."
+    }
+  ]
+}

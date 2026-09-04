@@ -1,0 +1,247 @@
+{
+  "lesson": 3,
+  "type": "mcq",
+  "title": "Salom dunyo!",
+  "questions": [
+    {
+      "id": "mcq-3-001",
+      "q": "console.log(\"Salom\" + \"dunyo\") natijasi?",
+      "opts": [
+        "Salom dunyo",
+        "Salomdunyo",
+        "Xato beradi",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "+ operatori satrlarni orasiga bo'sh joy qo'shmay birlashtiradi."
+    },
+    {
+      "id": "mcq-3-002",
+      "q": "Brauzer konsolida natijani chiqarish uchun qaysi funksiya ishlatiladi?",
+      "opts": [
+        "print()",
+        "echo()",
+        "console.log()",
+        "display()"
+      ],
+      "correct": 2,
+      "exp": "console.log() — brauzer konsoliga chiqarish uchun standart usul."
+    },
+    {
+      "id": "mcq-3-003",
+      "q": "JavaScript kodini HTML ichiga qanday joylashtiriladi?",
+      "opts": [
+        "<js>...</js>",
+        "<script>...</script>",
+        "<javascript>...</javascript>",
+        "<code>...</code>"
+      ],
+      "correct": 1,
+      "exp": "JS kodi <script> tegi ichiga yoziladi."
+    },
+    {
+      "id": "mcq-3-004",
+      "q": "console.log(2 + 2) nima chiqaradi?",
+      "opts": [
+        "\"2 + 2\"",
+        "4",
+        "22",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "console.log ifodani hisoblab, natijani konsolga chiqaradi."
+    },
+    {
+      "id": "mcq-3-005",
+      "q": "console.log(1+2) natija?",
+      "opts": [
+        "1+2",
+        "3",
+        "12",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Ifoda hisoblanadi."
+    },
+    {
+      "id": "mcq-3-006",
+      "q": "console.warn nima uchun?",
+      "opts": [
+        "Oddiy xabar",
+        "Ogohlantirish",
+        "Xato",
+        "Rasm"
+      ],
+      "correct": 1,
+      "exp": "Sariq ogohlantirish."
+    },
+    {
+      "id": "mcq-3-007",
+      "q": "console.error nima uchun?",
+      "opts": [
+        "Muvaffaqiyat",
+        "Xato xabari",
+        "Log",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Xatolarni ajratadi."
+    },
+    {
+      "id": "mcq-3-008",
+      "q": "Bir nechta qiymat console.log da?",
+      "opts": [
+        "Mumkin emas",
+        "console.log(a,b,c)",
+        "Faqat string",
+        "Faqat array"
+      ],
+      "correct": 1,
+      "exp": "Vergul bilan argumentlar."
+    },
+    {
+      "id": "mcq-3-009",
+      "q": "alert() nima qiladi?",
+      "opts": [
+        "Konsol",
+        "Modal oynacha",
+        "Fayl",
+        "Yopish"
+      ],
+      "correct": 1,
+      "exp": "Bloklovchi xabar."
+    },
+    {
+      "id": "mcq-3-010",
+      "q": "prompt() nima qaytaradi?",
+      "opts": [
+        "true",
+        "Satr yoki null",
+        "Number",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "Foydalanuvchi kiritmasi."
+    },
+    {
+      "id": "mcq-3-011",
+      "q": "confirm() qaytaradi?",
+      "opts": [
+        "string",
+        "boolean",
+        "number",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "OK/Cancel — true/false."
+    },
+    {
+      "id": "mcq-3-012",
+      "q": "Kodda xato bo'lsa konsolda?",
+      "opts": [
+        "Hech narsa",
+        "Xato turi va qator",
+        "Yashil",
+        "Yopiladi"
+      ],
+      "correct": 1,
+      "exp": "Brauzer xato joyini ko'rsatadi."
+    },
+    {
+      "id": "mcq-3-013",
+      "q": "console.log(1+2) natija?",
+      "opts": [
+        "1+2",
+        "3",
+        "12",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Ifoda hisoblanadi."
+    },
+    {
+      "id": "mcq-3-014",
+      "q": "console.warn nima uchun?",
+      "opts": [
+        "Oddiy xabar",
+        "Ogohlantirish",
+        "Xato",
+        "Rasm"
+      ],
+      "correct": 1,
+      "exp": "Sariq ogohlantirish."
+    },
+    {
+      "id": "mcq-3-015",
+      "q": "console.error nima uchun?",
+      "opts": [
+        "Muvaffaqiyat",
+        "Xato xabari",
+        "Log",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Xatolarni ajratadi."
+    },
+    {
+      "id": "mcq-3-016",
+      "q": "Bir nechta qiymat console.log da?",
+      "opts": [
+        "Mumkin emas",
+        "console.log(a,b,c)",
+        "Faqat string",
+        "Faqat array"
+      ],
+      "correct": 1,
+      "exp": "Vergul bilan argumentlar."
+    },
+    {
+      "id": "mcq-3-017",
+      "q": "alert() nima qiladi?",
+      "opts": [
+        "Konsol",
+        "Modal oynacha",
+        "Fayl",
+        "Yopish"
+      ],
+      "correct": 1,
+      "exp": "Bloklovchi xabar."
+    },
+    {
+      "id": "mcq-3-018",
+      "q": "prompt() nima qaytaradi?",
+      "opts": [
+        "true",
+        "Satr yoki null",
+        "Number",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "Foydalanuvchi kiritmasi."
+    },
+    {
+      "id": "mcq-3-019",
+      "q": "confirm() qaytaradi?",
+      "opts": [
+        "string",
+        "boolean",
+        "number",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "OK/Cancel — true/false."
+    },
+    {
+      "id": "mcq-3-020",
+      "q": "Kodda xato bo'lsa konsolda?",
+      "opts": [
+        "Hech narsa",
+        "Xato turi va qator",
+        "Yashil",
+        "Yopiladi"
+      ],
+      "correct": 1,
+      "exp": "Brauzer xato joyini ko'rsatadi."
+    }
+  ]
+}

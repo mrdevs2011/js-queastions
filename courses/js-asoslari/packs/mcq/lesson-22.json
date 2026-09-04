@@ -1,0 +1,295 @@
+{
+  "lesson": 22,
+  "type": "mcq",
+  "title": "Oqim boshqaruvi bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "mcq-22-001",
+      "q": "Siklni majburiy to'xtatish uchun qaysi kalit so'z ishlatiladi?",
+      "opts": [
+        "stop",
+        "break",
+        "end",
+        "exit"
+      ],
+      "correct": 1,
+      "exp": "break sikldan darhol chiqadi."
+    },
+    {
+      "id": "mcq-22-002",
+      "q": "continue nima qiladi?",
+      "opts": [
+        "Siklni to'xtatadi",
+        "Joriy iteratsiyani tashlab, keyingisiga o'tadi",
+        "Funksiyadan chiqadi",
+        "Xato beradi"
+      ],
+      "correct": 1,
+      "exp": "continue joriy qadamni tashlab, siklning keyingi iteratsiyasiga o'tadi."
+    },
+    {
+      "id": "mcq-22-003",
+      "q": "Ichma-ich sikllarda break nima qiladi?",
+      "opts": [
+        "Barcha sikllarni to'xtatadi",
+        "Faqat eng yaqin (ichki) siklni to'xtatadi",
+        "Hech narsa",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "break faqat eng yaqin siklni to'xtatadi."
+    },
+    {
+      "id": "mcq-22-004",
+      "q": "for (let i=0; i<5; i++) { if (i===3) break; } — i ning oxirgi qiymati?",
+      "opts": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct": 1,
+      "exp": "i===3 bo'lganda break ishlaydi, sikl to'xtaydi."
+    },
+    {
+      "id": "mcq-22-005",
+      "q": "break funksiyadan?",
+      "opts": [
+        "Ha",
+        "Yo'q, faqat sikl/switch",
+        "Har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "return funksiyadan."
+    },
+    {
+      "id": "mcq-22-006",
+      "q": "continue switch?",
+      "opts": [
+        "Ha",
+        "Yo'q, sikl kerak",
+        "default",
+        "break"
+      ],
+      "correct": 1,
+      "exp": "continue sikl uchun."
+    },
+    {
+      "id": "mcq-22-007",
+      "q": "Ichki break?",
+      "opts": [
+        "Tashqini ham",
+        "Faqat ichki",
+        "Hech qaysi",
+        "Ikkalasi"
+      ],
+      "correct": 1,
+      "exp": "Label siz ichki."
+    },
+    {
+      "id": "mcq-22-008",
+      "q": "return siklda?",
+      "opts": [
+        "Faqat break",
+        "Funksiyadan chiqadi",
+        "Faqat continue",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Kuchliroq."
+    },
+    {
+      "id": "mcq-22-009",
+      "q": "Dead code?",
+      "opts": [
+        "Tez kod",
+        "Bajarilmaydigan kod",
+        "CSS",
+        "Comment"
+      ],
+      "correct": 1,
+      "exp": "return dan keyin."
+    },
+    {
+      "id": "mcq-22-010",
+      "q": "Early continue?",
+      "opts": [
+        "Yo'q",
+        "Nesting kamayadi",
+        "Sekin",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "O'qish oson."
+    },
+    {
+      "id": "mcq-22-011",
+      "q": "Oqim vositalari?",
+      "opts": [
+        "Faqat if",
+        "if, switch, loop, break, return",
+        "Faqat for",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "Birgalikda."
+    },
+    {
+      "id": "mcq-22-012",
+      "q": "Flag o'zgaruvchi?",
+      "opts": [
+        "CSS",
+        "Tashqi sikl boshqaruvi",
+        "HTML",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "found=true."
+    },
+    {
+      "id": "mcq-22-013",
+      "q": "throw siklda?",
+      "opts": [
+        "Ignor",
+        "Exception ko'tariladi",
+        "Faqat break",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "try/catch."
+    },
+    {
+      "id": "mcq-22-014",
+      "q": "Debug usuli?",
+      "opts": [
+        "Taxmin",
+        "console/debugger",
+        "O'chirish",
+        "Restart"
+      ],
+      "correct": 1,
+      "exp": "Ko'rinarli holat."
+    },
+    {
+      "id": "mcq-22-015",
+      "q": "break funksiyadan?",
+      "opts": [
+        "Ha",
+        "Yo'q, faqat sikl/switch",
+        "Har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "return funksiyadan."
+    },
+    {
+      "id": "mcq-22-016",
+      "q": "continue switch?",
+      "opts": [
+        "Ha",
+        "Yo'q, sikl kerak",
+        "default",
+        "break"
+      ],
+      "correct": 1,
+      "exp": "continue sikl uchun."
+    },
+    {
+      "id": "mcq-22-017",
+      "q": "Ichki break?",
+      "opts": [
+        "Tashqini ham",
+        "Faqat ichki",
+        "Hech qaysi",
+        "Ikkalasi"
+      ],
+      "correct": 1,
+      "exp": "Label siz ichki."
+    },
+    {
+      "id": "mcq-22-018",
+      "q": "return siklda?",
+      "opts": [
+        "Faqat break",
+        "Funksiyadan chiqadi",
+        "Faqat continue",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Kuchliroq."
+    },
+    {
+      "id": "mcq-22-019",
+      "q": "Dead code?",
+      "opts": [
+        "Tez kod",
+        "Bajarilmaydigan kod",
+        "CSS",
+        "Comment"
+      ],
+      "correct": 1,
+      "exp": "return dan keyin."
+    },
+    {
+      "id": "mcq-22-020",
+      "q": "Early continue?",
+      "opts": [
+        "Yo'q",
+        "Nesting kamayadi",
+        "Sekin",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "O'qish oson."
+    },
+    {
+      "id": "mcq-22-021",
+      "q": "Oqim vositalari?",
+      "opts": [
+        "Faqat if",
+        "if, switch, loop, break, return",
+        "Faqat for",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "Birgalikda."
+    },
+    {
+      "id": "mcq-22-022",
+      "q": "Flag o'zgaruvchi?",
+      "opts": [
+        "CSS",
+        "Tashqi sikl boshqaruvi",
+        "HTML",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "found=true."
+    },
+    {
+      "id": "mcq-22-023",
+      "q": "throw siklda?",
+      "opts": [
+        "Ignor",
+        "Exception ko'tariladi",
+        "Faqat break",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "try/catch."
+    },
+    {
+      "id": "mcq-22-024",
+      "q": "Debug usuli?",
+      "opts": [
+        "Taxmin",
+        "console/debugger",
+        "O'chirish",
+        "Restart"
+      ],
+      "correct": 1,
+      "exp": "Ko'rinarli holat."
+    }
+  ]
+}

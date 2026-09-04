@@ -1,0 +1,295 @@
+{
+  "lesson": 23,
+  "type": "mcq",
+  "title": "DOM",
+  "questions": [
+    {
+      "id": "mcq-23-001",
+      "q": "DOM nimani anglatadi?",
+      "opts": [
+        "Document Object Model",
+        "Data Object Management",
+        "Digital Output Method",
+        "Document Order Map"
+      ],
+      "correct": 0,
+      "exp": "DOM — HTML hujjatning obyekt sifatidagi modeli."
+    },
+    {
+      "id": "mcq-23-002",
+      "q": "DOM daraxtining ildizi qaysi obyekt?",
+      "opts": [
+        "window",
+        "document",
+        "body",
+        "html"
+      ],
+      "correct": 1,
+      "exp": "document — butun sahifa DOM daraxtining ildiz obyekti."
+    },
+    {
+      "id": "mcq-23-003",
+      "q": "DOM nima uchun kerak?",
+      "opts": [
+        "CSS yozish uchun",
+        "HTML elementlarini JS orqali o'qish va o'zgartirish uchun",
+        "Serverga ulanish uchun",
+        "Rasm yuklash uchun"
+      ],
+      "correct": 1,
+      "exp": "DOM orqali JS HTML strukturasini dinamik o'zgartiradi."
+    },
+    {
+      "id": "mcq-23-004",
+      "q": "document.body nima?",
+      "opts": [
+        "<head> elementi",
+        "<body> elementi",
+        "Butun hujjat",
+        "window obyekti"
+      ],
+      "correct": 1,
+      "exp": "document.body — sahifadagi <body> elementiga ishora."
+    },
+    {
+      "id": "mcq-23-005",
+      "q": "document nima?",
+      "opts": [
+        "Sahifa DOM ildizi",
+        "CSS",
+        "Faqat body",
+        "Server"
+      ],
+      "correct": 0,
+      "exp": "document ildiz."
+    },
+    {
+      "id": "mcq-23-006",
+      "q": "window vs document?",
+      "opts": [
+        "Bir xil",
+        "window global, document tarkib",
+        "document katta",
+        "window yo'q"
+      ],
+      "correct": 1,
+      "exp": "window.document."
+    },
+    {
+      "id": "mcq-23-007",
+      "q": "Node vs Element?",
+      "opts": [
+        "Bir xil",
+        "Element maxsus node",
+        "Node faqat matn",
+        "Element yo'q"
+      ],
+      "correct": 1,
+      "exp": "Turli node turlari."
+    },
+    {
+      "id": "mcq-23-008",
+      "q": "DOM realtime?",
+      "opts": [
+        "Statik",
+        "Tirik daraxt",
+        "Faqat load",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "O'zgarish darhol."
+    },
+    {
+      "id": "mcq-23-009",
+      "q": "innerHTML xavfi?",
+      "opts": [
+        "Yo'q",
+        "XSS",
+        "Faqat sekin",
+        "Ishlamaydi"
+      ],
+      "correct": 1,
+      "exp": "Ishonchsiz HTML."
+    },
+    {
+      "id": "mcq-23-010",
+      "q": "DOMContentLoaded?",
+      "opts": [
+        "Barcha rasm",
+        "HTML parse, DOM tayyor",
+        "Hech qachon",
+        "Faqat CSS"
+      ],
+      "correct": 1,
+      "exp": "load dan oldin."
+    },
+    {
+      "id": "mcq-23-011",
+      "q": "Live collection?",
+      "opts": [
+        "querySelectorAll",
+        "getElementsByClassName",
+        "const array",
+        "JSON"
+      ],
+      "correct": 1,
+      "exp": "Yangilanadigan."
+    },
+    {
+      "id": "mcq-23-012",
+      "q": "querySelectorAll static?",
+      "opts": [
+        "Live",
+        "Odatda static snapshot",
+        "Har doim live",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Snapshot."
+    },
+    {
+      "id": "mcq-23-013",
+      "q": "getElementById tezmi?",
+      "opts": [
+        "Har doim sekin",
+        "Id bo'yicha tez",
+        "Taqiqlangan",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "To'g'ridan id."
+    },
+    {
+      "id": "mcq-23-014",
+      "q": "textContent afzal?",
+      "opts": [
+        "Yo'q",
+        "XSS dan xavfsizroq",
+        "Bir xil",
+        "Xavfliroq"
+      ],
+      "correct": 1,
+      "exp": "HTML parse qilmaydi."
+    },
+    {
+      "id": "mcq-23-015",
+      "q": "document nima?",
+      "opts": [
+        "Sahifa DOM ildizi",
+        "CSS",
+        "Faqat body",
+        "Server"
+      ],
+      "correct": 0,
+      "exp": "document ildiz."
+    },
+    {
+      "id": "mcq-23-016",
+      "q": "window vs document?",
+      "opts": [
+        "Bir xil",
+        "window global, document tarkib",
+        "document katta",
+        "window yo'q"
+      ],
+      "correct": 1,
+      "exp": "window.document."
+    },
+    {
+      "id": "mcq-23-017",
+      "q": "Node vs Element?",
+      "opts": [
+        "Bir xil",
+        "Element maxsus node",
+        "Node faqat matn",
+        "Element yo'q"
+      ],
+      "correct": 1,
+      "exp": "Turli node turlari."
+    },
+    {
+      "id": "mcq-23-018",
+      "q": "DOM realtime?",
+      "opts": [
+        "Statik",
+        "Tirik daraxt",
+        "Faqat load",
+        "Server"
+      ],
+      "correct": 1,
+      "exp": "O'zgarish darhol."
+    },
+    {
+      "id": "mcq-23-019",
+      "q": "innerHTML xavfi?",
+      "opts": [
+        "Yo'q",
+        "XSS",
+        "Faqat sekin",
+        "Ishlamaydi"
+      ],
+      "correct": 1,
+      "exp": "Ishonchsiz HTML."
+    },
+    {
+      "id": "mcq-23-020",
+      "q": "DOMContentLoaded?",
+      "opts": [
+        "Barcha rasm",
+        "HTML parse, DOM tayyor",
+        "Hech qachon",
+        "Faqat CSS"
+      ],
+      "correct": 1,
+      "exp": "load dan oldin."
+    },
+    {
+      "id": "mcq-23-021",
+      "q": "Live collection?",
+      "opts": [
+        "querySelectorAll",
+        "getElementsByClassName",
+        "const array",
+        "JSON"
+      ],
+      "correct": 1,
+      "exp": "Yangilanadigan."
+    },
+    {
+      "id": "mcq-23-022",
+      "q": "querySelectorAll static?",
+      "opts": [
+        "Live",
+        "Odatda static snapshot",
+        "Har doim live",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Snapshot."
+    },
+    {
+      "id": "mcq-23-023",
+      "q": "getElementById tezmi?",
+      "opts": [
+        "Har doim sekin",
+        "Id bo'yicha tez",
+        "Taqiqlangan",
+        "Farq yo'q"
+      ],
+      "correct": 1,
+      "exp": "To'g'ridan id."
+    },
+    {
+      "id": "mcq-23-024",
+      "q": "textContent afzal?",
+      "opts": [
+        "Yo'q",
+        "XSS dan xavfsizroq",
+        "Bir xil",
+        "Xavfliroq"
+      ],
+      "correct": 1,
+      "exp": "HTML parse qilmaydi."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lesson": 11,
+  "type": "code",
+  "title": "Asosiy operatorlar",
+  "questions": [
+    {
+      "id": "code-11-001",
+      "task": "a=17, b=5 bo'lsin. Bo'lish, butun bo'lish qoldig'i va darajani ( ** ) chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a / b);\nconsole.log(a % b);\nconsole.log(a ** 2);",
+      "exp": "/, %, ** operatorlari."
+    },
+    {
+      "id": "code-11-002",
+      "task": "Asosiy operatorlar bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a / b);\nconsole.log(a % b);\nconsole.log(a ** 2);",
+      "exp": "/, %, ** operatorlari."
+    },
+    {
+      "id": "code-11-003",
+      "task": "Asosiy operatorlar: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-11-004",
+      "task": "Asosiy operatorlar: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-11-005",
+      "task": "Asosiy operatorlar: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-11-006",
+      "task": "Asosiy operatorlar: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    }
+  ]
+}

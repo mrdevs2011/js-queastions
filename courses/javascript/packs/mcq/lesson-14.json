@@ -1,0 +1,211 @@
+{
+  "lesson": 14,
+  "type": "mcq",
+  "title": "Shartli operatorlar va boshqaruv oqimi",
+  "questions": [
+    {
+      "id": "mcq-14-001",
+      "q": "if (x) da x qachon true hisoblanadi?",
+      "opts": [
+        "Faqat true bo'lsa",
+        "Truthy qiymat bo'lsa",
+        "Faqat 1 bo'lsa",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "0, '', null, undefined, NaN, false — falsy; qolganlari truthy."
+    },
+    {
+      "id": "mcq-14-002",
+      "q": "else if nima uchun?",
+      "opts": [
+        "Birinchi if ni takrorlash",
+        "Qo'shimcha shartlarni ketma-ket tekshirish",
+        "Sikl uchun",
+        "Funksiya uchun"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos kelgan shart bajariladi, qolganlari o'tkazib yuboriladi."
+    },
+    {
+      "id": "mcq-14-003",
+      "q": "if/else o'rniga qisqa yozuv?",
+      "opts": [
+        "for",
+        "ternary (? :)",
+        "while",
+        "switch majburiy"
+      ],
+      "correct": 1,
+      "exp": "shart ? a : b — qisqa if/else."
+    },
+    {
+      "id": "mcq-14-004",
+      "q": "Nesting (ichma-ich if) qachon muammo?",
+      "opts": [
+        "Hech qachon",
+        "Juda chuqurlashsa o'qish qiyinlashadi",
+        "Faqat ES5 da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Chuqur nesting o'qishni qiyinlashtiradi — soddalashtirish tavsiya etiladi."
+    },
+    {
+      "id": "mcq-14-005",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-006",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-007",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-008",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-009",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-010",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-011",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-012",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-14-013",
+      "q": "if (x) da x qachon true hisoblanadi (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat true bo'lsa",
+        "Truthy qiymat bo'lsa",
+        "Faqat 1 bo'lsa",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "0, '', null, undefined, NaN, false — falsy; qolganlari truthy. Qayta o'qing."
+    },
+    {
+      "id": "mcq-14-014",
+      "q": "else if nima uchun (qayta / chuqurroq)?",
+      "opts": [
+        "Birinchi if ni takrorlash",
+        "Qo'shimcha shartlarni ketma-ket tekshirish",
+        "Sikl uchun",
+        "Funksiya uchun"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos kelgan shart bajariladi, qolganlari o'tkazib yuboriladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-14-015",
+      "q": "if/else o'rniga qisqa yozuv (qayta / chuqurroq)?",
+      "opts": [
+        "for",
+        "ternary (? :)",
+        "while",
+        "switch majburiy"
+      ],
+      "correct": 1,
+      "exp": "shart ? a : b — qisqa if/else. Qayta o'qing."
+    },
+    {
+      "id": "mcq-14-016",
+      "q": "Nesting (ichma-ich if) qachon muammo (qayta / chuqurroq)?",
+      "opts": [
+        "Hech qachon",
+        "Juda chuqurlashsa o'qish qiyinlashadi",
+        "Faqat ES5 da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Chuqur nesting o'qishni qiyinlashtiradi — soddalashtirish tavsiya etiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-14-017",
+      "q": "Shartli operatorlar va boshqaruv oqimi mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Shartli operatorlar va boshqaruv oqimi bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

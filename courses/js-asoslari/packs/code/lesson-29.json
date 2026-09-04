@@ -1,0 +1,67 @@
+{
+  "lesson": 29,
+  "type": "code",
+  "title": "DOM bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "code-29-001",
+      "task": "DOM bo'yicha amaliyot: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-29-002",
+      "task": "DOM bo'yicha amaliyot: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-29-003",
+      "task": "DOM bo'yicha amaliyot: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-29-004",
+      "task": "DOM bo'yicha amaliyot: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    },
+    {
+      "id": "code-29-005",
+      "task": "DOM bo'yicha amaliyot: getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-29-006",
+      "task": "DOM bo'yicha amaliyot: querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-29-007",
+      "task": "DOM bo'yicha amaliyot: createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-29-008",
+      "task": "DOM bo'yicha amaliyot: addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-29-009",
+      "task": "DOM bo'yicha amaliyot: classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-29-010",
+      "task": "DOM bo'yicha amaliyot: preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

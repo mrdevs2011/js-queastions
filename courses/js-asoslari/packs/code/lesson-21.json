@@ -1,0 +1,49 @@
+{
+  "lesson": 21,
+  "type": "code",
+  "title": "while",
+  "questions": [
+    {
+      "id": "code-21-001",
+      "task": "while sikli yordamida 5 dan 1 gacha kamayib boradigan sonlarni chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while shart true bo'lguncha ishlaydi, i-- bilan qiymat kamaytiriladi."
+    },
+    {
+      "id": "code-21-002",
+      "task": "while: if/else: ball=75 uchun A/B/C.",
+      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
+      "exp": "if/else if."
+    },
+    {
+      "id": "code-21-003",
+      "task": "while: switch kun=3 → Chorshanba.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch."
+    },
+    {
+      "id": "code-21-004",
+      "task": "while: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-21-005",
+      "task": "while: for 1..5 chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
+      "exp": "for."
+    },
+    {
+      "id": "code-21-006",
+      "task": "while: while 5..1 kamaytirib chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while."
+    },
+    {
+      "id": "code-21-007",
+      "task": "while: for da break (i===3).",
+      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 10,
+  "type": "mcq",
+  "title": "Ma'lumot turini o'zgartirish va coercion",
+  "questions": [
+    {
+      "id": "mcq-10-001",
+      "q": "Implicit coercion nima?",
+      "opts": [
+        "Qo'lda tur o'zgartirish",
+        "JS avtomatik tur o'zgartirishi",
+        "Xato",
+        "Faqat string da"
+      ],
+      "correct": 1,
+      "exp": "Masalan '5' * 2 da '5' avtomatik songa aylanadi."
+    },
+    {
+      "id": "mcq-10-002",
+      "q": "String(false) natijasi?",
+      "opts": [
+        "false",
+        "\"false\"",
+        "0",
+        "''"
+      ],
+      "correct": 1,
+      "exp": "String() qiymatni satrga aylantiradi."
+    },
+    {
+      "id": "mcq-10-003",
+      "q": "Boolean('') natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh satr — falsy."
+    },
+    {
+      "id": "mcq-10-004",
+      "q": "Number('  12  ') natijasi?",
+      "opts": [
+        "NaN",
+        "12",
+        "\"12\"",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Number bo'sh joylarni hisobga olib songa aylantiradi."
+    },
+    {
+      "id": "mcq-10-005",
+      "q": "== va === farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "== tur o'zgartirib solishtiradi, === qat'iy",
+        "=== sekinroq",
+        "== faqat sonlar uchun"
+      ],
+      "correct": 1,
+      "exp": "=== tur va qiymatni qat'iy solishtiradi (tavsiya etiladi)."
+    },
+    {
+      "id": "mcq-10-006",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-007",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-008",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-009",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-010",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-011",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-012",
+      "q": "Ma'lumot turini o'zgartirish va coercion mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Ma'lumot turini o'zgartirish va coercion bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-10-013",
+      "q": "Implicit coercion nima (qayta / chuqurroq)?",
+      "opts": [
+        "Qo'lda tur o'zgartirish",
+        "JS avtomatik tur o'zgartirishi",
+        "Xato",
+        "Faqat string da"
+      ],
+      "correct": 1,
+      "exp": "Masalan '5' * 2 da '5' avtomatik songa aylanadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-10-014",
+      "q": "String(false) natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "false",
+        "\"false\"",
+        "0",
+        "''"
+      ],
+      "correct": 1,
+      "exp": "String() qiymatni satrga aylantiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-10-015",
+      "q": "Boolean('') natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh satr — falsy. Qayta o'qing."
+    },
+    {
+      "id": "mcq-10-016",
+      "q": "Number('  12  ') natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "NaN",
+        "12",
+        "\"12\"",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Number bo'sh joylarni hisobga olib songa aylantiradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-10-017",
+      "q": "== va === farqi (qayta / chuqurroq)?",
+      "opts": [
+        "Farqi yo'q",
+        "== tur o'zgartirib solishtiradi, === qat'iy",
+        "=== sekinroq",
+        "== faqat sonlar uchun"
+      ],
+      "correct": 1,
+      "exp": "=== tur va qiymatni qat'iy solishtiradi (tavsiya etiladi). Qayta o'qing."
+    }
+  ]
+}

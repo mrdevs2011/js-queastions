@@ -1,0 +1,31 @@
+{
+  "lesson": 26,
+  "type": "code",
+  "title": "Google, ChatGPT va boshqa manbalar",
+  "questions": [
+    {
+      "id": "code-26-001",
+      "task": "Google, ChatGPT va boshqa manbalar: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-26-002",
+      "task": "Google, ChatGPT va boshqa manbalar: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-26-003",
+      "task": "Google, ChatGPT va boshqa manbalar: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-26-004",
+      "task": "Google, ChatGPT va boshqa manbalar: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    }
+  ]
+}

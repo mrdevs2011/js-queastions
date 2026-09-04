@@ -1,0 +1,61 @@
+{
+  "lesson": 13,
+  "type": "code",
+  "title": "Funksiyalar bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "code-13-001",
+      "task": "salom(ism) funksiyasini yozing — u \"Salom, {ism}!\" qaytarsin. Uni o'z ismingiz bilan chaqiring.",
+      "sample": "function salom(ism) {\n  return \"Salom, \" + ism + \"!\";\n}\nconsole.log(salom(\"Ali\"));",
+      "exp": "Parametr qabul qilib, satr qaytaradigan oddiy funksiya."
+    },
+    {
+      "id": "code-13-002",
+      "task": "Funksiyalar bo'yicha amaliyot: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-13-003",
+      "task": "Funksiyalar bo'yicha amaliyot: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-13-004",
+      "task": "Funksiyalar bo'yicha amaliyot: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-13-005",
+      "task": "Funksiyalar bo'yicha amaliyot: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    },
+    {
+      "id": "code-13-006",
+      "task": "Funksiyalar bo'yicha amaliyot: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
+      "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
+      "exp": "Function declaration."
+    },
+    {
+      "id": "code-13-007",
+      "task": "Funksiyalar bo'yicha amaliyot: default parametrli salom(ism=\"Mehmon\") yozing.",
+      "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
+      "exp": "Default params."
+    },
+    {
+      "id": "code-13-008",
+      "task": "Funksiyalar bo'yicha amaliyot: arrow bilan kvadrat(n) yozing.",
+      "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
+      "exp": "Arrow function."
+    },
+    {
+      "id": "code-13-009",
+      "task": "Funksiyalar bo'yicha amaliyot: rest bilan yigindi(...sonlar) yozing.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
+      "exp": "Rest parametr."
+    }
+  ]
+}

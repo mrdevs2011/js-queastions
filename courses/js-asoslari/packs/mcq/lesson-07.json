@@ -1,0 +1,307 @@
+{
+  "lesson": 7,
+  "type": "mcq",
+  "title": "Asosiy operatorlar",
+  "questions": [
+    {
+      "id": "mcq-7-001",
+      "q": "let x = 10; x += 5; x *= 2; console.log(x); natija?",
+      "opts": [
+        "30",
+        "25",
+        "20",
+        "15"
+      ],
+      "correct": 0,
+      "exp": "x=10+5=15, keyin 15*2=30."
+    },
+    {
+      "id": "mcq-7-002",
+      "q": "5 % 2 natijasi?",
+      "opts": [
+        "2.5",
+        "1",
+        "0",
+        "2"
+      ],
+      "correct": 1,
+      "exp": "% — qoldiq operatori. 5 ni 2 ga bo'lganda qoldiq 1."
+    },
+    {
+      "id": "mcq-7-003",
+      "q": "let a = 3; console.log(++a); natija?",
+      "opts": [
+        "3",
+        "4",
+        "2",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "++a avval oshiradi, keyin qiymatni qaytaradi — 4."
+    },
+    {
+      "id": "mcq-7-004",
+      "q": "\"5\" + 3 natijasi?",
+      "opts": [
+        "8",
+        "\"53\"",
+        "\"5 3\"",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "+ operatori satr bilan uchrashsa, birlashtirish (concatenation) qiladi."
+    },
+    {
+      "id": "mcq-7-005",
+      "q": "10 - \"3\" natijasi?",
+      "opts": [
+        "\"103\"",
+        "7",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "- operatori satrni songa aylantirib hisoblaydi."
+    },
+    {
+      "id": "mcq-7-006",
+      "q": "++x va x++ farqi?",
+      "opts": [
+        "Yo'q",
+        "++x avval, x++ keyin",
+        "x++ tez",
+        "++x faqat const"
+      ],
+      "correct": 1,
+      "exp": "Prefix vs postfix."
+    },
+    {
+      "id": "mcq-7-007",
+      "q": "5 + '5'?",
+      "opts": [
+        "10",
+        "55",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Concatenation."
+    },
+    {
+      "id": "mcq-7-008",
+      "q": "5 - '5'?",
+      "opts": [
+        "55",
+        "0",
+        "NaN",
+        "5-5"
+      ],
+      "correct": 1,
+      "exp": "Numeric coercion."
+    },
+    {
+      "id": "mcq-7-009",
+      "q": "true + 1?",
+      "opts": [
+        "true1",
+        "2",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "true → 1."
+    },
+    {
+      "id": "mcq-7-010",
+      "q": "'' + 1 + 0?",
+      "opts": [
+        "1",
+        "10",
+        "10 (string)",
+        "100"
+      ],
+      "correct": 2,
+      "exp": "String concatenation zanjiri."
+    },
+    {
+      "id": "mcq-7-011",
+      "q": "2 ** 3 ** 2?",
+      "opts": [
+        "64",
+        "512",
+        "12",
+        "8"
+      ],
+      "correct": 1,
+      "exp": "O'ngdan: 3**2=9, 2**9=512."
+    },
+    {
+      "id": "mcq-7-012",
+      "q": "Qoldiq operatori?",
+      "opts": [
+        "/",
+        "%",
+        "//",
+        "mod"
+      ],
+      "correct": 1,
+      "exp": "% modulo."
+    },
+    {
+      "id": "mcq-7-013",
+      "q": "let x=5; x*=3; x?",
+      "opts": [
+        "5",
+        "3",
+        "15",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "x = x * 3."
+    },
+    {
+      "id": "mcq-7-014",
+      "q": "null + 1?",
+      "opts": [
+        "null1",
+        "1",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "null → 0."
+    },
+    {
+      "id": "mcq-7-015",
+      "q": "undefined + 1?",
+      "opts": [
+        "1",
+        "NaN",
+        "undefined1",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "undefined → NaN."
+    },
+    {
+      "id": "mcq-7-016",
+      "q": "++x va x++ farqi?",
+      "opts": [
+        "Yo'q",
+        "++x avval, x++ keyin",
+        "x++ tez",
+        "++x faqat const"
+      ],
+      "correct": 1,
+      "exp": "Prefix vs postfix."
+    },
+    {
+      "id": "mcq-7-017",
+      "q": "5 + '5'?",
+      "opts": [
+        "10",
+        "55",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Concatenation."
+    },
+    {
+      "id": "mcq-7-018",
+      "q": "5 - '5'?",
+      "opts": [
+        "55",
+        "0",
+        "NaN",
+        "5-5"
+      ],
+      "correct": 1,
+      "exp": "Numeric coercion."
+    },
+    {
+      "id": "mcq-7-019",
+      "q": "true + 1?",
+      "opts": [
+        "true1",
+        "2",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "true → 1."
+    },
+    {
+      "id": "mcq-7-020",
+      "q": "'' + 1 + 0?",
+      "opts": [
+        "1",
+        "10",
+        "10 (string)",
+        "100"
+      ],
+      "correct": 2,
+      "exp": "String concatenation zanjiri."
+    },
+    {
+      "id": "mcq-7-021",
+      "q": "2 ** 3 ** 2?",
+      "opts": [
+        "64",
+        "512",
+        "12",
+        "8"
+      ],
+      "correct": 1,
+      "exp": "O'ngdan: 3**2=9, 2**9=512."
+    },
+    {
+      "id": "mcq-7-022",
+      "q": "Qoldiq operatori?",
+      "opts": [
+        "/",
+        "%",
+        "//",
+        "mod"
+      ],
+      "correct": 1,
+      "exp": "% modulo."
+    },
+    {
+      "id": "mcq-7-023",
+      "q": "let x=5; x*=3; x?",
+      "opts": [
+        "5",
+        "3",
+        "15",
+        "8"
+      ],
+      "correct": 2,
+      "exp": "x = x * 3."
+    },
+    {
+      "id": "mcq-7-024",
+      "q": "null + 1?",
+      "opts": [
+        "null1",
+        "1",
+        "NaN",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "null → 0."
+    },
+    {
+      "id": "mcq-7-025",
+      "q": "undefined + 1?",
+      "opts": [
+        "1",
+        "NaN",
+        "undefined1",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "undefined → NaN."
+    }
+  ]
+}

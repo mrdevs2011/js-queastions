@@ -1,0 +1,55 @@
+{
+  "lesson": 17,
+  "type": "code",
+  "title": "while va do...while",
+  "questions": [
+    {
+      "id": "code-17-001",
+      "task": "while bilan 1 dan boshlab yig'indi 20 dan oshguncha sonlarni qo'shib boring va yig'indini chiqaring.",
+      "sample": "let i = 1, sum = 0;\nwhile (sum <= 20) {\n  sum += i;\n  i++;\n}\nconsole.log(sum);",
+      "exp": "while shart asosida yig'ish."
+    },
+    {
+      "id": "code-17-002",
+      "task": "while va do...while bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let i = 1, sum = 0;\nwhile (sum <= 20) {\n  sum += i;\n  i++;\n}\nconsole.log(sum);",
+      "exp": "while shart asosida yig'ish."
+    },
+    {
+      "id": "code-17-003",
+      "task": "while va do...while: if/else: ball=75 uchun A/B/C.",
+      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
+      "exp": "if/else if."
+    },
+    {
+      "id": "code-17-004",
+      "task": "while va do...while: switch kun=3 → Chorshanba.",
+      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
+      "exp": "switch."
+    },
+    {
+      "id": "code-17-005",
+      "task": "while va do...while: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
+      "exp": "Ternary."
+    },
+    {
+      "id": "code-17-006",
+      "task": "while va do...while: for 1..5 chiqaring.",
+      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
+      "exp": "for."
+    },
+    {
+      "id": "code-17-007",
+      "task": "while va do...while: while 5..1 kamaytirib chiqaring.",
+      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "exp": "while."
+    },
+    {
+      "id": "code-17-008",
+      "task": "while va do...while: for da break (i===3).",
+      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
+      "exp": "break."
+    }
+  ]
+}

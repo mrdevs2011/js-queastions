@@ -1,0 +1,43 @@
+{
+  "lesson": 29,
+  "type": "code",
+  "title": "Params va Arguments",
+  "questions": [
+    {
+      "id": "code-29-001",
+      "task": "yigindi nomli funksiya yozing — istalgancha son qabul qilib (rest) ularni qo'shib qaytarsin. 1,2,3,4 bilan tekshiring.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4)); // 10",
+      "exp": "Rest parametr + reduce."
+    },
+    {
+      "id": "code-29-002",
+      "task": "Params va Arguments bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4)); // 10",
+      "exp": "Rest parametr + reduce."
+    },
+    {
+      "id": "code-29-003",
+      "task": "Params va Arguments: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
+      "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
+      "exp": "Function declaration."
+    },
+    {
+      "id": "code-29-004",
+      "task": "Params va Arguments: default parametrli salom(ism=\"Mehmon\") yozing.",
+      "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
+      "exp": "Default params."
+    },
+    {
+      "id": "code-29-005",
+      "task": "Params va Arguments: arrow bilan kvadrat(n) yozing.",
+      "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
+      "exp": "Arrow function."
+    },
+    {
+      "id": "code-29-006",
+      "task": "Params va Arguments: rest bilan yigindi(...sonlar) yozing.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
+      "exp": "Rest parametr."
+    }
+  ]
+}

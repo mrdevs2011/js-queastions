@@ -1,0 +1,295 @@
+{
+  "lesson": 29,
+  "type": "mcq",
+  "title": "DOM bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "mcq-29-001",
+      "q": "Formani yuborishning oldini olish uchun qaysi metod chaqiriladi?",
+      "opts": [
+        "event.stop()",
+        "event.preventDefault()",
+        "event.cancel()",
+        "event.block()"
+      ],
+      "correct": 1,
+      "exp": "preventDefault() brauzerning standart harakatini (masalan, forma yuborish) to'xtatadi."
+    },
+    {
+      "id": "mcq-29-002",
+      "q": "event.target nima?",
+      "opts": [
+        "Tinglovchi funksiya",
+        "Hodisa sodir bo'lgan element",
+        "window obyekti",
+        "document"
+      ],
+      "correct": 1,
+      "exp": "event.target — hodisa yuz bergan asl element."
+    },
+    {
+      "id": "mcq-29-003",
+      "q": "event.stopPropagation() nima qiladi?",
+      "opts": [
+        "Defaultni to'xtatadi",
+        "Hodisaning yuqoriga (bubbling) tarqalishini to'xtatadi",
+        "Elementni o'chiradi",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "stopPropagation bubbling/capturing ni to'xtatadi."
+    },
+    {
+      "id": "mcq-29-004",
+      "q": "DOMContentLoaded va load farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "DOMContentLoaded HTML tayyor bo'lganda, load barcha resurslar yuklanganda",
+        "load tezroq",
+        "DOMContentLoaded eskirgan"
+      ],
+      "correct": 1,
+      "exp": "DOMContentLoaded HTML parse bo'lganda, load — rasmlar ham yuklanganda."
+    },
+    {
+      "id": "mcq-29-005",
+      "q": "FormData?",
+      "opts": [
+        "CSS",
+        "Forma ma'lumotlarini yig'ish",
+        "Faqat JSON",
+        "XML"
+      ],
+      "correct": 1,
+      "exp": "new FormData(form)."
+    },
+    {
+      "id": "mcq-29-006",
+      "q": "checkValidity?",
+      "opts": [
+        "JS yozish",
+        "HTML5 validatsiya",
+        "CSS",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Native validation."
+    },
+    {
+      "id": "mcq-29-007",
+      "q": "stopImmediatePropagation?",
+      "opts": [
+        "Bir xil stop",
+        "Boshqa listenerlarni ham to'xtatadi",
+        "O'chiradi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Kuchliroq."
+    },
+    {
+      "id": "mcq-29-008",
+      "q": "Debounce?",
+      "opts": [
+        "Tezlatish",
+        "Chaqiruvlarni kechiktirib birlashtirish",
+        "O'chirish",
+        "Sort"
+      ],
+      "correct": 1,
+      "exp": "Qidiruv input."
+    },
+    {
+      "id": "mcq-29-009",
+      "q": "Throttle?",
+      "opts": [
+        "Debounce bilan bir",
+        "Vaqt oralig'ida cheklash",
+        "O'chirish",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Scroll."
+    },
+    {
+      "id": "mcq-29-010",
+      "q": "Keyboard a11y?",
+      "opts": [
+        "Kerak emas",
+        "Tab Enter Escape",
+        "Faqat sichqoncha",
+        "Mobil yo'q"
+      ],
+      "correct": 1,
+      "exp": "Accessibility."
+    },
+    {
+      "id": "mcq-29-011",
+      "q": "Listener tozalash SPA?",
+      "opts": [
+        "Kerak emas",
+        "remove — leak oldini olish",
+        "Brauzer o'zi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Cleanup."
+    },
+    {
+      "id": "mcq-29-012",
+      "q": "async handler xato?",
+      "opts": [
+        "Avtomatik",
+        "try/catch",
+        "Ignor",
+        "Faqat sync"
+      ],
+      "correct": 1,
+      "exp": "Rejection boshqaruvi."
+    },
+    {
+      "id": "mcq-29-013",
+      "q": "event.target?",
+      "opts": [
+        "Listener element",
+        "Hodisa sodir bo'lgan element",
+        "window",
+        "document"
+      ],
+      "correct": 1,
+      "exp": "Asl target."
+    },
+    {
+      "id": "mcq-29-014",
+      "q": "Amaliy checklist?",
+      "opts": [
+        "Faqat go'zallik",
+        "Selektor, preventDefault, delegation, cleanup",
+        "Faqat alert",
+        "console yetarli"
+      ],
+      "correct": 1,
+      "exp": "Ishonchli DOM."
+    },
+    {
+      "id": "mcq-29-015",
+      "q": "FormData?",
+      "opts": [
+        "CSS",
+        "Forma ma'lumotlarini yig'ish",
+        "Faqat JSON",
+        "XML"
+      ],
+      "correct": 1,
+      "exp": "new FormData(form)."
+    },
+    {
+      "id": "mcq-29-016",
+      "q": "checkValidity?",
+      "opts": [
+        "JS yozish",
+        "HTML5 validatsiya",
+        "CSS",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Native validation."
+    },
+    {
+      "id": "mcq-29-017",
+      "q": "stopImmediatePropagation?",
+      "opts": [
+        "Bir xil stop",
+        "Boshqa listenerlarni ham to'xtatadi",
+        "O'chiradi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Kuchliroq."
+    },
+    {
+      "id": "mcq-29-018",
+      "q": "Debounce?",
+      "opts": [
+        "Tezlatish",
+        "Chaqiruvlarni kechiktirib birlashtirish",
+        "O'chirish",
+        "Sort"
+      ],
+      "correct": 1,
+      "exp": "Qidiruv input."
+    },
+    {
+      "id": "mcq-29-019",
+      "q": "Throttle?",
+      "opts": [
+        "Debounce bilan bir",
+        "Vaqt oralig'ida cheklash",
+        "O'chirish",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Scroll."
+    },
+    {
+      "id": "mcq-29-020",
+      "q": "Keyboard a11y?",
+      "opts": [
+        "Kerak emas",
+        "Tab Enter Escape",
+        "Faqat sichqoncha",
+        "Mobil yo'q"
+      ],
+      "correct": 1,
+      "exp": "Accessibility."
+    },
+    {
+      "id": "mcq-29-021",
+      "q": "Listener tozalash SPA?",
+      "opts": [
+        "Kerak emas",
+        "remove — leak oldini olish",
+        "Brauzer o'zi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Cleanup."
+    },
+    {
+      "id": "mcq-29-022",
+      "q": "async handler xato?",
+      "opts": [
+        "Avtomatik",
+        "try/catch",
+        "Ignor",
+        "Faqat sync"
+      ],
+      "correct": 1,
+      "exp": "Rejection boshqaruvi."
+    },
+    {
+      "id": "mcq-29-023",
+      "q": "event.target?",
+      "opts": [
+        "Listener element",
+        "Hodisa sodir bo'lgan element",
+        "window",
+        "document"
+      ],
+      "correct": 1,
+      "exp": "Asl target."
+    },
+    {
+      "id": "mcq-29-024",
+      "q": "Amaliy checklist?",
+      "opts": [
+        "Faqat go'zallik",
+        "Selektor, preventDefault, delegation, cleanup",
+        "Faqat alert",
+        "console yetarli"
+      ],
+      "correct": 1,
+      "exp": "Ishonchli DOM."
+    }
+  ]
+}

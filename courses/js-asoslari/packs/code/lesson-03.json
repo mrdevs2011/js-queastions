@@ -1,0 +1,31 @@
+{
+  "lesson": 3,
+  "type": "code",
+  "title": "Salom dunyo!",
+  "questions": [
+    {
+      "id": "code-3-001",
+      "task": "Salom dunyo!: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-3-002",
+      "task": "Salom dunyo!: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-3-003",
+      "task": "Salom dunyo!: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-3-004",
+      "task": "Salom dunyo!: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    }
+  ]
+}

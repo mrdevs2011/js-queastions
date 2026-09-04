@@ -1,0 +1,19 @@
+{
+  "lesson": 10,
+  "type": "code",
+  "title": "Ma'lumot turini o'zgartirish va coercion",
+  "questions": [
+    {
+      "id": "code-10-001",
+      "task": "String '15' ni songa aylantirib, 5 ga ko'paytirib chiqaring (Number yoki + ishlating).",
+      "sample": "let s = \"15\";\nconsole.log(Number(s) * 5); // 75",
+      "exp": "Number() yoki unary + coercion qiladi."
+    },
+    {
+      "id": "code-10-002",
+      "task": "Ma'lumot turini o'zgartirish va coercion bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let s = \"15\";\nconsole.log(Number(s) * 5); // 75",
+      "exp": "Number() yoki unary + coercion qiladi."
+    }
+  ]
+}

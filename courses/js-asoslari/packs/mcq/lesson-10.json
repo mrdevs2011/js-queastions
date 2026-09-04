@@ -1,0 +1,307 @@
+{
+  "lesson": 10,
+  "type": "mcq",
+  "title": "Turni (type) o'zgartirish",
+  "questions": [
+    {
+      "id": "mcq-10-001",
+      "q": "Number(\"12abc\") natijasi?",
+      "opts": [
+        "12",
+        "NaN",
+        "\"12abc\"",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "To'liq songa aylanmaydigan satr NaN qaytaradi."
+    },
+    {
+      "id": "mcq-10-002",
+      "q": "String(123) natijasi?",
+      "opts": [
+        "123",
+        "\"123\"",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "String() qiymatni satrga aylantiradi."
+    },
+    {
+      "id": "mcq-10-003",
+      "q": "Boolean(0) natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "0, \"\", null, undefined, NaN — falsy qiymatlar."
+    },
+    {
+      "id": "mcq-10-004",
+      "q": "parseInt(\"42px\") natijasi?",
+      "opts": [
+        "NaN",
+        "42",
+        "42px",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "parseInt boshidagi sonni o'qiydi, keyingi harflarni tashlaydi."
+    },
+    {
+      "id": "mcq-10-005",
+      "q": "+\"5\" natijasi?",
+      "opts": [
+        "\"5\"",
+        "5",
+        "NaN",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Unary + operatori satrni songa aylantiradi."
+    },
+    {
+      "id": "mcq-10-006",
+      "q": "parseFloat('3.14abc')?",
+      "opts": [
+        "NaN",
+        "3.14",
+        "3",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Boshidagi kasr."
+    },
+    {
+      "id": "mcq-10-007",
+      "q": "Boolean('false')?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "false (string)"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan satr truthy."
+    },
+    {
+      "id": "mcq-10-008",
+      "q": "Number(undefined)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "NaN."
+    },
+    {
+      "id": "mcq-10-009",
+      "q": "Number(null)?",
+      "opts": [
+        "NaN",
+        "0",
+        "null",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0."
+    },
+    {
+      "id": "mcq-10-010",
+      "q": "'' == false?",
+      "opts": [
+        "false",
+        "true",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "== coercion."
+    },
+    {
+      "id": "mcq-10-011",
+      "q": "'' === false?",
+      "opts": [
+        "true",
+        "false",
+        "xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Qat'iy tenglik."
+    },
+    {
+      "id": "mcq-10-012",
+      "q": "String(null)?",
+      "opts": [
+        "null",
+        "null (string)",
+        "",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "'null' satri."
+    },
+    {
+      "id": "mcq-10-013",
+      "q": "+'false' (unary)?",
+      "opts": [
+        "false",
+        "NaN",
+        "0",
+        "false string"
+      ],
+      "correct": 1,
+      "exp": "Number('false') → NaN."
+    },
+    {
+      "id": "mcq-10-014",
+      "q": "parseInt('42px')?",
+      "opts": [
+        "NaN",
+        "42",
+        "42px",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Boshidagi son."
+    },
+    {
+      "id": "mcq-10-015",
+      "q": "!![] ?",
+      "opts": [
+        "false",
+        "true",
+        "[]",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh massiv truthy."
+    },
+    {
+      "id": "mcq-10-016",
+      "q": "parseFloat('3.14abc')?",
+      "opts": [
+        "NaN",
+        "3.14",
+        "3",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Boshidagi kasr."
+    },
+    {
+      "id": "mcq-10-017",
+      "q": "Boolean('false')?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "false (string)"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh bo'lmagan satr truthy."
+    },
+    {
+      "id": "mcq-10-018",
+      "q": "Number(undefined)?",
+      "opts": [
+        "0",
+        "NaN",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "NaN."
+    },
+    {
+      "id": "mcq-10-019",
+      "q": "Number(null)?",
+      "opts": [
+        "NaN",
+        "0",
+        "null",
+        "1"
+      ],
+      "correct": 1,
+      "exp": "0."
+    },
+    {
+      "id": "mcq-10-020",
+      "q": "'' == false?",
+      "opts": [
+        "false",
+        "true",
+        "xato",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "== coercion."
+    },
+    {
+      "id": "mcq-10-021",
+      "q": "'' === false?",
+      "opts": [
+        "true",
+        "false",
+        "xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Qat'iy tenglik."
+    },
+    {
+      "id": "mcq-10-022",
+      "q": "String(null)?",
+      "opts": [
+        "null",
+        "null (string)",
+        "",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "'null' satri."
+    },
+    {
+      "id": "mcq-10-023",
+      "q": "+'false' (unary)?",
+      "opts": [
+        "false",
+        "NaN",
+        "0",
+        "false string"
+      ],
+      "correct": 1,
+      "exp": "Number('false') → NaN."
+    },
+    {
+      "id": "mcq-10-024",
+      "q": "parseInt('42px')?",
+      "opts": [
+        "NaN",
+        "42",
+        "42px",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "Boshidagi son."
+    },
+    {
+      "id": "mcq-10-025",
+      "q": "!![] ?",
+      "opts": [
+        "false",
+        "true",
+        "[]",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh massiv truthy."
+    }
+  ]
+}

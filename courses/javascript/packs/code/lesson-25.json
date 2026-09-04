@@ -1,0 +1,43 @@
+{
+  "lesson": 25,
+  "type": "code",
+  "title": "Template literal",
+  "questions": [
+    {
+      "id": "code-25-001",
+      "task": "ism va yosh o'zgaruvchilari bilan template literal da \"Mening ismim X, yoshim Y\" deb chiqaring.",
+      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nconsole.log(`Mening ismim ${ism}, yoshim ${yosh}`);",
+      "exp": "Template literal ${} interpolatsiyasi."
+    },
+    {
+      "id": "code-25-002",
+      "task": "Template literal bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nconsole.log(`Mening ismim ${ism}, yoshim ${yosh}`);",
+      "exp": "Template literal ${} interpolatsiyasi."
+    },
+    {
+      "id": "code-25-003",
+      "task": "Template literal: ism ni toUpperCase va length bilan chiqaring.",
+      "sample": "let ism = \"ali\";\nconsole.log(ism.toUpperCase(), ism.length);",
+      "exp": "String metodlari."
+    },
+    {
+      "id": "code-25-004",
+      "task": "Template literal: template literal da \"Salom, {ism}!\" yozing.",
+      "sample": "let ism = \"Nodira\";\nconsole.log(`Salom, ${ism}!`);",
+      "exp": "Template literal."
+    },
+    {
+      "id": "code-25-005",
+      "task": "Template literal: \"a-b-c\" ni split qilib massiv chiqaring.",
+      "sample": "console.log(\"a-b-c\".split(\"-\"));",
+      "exp": "split."
+    },
+    {
+      "id": "code-25-006",
+      "task": "Template literal: trim va includes ishlating.",
+      "sample": "let s = \"  javascript  \";\nconsole.log(s.trim());\nconsole.log(s.includes(\"script\"));",
+      "exp": "trim, includes."
+    }
+  ]
+}

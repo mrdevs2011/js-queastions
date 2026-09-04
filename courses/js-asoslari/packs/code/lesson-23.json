@@ -1,0 +1,43 @@
+{
+  "lesson": 23,
+  "type": "code",
+  "title": "DOM",
+  "questions": [
+    {
+      "id": "code-23-001",
+      "task": "DOM: getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-23-002",
+      "task": "DOM: querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-23-003",
+      "task": "DOM: createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-23-004",
+      "task": "DOM: addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-23-005",
+      "task": "DOM: classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-23-006",
+      "task": "DOM: preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

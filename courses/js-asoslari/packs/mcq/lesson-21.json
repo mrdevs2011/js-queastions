@@ -1,0 +1,295 @@
+{
+  "lesson": 21,
+  "type": "mcq",
+  "title": "while",
+  "questions": [
+    {
+      "id": "mcq-21-001",
+      "q": "while va for orasidagi asosiy farq nima?",
+      "opts": [
+        "while shart true bo'lguncha ishlaydi, tuzilishi soddaroq",
+        "while faqat massivlar uchun",
+        "for hech qachon to'xtamaydi",
+        "Farqi yo'q, ikkalasi bir xil"
+      ],
+      "correct": 0,
+      "exp": "while faqat shartni tekshiradi, for esa boshlang'ich/shart/qadam uchtasini o'z ichiga oladi."
+    },
+    {
+      "id": "mcq-21-002",
+      "q": "while (false) { ... } necha marta bajariladi?",
+      "opts": [
+        "1 marta",
+        "0 marta",
+        "cheksiz",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Shart dastlab false bo'lsa, body umuman bajarilmaydi."
+    },
+    {
+      "id": "mcq-21-003",
+      "q": "do...while ning while dan farqi?",
+      "opts": [
+        "Farqi yo'q",
+        "do...while kamida 1 marta bajariladi",
+        "do...while tezroq",
+        "do...while eskirgan"
+      ],
+      "correct": 1,
+      "exp": "do...while avval bajaradi, keyin shartni tekshiradi — kamida 1 marta ishlaydi."
+    },
+    {
+      "id": "mcq-21-004",
+      "q": "Cheksiz siklga tushib qolmaslik uchun nima qilish kerak?",
+      "opts": [
+        "break yozmaslik",
+        "Shartni o'zgartiradigan kod bo'lishi kerak",
+        "faqat for ishlatish",
+        "console.log yozish"
+      ],
+      "correct": 1,
+      "exp": "Shart oxir-oqibat false bo'lishi uchun o'zgaruvchi o'zgarishi kerak."
+    },
+    {
+      "id": "mcq-21-005",
+      "q": "while true bo'lsa?",
+      "opts": [
+        "1 marta",
+        "Cheksiz",
+        "0",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "break kerak."
+    },
+    {
+      "id": "mcq-21-006",
+      "q": "do...while kamida?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "shart"
+      ],
+      "correct": 1,
+      "exp": "Kamida bir."
+    },
+    {
+      "id": "mcq-21-007",
+      "q": "while (x) to'xtash?",
+      "opts": [
+        "true",
+        "falsy",
+        "faqat false",
+        "faqat 0"
+      ],
+      "correct": 1,
+      "exp": "Har qanday falsy."
+    },
+    {
+      "id": "mcq-21-008",
+      "q": "Yangilash unutildi?",
+      "opts": [
+        "OK",
+        "Cheksiz xavf",
+        "Tez",
+        "Xato emas"
+      ],
+      "correct": 1,
+      "exp": "Eng ko'p xato."
+    },
+    {
+      "id": "mcq-21-009",
+      "q": "while vs for?",
+      "opts": [
+        "Farq yo'q",
+        "for hisobli, while shartli",
+        "while taqiqlangan",
+        "for faqat array"
+      ],
+      "correct": 1,
+      "exp": "Mos tanlov."
+    },
+    {
+      "id": "mcq-21-010",
+      "q": "break while da?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat for",
+        "continue"
+      ],
+      "correct": 1,
+      "exp": "Ishlaydi."
+    },
+    {
+      "id": "mcq-21-011",
+      "q": "while (arr.length) pop?",
+      "opts": [
+        "Hech narsa",
+        "Bo'shatadi",
+        "Xato",
+        "Nusxa"
+      ],
+      "correct": 1,
+      "exp": "Bo'shaguncha."
+    },
+    {
+      "id": "mcq-21-012",
+      "q": "do while(false)?",
+      "opts": [
+        "0",
+        "1",
+        "cheksiz",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "do bir marta."
+    },
+    {
+      "id": "mcq-21-013",
+      "q": "Cheksiz aniqlash?",
+      "opts": [
+        "Mumkin emas",
+        "DevTools pauza",
+        "Faqat restart",
+        "console yetarli"
+      ],
+      "correct": 1,
+      "exp": "Breakpoint."
+    },
+    {
+      "id": "mcq-21-014",
+      "q": "while da const i?",
+      "opts": [
+        "Har doim OK",
+        "O'zgarishi kerak bo'lsa let",
+        "const mumkin emas",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "let kerak."
+    },
+    {
+      "id": "mcq-21-015",
+      "q": "while true bo'lsa?",
+      "opts": [
+        "1 marta",
+        "Cheksiz",
+        "0",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "break kerak."
+    },
+    {
+      "id": "mcq-21-016",
+      "q": "do...while kamida?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "shart"
+      ],
+      "correct": 1,
+      "exp": "Kamida bir."
+    },
+    {
+      "id": "mcq-21-017",
+      "q": "while (x) to'xtash?",
+      "opts": [
+        "true",
+        "falsy",
+        "faqat false",
+        "faqat 0"
+      ],
+      "correct": 1,
+      "exp": "Har qanday falsy."
+    },
+    {
+      "id": "mcq-21-018",
+      "q": "Yangilash unutildi?",
+      "opts": [
+        "OK",
+        "Cheksiz xavf",
+        "Tez",
+        "Xato emas"
+      ],
+      "correct": 1,
+      "exp": "Eng ko'p xato."
+    },
+    {
+      "id": "mcq-21-019",
+      "q": "while vs for?",
+      "opts": [
+        "Farq yo'q",
+        "for hisobli, while shartli",
+        "while taqiqlangan",
+        "for faqat array"
+      ],
+      "correct": 1,
+      "exp": "Mos tanlov."
+    },
+    {
+      "id": "mcq-21-020",
+      "q": "break while da?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat for",
+        "continue"
+      ],
+      "correct": 1,
+      "exp": "Ishlaydi."
+    },
+    {
+      "id": "mcq-21-021",
+      "q": "while (arr.length) pop?",
+      "opts": [
+        "Hech narsa",
+        "Bo'shatadi",
+        "Xato",
+        "Nusxa"
+      ],
+      "correct": 1,
+      "exp": "Bo'shaguncha."
+    },
+    {
+      "id": "mcq-21-022",
+      "q": "do while(false)?",
+      "opts": [
+        "0",
+        "1",
+        "cheksiz",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "do bir marta."
+    },
+    {
+      "id": "mcq-21-023",
+      "q": "Cheksiz aniqlash?",
+      "opts": [
+        "Mumkin emas",
+        "DevTools pauza",
+        "Faqat restart",
+        "console yetarli"
+      ],
+      "correct": 1,
+      "exp": "Breakpoint."
+    },
+    {
+      "id": "mcq-21-024",
+      "q": "while da const i?",
+      "opts": [
+        "Har doim OK",
+        "O'zgarishi kerak bo'lsa let",
+        "const mumkin emas",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "let kerak."
+    }
+  ]
+}

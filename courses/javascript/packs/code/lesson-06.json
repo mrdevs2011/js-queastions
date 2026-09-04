@@ -1,0 +1,43 @@
+{
+  "lesson": 6,
+  "type": "code",
+  "title": "Qiymatlar va o'zgaruvchilar",
+  "questions": [
+    {
+      "id": "code-6-001",
+      "task": "let bilan shahar va aholi_soni o'zgaruvchilarini e'lon qilib, chiqaring.",
+      "sample": "let shahar = \"Toshkent\";\nlet aholi_soni = 3000000;\nconsole.log(shahar, aholi_soni);",
+      "exp": "let bilan e'lon qilish va qiymat berish."
+    },
+    {
+      "id": "code-6-002",
+      "task": "Qiymatlar va o'zgaruvchilar bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let shahar = \"Toshkent\";\nlet aholi_soni = 3000000;\nconsole.log(shahar, aholi_soni);",
+      "exp": "let bilan e'lon qilish va qiymat berish."
+    },
+    {
+      "id": "code-6-003",
+      "task": "Qiymatlar va o'zgaruvchilar: ism, yosh, shahar o'zgaruvchilarini e'lon qilib chiqaring.",
+      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nlet shahar = \"Toshkent\";\nconsole.log(ism, yosh, shahar);",
+      "exp": "let bilan e'lon va console.log."
+    },
+    {
+      "id": "code-6-004",
+      "task": "Qiymatlar va o'zgaruvchilar: const PI = 3.14; radius=5; yuzani hisoblang (PI*r*r).",
+      "sample": "const PI = 3.14;\nlet r = 5;\nconsole.log(PI * r * r);",
+      "exp": "const va arifmetika."
+    },
+    {
+      "id": "code-6-005",
+      "task": "Qiymatlar va o'zgaruvchilar: bir qatorda a,b,c e'lon qilib o'rtacha chiqaring.",
+      "sample": "let a = 4, b = 6, c = 8;\nconsole.log((a + b + c) / 3);",
+      "exp": "Bir qatorli e'lon."
+    },
+    {
+      "id": "code-6-006",
+      "task": "Qiymatlar va o'zgaruvchilar: o'zgaruvchisiz qiymat berilmagan let x; typeof ni chiqaring.",
+      "sample": "let x;\nconsole.log(typeof x); // undefined",
+      "exp": "undefined turi."
+    }
+  ]
+}

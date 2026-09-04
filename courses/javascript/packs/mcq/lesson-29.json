@@ -1,0 +1,211 @@
+{
+  "lesson": 29,
+  "type": "mcq",
+  "title": "Params va Arguments",
+  "questions": [
+    {
+      "id": "mcq-29-001",
+      "q": "arguments obyekti nima?",
+      "opts": [
+        "Zamonaviy rest",
+        "Eski usul: funksiyaga kelgan barcha argumentlar",
+        "Faqat arrow da bor",
+        "Global massiv"
+      ],
+      "correct": 1,
+      "exp": "arguments — array-like, function declaration/expression da bor."
+    },
+    {
+      "id": "mcq-29-002",
+      "q": "Arrow function da arguments bormi?",
+      "opts": [
+        "Ha, har doim",
+        "Yo'q (o'z arguments i yo'q)",
+        "Faqat strict da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Arrow da arguments yo'q — rest (...args) ishlating."
+    },
+    {
+      "id": "mcq-29-003",
+      "q": "Default parametr misoli?",
+      "opts": [
+        "function f(x == 5)",
+        "function f(x = 5)",
+        "function f(x := 5)",
+        "function f(x default 5)"
+      ],
+      "correct": 1,
+      "exp": "function f(x = 5) — x berilmasa 5."
+    },
+    {
+      "id": "mcq-29-004",
+      "q": "Rest parametr vs arguments?",
+      "opts": [
+        "Bir xil",
+        "Rest — haqiqiy array, zamonaviyroq",
+        "arguments yaxshiroq",
+        "Rest faqat object da"
+      ],
+      "correct": 1,
+      "exp": "Rest (...args) — toza array, tavsiya etiladi."
+    },
+    {
+      "id": "mcq-29-005",
+      "q": "Params va Arguments mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-006",
+      "q": "Params va Arguments mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-007",
+      "q": "Params va Arguments mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-008",
+      "q": "Params va Arguments mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-009",
+      "q": "Params va Arguments mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-010",
+      "q": "Params va Arguments mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-011",
+      "q": "Params va Arguments mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-012",
+      "q": "Params va Arguments mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-29-013",
+      "q": "arguments obyekti nima (qayta / chuqurroq)?",
+      "opts": [
+        "Zamonaviy rest",
+        "Eski usul: funksiyaga kelgan barcha argumentlar",
+        "Faqat arrow da bor",
+        "Global massiv"
+      ],
+      "correct": 1,
+      "exp": "arguments — array-like, function declaration/expression da bor. Qayta o'qing."
+    },
+    {
+      "id": "mcq-29-014",
+      "q": "Arrow function da arguments bormi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha, har doim",
+        "Yo'q (o'z arguments i yo'q)",
+        "Faqat strict da",
+        "Faqat brauzerda"
+      ],
+      "correct": 1,
+      "exp": "Arrow da arguments yo'q — rest (...args) ishlating. Qayta o'qing."
+    },
+    {
+      "id": "mcq-29-015",
+      "q": "Default parametr misoli (qayta / chuqurroq)?",
+      "opts": [
+        "function f(x == 5)",
+        "function f(x = 5)",
+        "function f(x := 5)",
+        "function f(x default 5)"
+      ],
+      "correct": 1,
+      "exp": "function f(x = 5) — x berilmasa 5. Qayta o'qing."
+    },
+    {
+      "id": "mcq-29-016",
+      "q": "Rest parametr vs arguments (qayta / chuqurroq)?",
+      "opts": [
+        "Bir xil",
+        "Rest — haqiqiy array, zamonaviyroq",
+        "arguments yaxshiroq",
+        "Rest faqat object da"
+      ],
+      "correct": 1,
+      "exp": "Rest (...args) — toza array, tavsiya etiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-29-017",
+      "q": "Params va Arguments mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Params va Arguments bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "lesson": 9,
+  "type": "mcq",
+  "title": "Mantiqiy operatorlar",
+  "questions": [
+    {
+      "id": "mcq-9-001",
+      "q": "console.log(true && false || true); natija?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "Xato beradi"
+      ],
+      "correct": 0,
+      "exp": "&& avval bajariladi: true&&false=false, keyin false||true=true."
+    },
+    {
+      "id": "mcq-9-002",
+      "q": "!true natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "! — inkor operatori, true ni false qiladi."
+    },
+    {
+      "id": "mcq-9-003",
+      "q": "true && true && false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& zanjirida bitta false bo'lsa, natija false."
+    },
+    {
+      "id": "mcq-9-004",
+      "q": "false || false || true natijasi?",
+      "opts": [
+        "false",
+        "true",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "|| zanjirida bitta true bo'lsa, natija true."
+    },
+    {
+      "id": "mcq-9-005",
+      "q": "5 > 3 && 2 < 1 natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "5>3 true, 2<1 false → true && false = false."
+    },
+    {
+      "id": "mcq-9-006",
+      "q": "true || heavy() — heavy chaqiladimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Strict da",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Short-circuit."
+    },
+    {
+      "id": "mcq-9-007",
+      "q": "false && heavy() — heavy?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "&& to'xtaydi."
+    },
+    {
+      "id": "mcq-9-008",
+      "q": "?? nima qiladi?",
+      "opts": [
+        "Faqat false",
+        "null/undefined da o'ng tomon",
+        "Har doim o'ng",
+        "Faqat 0"
+      ],
+      "correct": 1,
+      "exp": "Nullish coalescing."
+    },
+    {
+      "id": "mcq-9-009",
+      "q": "0 ?? 5?",
+      "opts": [
+        "5",
+        "0",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "0 nullish emas."
+    },
+    {
+      "id": "mcq-9-010",
+      "q": "null ?? 5?",
+      "opts": [
+        "null",
+        "5",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "null bo'lsa 5."
+    },
+    {
+      "id": "mcq-9-011",
+      "q": "!!'salom'?",
+      "opts": [
+        "false",
+        "true",
+        "salom",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Boolean ga."
+    },
+    {
+      "id": "mcq-9-012",
+      "q": "!!0?",
+      "opts": [
+        "true",
+        "false",
+        "0",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "0 falsy."
+    },
+    {
+      "id": "mcq-9-013",
+      "q": "true && 0 && 'a'?",
+      "opts": [
+        "true",
+        "0",
+        "a",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "Birinchi falsy — 0."
+    },
+    {
+      "id": "mcq-9-014",
+      "q": "null || undefined || 'ok'?",
+      "opts": [
+        "null",
+        "undefined",
+        "ok",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "Birinchi truthy."
+    },
+    {
+      "id": "mcq-9-015",
+      "q": "!(x > 5) ekvivalenti?",
+      "opts": [
+        "x > 5",
+        "x <= 5",
+        "x < 5",
+        "x == 5"
+      ],
+      "correct": 1,
+      "exp": "Inkor."
+    },
+    {
+      "id": "mcq-9-016",
+      "q": "true || heavy() — heavy chaqiladimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Strict da",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Short-circuit."
+    },
+    {
+      "id": "mcq-9-017",
+      "q": "false && heavy() — heavy?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Har doim",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "&& to'xtaydi."
+    },
+    {
+      "id": "mcq-9-018",
+      "q": "?? nima qiladi?",
+      "opts": [
+        "Faqat false",
+        "null/undefined da o'ng tomon",
+        "Har doim o'ng",
+        "Faqat 0"
+      ],
+      "correct": 1,
+      "exp": "Nullish coalescing."
+    },
+    {
+      "id": "mcq-9-019",
+      "q": "0 ?? 5?",
+      "opts": [
+        "5",
+        "0",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "0 nullish emas."
+    },
+    {
+      "id": "mcq-9-020",
+      "q": "null ?? 5?",
+      "opts": [
+        "null",
+        "5",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "null bo'lsa 5."
+    },
+    {
+      "id": "mcq-9-021",
+      "q": "!!'salom'?",
+      "opts": [
+        "false",
+        "true",
+        "salom",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Boolean ga."
+    },
+    {
+      "id": "mcq-9-022",
+      "q": "!!0?",
+      "opts": [
+        "true",
+        "false",
+        "0",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "0 falsy."
+    },
+    {
+      "id": "mcq-9-023",
+      "q": "true && 0 && 'a'?",
+      "opts": [
+        "true",
+        "0",
+        "a",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "Birinchi falsy — 0."
+    },
+    {
+      "id": "mcq-9-024",
+      "q": "null || undefined || 'ok'?",
+      "opts": [
+        "null",
+        "undefined",
+        "ok",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "Birinchi truthy."
+    },
+    {
+      "id": "mcq-9-025",
+      "q": "!(x > 5) ekvivalenti?",
+      "opts": [
+        "x > 5",
+        "x <= 5",
+        "x < 5",
+        "x == 5"
+      ],
+      "correct": 1,
+      "exp": "Inkor."
+    }
+  ]
+}

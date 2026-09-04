@@ -1,0 +1,31 @@
+{
+  "lesson": 2,
+  "type": "code",
+  "title": "Javascript va uning versiyalari",
+  "questions": [
+    {
+      "id": "code-2-001",
+      "task": "Javascript va uning versiyalari: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-2-002",
+      "task": "Javascript va uning versiyalari: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-2-003",
+      "task": "Javascript va uning versiyalari: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-2-004",
+      "task": "Javascript va uning versiyalari: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    }
+  ]
+}

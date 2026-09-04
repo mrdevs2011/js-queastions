@@ -1,0 +1,211 @@
+{
+  "lesson": 9,
+  "type": "mcq",
+  "title": "Javascriptdagi ma'lumot turlari",
+  "questions": [
+    {
+      "id": "mcq-9-001",
+      "q": "typeof null natijasi?",
+      "opts": [
+        "\"null\"",
+        "\"object\"",
+        "\"undefined\"",
+        "\"number\""
+      ],
+      "correct": 1,
+      "exp": "Tarixiy xato: typeof null === 'object'."
+    },
+    {
+      "id": "mcq-9-002",
+      "q": "Primitive turlar qaysilar?",
+      "opts": [
+        "Faqat object",
+        "string, number, boolean, null, undefined, symbol, bigint",
+        "Faqat array",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "7 ta primitive tur bor."
+    },
+    {
+      "id": "mcq-9-003",
+      "q": "typeof [] natijasi?",
+      "opts": [
+        "\"array\"",
+        "\"object\"",
+        "\"list\"",
+        "\"undefined\""
+      ],
+      "correct": 1,
+      "exp": "Array ham object turi (Array.isArray bilan tekshiriladi)."
+    },
+    {
+      "id": "mcq-9-004",
+      "q": "NaN nima?",
+      "opts": [
+        "Son",
+        "Not a Number — noto'g'ri son amali natijasi",
+        "String",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "NaN — number turi, lekin 'son emas' degan maxsus qiymat."
+    },
+    {
+      "id": "mcq-9-005",
+      "q": "typeof function(){} ?",
+      "opts": [
+        "\"object\"",
+        "\"function\"",
+        "\"callable\"",
+        "\"undefined\""
+      ],
+      "correct": 1,
+      "exp": "Funksiyalar uchun typeof 'function' qaytaradi."
+    },
+    {
+      "id": "mcq-9-006",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-007",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-008",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-009",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-010",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-011",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-012",
+      "q": "Javascriptdagi ma'lumot turlari mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Javascriptdagi ma'lumot turlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-9-013",
+      "q": "typeof null natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "\"null\"",
+        "\"object\"",
+        "\"undefined\"",
+        "\"number\""
+      ],
+      "correct": 1,
+      "exp": "Tarixiy xato: typeof null === 'object'. Qayta o'qing."
+    },
+    {
+      "id": "mcq-9-014",
+      "q": "Primitive turlar qaysilar (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat object",
+        "string, number, boolean, null, undefined, symbol, bigint",
+        "Faqat array",
+        "Faqat function"
+      ],
+      "correct": 1,
+      "exp": "7 ta primitive tur bor. Qayta o'qing."
+    },
+    {
+      "id": "mcq-9-015",
+      "q": "typeof [] natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "\"array\"",
+        "\"object\"",
+        "\"list\"",
+        "\"undefined\""
+      ],
+      "correct": 1,
+      "exp": "Array ham object turi (Array.isArray bilan tekshiriladi). Qayta o'qing."
+    },
+    {
+      "id": "mcq-9-016",
+      "q": "NaN nima (qayta / chuqurroq)?",
+      "opts": [
+        "Son",
+        "Not a Number — noto'g'ri son amali natijasi",
+        "String",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "NaN — number turi, lekin 'son emas' degan maxsus qiymat. Qayta o'qing."
+    },
+    {
+      "id": "mcq-9-017",
+      "q": "typeof function(){}  (qayta / chuqurroq)?",
+      "opts": [
+        "\"object\"",
+        "\"function\"",
+        "\"callable\"",
+        "\"undefined\""
+      ],
+      "correct": 1,
+      "exp": "Funksiyalar uchun typeof 'function' qaytaradi. Qayta o'qing."
+    }
+  ]
+}

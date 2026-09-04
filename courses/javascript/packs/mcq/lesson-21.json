@@ -1,0 +1,211 @@
+{
+  "lesson": 21,
+  "type": "mcq",
+  "title": "Massiv metodlari: slice, splice, filter va find",
+  "questions": [
+    {
+      "id": "mcq-21-001",
+      "q": "slice asl massivni o'zgartiradimi?",
+      "opts": [
+        "Ha",
+        "Yo'q, yangi massiv qaytaradi",
+        "Faqat manfiy indeksda",
+        "O'chiradi"
+      ],
+      "correct": 1,
+      "exp": "slice — nusxa (shallow copy) qaytaradi."
+    },
+    {
+      "id": "mcq-21-002",
+      "q": "splice nima qiladi?",
+      "opts": [
+        "Faqat nusxa",
+        "Asl massivdan qo'shadi/o'chiradi",
+        "Faqat qidiradi",
+        "Saralaydi"
+      ],
+      "correct": 1,
+      "exp": "splice — destruktiv: element qo'shish/o'chirish."
+    },
+    {
+      "id": "mcq-21-003",
+      "q": "filter nima qaytaradi?",
+      "opts": [
+        "Bitta element",
+        "Shartga mos elementlar arrayi",
+        "true/false",
+        "indeks"
+      ],
+      "correct": 1,
+      "exp": "filter yangi array qaytaradi."
+    },
+    {
+      "id": "mcq-21-004",
+      "q": "find topilmasa nima qaytaradi?",
+      "opts": [
+        "-1",
+        "null",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "find mos element yo'q bo'lsa undefined."
+    },
+    {
+      "id": "mcq-21-005",
+      "q": "[1,2,3,4].filter(x=>x>2) ?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "2 dan katta: 3 va 4."
+    },
+    {
+      "id": "mcq-21-006",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-007",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-008",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-009",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-010",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-011",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-012",
+      "q": "Massiv metodlari: slice, splice, filter va find mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Massiv metodlari: slice, splice, filter va find bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-21-013",
+      "q": "slice asl massivni o'zgartiradimi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q, yangi massiv qaytaradi",
+        "Faqat manfiy indeksda",
+        "O'chiradi"
+      ],
+      "correct": 1,
+      "exp": "slice — nusxa (shallow copy) qaytaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-21-014",
+      "q": "splice nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat nusxa",
+        "Asl massivdan qo'shadi/o'chiradi",
+        "Faqat qidiradi",
+        "Saralaydi"
+      ],
+      "correct": 1,
+      "exp": "splice — destruktiv: element qo'shish/o'chirish. Qayta o'qing."
+    },
+    {
+      "id": "mcq-21-015",
+      "q": "filter nima qaytaradi (qayta / chuqurroq)?",
+      "opts": [
+        "Bitta element",
+        "Shartga mos elementlar arrayi",
+        "true/false",
+        "indeks"
+      ],
+      "correct": 1,
+      "exp": "filter yangi array qaytaradi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-21-016",
+      "q": "find topilmasa nima qaytaradi (qayta / chuqurroq)?",
+      "opts": [
+        "-1",
+        "null",
+        "undefined",
+        "false"
+      ],
+      "correct": 2,
+      "exp": "find mos element yo'q bo'lsa undefined. Qayta o'qing."
+    },
+    {
+      "id": "mcq-21-017",
+      "q": "[1,2,3,4].filter(x=>x>2)  (qayta / chuqurroq)?",
+      "opts": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "2 dan katta: 3 va 4. Qayta o'qing."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lesson": 15,
+  "type": "code",
+  "title": "Array methods",
+  "questions": [
+    {
+      "id": "code-15-001",
+      "task": "[1,2,3,4,5] arrayidan faqat juft sonlarni ajratib oling (filter yordamida) va chiqaring.",
+      "sample": "let sonlar = [1,2,3,4,5];\nlet juftlar = sonlar.filter(x => x % 2 === 0);\nconsole.log(juftlar); // [2, 4]",
+      "exp": "filter() shartga (x % 2 === 0) mos elementlarni tanlab, yangi array qaytaradi."
+    },
+    {
+      "id": "code-15-002",
+      "task": "map bilan kvadrat.",
+      "sample": "console.log([1,2,3].map(x=>x*x));",
+      "exp": "map."
+    },
+    {
+      "id": "code-15-003",
+      "task": "reduce yig'indi.",
+      "sample": "console.log([1,2,3,4].reduce((s,x)=>s+x,0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-15-004",
+      "task": "map bilan kvadrat.",
+      "sample": "console.log([1,2,3].map(x=>x*x));",
+      "exp": "map."
+    },
+    {
+      "id": "code-15-005",
+      "task": "reduce yig'indi.",
+      "sample": "console.log([1,2,3,4].reduce((s,x)=>s+x,0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-15-006",
+      "task": "Array methods: [10,20,30] yarating, push 40, length chiqaring.",
+      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
+      "exp": "push, length."
+    },
+    {
+      "id": "code-15-007",
+      "task": "Array methods: filter bilan juft sonlar.",
+      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
+      "exp": "filter."
+    },
+    {
+      "id": "code-15-008",
+      "task": "Array methods: map bilan *2.",
+      "sample": "console.log([1,2,3].map(x => x * 2));",
+      "exp": "map."
+    },
+    {
+      "id": "code-15-009",
+      "task": "Array methods: reduce yig'indi.",
+      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-15-010",
+      "task": "Array methods: find bilan 10 dan kattasi.",
+      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
+      "exp": "find."
+    },
+    {
+      "id": "code-15-011",
+      "task": "Array methods: slice va splice farqini kichik misolda ko'rsating.",
+      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
+      "exp": "slice nusxa, splice o'zgartiradi."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lesson": 14,
+  "type": "code",
+  "title": "Array",
+  "questions": [
+    {
+      "id": "code-14-001",
+      "task": "3 ta mevaning nomi bilan array yarating va uni to'liq console.log qiling.",
+      "sample": "let mevalar = [\"olma\", \"banan\", \"uzum\"];\nconsole.log(mevalar);",
+      "exp": "Array kvadrat qavs [] ichida, vergul bilan ajratilgan elementlardan iborat."
+    },
+    {
+      "id": "code-14-002",
+      "task": "push va unshift qo'shing.",
+      "sample": "let a=[2,3];\na.push(4);\na.unshift(1);\nconsole.log(a);",
+      "exp": "push/unshift."
+    },
+    {
+      "id": "code-14-003",
+      "task": "slice(1) nusxa.",
+      "sample": "let a=[10,20,30,40];\nconsole.log(a.slice(1));",
+      "exp": "slice."
+    },
+    {
+      "id": "code-14-004",
+      "task": "push va unshift qo'shing.",
+      "sample": "let a=[2,3];\na.push(4);\na.unshift(1);\nconsole.log(a);",
+      "exp": "push/unshift."
+    },
+    {
+      "id": "code-14-005",
+      "task": "slice(1) nusxa.",
+      "sample": "let a=[10,20,30,40];\nconsole.log(a.slice(1));",
+      "exp": "slice."
+    },
+    {
+      "id": "code-14-006",
+      "task": "Array: [10,20,30] yarating, push 40, length chiqaring.",
+      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
+      "exp": "push, length."
+    },
+    {
+      "id": "code-14-007",
+      "task": "Array: filter bilan juft sonlar.",
+      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
+      "exp": "filter."
+    },
+    {
+      "id": "code-14-008",
+      "task": "Array: map bilan *2.",
+      "sample": "console.log([1,2,3].map(x => x * 2));",
+      "exp": "map."
+    },
+    {
+      "id": "code-14-009",
+      "task": "Array: reduce yig'indi.",
+      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-14-010",
+      "task": "Array: find bilan 10 dan kattasi.",
+      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
+      "exp": "find."
+    },
+    {
+      "id": "code-14-011",
+      "task": "Array: slice va splice farqini kichik misolda ko'rsating.",
+      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
+      "exp": "slice nusxa, splice o'zgartiradi."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lesson": 18,
+  "type": "code",
+  "title": "Funksiya va uni e'lon qilish",
+  "questions": [
+    {
+      "id": "code-18-001",
+      "task": "kvadrat(n) funksiyasini yozing — n*n qaytarsin. 6 bilan tekshiring.",
+      "sample": "function kvadrat(n) {\n  return n * n;\n}\nconsole.log(kvadrat(6)); // 36",
+      "exp": "function declaration + return."
+    },
+    {
+      "id": "code-18-002",
+      "task": "Funksiya va uni e'lon qilish bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "function kvadrat(n) {\n  return n * n;\n}\nconsole.log(kvadrat(6)); // 36",
+      "exp": "function declaration + return."
+    },
+    {
+      "id": "code-18-003",
+      "task": "Funksiya va uni e'lon qilish: qoshish(a,b) funksiyasi yozib 3 va 4 ni chaqiring.",
+      "sample": "function qoshish(a, b) {\n  return a + b;\n}\nconsole.log(qoshish(3, 4));",
+      "exp": "Function declaration."
+    },
+    {
+      "id": "code-18-004",
+      "task": "Funksiya va uni e'lon qilish: default parametrli salom(ism=\"Mehmon\") yozing.",
+      "sample": "function salom(ism = \"Mehmon\") {\n  return \"Salom, \" + ism;\n}\nconsole.log(salom());\nconsole.log(salom(\"Ali\"));",
+      "exp": "Default params."
+    },
+    {
+      "id": "code-18-005",
+      "task": "Funksiya va uni e'lon qilish: arrow bilan kvadrat(n) yozing.",
+      "sample": "const kvadrat = n => n * n;\nconsole.log(kvadrat(9));",
+      "exp": "Arrow function."
+    },
+    {
+      "id": "code-18-006",
+      "task": "Funksiya va uni e'lon qilish: rest bilan yigindi(...sonlar) yozing.",
+      "sample": "function yigindi(...sonlar) {\n  return sonlar.reduce((a, b) => a + b, 0);\n}\nconsole.log(yigindi(1, 2, 3, 4));",
+      "exp": "Rest parametr."
+    }
+  ]
+}

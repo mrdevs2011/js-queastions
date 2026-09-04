@@ -1,0 +1,295 @@
+{
+  "lesson": 26,
+  "type": "mcq",
+  "title": "Elementlarni qo'shish va o'chirish",
+  "questions": [
+    {
+      "id": "mcq-26-001",
+      "q": "Yangi element yaratish uchun qaysi metod ishlatiladi?",
+      "opts": [
+        "document.createElement()",
+        "document.newElement()",
+        "document.makeElement()",
+        "document.addElement()"
+      ],
+      "correct": 0,
+      "exp": "createElement() yangi HTML element obyektini yaratadi."
+    },
+    {
+      "id": "mcq-26-002",
+      "q": "Yaratilgan elementni sahifaga qo'shish uchun?",
+      "opts": [
+        "document.add()",
+        "parent.appendChild(el)",
+        "document.push(el)",
+        "el.show()"
+      ],
+      "correct": 1,
+      "exp": "appendChild elementni ota-element ichiga qo'shadi."
+    },
+    {
+      "id": "mcq-26-003",
+      "q": "element.remove() nima qiladi?",
+      "opts": [
+        "Yashiradi",
+        "DOM dan olib tashlaydi",
+        "Tozalaydi",
+        "Nusxa oladi"
+      ],
+      "correct": 1,
+      "exp": "remove() elementni DOM daraxtidan olib tashlaydi."
+    },
+    {
+      "id": "mcq-26-004",
+      "q": "createElement('p') dan keyin element sahifada ko'rinadimi?",
+      "opts": [
+        "Ha, darhol",
+        "Yo'q, avval DOM ga qo'shish kerak",
+        "Faqat head da",
+        "Avtomatik body ga tushadi"
+      ],
+      "correct": 1,
+      "exp": "createElement faqat xotirada yaratadi, appendChild qilmaguncha ko'rinmaydi."
+    },
+    {
+      "id": "mcq-26-005",
+      "q": "append vs appendChild?",
+      "opts": [
+        "Bir xil",
+        "append ko'proq qabul qiladi",
+        "append yo'q",
+        "appendChild string"
+      ],
+      "correct": 1,
+      "exp": "append zamonaviy."
+    },
+    {
+      "id": "mcq-26-006",
+      "q": "prepend?",
+      "opts": [
+        "Oxiriga",
+        "Boshiga",
+        "O'chiradi",
+        "Almashtiradi"
+      ],
+      "correct": 1,
+      "exp": "Birinchi bola."
+    },
+    {
+      "id": "mcq-26-007",
+      "q": "before/after?",
+      "opts": [
+        "Yo'q",
+        "Yoniga qo'shadi",
+        "Faqat ota",
+        "Faqat append"
+      ],
+      "correct": 1,
+      "exp": "Aka-uka."
+    },
+    {
+      "id": "mcq-26-008",
+      "q": "replaceWith?",
+      "opts": [
+        "Clone",
+        "Almashtiradi",
+        "Yashiradi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "O'zini almashtiradi."
+    },
+    {
+      "id": "mcq-26-009",
+      "q": "cloneNode(true)?",
+      "opts": [
+        "Shallow",
+        "Deep clone",
+        "Xato",
+        "Reference"
+      ],
+      "correct": 1,
+      "exp": "Bolalari bilan."
+    },
+    {
+      "id": "mcq-26-010",
+      "q": "DocumentFragment?",
+      "opts": [
+        "CSS",
+        "Ko'p qo'shishda reflow kam",
+        "HTTP",
+        "JSON"
+      ],
+      "correct": 1,
+      "exp": "Vaqtincha konteyner."
+    },
+    {
+      "id": "mcq-26-011",
+      "q": "remove() eski?",
+      "opts": [
+        "Har doim",
+        "Eski da removeChild",
+        "Polyfill yo'q",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "Ehtiyot."
+    },
+    {
+      "id": "mcq-26-012",
+      "q": "createElement keyin ko'rinadimi?",
+      "opts": [
+        "Ha",
+        "Yo'q, append kerak",
+        "Faqat head",
+        "Avtomatik body"
+      ],
+      "correct": 1,
+      "exp": "Avval DOM ga qo'shing."
+    },
+    {
+      "id": "mcq-26-013",
+      "q": "insertBefore(new, null)?",
+      "opts": [
+        "Xato",
+        "Oxiriga qo'shadi",
+        "Boshiga",
+        "O'chiradi"
+      ],
+      "correct": 1,
+      "exp": "null = oxir."
+    },
+    {
+      "id": "mcq-26-014",
+      "q": "Batch qo'shish?",
+      "opts": [
+        "Har birida reflow",
+        "Fragment yoki birlashtirish",
+        "Faqat innerHTML",
+        "Sekin"
+      ],
+      "correct": 1,
+      "exp": "Performance."
+    },
+    {
+      "id": "mcq-26-015",
+      "q": "append vs appendChild?",
+      "opts": [
+        "Bir xil",
+        "append ko'proq qabul qiladi",
+        "append yo'q",
+        "appendChild string"
+      ],
+      "correct": 1,
+      "exp": "append zamonaviy."
+    },
+    {
+      "id": "mcq-26-016",
+      "q": "prepend?",
+      "opts": [
+        "Oxiriga",
+        "Boshiga",
+        "O'chiradi",
+        "Almashtiradi"
+      ],
+      "correct": 1,
+      "exp": "Birinchi bola."
+    },
+    {
+      "id": "mcq-26-017",
+      "q": "before/after?",
+      "opts": [
+        "Yo'q",
+        "Yoniga qo'shadi",
+        "Faqat ota",
+        "Faqat append"
+      ],
+      "correct": 1,
+      "exp": "Aka-uka."
+    },
+    {
+      "id": "mcq-26-018",
+      "q": "replaceWith?",
+      "opts": [
+        "Clone",
+        "Almashtiradi",
+        "Yashiradi",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "O'zini almashtiradi."
+    },
+    {
+      "id": "mcq-26-019",
+      "q": "cloneNode(true)?",
+      "opts": [
+        "Shallow",
+        "Deep clone",
+        "Xato",
+        "Reference"
+      ],
+      "correct": 1,
+      "exp": "Bolalari bilan."
+    },
+    {
+      "id": "mcq-26-020",
+      "q": "DocumentFragment?",
+      "opts": [
+        "CSS",
+        "Ko'p qo'shishda reflow kam",
+        "HTTP",
+        "JSON"
+      ],
+      "correct": 1,
+      "exp": "Vaqtincha konteyner."
+    },
+    {
+      "id": "mcq-26-021",
+      "q": "remove() eski?",
+      "opts": [
+        "Har doim",
+        "Eski da removeChild",
+        "Polyfill yo'q",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "Ehtiyot."
+    },
+    {
+      "id": "mcq-26-022",
+      "q": "createElement keyin ko'rinadimi?",
+      "opts": [
+        "Ha",
+        "Yo'q, append kerak",
+        "Faqat head",
+        "Avtomatik body"
+      ],
+      "correct": 1,
+      "exp": "Avval DOM ga qo'shing."
+    },
+    {
+      "id": "mcq-26-023",
+      "q": "insertBefore(new, null)?",
+      "opts": [
+        "Xato",
+        "Oxiriga qo'shadi",
+        "Boshiga",
+        "O'chiradi"
+      ],
+      "correct": 1,
+      "exp": "null = oxir."
+    },
+    {
+      "id": "mcq-26-024",
+      "q": "Batch qo'shish?",
+      "opts": [
+        "Har birida reflow",
+        "Fragment yoki birlashtirish",
+        "Faqat innerHTML",
+        "Sekin"
+      ],
+      "correct": 1,
+      "exp": "Performance."
+    }
+  ]
+}

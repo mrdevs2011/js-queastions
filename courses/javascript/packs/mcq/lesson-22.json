@@ -1,0 +1,211 @@
+{
+  "lesson": 22,
+  "type": "mcq",
+  "title": "Object asoslari",
+  "questions": [
+    {
+      "id": "mcq-22-001",
+      "q": "Object kalit-qiymat juftligi qanday yoziladi?",
+      "opts": [
+        "kalit = qiymat",
+        "kalit: qiymat",
+        "kalit -> qiymat",
+        "kalit => qiymat"
+      ],
+      "correct": 1,
+      "exp": "{ ism: 'Ali', yosh: 20 }"
+    },
+    {
+      "id": "mcq-22-002",
+      "q": "obj.x va obj['x'] farqi?",
+      "opts": [
+        "Butunlay boshqa",
+        "Ko'p hollarda bir xil natija (dot vs bracket)",
+        "Faqat array da",
+        "Bracket ishlamaydi"
+      ],
+      "correct": 1,
+      "exp": "Dot oddiy nomlar uchun, bracket dinamik kalit uchun qulay."
+    },
+    {
+      "id": "mcq-22-003",
+      "q": "Object ga yangi xususiyat qo'shish?",
+      "opts": [
+        "Mumkin emas",
+        "obj.yangi = qiymat",
+        "faqat constructor da",
+        "faqat freeze dan oldin"
+      ],
+      "correct": 1,
+      "exp": "Oddiy tayinlash bilan qo'shiladi."
+    },
+    {
+      "id": "mcq-22-004",
+      "q": "delete obj.x nima qiladi?",
+      "opts": [
+        "Qiymatni null qiladi",
+        "Xususiyatni olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "delete kalitni obyektdan olib tashlaydi."
+    },
+    {
+      "id": "mcq-22-005",
+      "q": "Object asoslari mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-006",
+      "q": "Object asoslari mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-007",
+      "q": "Object asoslari mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-008",
+      "q": "Object asoslari mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-009",
+      "q": "Object asoslari mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-010",
+      "q": "Object asoslari mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-011",
+      "q": "Object asoslari mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-012",
+      "q": "Object asoslari mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-22-013",
+      "q": "Object kalit-qiymat juftligi qanday yoziladi (qayta / chuqurroq)?",
+      "opts": [
+        "kalit = qiymat",
+        "kalit: qiymat",
+        "kalit -> qiymat",
+        "kalit => qiymat"
+      ],
+      "correct": 1,
+      "exp": "{ ism: 'Ali', yosh: 20 } Qayta o'qing."
+    },
+    {
+      "id": "mcq-22-014",
+      "q": "obj.x va obj['x'] farqi (qayta / chuqurroq)?",
+      "opts": [
+        "Butunlay boshqa",
+        "Ko'p hollarda bir xil natija (dot vs bracket)",
+        "Faqat array da",
+        "Bracket ishlamaydi"
+      ],
+      "correct": 1,
+      "exp": "Dot oddiy nomlar uchun, bracket dinamik kalit uchun qulay. Qayta o'qing."
+    },
+    {
+      "id": "mcq-22-015",
+      "q": "Object ga yangi xususiyat qo'shish (qayta / chuqurroq)?",
+      "opts": [
+        "Mumkin emas",
+        "obj.yangi = qiymat",
+        "faqat constructor da",
+        "faqat freeze dan oldin"
+      ],
+      "correct": 1,
+      "exp": "Oddiy tayinlash bilan qo'shiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-22-016",
+      "q": "delete obj.x nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Qiymatni null qiladi",
+        "Xususiyatni olib tashlaydi",
+        "Xato",
+        "Yashiradi"
+      ],
+      "correct": 1,
+      "exp": "delete kalitni obyektdan olib tashlaydi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-22-017",
+      "q": "Object asoslari mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

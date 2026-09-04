@@ -1,0 +1,211 @@
+{
+  "lesson": 23,
+  "type": "mcq",
+  "title": "Array va Object destruction",
+  "questions": [
+    {
+      "id": "mcq-23-001",
+      "q": "const [a,b] = [1,2]; — a qiymati?",
+      "opts": [
+        "[1,2]",
+        "1",
+        "2",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array destructuring: birinchi element a ga."
+    },
+    {
+      "id": "mcq-23-002",
+      "q": "const {ism} = {ism:'Ali', yosh:20}; — ism?",
+      "opts": [
+        "object",
+        "\"Ali\"",
+        "undefined",
+        "yosh"
+      ],
+      "correct": 1,
+      "exp": "Object destructuring kalit bo'yicha oladi."
+    },
+    {
+      "id": "mcq-23-003",
+      "q": "const [x, ...rest] = [1,2,3]; rest?",
+      "opts": [
+        "1",
+        "[2,3]",
+        "[1,2,3]",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Rest qolgan elementlarni array qilib oladi."
+    },
+    {
+      "id": "mcq-23-004",
+      "q": "Destrukturatsiyada default qiymat?",
+      "opts": [
+        "Mumkin emas",
+        "const [a=0] = []",
+        "faqat object da",
+        "faqat rest da"
+      ],
+      "correct": 1,
+      "exp": "Qiymat yo'q bo'lsa default ishlatiladi."
+    },
+    {
+      "id": "mcq-23-005",
+      "q": "Array va Object destruction mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-006",
+      "q": "Array va Object destruction mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-007",
+      "q": "Array va Object destruction mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-008",
+      "q": "Array va Object destruction mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-009",
+      "q": "Array va Object destruction mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-010",
+      "q": "Array va Object destruction mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-011",
+      "q": "Array va Object destruction mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-012",
+      "q": "Array va Object destruction mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-23-013",
+      "q": "const [a,b] = [1,2]; — a qiymati (qayta / chuqurroq)?",
+      "opts": [
+        "[1,2]",
+        "1",
+        "2",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Array destructuring: birinchi element a ga. Qayta o'qing."
+    },
+    {
+      "id": "mcq-23-014",
+      "q": "const {ism} = {ism:'Ali', yosh:20}; — ism (qayta / chuqurroq)?",
+      "opts": [
+        "object",
+        "\"Ali\"",
+        "undefined",
+        "yosh"
+      ],
+      "correct": 1,
+      "exp": "Object destructuring kalit bo'yicha oladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-23-015",
+      "q": "const [x, ...rest] = [1,2,3]; rest (qayta / chuqurroq)?",
+      "opts": [
+        "1",
+        "[2,3]",
+        "[1,2,3]",
+        "3"
+      ],
+      "correct": 1,
+      "exp": "Rest qolgan elementlarni array qilib oladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-23-016",
+      "q": "Destrukturatsiyada default qiymat (qayta / chuqurroq)?",
+      "opts": [
+        "Mumkin emas",
+        "const [a=0] = []",
+        "faqat object da",
+        "faqat rest da"
+      ],
+      "correct": 1,
+      "exp": "Qiymat yo'q bo'lsa default ishlatiladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-23-017",
+      "q": "Array va Object destruction mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

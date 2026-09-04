@@ -1,0 +1,211 @@
+{
+  "lesson": 12,
+  "type": "mcq",
+  "title": "Mantiqiy (logic) boolean",
+  "questions": [
+    {
+      "id": "mcq-12-001",
+      "q": "true && false natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi ham true bo'lsagina true."
+    },
+    {
+      "id": "mcq-12-002",
+      "q": "false || true natijasi?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "|| — kamida bittasi true bo'lsa true."
+    },
+    {
+      "id": "mcq-12-003",
+      "q": "!false natijasi?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "! — mantiqiy inkor."
+    },
+    {
+      "id": "mcq-12-004",
+      "q": "null && true natijasi?",
+      "opts": [
+        "true",
+        "null",
+        "false",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "&& birinchi falsy qiymatni qaytaradi (null)."
+    },
+    {
+      "id": "mcq-12-005",
+      "q": "0 || \"salom\" natijasi?",
+      "opts": [
+        "0",
+        "\"salom\"",
+        "true",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "|| birinchi truthy qiymatni qaytaradi."
+    },
+    {
+      "id": "mcq-12-006",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-007",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-008",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-009",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-010",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-011",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-012",
+      "q": "Mantiqiy (logic) boolean mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Mantiqiy (logic) boolean bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-12-013",
+      "q": "true && false natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "&& — ikkalasi ham true bo'lsagina true. Qayta o'qing."
+    },
+    {
+      "id": "mcq-12-014",
+      "q": "false || true natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "|| — kamida bittasi true bo'lsa true. Qayta o'qing."
+    },
+    {
+      "id": "mcq-12-015",
+      "q": "!false natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "! — mantiqiy inkor. Qayta o'qing."
+    },
+    {
+      "id": "mcq-12-016",
+      "q": "null && true natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "true",
+        "null",
+        "false",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "&& birinchi falsy qiymatni qaytaradi (null). Qayta o'qing."
+    },
+    {
+      "id": "mcq-12-017",
+      "q": "0 || \"salom\" natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "0",
+        "\"salom\"",
+        "true",
+        "false"
+      ],
+      "correct": 1,
+      "exp": "|| birinchi truthy qiymatni qaytaradi. Qayta o'qing."
+    }
+  ]
+}

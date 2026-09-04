@@ -1,0 +1,211 @@
+{
+  "lesson": 25,
+  "type": "mcq",
+  "title": "Template literal",
+  "questions": [
+    {
+      "id": "mcq-25-001",
+      "q": "Template literal qanday tirnoq?",
+      "opts": [
+        "' '",
+        "\" \"",
+        "` ` (backtick)",
+        "/ /"
+      ],
+      "correct": 2,
+      "exp": "Template literal backtick ichida yoziladi."
+    },
+    {
+      "id": "mcq-25-002",
+      "q": "let n=5; `Son: ${n}` natijasi?",
+      "opts": [
+        "Son: ${n}",
+        "Son: 5",
+        "xato",
+        "Son: n"
+      ],
+      "correct": 1,
+      "exp": "${} ichidagi ifoda hisoblanadi."
+    },
+    {
+      "id": "mcq-25-003",
+      "q": "Template literal da qator tashlash?",
+      "opts": [
+        "\\n majburiy",
+        "Oddiy Enter bilan mumkin",
+        "Mumkin emas",
+        "Faqat <br>"
+      ],
+      "correct": 1,
+      "exp": "Backtick ichida haqiqiy yangi qator yozish mumkin."
+    },
+    {
+      "id": "mcq-25-004",
+      "q": "\"a\" + b + \"c\" o'rniga yaxshiroq usul?",
+      "opts": [
+        "concat majburiy",
+        "`a${b}c`",
+        "array join faqat",
+        "String.raw majburiy"
+      ],
+      "correct": 1,
+      "exp": "Template literal o'qish uchun qulayroq."
+    },
+    {
+      "id": "mcq-25-005",
+      "q": "Template literal mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-006",
+      "q": "Template literal mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-007",
+      "q": "Template literal mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-008",
+      "q": "Template literal mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-009",
+      "q": "Template literal mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-010",
+      "q": "Template literal mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-011",
+      "q": "Template literal mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-012",
+      "q": "Template literal mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-25-013",
+      "q": "Template literal qanday tirnoq (qayta / chuqurroq)?",
+      "opts": [
+        "' '",
+        "\" \"",
+        "` ` (backtick)",
+        "/ /"
+      ],
+      "correct": 2,
+      "exp": "Template literal backtick ichida yoziladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-25-014",
+      "q": "let n=5; `Son: ${n}` natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "Son: ${n}",
+        "Son: 5",
+        "xato",
+        "Son: n"
+      ],
+      "correct": 1,
+      "exp": "${} ichidagi ifoda hisoblanadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-25-015",
+      "q": "Template literal da qator tashlash (qayta / chuqurroq)?",
+      "opts": [
+        "\\n majburiy",
+        "Oddiy Enter bilan mumkin",
+        "Mumkin emas",
+        "Faqat <br>"
+      ],
+      "correct": 1,
+      "exp": "Backtick ichida haqiqiy yangi qator yozish mumkin. Qayta o'qing."
+    },
+    {
+      "id": "mcq-25-016",
+      "q": "\"a\" + b + \"c\" o'rniga yaxshiroq usul (qayta / chuqurroq)?",
+      "opts": [
+        "concat majburiy",
+        "`a${b}c`",
+        "array join faqat",
+        "String.raw majburiy"
+      ],
+      "correct": 1,
+      "exp": "Template literal o'qish uchun qulayroq. Qayta o'qing."
+    },
+    {
+      "id": "mcq-25-017",
+      "q": "Template literal mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Template literal bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

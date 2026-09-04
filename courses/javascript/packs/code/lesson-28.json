@@ -1,0 +1,43 @@
+{
+  "lesson": 28,
+  "type": "code",
+  "title": "Scope chain",
+  "questions": [
+    {
+      "id": "code-28-001",
+      "task": "Tashqi let x=10; ichida funksiya yozing — u x ni console.log qilsin. Funksiyani chaqiring.",
+      "sample": "let x = 10;\nfunction korsat() {\n  console.log(x);\n}\nkorsat(); // 10",
+      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi."
+    },
+    {
+      "id": "code-28-002",
+      "task": "Scope chain bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let x = 10;\nfunction korsat() {\n  console.log(x);\n}\nkorsat(); // 10",
+      "exp": "Ichki funksiya tashqi scopedagi x ni ko'radi."
+    },
+    {
+      "id": "code-28-003",
+      "task": "Scope chain: tashqi x=10; ichki funksiya x ni log qilsin.",
+      "sample": "let x = 10;\nfunction f() { console.log(x); }\nf();",
+      "exp": "Closure/scope chain."
+    },
+    {
+      "id": "code-28-004",
+      "task": "Scope chain: block scope: { let y=1 } tashqarida y ni ishlatib ko'ring (izohda xato).",
+      "sample": "{\n  let y = 1;\n}\n// console.log(y); // ReferenceError",
+      "exp": "Block scope."
+    },
+    {
+      "id": "code-28-005",
+      "task": "Scope chain: rest parametrli funksiya.",
+      "sample": "const max = (...nums) => Math.max(...nums);\nconsole.log(max(1, 5, 3));",
+      "exp": "Rest + spread."
+    },
+    {
+      "id": "code-28-006",
+      "task": "Scope chain: arguments o'rniga rest ishlating.",
+      "sample": "function show(...args) {\n  console.log(args);\n}\nshow(1, 2, 3);",
+      "exp": "Rest zamonaviy arguments."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lesson": 27,
+  "type": "code",
+  "title": "2-bo'lim uchun amaliyot",
+  "questions": [
+    {
+      "id": "code-27-001",
+      "task": "Kichik amaliyot: sonlar massividan faqat toq sonlarni filter qilib, har birini 2 ga ko'paytirib (map) chiqaring.",
+      "sample": "let sonlar = [1,2,3,4,5,6];\nlet natija = sonlar.filter(x => x % 2 === 1).map(x => x * 2);\nconsole.log(natija); // [2,6,10]",
+      "exp": "filter + map zanjiri."
+    },
+    {
+      "id": "code-27-002",
+      "task": "2-bo'lim uchun amaliyot bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let sonlar = [1,2,3,4,5,6];\nlet natija = sonlar.filter(x => x % 2 === 1).map(x => x * 2);\nconsole.log(natija); // [2,6,10]",
+      "exp": "filter + map zanjiri."
+    },
+    {
+      "id": "code-27-003",
+      "task": "2-bo'lim uchun amaliyot: console.log orqali 2 ta xabar chiqaring.",
+      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
+      "exp": "console.log."
+    },
+    {
+      "id": "code-27-004",
+      "task": "2-bo'lim uchun amaliyot: kichik hisob: 2+2*2 ni chiqaring.",
+      "sample": "console.log(2 + 2 * 2); // 6",
+      "exp": "Ustuvorlik."
+    },
+    {
+      "id": "code-27-005",
+      "task": "2-bo'lim uchun amaliyot: massiv va object ni birga ishlating (qisqa).",
+      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
+      "exp": "Nested ma'lumot."
+    },
+    {
+      "id": "code-27-006",
+      "task": "2-bo'lim uchun amaliyot: for...of bilan satr harflarini chiqaring.",
+      "sample": "for (const ch of \"JS\") console.log(ch);",
+      "exp": "for...of string."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 28,
+  "type": "mcq",
+  "title": "Scope chain",
+  "questions": [
+    {
+      "id": "mcq-28-001",
+      "q": "Scope nima?",
+      "opts": [
+        "Fayl nomi",
+        "O'zgaruvchi ko'rinadigan/ishlatiladigan soha",
+        "Funksiya turi",
+        "HTML elementi"
+      ],
+      "correct": 1,
+      "exp": "Scope — identifikatorning ko'rinish doirasi."
+    },
+    {
+      "id": "mcq-28-002",
+      "q": "Global scope qayer?",
+      "opts": [
+        "Faqat funksiya ichida",
+        "Skriptning eng tashqi qismi",
+        "Faqat modulda",
+        "Faqat class da"
+      ],
+      "correct": 1,
+      "exp": "Tashqi darajadagi o'zgaruvchilar global."
+    },
+    {
+      "id": "mcq-28-003",
+      "q": "Ichki funksiya tashqi o'zgaruvchini ko'ra oladimi?",
+      "opts": [
+        "Yo'q",
+        "Ha (scope chain)",
+        "Faqat var da",
+        "Faqat const da"
+      ],
+      "correct": 1,
+      "exp": "Scope chain: ichkaridan tashqariga qidiriladi."
+    },
+    {
+      "id": "mcq-28-004",
+      "q": "Tashqi funksiya ichki o'zgaruvchini to'g'ridan-to'g'ri ko'radimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat arrow da",
+        "Faqat strict da"
+      ],
+      "correct": 1,
+      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas."
+    },
+    {
+      "id": "mcq-28-005",
+      "q": "Scope chain mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-006",
+      "q": "Scope chain mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-007",
+      "q": "Scope chain mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-008",
+      "q": "Scope chain mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-009",
+      "q": "Scope chain mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-010",
+      "q": "Scope chain mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-011",
+      "q": "Scope chain mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-012",
+      "q": "Scope chain mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-28-013",
+      "q": "Scope nima (qayta / chuqurroq)?",
+      "opts": [
+        "Fayl nomi",
+        "O'zgaruvchi ko'rinadigan/ishlatiladigan soha",
+        "Funksiya turi",
+        "HTML elementi"
+      ],
+      "correct": 1,
+      "exp": "Scope — identifikatorning ko'rinish doirasi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-28-014",
+      "q": "Global scope qayer (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat funksiya ichida",
+        "Skriptning eng tashqi qismi",
+        "Faqat modulda",
+        "Faqat class da"
+      ],
+      "correct": 1,
+      "exp": "Tashqi darajadagi o'zgaruvchilar global. Qayta o'qing."
+    },
+    {
+      "id": "mcq-28-015",
+      "q": "Ichki funksiya tashqi o'zgaruvchini ko'ra oladimi (qayta / chuqurroq)?",
+      "opts": [
+        "Yo'q",
+        "Ha (scope chain)",
+        "Faqat var da",
+        "Faqat const da"
+      ],
+      "correct": 1,
+      "exp": "Scope chain: ichkaridan tashqariga qidiriladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-28-016",
+      "q": "Tashqi funksiya ichki o'zgaruvchini to'g'ridan-to'g'ri ko'radimi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat arrow da",
+        "Faqat strict da"
+      ],
+      "correct": 1,
+      "exp": "Scope ichkaridan tashqariga ishlaydi, aksincha emas. Qayta o'qing."
+    },
+    {
+      "id": "mcq-28-017",
+      "q": "Scope chain mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Scope chain bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

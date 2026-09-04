@@ -1,0 +1,211 @@
+{
+  "lesson": 13,
+  "type": "mcq",
+  "title": "Operatorlarning ustuvorligi",
+  "questions": [
+    {
+      "id": "mcq-13-001",
+      "q": "Qaysi amal avval bajariladi: * yoki + ?",
+      "opts": [
+        "+",
+        "*",
+        "bir xil",
+        "chapdan o'ngga"
+      ],
+      "correct": 1,
+      "exp": "Ko'paytirish qo'shishdan yuqori ustuvorlikka ega."
+    },
+    {
+      "id": "mcq-13-002",
+      "q": "2 + 3 * 4 natijasi?",
+      "opts": [
+        "20",
+        "14",
+        "24",
+        "9"
+      ],
+      "correct": 1,
+      "exp": "Avval 3*4=12, keyin 2+12=14."
+    },
+    {
+      "id": "mcq-13-003",
+      "q": "Qavs () nima uchun kerak?",
+      "opts": [
+        "Faqat funksiya uchun",
+        "Ustuvorlikni o'zgartirish (avval hisoblash)",
+        "Izoh uchun",
+        "Kerak emas"
+      ],
+      "correct": 1,
+      "exp": "Qavs ichidagi ifoda avval bajariladi."
+    },
+    {
+      "id": "mcq-13-004",
+      "q": "&& va || dan qaysi biri yuqoriroq ustuvorlikka ega?",
+      "opts": [
+        "||",
+        "&&",
+        "bir xil",
+        "context ga bog'liq"
+      ],
+      "correct": 1,
+      "exp": "&& ustuvorligi || dan yuqori."
+    },
+    {
+      "id": "mcq-13-005",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-006",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-007",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-008",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-009",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-010",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-011",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-012",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-13-013",
+      "q": "Qaysi amal avval bajariladi: * yoki +  (qayta / chuqurroq)?",
+      "opts": [
+        "+",
+        "*",
+        "bir xil",
+        "chapdan o'ngga"
+      ],
+      "correct": 1,
+      "exp": "Ko'paytirish qo'shishdan yuqori ustuvorlikka ega. Qayta o'qing."
+    },
+    {
+      "id": "mcq-13-014",
+      "q": "2 + 3 * 4 natijasi (qayta / chuqurroq)?",
+      "opts": [
+        "20",
+        "14",
+        "24",
+        "9"
+      ],
+      "correct": 1,
+      "exp": "Avval 3*4=12, keyin 2+12=14. Qayta o'qing."
+    },
+    {
+      "id": "mcq-13-015",
+      "q": "Qavs () nima uchun kerak (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat funksiya uchun",
+        "Ustuvorlikni o'zgartirish (avval hisoblash)",
+        "Izoh uchun",
+        "Kerak emas"
+      ],
+      "correct": 1,
+      "exp": "Qavs ichidagi ifoda avval bajariladi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-13-016",
+      "q": "&& va || dan qaysi biri yuqoriroq ustuvorlikka ega (qayta / chuqurroq)?",
+      "opts": [
+        "||",
+        "&&",
+        "bir xil",
+        "context ga bog'liq"
+      ],
+      "correct": 1,
+      "exp": "&& ustuvorligi || dan yuqori. Qayta o'qing."
+    },
+    {
+      "id": "mcq-13-017",
+      "q": "Operatorlarning ustuvorligi mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Operatorlarning ustuvorligi bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

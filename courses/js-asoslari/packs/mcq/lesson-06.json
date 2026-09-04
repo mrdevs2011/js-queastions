@@ -1,0 +1,247 @@
+{
+  "lesson": 6,
+  "type": "mcq",
+  "title": "let, const va var",
+  "questions": [
+    {
+      "id": "mcq-6-001",
+      "q": "let, const va var orasidagi asosiy farq nima?",
+      "opts": [
+        "const qiymatini qayta belgilab bo'lmaydi, let/var esa bo'ladi",
+        "Ular hech qanday farq qilmaydi",
+        "var faqat sonlar uchun ishlatiladi",
+        "let global, const va var lokal bo'ladi"
+      ],
+      "correct": 0,
+      "exp": "const o'zgarmas qiymat uchun, let/var qayta belgilashga ruxsat beradi."
+    },
+    {
+      "id": "mcq-6-002",
+      "q": "const x = 5; x = 10; nima bo'ladi?",
+      "opts": [
+        "x 10 bo'ladi",
+        "Xato beradi",
+        "undefined",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "const bilan e'lon qilingan o'zgaruvchini qayta belgilab bo'lmaydi."
+    },
+    {
+      "id": "mcq-6-003",
+      "q": "Qaysi kalit so'z block scope ga ega EMAS?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "hammasi block scope"
+      ],
+      "correct": 2,
+      "exp": "var function scope ga ega, let/const esa block scope."
+    },
+    {
+      "id": "mcq-6-004",
+      "q": "Zamonaviy JS da odatda qaysi kalit so'z tavsiya etiladi?",
+      "opts": [
+        "var",
+        "let va const",
+        "faqat var",
+        "faqat let"
+      ],
+      "correct": 1,
+      "exp": "Zamonaviy kodda let va const ishlatiladi, var eskirgan deb hisoblanadi."
+    },
+    {
+      "id": "mcq-6-005",
+      "q": "Block scope qaysilar?",
+      "opts": [
+        "faqat var",
+        "let va const",
+        "faqat function",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let/const block scope."
+    },
+    {
+      "id": "mcq-6-006",
+      "q": "var x=1; { var x=2; } console.log(x)?",
+      "opts": [
+        "1",
+        "2",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "var tashqariga chiqadi."
+    },
+    {
+      "id": "mcq-6-007",
+      "q": "const arr=[1]; arr.push(2);?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat pop",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Mutatsiya mumkin."
+    },
+    {
+      "id": "mcq-6-008",
+      "q": "Eskirgan deb hisoblanadi?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "arrow"
+      ],
+      "correct": 2,
+      "exp": "var o'rniga let/const."
+    },
+    {
+      "id": "mcq-6-009",
+      "q": "Bir scope da let x ikki marta?",
+      "opts": [
+        "Ishlaydi",
+        "SyntaxError",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Qayta e'lon mumkin emas."
+    },
+    {
+      "id": "mcq-6-010",
+      "q": "const initsiz e'lon?",
+      "opts": [
+        "OK",
+        "Xato — qiymat majburiy",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "const ga darhol qiymat."
+    },
+    {
+      "id": "mcq-6-011",
+      "q": "for (var i=0;i<3;i++) keyin i?",
+      "opts": [
+        "undefined",
+        "3",
+        "xato",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "var tashqarida 3."
+    },
+    {
+      "id": "mcq-6-012",
+      "q": "for (let i=0;i<3;i++) keyin i?",
+      "opts": [
+        "3",
+        "ReferenceError",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "let faqat siklda."
+    },
+    {
+      "id": "mcq-6-013",
+      "q": "Block scope qaysilar?",
+      "opts": [
+        "faqat var",
+        "let va const",
+        "faqat function",
+        "hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "let/const block scope."
+    },
+    {
+      "id": "mcq-6-014",
+      "q": "var x=1; { var x=2; } console.log(x)?",
+      "opts": [
+        "1",
+        "2",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "var tashqariga chiqadi."
+    },
+    {
+      "id": "mcq-6-015",
+      "q": "const arr=[1]; arr.push(2);?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat pop",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Mutatsiya mumkin."
+    },
+    {
+      "id": "mcq-6-016",
+      "q": "Eskirgan deb hisoblanadi?",
+      "opts": [
+        "let",
+        "const",
+        "var",
+        "arrow"
+      ],
+      "correct": 2,
+      "exp": "var o'rniga let/const."
+    },
+    {
+      "id": "mcq-6-017",
+      "q": "Bir scope da let x ikki marta?",
+      "opts": [
+        "Ishlaydi",
+        "SyntaxError",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Qayta e'lon mumkin emas."
+    },
+    {
+      "id": "mcq-6-018",
+      "q": "const initsiz e'lon?",
+      "opts": [
+        "OK",
+        "Xato — qiymat majburiy",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "const ga darhol qiymat."
+    },
+    {
+      "id": "mcq-6-019",
+      "q": "for (var i=0;i<3;i++) keyin i?",
+      "opts": [
+        "undefined",
+        "3",
+        "xato",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "var tashqarida 3."
+    },
+    {
+      "id": "mcq-6-020",
+      "q": "for (let i=0;i<3;i++) keyin i?",
+      "opts": [
+        "3",
+        "ReferenceError",
+        "0",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "let faqat siklda."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "lesson": 1,
+  "type": "mcq",
+  "title": "Kirish",
+  "questions": [
+    {
+      "id": "mcq-1-001",
+      "q": "JavaScript qaysi turdagi til hisoblanadi?",
+      "opts": [
+        "Faqat server tili",
+        "Skript (interpretatsiya qilinuvchi) til",
+        "Faqat ma'lumotlar bazasi tili",
+        "Operatsion tizim"
+      ],
+      "correct": 1,
+      "exp": "JavaScript — brauzerda va serverda bajariladigan interpretatsiya qilinuvchi skript tili."
+    },
+    {
+      "id": "mcq-1-002",
+      "q": "JavaScript dastlab qaysi maqsadda yaratilgan?",
+      "opts": [
+        "Veb-sahifalarga interaktivlik qo'shish",
+        "Operatsion tizim yaratish",
+        "Ma'lumotlar bazasini boshqarish",
+        "Rasm tahrirlash"
+      ],
+      "correct": 0,
+      "exp": "JS veb-sahifalarni dinamik va interaktiv qilish uchun yaratilgan."
+    },
+    {
+      "id": "mcq-1-003",
+      "q": "JavaScript asosan qayerda ishlaydi?",
+      "opts": [
+        "Faqat serverda",
+        "Faqat mobil ilovalarda",
+        "Brauzerda (va Node.js orqali serverda)",
+        "Faqat ma'lumotlar bazasida"
+      ],
+      "correct": 2,
+      "exp": "JS dastlab brauzer uchun yaratilgan, hozir Node.js orqali serverda ham ishlaydi."
+    },
+    {
+      "id": "mcq-1-004",
+      "q": "JavaScript kim tomonidan yaratilgan?",
+      "opts": [
+        "Brendan Eich",
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Linus Torvalds"
+      ],
+      "correct": 0,
+      "exp": "JavaScript 1995-yilda Brendan Eich tomonidan Netscape uchun yaratilgan."
+    },
+    {
+      "id": "mcq-1-005",
+      "q": "JavaScript qaysi yilda yaratilgan?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan."
+    },
+    {
+      "id": "mcq-1-006",
+      "q": "JavaScript dastlab qanday nomlangan?",
+      "opts": [
+        "Mocha",
+        "Java",
+        "LiveScript keyin JavaScript",
+        "Python"
+      ],
+      "correct": 2,
+      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript."
+    },
+    {
+      "id": "mcq-1-007",
+      "q": "Client-side JavaScript nima degani?",
+      "opts": [
+        "Serverda ishlaydi",
+        "Foydalanuvchi brauzerida ishlaydi",
+        "Faqat mobil",
+        "Faqat desktop"
+      ],
+      "correct": 1,
+      "exp": "Client-side — brauzerda bajariladi."
+    },
+    {
+      "id": "mcq-1-008",
+      "q": "JavaScript interaktivlikni qanday ta'minlaydi?",
+      "opts": [
+        "Faqat rang",
+        "Tugma, forma, dinamik kontent",
+        "Faqat rasm",
+        "Hech qanday"
+      ],
+      "correct": 1,
+      "exp": "JS sahifani dinamik qiladi."
+    },
+    {
+      "id": "mcq-1-009",
+      "q": "Skript tili nima degani?",
+      "opts": [
+        "Faqat kompilyatsiya",
+        "Interpretatsiya qilinadi",
+        "Faqat assembly",
+        "Faqat binary"
+      ],
+      "correct": 1,
+      "exp": "Skript tillari odatda interpretatsiya qilinadi."
+    },
+    {
+      "id": "mcq-1-010",
+      "q": "JS o'rganish uchun nima yetarli?",
+      "opts": [
+        "Qimmat kurs",
+        "Brauzer + matn muharriri",
+        "Maxsus server",
+        "Faqat telefon"
+      ],
+      "correct": 1,
+      "exp": "Brauzer va muharrir yetarli."
+    },
+    {
+      "id": "mcq-1-011",
+      "q": "Frontend da JS roli?",
+      "opts": [
+        "Faqat DB",
+        "UI va interaktivlik",
+        "Faqat server",
+        "OS"
+      ],
+      "correct": 1,
+      "exp": "Frontend — brauzerdagi mantiq."
+    },
+    {
+      "id": "mcq-1-012",
+      "q": "Brendan Eich kim?",
+      "opts": [
+        "CSS muallifi",
+        "JavaScript muallifi",
+        "Linux muallifi",
+        "HTML muallifi"
+      ],
+      "correct": 1,
+      "exp": "JS ni Brendan Eich yaratgan."
+    },
+    {
+      "id": "mcq-1-013",
+      "q": "JavaScript qaysi yilda yaratilgan?",
+      "opts": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correct": 1,
+      "exp": "JS 1995-yilda Brendan Eich tomonidan yaratilgan."
+    },
+    {
+      "id": "mcq-1-014",
+      "q": "JavaScript dastlab qanday nomlangan?",
+      "opts": [
+        "Mocha",
+        "Java",
+        "LiveScript keyin JavaScript",
+        "Python"
+      ],
+      "correct": 2,
+      "exp": "Avval Mocha, keyin LiveScript, so'ng JavaScript."
+    },
+    {
+      "id": "mcq-1-015",
+      "q": "Client-side JavaScript nima degani?",
+      "opts": [
+        "Serverda ishlaydi",
+        "Foydalanuvchi brauzerida ishlaydi",
+        "Faqat mobil",
+        "Faqat desktop"
+      ],
+      "correct": 1,
+      "exp": "Client-side — brauzerda bajariladi."
+    },
+    {
+      "id": "mcq-1-016",
+      "q": "JavaScript interaktivlikni qanday ta'minlaydi?",
+      "opts": [
+        "Faqat rang",
+        "Tugma, forma, dinamik kontent",
+        "Faqat rasm",
+        "Hech qanday"
+      ],
+      "correct": 1,
+      "exp": "JS sahifani dinamik qiladi."
+    },
+    {
+      "id": "mcq-1-017",
+      "q": "Skript tili nima degani?",
+      "opts": [
+        "Faqat kompilyatsiya",
+        "Interpretatsiya qilinadi",
+        "Faqat assembly",
+        "Faqat binary"
+      ],
+      "correct": 1,
+      "exp": "Skript tillari odatda interpretatsiya qilinadi."
+    },
+    {
+      "id": "mcq-1-018",
+      "q": "JS o'rganish uchun nima yetarli?",
+      "opts": [
+        "Qimmat kurs",
+        "Brauzer + matn muharriri",
+        "Maxsus server",
+        "Faqat telefon"
+      ],
+      "correct": 1,
+      "exp": "Brauzer va muharrir yetarli."
+    },
+    {
+      "id": "mcq-1-019",
+      "q": "Frontend da JS roli?",
+      "opts": [
+        "Faqat DB",
+        "UI va interaktivlik",
+        "Faqat server",
+        "OS"
+      ],
+      "correct": 1,
+      "exp": "Frontend — brauzerdagi mantiq."
+    },
+    {
+      "id": "mcq-1-020",
+      "q": "Brendan Eich kim?",
+      "opts": [
+        "CSS muallifi",
+        "JavaScript muallifi",
+        "Linux muallifi",
+        "HTML muallifi"
+      ],
+      "correct": 1,
+      "exp": "JS ni Brendan Eich yaratgan."
+    }
+  ]
+}

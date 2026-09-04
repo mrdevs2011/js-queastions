@@ -1,0 +1,295 @@
+{
+  "lesson": 20,
+  "type": "mcq",
+  "title": "for",
+  "questions": [
+    {
+      "id": "mcq-20-001",
+      "q": "for(let i=0;i<3;i++){console.log(i);} nechta marta va qaysi qiymatlar chiqadi?",
+      "opts": [
+        "0,1,2",
+        "1,2,3",
+        "0,1,2,3",
+        "3 marta, faqat 3"
+      ],
+      "correct": 0,
+      "exp": "i 0 dan boshlanib, 3 dan kichik bo'lguncha davom etadi: 0,1,2."
+    },
+    {
+      "id": "mcq-20-002",
+      "q": "for siklining 3 qismi nima?",
+      "opts": [
+        "boshlash, shart, qadam",
+        "if, else, end",
+        "start, middle, stop",
+        "init, body, return"
+      ],
+      "correct": 0,
+      "exp": "for (boshlash; shart; qadam) { ... }"
+    },
+    {
+      "id": "mcq-20-003",
+      "q": "for (let i=1; i<=5; i++) necha marta ishlaydi?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "i=1,2,3,4,5 — jami 5 marta."
+    },
+    {
+      "id": "mcq-20-004",
+      "q": "for ichida i o'zgaruvchisi qayerda ko'rinadi (let bilan)?",
+      "opts": [
+        "Butun funksiyada",
+        "Faqat for blokida",
+        "Globalda",
+        "Hech qayerda"
+      ],
+      "correct": 1,
+      "exp": "let bilan e'lon qilingan i faqat for bloki ichida ko'rinadi."
+    },
+    {
+      "id": "mcq-20-005",
+      "q": "for (;;)?",
+      "opts": [
+        "Yo'q",
+        "Cheksiz, break kerak",
+        "Xato",
+        "1 marta"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh shart true."
+    },
+    {
+      "id": "mcq-20-006",
+      "q": "for...of vs for...in?",
+      "opts": [
+        "Bir xil",
+        "of qiymat, in kalit",
+        "of faqat object",
+        "in faqat array"
+      ],
+      "correct": 1,
+      "exp": "Farq shu."
+    },
+    {
+      "id": "mcq-20-007",
+      "q": "forEach da break?",
+      "opts": [
+        "Ishlaydi",
+        "To'g'ridan yo'q",
+        "Xato majburiy",
+        "continue bor"
+      ],
+      "correct": 1,
+      "exp": "Oddiy for afzal."
+    },
+    {
+      "id": "mcq-20-008",
+      "q": "for (const x of null)?",
+      "opts": [
+        "Hech narsa",
+        "TypeError",
+        "undefined",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "null iterable emas."
+    },
+    {
+      "id": "mcq-20-009",
+      "q": "break label?",
+      "opts": [
+        "CSS",
+        "Tashqi siklni to'xtatish",
+        "HTML",
+        "Funksiya"
+      ],
+      "correct": 1,
+      "exp": "outer: break outer."
+    },
+    {
+      "id": "mcq-20-010",
+      "q": "continue nima?",
+      "opts": [
+        "To'xtatadi",
+        "Keyingi iteratsiya",
+        "Funksiyadan chiqadi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Joriyini tashlaydi."
+    },
+    {
+      "id": "mcq-20-011",
+      "q": "for uch qismi?",
+      "opts": [
+        "if else end",
+        "init condition update",
+        "start middle stop",
+        "faqat condition"
+      ],
+      "correct": 1,
+      "exp": "Standard for."
+    },
+    {
+      "id": "mcq-20-012",
+      "q": "let i siklda scope?",
+      "opts": [
+        "Global",
+        "Har iteratsiya / blok",
+        "Function",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Block scope."
+    },
+    {
+      "id": "mcq-20-013",
+      "q": "Massiv teskari?",
+      "opts": [
+        "Faqat reverse",
+        "for i=length-1; i>=0",
+        "Mumkin emas",
+        "Faqat while"
+      ],
+      "correct": 1,
+      "exp": "Indeks bilan."
+    },
+    {
+      "id": "mcq-20-014",
+      "q": "for await...of?",
+      "opts": [
+        "Oddiy for",
+        "Async iterable",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Asinxron iteratsiya."
+    },
+    {
+      "id": "mcq-20-015",
+      "q": "for (;;)?",
+      "opts": [
+        "Yo'q",
+        "Cheksiz, break kerak",
+        "Xato",
+        "1 marta"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh shart true."
+    },
+    {
+      "id": "mcq-20-016",
+      "q": "for...of vs for...in?",
+      "opts": [
+        "Bir xil",
+        "of qiymat, in kalit",
+        "of faqat object",
+        "in faqat array"
+      ],
+      "correct": 1,
+      "exp": "Farq shu."
+    },
+    {
+      "id": "mcq-20-017",
+      "q": "forEach da break?",
+      "opts": [
+        "Ishlaydi",
+        "To'g'ridan yo'q",
+        "Xato majburiy",
+        "continue bor"
+      ],
+      "correct": 1,
+      "exp": "Oddiy for afzal."
+    },
+    {
+      "id": "mcq-20-018",
+      "q": "for (const x of null)?",
+      "opts": [
+        "Hech narsa",
+        "TypeError",
+        "undefined",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "null iterable emas."
+    },
+    {
+      "id": "mcq-20-019",
+      "q": "break label?",
+      "opts": [
+        "CSS",
+        "Tashqi siklni to'xtatish",
+        "HTML",
+        "Funksiya"
+      ],
+      "correct": 1,
+      "exp": "outer: break outer."
+    },
+    {
+      "id": "mcq-20-020",
+      "q": "continue nima?",
+      "opts": [
+        "To'xtatadi",
+        "Keyingi iteratsiya",
+        "Funksiyadan chiqadi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Joriyini tashlaydi."
+    },
+    {
+      "id": "mcq-20-021",
+      "q": "for uch qismi?",
+      "opts": [
+        "if else end",
+        "init condition update",
+        "start middle stop",
+        "faqat condition"
+      ],
+      "correct": 1,
+      "exp": "Standard for."
+    },
+    {
+      "id": "mcq-20-022",
+      "q": "let i siklda scope?",
+      "opts": [
+        "Global",
+        "Har iteratsiya / blok",
+        "Function",
+        "Yo'q"
+      ],
+      "correct": 1,
+      "exp": "Block scope."
+    },
+    {
+      "id": "mcq-20-023",
+      "q": "Massiv teskari?",
+      "opts": [
+        "Faqat reverse",
+        "for i=length-1; i>=0",
+        "Mumkin emas",
+        "Faqat while"
+      ],
+      "correct": 1,
+      "exp": "Indeks bilan."
+    },
+    {
+      "id": "mcq-20-024",
+      "q": "for await...of?",
+      "opts": [
+        "Oddiy for",
+        "Async iterable",
+        "CSS",
+        "HTTP"
+      ],
+      "correct": 1,
+      "exp": "Asinxron iteratsiya."
+    }
+  ]
+}

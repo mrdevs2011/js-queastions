@@ -1,0 +1,67 @@
+{
+  "lesson": 10,
+  "type": "code",
+  "title": "Turni (type) o'zgartirish",
+  "questions": [
+    {
+      "id": "code-10-001",
+      "task": "Turni (type) o'zgartirish: Number(\"42\"), String(42), Boolean(0) chiqaring.",
+      "sample": "console.log(Number(\"42\"), String(42), Boolean(0));",
+      "exp": "Type conversion."
+    },
+    {
+      "id": "code-10-002",
+      "task": "Turni (type) o'zgartirish: parseInt(\"42px\") va +\"7\" chiqaring.",
+      "sample": "console.log(parseInt(\"42px\"));\nconsole.log(+\"7\");",
+      "exp": "parseInt va unary +."
+    },
+    {
+      "id": "code-10-003",
+      "task": "Turni (type) o'zgartirish: typeof null va typeof [] chiqaring.",
+      "sample": "console.log(typeof null);\nconsole.log(typeof []);",
+      "exp": "typeof quirks."
+    },
+    {
+      "id": "code-10-004",
+      "task": "Turni (type) o'zgartirish: == va === farqini \"5\" va 5 bilan ko'rsating.",
+      "sample": "console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);",
+      "exp": "Loose vs strict."
+    },
+    {
+      "id": "code-10-005",
+      "task": "Turni (type) o'zgartirish: getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-10-006",
+      "task": "Turni (type) o'zgartirish: querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-10-007",
+      "task": "Turni (type) o'zgartirish: createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-10-008",
+      "task": "Turni (type) o'zgartirish: addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-10-009",
+      "task": "Turni (type) o'zgartirish: classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-10-010",
+      "task": "Turni (type) o'zgartirish: preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

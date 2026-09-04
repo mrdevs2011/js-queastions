@@ -1,0 +1,61 @@
+{
+  "lesson": 27,
+  "type": "code",
+  "title": "Hodisalar (events)",
+  "questions": [
+    {
+      "id": "code-27-001",
+      "task": "id='btn' bo'lgan tugmaga bosilganda konsolga \"Bosildi!\" deb chiqaradigan hodisa (event) yozing.",
+      "sample": "document.getElementById('btn').addEventListener('click', function() {\n  console.log(\"Bosildi!\");\n});",
+      "exp": "addEventListener('click', fn) tugma bosilganda funksiyani ishga tushiradi."
+    },
+    {
+      "id": "code-27-002",
+      "task": "Delegation: button.btn click.",
+      "sample": "document.addEventListener(\"click\", e => {\n  if (e.target.matches(\"button.btn\")) console.log(\"ok\");\n});",
+      "exp": "Delegation."
+    },
+    {
+      "id": "code-27-003",
+      "task": "Delegation: button.btn click.",
+      "sample": "document.addEventListener(\"click\", e => {\n  if (e.target.matches(\"button.btn\")) console.log(\"ok\");\n});",
+      "exp": "Delegation."
+    },
+    {
+      "id": "code-27-004",
+      "task": "Hodisalar (events): getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-27-005",
+      "task": "Hodisalar (events): querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-27-006",
+      "task": "Hodisalar (events): createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-27-007",
+      "task": "Hodisalar (events): addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-27-008",
+      "task": "Hodisalar (events): classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-27-009",
+      "task": "Hodisalar (events): preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 17,
+  "type": "mcq",
+  "title": "while va do...while",
+  "questions": [
+    {
+      "id": "mcq-17-001",
+      "q": "while shartni qachon tekshiradi?",
+      "opts": [
+        "Body dan keyin",
+        "Body dan oldin",
+        "Hech qachon",
+        "Faqat oxirida"
+      ],
+      "correct": 1,
+      "exp": "while — avval shart, keyin body."
+    },
+    {
+      "id": "mcq-17-002",
+      "q": "do...while kamida necha marta bajariladi?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "shartga bog'liq"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida bir marta ishlaydi."
+    },
+    {
+      "id": "mcq-17-003",
+      "q": "Cheksiz while misoli?",
+      "opts": [
+        "while (false)",
+        "while (true)",
+        "while (0)",
+        "while (null)"
+      ],
+      "correct": 1,
+      "exp": "while(true) — break bo'lmasa cheksiz."
+    },
+    {
+      "id": "mcq-17-004",
+      "q": "Sikldan chiqish uchun?",
+      "opts": [
+        "return har doim",
+        "break",
+        "continue",
+        "exit"
+      ],
+      "correct": 1,
+      "exp": "break — siklni to'xtatadi."
+    },
+    {
+      "id": "mcq-17-005",
+      "q": "while va do...while mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-006",
+      "q": "while va do...while mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-007",
+      "q": "while va do...while mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-008",
+      "q": "while va do...while mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-009",
+      "q": "while va do...while mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-010",
+      "q": "while va do...while mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-011",
+      "q": "while va do...while mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-012",
+      "q": "while va do...while mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-17-013",
+      "q": "while shartni qachon tekshiradi (qayta / chuqurroq)?",
+      "opts": [
+        "Body dan keyin",
+        "Body dan oldin",
+        "Hech qachon",
+        "Faqat oxirida"
+      ],
+      "correct": 1,
+      "exp": "while — avval shart, keyin body. Qayta o'qing."
+    },
+    {
+      "id": "mcq-17-014",
+      "q": "do...while kamida necha marta bajariladi (qayta / chuqurroq)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "shartga bog'liq"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida bir marta ishlaydi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-17-015",
+      "q": "Cheksiz while misoli (qayta / chuqurroq)?",
+      "opts": [
+        "while (false)",
+        "while (true)",
+        "while (0)",
+        "while (null)"
+      ],
+      "correct": 1,
+      "exp": "while(true) — break bo'lmasa cheksiz. Qayta o'qing."
+    },
+    {
+      "id": "mcq-17-016",
+      "q": "Sikldan chiqish uchun (qayta / chuqurroq)?",
+      "opts": [
+        "return har doim",
+        "break",
+        "continue",
+        "exit"
+      ],
+      "correct": 1,
+      "exp": "break — siklni to'xtatadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-17-017",
+      "q": "while va do...while mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "while va do...while bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "lesson": 12,
+  "type": "mcq",
+  "title": "Function expression va arrow function",
+  "questions": [
+    {
+      "id": "mcq-12-001",
+      "q": "const kvadrat = (x) => x * x; console.log(kvadrat(4)); natija?",
+      "opts": [
+        "8",
+        "16",
+        "4",
+        "Xato beradi"
+      ],
+      "correct": 1,
+      "exp": "4*4=16."
+    },
+    {
+      "id": "mcq-12-002",
+      "q": "Arrow function qaysi versiyada paydo bo'lgan?",
+      "opts": [
+        "ES5",
+        "ES6",
+        "ES3",
+        "ES2020"
+      ],
+      "correct": 1,
+      "exp": "Arrow function (=>) ES6 da kiritilgan."
+    },
+    {
+      "id": "mcq-12-003",
+      "q": "const f = () => 5; console.log(f()); natija?",
+      "opts": [
+        "undefined",
+        "5",
+        "f",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Qavs va return yozilmasa, o'ng tomondagi ifoda avtomatik qaytariladi."
+    },
+    {
+      "id": "mcq-12-004",
+      "q": "Arrow function da this qanday ishlaydi?",
+      "opts": [
+        "O'z this ini yaratadi",
+        "Tashqi scopedagi this ni oladi",
+        "Har doim window",
+        "this yo'q"
+      ],
+      "correct": 1,
+      "exp": "Arrow function o'z this ini yaratmaydi, tashqi this ni meros qiladi."
+    },
+    {
+      "id": "mcq-12-005",
+      "q": "Arrow hoist?",
+      "opts": [
+        "Ha",
+        "Yo'q (TDZ)",
+        "Faqat nomli",
+        "Har doim"
+      ],
+      "correct": 1,
+      "exp": "const TDZ."
+    },
+    {
+      "id": "mcq-12-006",
+      "q": "Ko'p qatorli arrow return?",
+      "opts": [
+        "Yo'q",
+        "Ha, {} ichida return",
+        "Faqat bitta",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Blokda return yoziladi."
+    },
+    {
+      "id": "mcq-12-007",
+      "q": "Bitta param qavs?",
+      "opts": [
+        "Majburiy",
+        "Ixtiyoriy",
+        "Mumkin emas",
+        "Faqat ikki"
+      ],
+      "correct": 1,
+      "exp": "x => x*2."
+    },
+    {
+      "id": "mcq-12-008",
+      "q": "Arrow this?",
+      "opts": [
+        "O'z this",
+        "Tashqi this",
+        "Har doim window",
+        "this yo'q"
+      ],
+      "correct": 1,
+      "exp": "Lexical this."
+    },
+    {
+      "id": "mcq-12-009",
+      "q": "new bilan arrow?",
+      "opts": [
+        "Ishlaydi",
+        "TypeError",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Constructor emas."
+    },
+    {
+      "id": "mcq-12-010",
+      "q": "Implicit return?",
+      "opts": [
+        "() => {1}",
+        "() => 1",
+        "function(){1}",
+        "() => return 1"
+      ],
+      "correct": 1,
+      "exp": "Ifoda avtomatik."
+    },
+    {
+      "id": "mcq-12-011",
+      "q": "Arrow arguments?",
+      "opts": [
+        "Bor",
+        "Yo'q — rest",
+        "Strict",
+        "Node"
+      ],
+      "correct": 1,
+      "exp": "Rest ishlating."
+    },
+    {
+      "id": "mcq-12-012",
+      "q": "setTimeout arrow this?",
+      "opts": [
+        "window majburiy",
+        "Lexical saqlanadi",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Callback uchun qulay."
+    },
+    {
+      "id": "mcq-12-013",
+      "q": "obj method arrow this?",
+      "opts": [
+        "obj",
+        "Tashqi this",
+        "undefined majburiy",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Arrow method uchun mos emas."
+    },
+    {
+      "id": "mcq-12-014",
+      "q": "Oddiy function qachon?",
+      "opts": [
+        "Hech qachon",
+        "this/arguments/constructor kerak",
+        "Faqat sikl",
+        "ES5"
+      ],
+      "correct": 1,
+      "exp": "Muayyan this kerak."
+    },
+    {
+      "id": "mcq-12-015",
+      "q": "Arrow hoist?",
+      "opts": [
+        "Ha",
+        "Yo'q (TDZ)",
+        "Faqat nomli",
+        "Har doim"
+      ],
+      "correct": 1,
+      "exp": "const TDZ."
+    },
+    {
+      "id": "mcq-12-016",
+      "q": "Ko'p qatorli arrow return?",
+      "opts": [
+        "Yo'q",
+        "Ha, {} ichida return",
+        "Faqat bitta",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Blokda return yoziladi."
+    },
+    {
+      "id": "mcq-12-017",
+      "q": "Bitta param qavs?",
+      "opts": [
+        "Majburiy",
+        "Ixtiyoriy",
+        "Mumkin emas",
+        "Faqat ikki"
+      ],
+      "correct": 1,
+      "exp": "x => x*2."
+    },
+    {
+      "id": "mcq-12-018",
+      "q": "Arrow this?",
+      "opts": [
+        "O'z this",
+        "Tashqi this",
+        "Har doim window",
+        "this yo'q"
+      ],
+      "correct": 1,
+      "exp": "Lexical this."
+    },
+    {
+      "id": "mcq-12-019",
+      "q": "new bilan arrow?",
+      "opts": [
+        "Ishlaydi",
+        "TypeError",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Constructor emas."
+    },
+    {
+      "id": "mcq-12-020",
+      "q": "Implicit return?",
+      "opts": [
+        "() => {1}",
+        "() => 1",
+        "function(){1}",
+        "() => return 1"
+      ],
+      "correct": 1,
+      "exp": "Ifoda avtomatik."
+    },
+    {
+      "id": "mcq-12-021",
+      "q": "Arrow arguments?",
+      "opts": [
+        "Bor",
+        "Yo'q — rest",
+        "Strict",
+        "Node"
+      ],
+      "correct": 1,
+      "exp": "Rest ishlating."
+    },
+    {
+      "id": "mcq-12-022",
+      "q": "setTimeout arrow this?",
+      "opts": [
+        "window majburiy",
+        "Lexical saqlanadi",
+        "undefined",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Callback uchun qulay."
+    },
+    {
+      "id": "mcq-12-023",
+      "q": "obj method arrow this?",
+      "opts": [
+        "obj",
+        "Tashqi this",
+        "undefined majburiy",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "Arrow method uchun mos emas."
+    },
+    {
+      "id": "mcq-12-024",
+      "q": "Oddiy function qachon?",
+      "opts": [
+        "Hech qachon",
+        "this/arguments/constructor kerak",
+        "Faqat sikl",
+        "ES5"
+      ],
+      "correct": 1,
+      "exp": "Muayyan this kerak."
+    }
+  ]
+}

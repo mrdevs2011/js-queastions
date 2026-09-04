@@ -1,0 +1,211 @@
+{
+  "lesson": 6,
+  "type": "mcq",
+  "title": "Qiymatlar va o'zgaruvchilar",
+  "questions": [
+    {
+      "id": "mcq-6-001",
+      "q": "O'zgaruvchi nima?",
+      "opts": [
+        "O'zgarmas matn",
+        "Qiymat saqlash uchun nomlangan joy",
+        "Funksiya",
+        "HTML tegi"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchi — ma'lumotni saqlash va unga murojaat qilish uchun."
+    },
+    {
+      "id": "mcq-6-002",
+      "q": "Qiymat berish operatori qaysi?",
+      "opts": [
+        "==",
+        "=",
+        "===",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "Bitta = — tayinlash (assignment) operatori."
+    },
+    {
+      "id": "mcq-6-003",
+      "q": "let x; console.log(x); natija?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "xato"
+      ],
+      "correct": 2,
+      "exp": "Qiymat berilmagan o'zgaruvchi undefined."
+    },
+    {
+      "id": "mcq-6-004",
+      "q": "O'zgaruvchi nomi raqam bilan boshlanishi mumkinmi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat const da",
+        "Faqat var da"
+      ],
+      "correct": 1,
+      "exp": "Nom harf, _ yoki $ bilan boshlanishi kerak."
+    },
+    {
+      "id": "mcq-6-005",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-006",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-007",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-008",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-009",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-010",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-011",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-012",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-6-013",
+      "q": "O'zgaruvchi nima (qayta / chuqurroq)?",
+      "opts": [
+        "O'zgarmas matn",
+        "Qiymat saqlash uchun nomlangan joy",
+        "Funksiya",
+        "HTML tegi"
+      ],
+      "correct": 1,
+      "exp": "O'zgaruvchi — ma'lumotni saqlash va unga murojaat qilish uchun. Qayta o'qing."
+    },
+    {
+      "id": "mcq-6-014",
+      "q": "Qiymat berish operatori qaysi (qayta / chuqurroq)?",
+      "opts": [
+        "==",
+        "=",
+        "===",
+        "!="
+      ],
+      "correct": 1,
+      "exp": "Bitta = — tayinlash (assignment) operatori. Qayta o'qing."
+    },
+    {
+      "id": "mcq-6-015",
+      "q": "let x; console.log(x); natija (qayta / chuqurroq)?",
+      "opts": [
+        "null",
+        "0",
+        "undefined",
+        "xato"
+      ],
+      "correct": 2,
+      "exp": "Qiymat berilmagan o'zgaruvchi undefined. Qayta o'qing."
+    },
+    {
+      "id": "mcq-6-016",
+      "q": "O'zgaruvchi nomi raqam bilan boshlanishi mumkinmi (qayta / chuqurroq)?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat const da",
+        "Faqat var da"
+      ],
+      "correct": 1,
+      "exp": "Nom harf, _ yoki $ bilan boshlanishi kerak. Qayta o'qing."
+    },
+    {
+      "id": "mcq-6-017",
+      "q": "Qiymatlar va o'zgaruvchilar mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Qiymatlar va o'zgaruvchilar bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

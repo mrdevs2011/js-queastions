@@ -1,0 +1,211 @@
+{
+  "lesson": 5,
+  "type": "mcq",
+  "title": "1-bo'lim bo'yicha amaliyot",
+  "questions": [
+    {
+      "id": "mcq-5-001",
+      "q": "Amaliyot darsida asosiy maqsad nima?",
+      "opts": [
+        "Faqat nazariya takrorlash",
+        "O'rganilganlarni kod yozib mustahkamlash",
+        "Yangi mavzu ochish",
+        "Kursni tugatish"
+      ],
+      "correct": 1,
+      "exp": "Amaliyot — bilimni qo'llash va mustahkamlash uchun."
+    },
+    {
+      "id": "mcq-5-002",
+      "q": "Xato chiqsa nima qilish kerak?",
+      "opts": [
+        "Darhol to'xtash",
+        "Xabarini o'qib, tuzatishga harakat qilish",
+        "Kompyuterni o'chirish",
+        "Kodni o'chirish"
+      ],
+      "correct": 1,
+      "exp": "Xato xabari — eng yaxshi o'qituvchi."
+    },
+    {
+      "id": "mcq-5-003",
+      "q": "Kichik dastur yozish nima uchun foydali?",
+      "opts": [
+        "Vaqt o'tkazish",
+        "Tushunishni chuqurlashtiradi",
+        "Kerak emas",
+        "Faqat imtihon uchun"
+      ],
+      "correct": 1,
+      "exp": "Kichik loyihalar orqali bilim mustahkamlanadi."
+    },
+    {
+      "id": "mcq-5-004",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-005",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-006",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-007",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-008",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-009",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-010",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-011",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-012",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 9: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-5-013",
+      "q": "Amaliyot darsida asosiy maqsad nima (qayta / chuqurroq)?",
+      "opts": [
+        "Faqat nazariya takrorlash",
+        "O'rganilganlarni kod yozib mustahkamlash",
+        "Yangi mavzu ochish",
+        "Kursni tugatish"
+      ],
+      "correct": 1,
+      "exp": "Amaliyot — bilimni qo'llash va mustahkamlash uchun. Qayta o'qing."
+    },
+    {
+      "id": "mcq-5-014",
+      "q": "Xato chiqsa nima qilish kerak (qayta / chuqurroq)?",
+      "opts": [
+        "Darhol to'xtash",
+        "Xabarini o'qib, tuzatishga harakat qilish",
+        "Kompyuterni o'chirish",
+        "Kodni o'chirish"
+      ],
+      "correct": 1,
+      "exp": "Xato xabari — eng yaxshi o'qituvchi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-5-015",
+      "q": "Kichik dastur yozish nima uchun foydali (qayta / chuqurroq)?",
+      "opts": [
+        "Vaqt o'tkazish",
+        "Tushunishni chuqurlashtiradi",
+        "Kerak emas",
+        "Faqat imtihon uchun"
+      ],
+      "correct": 1,
+      "exp": "Kichik loyihalar orqali bilim mustahkamlanadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-5-016",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    },
+    {
+      "id": "mcq-5-017",
+      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

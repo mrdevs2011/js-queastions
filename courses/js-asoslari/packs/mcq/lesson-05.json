@@ -1,0 +1,283 @@
+{
+  "lesson": 5,
+  "type": "mcq",
+  "title": "Ma'lumot turlari",
+  "questions": [
+    {
+      "id": "mcq-5-001",
+      "q": "typeof 10 nechiga teng?",
+      "opts": [
+        "\"number\"",
+        "\"int\"",
+        "\"string\"",
+        "\"NaN\""
+      ],
+      "correct": 0,
+      "exp": "JSda barcha sonlar (butun va kasr) 'number' turiga kiradi."
+    },
+    {
+      "id": "mcq-5-002",
+      "q": "typeof undefined va typeof null mos ravishda qanday?",
+      "opts": [
+        "\"undefined\" va \"null\"",
+        "\"undefined\" va \"object\"",
+        "\"object\" va \"object\"",
+        "\"undefined\" va \"undefined\""
+      ],
+      "correct": 1,
+      "exp": "typeof null tarixiy xatolik tufayli 'object' qaytaradi."
+    },
+    {
+      "id": "mcq-5-003",
+      "q": "typeof \"Salom\" natijasi?",
+      "opts": [
+        "\"text\"",
+        "\"string\"",
+        "\"str\"",
+        "\"char\""
+      ],
+      "correct": 1,
+      "exp": "Satırlar 'string' turiga tegishli."
+    },
+    {
+      "id": "mcq-5-004",
+      "q": "typeof true natijasi?",
+      "opts": [
+        "\"true\"",
+        "\"boolean\"",
+        "\"bool\"",
+        "\"number\""
+      ],
+      "correct": 1,
+      "exp": "true/false — boolean turi."
+    },
+    {
+      "id": "mcq-5-005",
+      "q": "JSda nechta asosiy primitive tur bor?",
+      "opts": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correct": 2,
+      "exp": "string, number, boolean, null, undefined, symbol, bigint — 7 ta primitive."
+    },
+    {
+      "id": "mcq-5-006",
+      "q": "typeof NaN?",
+      "opts": [
+        "NaN",
+        "number",
+        "undefined",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "NaN — number turi."
+    },
+    {
+      "id": "mcq-5-007",
+      "q": "Symbol nima uchun?",
+      "opts": [
+        "Matn",
+        "Noyob identifikator",
+        "Son",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "Unique qiymatlar."
+    },
+    {
+      "id": "mcq-5-008",
+      "q": "BigInt nima?",
+      "opts": [
+        "Kichik son",
+        "Juda katta butun son",
+        "String",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "Katta butun sonlar."
+    },
+    {
+      "id": "mcq-5-009",
+      "q": "typeof (()=>{})?",
+      "opts": [
+        "object",
+        "function",
+        "arrow",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Funksiya — function."
+    },
+    {
+      "id": "mcq-5-010",
+      "q": "Object va primitive farqi?",
+      "opts": [
+        "Yo'q",
+        "Primitive qiymat, object reference",
+        "Object faqat array",
+        "Primitive faqat string"
+      ],
+      "correct": 1,
+      "exp": "Reference vs value."
+    },
+    {
+      "id": "mcq-5-011",
+      "q": "null qachon?",
+      "opts": [
+        "Har doim",
+        "Qasddan bo'sh qiymat",
+        "Faqat xato",
+        "Faqat string"
+      ],
+      "correct": 1,
+      "exp": "Ataylab bo'sh."
+    },
+    {
+      "id": "mcq-5-012",
+      "q": "undefined qachon?",
+      "opts": [
+        "Faqat xato",
+        "Qiymat berilmaganda",
+        "Faqat null keyin",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "Qiymat yo'q."
+    },
+    {
+      "id": "mcq-5-013",
+      "q": "Array.isArray({})?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Oddiy object emas."
+    },
+    {
+      "id": "mcq-5-014",
+      "q": "typeof document (brauzer)?",
+      "opts": [
+        "html",
+        "object",
+        "document",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "DOM obyektlari — object."
+    },
+    {
+      "id": "mcq-5-015",
+      "q": "typeof NaN?",
+      "opts": [
+        "NaN",
+        "number",
+        "undefined",
+        "object"
+      ],
+      "correct": 1,
+      "exp": "NaN — number turi."
+    },
+    {
+      "id": "mcq-5-016",
+      "q": "Symbol nima uchun?",
+      "opts": [
+        "Matn",
+        "Noyob identifikator",
+        "Son",
+        "HTML"
+      ],
+      "correct": 1,
+      "exp": "Unique qiymatlar."
+    },
+    {
+      "id": "mcq-5-017",
+      "q": "BigInt nima?",
+      "opts": [
+        "Kichik son",
+        "Juda katta butun son",
+        "String",
+        "Boolean"
+      ],
+      "correct": 1,
+      "exp": "Katta butun sonlar."
+    },
+    {
+      "id": "mcq-5-018",
+      "q": "typeof (()=>{})?",
+      "opts": [
+        "object",
+        "function",
+        "arrow",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Funksiya — function."
+    },
+    {
+      "id": "mcq-5-019",
+      "q": "Object va primitive farqi?",
+      "opts": [
+        "Yo'q",
+        "Primitive qiymat, object reference",
+        "Object faqat array",
+        "Primitive faqat string"
+      ],
+      "correct": 1,
+      "exp": "Reference vs value."
+    },
+    {
+      "id": "mcq-5-020",
+      "q": "null qachon?",
+      "opts": [
+        "Har doim",
+        "Qasddan bo'sh qiymat",
+        "Faqat xato",
+        "Faqat string"
+      ],
+      "correct": 1,
+      "exp": "Ataylab bo'sh."
+    },
+    {
+      "id": "mcq-5-021",
+      "q": "undefined qachon?",
+      "opts": [
+        "Faqat xato",
+        "Qiymat berilmaganda",
+        "Faqat null keyin",
+        "Hech qachon"
+      ],
+      "correct": 1,
+      "exp": "Qiymat yo'q."
+    },
+    {
+      "id": "mcq-5-022",
+      "q": "Array.isArray({})?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Oddiy object emas."
+    },
+    {
+      "id": "mcq-5-023",
+      "q": "typeof document (brauzer)?",
+      "opts": [
+        "html",
+        "object",
+        "document",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "DOM obyektlari — object."
+    }
+  ]
+}

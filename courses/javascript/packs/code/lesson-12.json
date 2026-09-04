@@ -1,0 +1,43 @@
+{
+  "lesson": 12,
+  "type": "code",
+  "title": "Mantiqiy (logic) boolean",
+  "questions": [
+    {
+      "id": "code-12-001",
+      "task": "yosh=16. 'Kirish mumkin' yoki 'Mumkin emas' ni mantiqiy ifoda va && yoki || bilan aniqlang (18+ shart).",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Kirish mumkin\" : \"Mumkin emas\");",
+      "exp": "Taqqoslash va shartli chiqarish."
+    },
+    {
+      "id": "code-12-002",
+      "task": "Mantiqiy (logic) boolean bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Kirish mumkin\" : \"Mumkin emas\");",
+      "exp": "Taqqoslash va shartli chiqarish."
+    },
+    {
+      "id": "code-12-003",
+      "task": "Mantiqiy (logic) boolean: yosh>=18 && yosh<65 ni tekshirib chiqaring.",
+      "sample": "let yosh = 25;\nconsole.log(yosh >= 18 && yosh < 65);",
+      "exp": "&&."
+    },
+    {
+      "id": "code-12-004",
+      "task": "Mantiqiy (logic) boolean: null ?? \"default\" va 0 ?? 5 ni chiqaring.",
+      "sample": "console.log(null ?? \"default\");\nconsole.log(0 ?? 5);",
+      "exp": "Nullish coalescing."
+    },
+    {
+      "id": "code-12-005",
+      "task": "Mantiqiy (logic) boolean: !!\"\" va !![] ni chiqaring.",
+      "sample": "console.log(!!\"\");\nconsole.log(!![]);",
+      "exp": "Boolean coercion."
+    },
+    {
+      "id": "code-12-006",
+      "task": "Mantiqiy (logic) boolean: true && 0 || \"ok\" natijasini chiqaring.",
+      "sample": "console.log(true && 0 || \"ok\");",
+      "exp": "Short-circuit."
+    }
+  ]
+}

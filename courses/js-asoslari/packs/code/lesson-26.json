@@ -1,0 +1,61 @@
+{
+  "lesson": 26,
+  "type": "code",
+  "title": "Elementlarni qo'shish va o'chirish",
+  "questions": [
+    {
+      "id": "code-26-001",
+      "task": "Yangi <p> elementi yarating, ichiga matn qo'shing va uni document.body ichiga qo'shing.",
+      "sample": "let p = document.createElement('p');\np.textContent = \"Salom!\";\ndocument.body.appendChild(p);",
+      "exp": "createElement bilan yaratilib, appendChild bilan sahifaga qo'shiladi."
+    },
+    {
+      "id": "code-26-002",
+      "task": "li yaratib ul#list ga qo'shing.",
+      "sample": "let li=document.createElement(\"li\");\nli.textContent=\"Band\";\ndocument.getElementById(\"list\").appendChild(li);",
+      "exp": "create+append."
+    },
+    {
+      "id": "code-26-003",
+      "task": "li yaratib ul#list ga qo'shing.",
+      "sample": "let li=document.createElement(\"li\");\nli.textContent=\"Band\";\ndocument.getElementById(\"list\").appendChild(li);",
+      "exp": "create+append."
+    },
+    {
+      "id": "code-26-004",
+      "task": "Elementlarni qo'shish va o'chirish: getElementById('title') ni o'zgaruvchiga oling.",
+      "sample": "let el = document.getElementById('title');",
+      "exp": "getElementById."
+    },
+    {
+      "id": "code-26-005",
+      "task": "Elementlarni qo'shish va o'chirish: querySelector('.btn') matnini o'zgartiring.",
+      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
+      "exp": "querySelector + textContent."
+    },
+    {
+      "id": "code-26-006",
+      "task": "Elementlarni qo'shish va o'chirish: createElement('p') + appendChild body.",
+      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
+      "exp": "create + append."
+    },
+    {
+      "id": "code-26-007",
+      "task": "Elementlarni qo'shish va o'chirish: addEventListener click log.",
+      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
+      "exp": "addEventListener."
+    },
+    {
+      "id": "code-26-008",
+      "task": "Elementlarni qo'shish va o'chirish: classList.toggle('active').",
+      "sample": "document.querySelector('.card').classList.toggle('active');",
+      "exp": "classList."
+    },
+    {
+      "id": "code-26-009",
+      "task": "Elementlarni qo'shish va o'chirish: preventDefault forma submit.",
+      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
+      "exp": "preventDefault."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "lesson": 8,
+  "type": "mcq",
+  "title": "String",
+  "questions": [
+    {
+      "id": "mcq-8-001",
+      "q": "let ism = \"Ali\"; console.log(ism.length); natija?",
+      "opts": [
+        "3",
+        "4",
+        "undefined",
+        "Xato beradi"
+      ],
+      "correct": 0,
+      "exp": "\"Ali\" 3 ta belgidan iborat."
+    },
+    {
+      "id": "mcq-8-002",
+      "q": "\"Salom\".toUpperCase() natijasi?",
+      "opts": [
+        "salom",
+        "SALOM",
+        "Salom",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "toUpperCase() barcha harflarni katta qiladi."
+    },
+    {
+      "id": "mcq-8-003",
+      "q": "\"JavaScript\".includes(\"Script\") natijasi?",
+      "opts": [
+        "true",
+        "false",
+        "undefined",
+        "1"
+      ],
+      "correct": 0,
+      "exp": "includes() satr ichida qidirilayotgan qism bor-yo'qligini tekshiradi."
+    },
+    {
+      "id": "mcq-8-004",
+      "q": "\"a\" + \"b\" + \"c\" natijasi?",
+      "opts": [
+        "abc",
+        "a b c",
+        "a+b+c",
+        "xato"
+      ],
+      "correct": 0,
+      "exp": "Satrlar + bilan birlashtiriladi."
+    },
+    {
+      "id": "mcq-8-005",
+      "q": "'hello'.charAt(1)?",
+      "opts": [
+        "h",
+        "e",
+        "l",
+        "o"
+      ],
+      "correct": 1,
+      "exp": "Ikkinchi belgi."
+    },
+    {
+      "id": "mcq-8-006",
+      "q": "'a'.repeat(3)?",
+      "opts": [
+        "a3",
+        "aaa",
+        "aa",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Takrorlash."
+    },
+    {
+      "id": "mcq-8-007",
+      "q": "'  hi  '.trim()?",
+      "opts": [
+        "  hi  ",
+        "hi",
+        "hi  ",
+        "  hi"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh joylarni olib tashlaydi."
+    },
+    {
+      "id": "mcq-8-008",
+      "q": "'js'.toUpperCase()?",
+      "opts": [
+        "js",
+        "JS",
+        "Js",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Katta harf."
+    },
+    {
+      "id": "mcq-8-009",
+      "q": "'Hello'.slice(1,3)?",
+      "opts": [
+        "Hel",
+        "el",
+        "ell",
+        "lo"
+      ],
+      "correct": 1,
+      "exp": "1 dan 3 gacha."
+    },
+    {
+      "id": "mcq-8-010",
+      "q": "'a,b,c'.split(',')?",
+      "opts": [
+        "a,b,c",
+        "[a,b,c]",
+        "abc",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Massivga bo'ladi."
+    },
+    {
+      "id": "mcq-8-011",
+      "q": "['a','b'].join('-')?",
+      "opts": [
+        "ab",
+        "a-b",
+        "a,b",
+        "[a,b]"
+      ],
+      "correct": 1,
+      "exp": "Birlashtirish."
+    },
+    {
+      "id": "mcq-8-012",
+      "q": "'hello'.replace('l','L')?",
+      "opts": [
+        "heLLo",
+        "heLlo",
+        "HELLO",
+        "hello"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos kelgan."
+    },
+    {
+      "id": "mcq-8-013",
+      "q": "Template interpolatsiya?",
+      "opts": [
+        "#{}",
+        "${}",
+        "%{}",
+        "@{}"
+      ],
+      "correct": 1,
+      "exp": "${ifoda}."
+    },
+    {
+      "id": "mcq-8-014",
+      "q": "String immutable mi?",
+      "opts": [
+        "Yo'q",
+        "Ha, yangi satr",
+        "Faqat const",
+        "Faqat let"
+      ],
+      "correct": 1,
+      "exp": "Metodlar yangi satr qaytaradi."
+    },
+    {
+      "id": "mcq-8-015",
+      "q": "'hello'.charAt(1)?",
+      "opts": [
+        "h",
+        "e",
+        "l",
+        "o"
+      ],
+      "correct": 1,
+      "exp": "Ikkinchi belgi."
+    },
+    {
+      "id": "mcq-8-016",
+      "q": "'a'.repeat(3)?",
+      "opts": [
+        "a3",
+        "aaa",
+        "aa",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Takrorlash."
+    },
+    {
+      "id": "mcq-8-017",
+      "q": "'  hi  '.trim()?",
+      "opts": [
+        "  hi  ",
+        "hi",
+        "hi  ",
+        "  hi"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh joylarni olib tashlaydi."
+    },
+    {
+      "id": "mcq-8-018",
+      "q": "'js'.toUpperCase()?",
+      "opts": [
+        "js",
+        "JS",
+        "Js",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Katta harf."
+    },
+    {
+      "id": "mcq-8-019",
+      "q": "'Hello'.slice(1,3)?",
+      "opts": [
+        "Hel",
+        "el",
+        "ell",
+        "lo"
+      ],
+      "correct": 1,
+      "exp": "1 dan 3 gacha."
+    },
+    {
+      "id": "mcq-8-020",
+      "q": "'a,b,c'.split(',')?",
+      "opts": [
+        "a,b,c",
+        "[a,b,c]",
+        "abc",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Massivga bo'ladi."
+    },
+    {
+      "id": "mcq-8-021",
+      "q": "['a','b'].join('-')?",
+      "opts": [
+        "ab",
+        "a-b",
+        "a,b",
+        "[a,b]"
+      ],
+      "correct": 1,
+      "exp": "Birlashtirish."
+    },
+    {
+      "id": "mcq-8-022",
+      "q": "'hello'.replace('l','L')?",
+      "opts": [
+        "heLLo",
+        "heLlo",
+        "HELLO",
+        "hello"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos kelgan."
+    },
+    {
+      "id": "mcq-8-023",
+      "q": "Template interpolatsiya?",
+      "opts": [
+        "#{}",
+        "${}",
+        "%{}",
+        "@{}"
+      ],
+      "correct": 1,
+      "exp": "${ifoda}."
+    },
+    {
+      "id": "mcq-8-024",
+      "q": "String immutable mi?",
+      "opts": [
+        "Yo'q",
+        "Ha, yangi satr",
+        "Faqat const",
+        "Faqat let"
+      ],
+      "correct": 1,
+      "exp": "Metodlar yangi satr qaytaradi."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lesson": 24,
+  "type": "mcq",
+  "title": "Spread va Rest operatorlari",
+  "questions": [
+    {
+      "id": "mcq-24-001",
+      "q": "Spread [...] nima qiladi?",
+      "opts": [
+        "Massivni yig'adi",
+        "Massiv/obyektni yoyadi",
+        "O'chiradi",
+        "Saralaydi"
+      ],
+      "correct": 1,
+      "exp": "[...arr] — elementlarni yoyadi."
+    },
+    {
+      "id": "mcq-24-002",
+      "q": "const a=[1,2]; const b=[...a,3]; b?",
+      "opts": [
+        "[1,2]",
+        "[1,2,3]",
+        "[[1,2],3]",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Spread bilan yangi massivga nusxa + qo'shish."
+    },
+    {
+      "id": "mcq-24-003",
+      "q": "Rest parametr qayerda turadi?",
+      "opts": [
+        "Boshida",
+        "Parametrlar ro'yxati oxirida",
+        "O'rtada",
+        "Faqat arrow da"
+      ],
+      "correct": 1,
+      "exp": "function f(a, ...rest) — rest oxirida."
+    },
+    {
+      "id": "mcq-24-004",
+      "q": "Object spread: { ...obj, x:1 } nima qiladi?",
+      "opts": [
+        "obj ni o'chiradi",
+        "obj nusxasi + x:1",
+        "Faqat x qoldiradi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Yangi obyekt: eski xususiyatlar + yangilari."
+    },
+    {
+      "id": "mcq-24-005",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-006",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-007",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-008",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-009",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-010",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-011",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-012",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang."
+    },
+    {
+      "id": "mcq-24-013",
+      "q": "Spread [...] nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "Massivni yig'adi",
+        "Massiv/obyektni yoyadi",
+        "O'chiradi",
+        "Saralaydi"
+      ],
+      "correct": 1,
+      "exp": "[...arr] — elementlarni yoyadi. Qayta o'qing."
+    },
+    {
+      "id": "mcq-24-014",
+      "q": "const a=[1,2]; const b=[...a,3]; b (qayta / chuqurroq)?",
+      "opts": [
+        "[1,2]",
+        "[1,2,3]",
+        "[[1,2],3]",
+        "xato"
+      ],
+      "correct": 1,
+      "exp": "Spread bilan yangi massivga nusxa + qo'shish. Qayta o'qing."
+    },
+    {
+      "id": "mcq-24-015",
+      "q": "Rest parametr qayerda turadi (qayta / chuqurroq)?",
+      "opts": [
+        "Boshida",
+        "Parametrlar ro'yxati oxirida",
+        "O'rtada",
+        "Faqat arrow da"
+      ],
+      "correct": 1,
+      "exp": "function f(a, ...rest) — rest oxirida. Qayta o'qing."
+    },
+    {
+      "id": "mcq-24-016",
+      "q": "Object spread: { ...obj, x:1 } nima qiladi (qayta / chuqurroq)?",
+      "opts": [
+        "obj ni o'chiradi",
+        "obj nusxasi + x:1",
+        "Faqat x qoldiradi",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Yangi obyekt: eski xususiyatlar + yangilari. Qayta o'qing."
+    },
+    {
+      "id": "mcq-24-017",
+      "q": "Spread va Rest operatorlari mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "opts": [
+        "Noto'g'ri variant A",
+        "To'g'ri yondashuv (asosiy qoida)",
+        "Noto'g'ri variant C",
+        "Noto'g'ri variant D"
+      ],
+      "correct": 1,
+      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing."
+    }
+  ]
+}

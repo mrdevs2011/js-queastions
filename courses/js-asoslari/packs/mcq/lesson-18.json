@@ -1,0 +1,295 @@
+{
+  "lesson": 18,
+  "type": "mcq",
+  "title": "if/else",
+  "questions": [
+    {
+      "id": "mcq-18-001",
+      "q": "let yosh=15; if(yosh>=18){console.log(\"Katta\");}else{console.log(\"Kichik\");} natija?",
+      "opts": [
+        "Katta",
+        "Kichik",
+        "true",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "15>=18 noto'g'ri, shuning uchun else bajariladi."
+    },
+    {
+      "id": "mcq-18-002",
+      "q": "if (0) { ... } bloki bajariladimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat qat'iy rejimda",
+        "Xato beradi"
+      ],
+      "correct": 1,
+      "exp": "0 — falsy qiymat, shuning uchun if bloki bajarilmaydi."
+    },
+    {
+      "id": "mcq-18-003",
+      "q": "if/else if/else da nechta else if bo'lishi mumkin?",
+      "opts": [
+        "Faqat 1 ta",
+        "Cheklanmagan",
+        "Maksimal 3 ta",
+        "else if bo'lmaydi"
+      ],
+      "correct": 1,
+      "exp": "Istalgancha else if yozish mumkin."
+    },
+    {
+      "id": "mcq-18-004",
+      "q": "if (x = 5) nima qiladi?",
+      "opts": [
+        "x ni 5 bilan solishtiradi",
+        "x ga 5 ni tayinlaydi (va true bo'ladi)",
+        "Xato beradi",
+        "Hech narsa"
+      ],
+      "correct": 1,
+      "exp": "Bitta = tayinlash operatori. Solishtirish uchun == yoki === kerak."
+    },
+    {
+      "id": "mcq-18-005",
+      "q": "if (x=5) muammo?",
+      "opts": [
+        "Yo'q",
+        "Tayinlash, solishtirish emas",
+        "Tez",
+        "Majburiy"
+      ],
+      "correct": 1,
+      "exp": "=== ishlating."
+    },
+    {
+      "id": "mcq-18-006",
+      "q": "Truthy: []?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh massiv truthy."
+    },
+    {
+      "id": "mcq-18-007",
+      "q": "else if birinchi true?",
+      "opts": [
+        "Hammasi",
+        "Faqat birinchi mos",
+        "Oxirgi",
+        "Hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos."
+    },
+    {
+      "id": "mcq-18-008",
+      "q": "Nesting tavsiya?",
+      "opts": [
+        "Cheksiz",
+        "Sayoz, early return",
+        "Kamida 5",
+        "Faqat 1"
+      ],
+      "correct": 1,
+      "exp": "O'qish oson."
+    },
+    {
+      "id": "mcq-18-009",
+      "q": "if (!arr.length)?",
+      "opts": [
+        "To'la",
+        "Bo'sh",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "length 0."
+    },
+    {
+      "id": "mcq-18-010",
+      "q": "Guard clause?",
+      "opts": [
+        "CSS",
+        "Erta chiqish sharti",
+        "Sikl",
+        "Class"
+      ],
+      "correct": 1,
+      "exp": "Tepada tekshiruv."
+    },
+    {
+      "id": "mcq-18-011",
+      "q": "Boolean('')?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh satr falsy."
+    },
+    {
+      "id": "mcq-18-012",
+      "q": "if (1) else?",
+      "opts": [
+        "else bajariladi",
+        "else bajarilmaydi",
+        "Xato",
+        "Random"
+      ],
+      "correct": 1,
+      "exp": "1 truthy."
+    },
+    {
+      "id": "mcq-18-013",
+      "q": "Ternary ichida ternary?",
+      "opts": [
+        "Mumkin emas",
+        "Mumkin, o'qish qiyin",
+        "Faqat ES6",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ishlaydi."
+    },
+    {
+      "id": "mcq-18-014",
+      "q": "Falsy ro'yxat?",
+      "opts": [
+        "Faqat false",
+        "false,0,'',null,undefined,NaN",
+        "Faqat 0",
+        "Faqat null"
+      ],
+      "correct": 1,
+      "exp": "6 ta asosiy falsy."
+    },
+    {
+      "id": "mcq-18-015",
+      "q": "if (x=5) muammo?",
+      "opts": [
+        "Yo'q",
+        "Tayinlash, solishtirish emas",
+        "Tez",
+        "Majburiy"
+      ],
+      "correct": 1,
+      "exp": "=== ishlating."
+    },
+    {
+      "id": "mcq-18-016",
+      "q": "Truthy: []?",
+      "opts": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh massiv truthy."
+    },
+    {
+      "id": "mcq-18-017",
+      "q": "else if birinchi true?",
+      "opts": [
+        "Hammasi",
+        "Faqat birinchi mos",
+        "Oxirgi",
+        "Hech qaysi"
+      ],
+      "correct": 1,
+      "exp": "Birinchi mos."
+    },
+    {
+      "id": "mcq-18-018",
+      "q": "Nesting tavsiya?",
+      "opts": [
+        "Cheksiz",
+        "Sayoz, early return",
+        "Kamida 5",
+        "Faqat 1"
+      ],
+      "correct": 1,
+      "exp": "O'qish oson."
+    },
+    {
+      "id": "mcq-18-019",
+      "q": "if (!arr.length)?",
+      "opts": [
+        "To'la",
+        "Bo'sh",
+        "Xato",
+        "null"
+      ],
+      "correct": 1,
+      "exp": "length 0."
+    },
+    {
+      "id": "mcq-18-020",
+      "q": "Guard clause?",
+      "opts": [
+        "CSS",
+        "Erta chiqish sharti",
+        "Sikl",
+        "Class"
+      ],
+      "correct": 1,
+      "exp": "Tepada tekshiruv."
+    },
+    {
+      "id": "mcq-18-021",
+      "q": "Boolean('')?",
+      "opts": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correct": 1,
+      "exp": "Bo'sh satr falsy."
+    },
+    {
+      "id": "mcq-18-022",
+      "q": "if (1) else?",
+      "opts": [
+        "else bajariladi",
+        "else bajarilmaydi",
+        "Xato",
+        "Random"
+      ],
+      "correct": 1,
+      "exp": "1 truthy."
+    },
+    {
+      "id": "mcq-18-023",
+      "q": "Ternary ichida ternary?",
+      "opts": [
+        "Mumkin emas",
+        "Mumkin, o'qish qiyin",
+        "Faqat ES6",
+        "Xato"
+      ],
+      "correct": 1,
+      "exp": "Ishlaydi."
+    },
+    {
+      "id": "mcq-18-024",
+      "q": "Falsy ro'yxat?",
+      "opts": [
+        "Faqat false",
+        "false,0,'',null,undefined,NaN",
+        "Faqat 0",
+        "Faqat null"
+      ],
+      "correct": 1,
+      "exp": "6 ta asosiy falsy."
+    }
+  ]
+}

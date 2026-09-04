@@ -1,0 +1,61 @@
+{
+  "lesson": 7,
+  "type": "code",
+  "title": "Asosiy operatorlar",
+  "questions": [
+    {
+      "id": "code-7-001",
+      "task": "Ikkita son (a=8, b=3) ustida qo'shish, ayirish, ko'paytirish va qoldiq topish amallarini bajarib, natijalarni chiqaring.",
+      "sample": "let a = 8, b = 3;\nconsole.log(a+b); // 11\nconsole.log(a-b); // 5\nconsole.log(a*b); // 24\nconsole.log(a%b); // 2",
+      "exp": "+, -, *, % — asosiy arifmetik operatorlar."
+    },
+    {
+      "id": "code-7-002",
+      "task": "x=10; x++ va ++x farqini ko'rsating.",
+      "sample": "let x=10;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-7-003",
+      "task": "2 ** 8 chiqaring.",
+      "sample": "console.log(2 ** 8);",
+      "exp": "Daraja."
+    },
+    {
+      "id": "code-7-004",
+      "task": "x=10; x++ va ++x farqini ko'rsating.",
+      "sample": "let x=10;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-7-005",
+      "task": "2 ** 8 chiqaring.",
+      "sample": "console.log(2 ** 8);",
+      "exp": "Daraja."
+    },
+    {
+      "id": "code-7-006",
+      "task": "Asosiy operatorlar: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-7-007",
+      "task": "Asosiy operatorlar: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-7-008",
+      "task": "Asosiy operatorlar: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-7-009",
+      "task": "Asosiy operatorlar: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "lesson": 24,
+  "type": "code",
+  "title": "Spread va Rest operatorlari",
+  "questions": [
+    {
+      "id": "code-24-001",
+      "task": "Ikkita massivni spread bilan birlashtiring: [1,2] va [3,4].",
+      "sample": "const a = [1, 2];\nconst b = [3, 4];\nconst c = [...a, ...b];\nconsole.log(c); // [1,2,3,4]",
+      "exp": "Spread massivlarni yoyadi."
+    },
+    {
+      "id": "code-24-002",
+      "task": "Spread va Rest operatorlari bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
+      "sample": "const a = [1, 2];\nconst b = [3, 4];\nconst c = [...a, ...b];\nconsole.log(c); // [1,2,3,4]",
+      "exp": "Spread massivlarni yoyadi."
+    },
+    {
+      "id": "code-24-003",
+      "task": "Spread va Rest operatorlari: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
+      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
+      "exp": "Asosiy operatorlar."
+    },
+    {
+      "id": "code-24-004",
+      "task": "Spread va Rest operatorlari: x=10; x+=5; x*=2; x ni chiqaring.",
+      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
+      "exp": "Compound assignment."
+    },
+    {
+      "id": "code-24-005",
+      "task": "Spread va Rest operatorlari: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
+      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
+      "exp": "Prefix/postfix."
+    },
+    {
+      "id": "code-24-006",
+      "task": "Spread va Rest operatorlari: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
+      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
+      "exp": "Coercion farqi."
+    },
+    {
+      "id": "code-24-007",
+      "task": "Spread va Rest operatorlari: [10,20,30] yarating, push 40, length chiqaring.",
+      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
+      "exp": "push, length."
+    },
+    {
+      "id": "code-24-008",
+      "task": "Spread va Rest operatorlari: filter bilan juft sonlar.",
+      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
+      "exp": "filter."
+    },
+    {
+      "id": "code-24-009",
+      "task": "Spread va Rest operatorlari: map bilan *2.",
+      "sample": "console.log([1,2,3].map(x => x * 2));",
+      "exp": "map."
+    },
+    {
+      "id": "code-24-010",
+      "task": "Spread va Rest operatorlari: reduce yig'indi.",
+      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
+      "exp": "reduce."
+    },
+    {
+      "id": "code-24-011",
+      "task": "Spread va Rest operatorlari: find bilan 10 dan kattasi.",
+      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
+      "exp": "find."
+    },
+    {
+      "id": "code-24-012",
+      "task": "Spread va Rest operatorlari: slice va splice farqini kichik misolda ko'rsating.",
+      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
+      "exp": "slice nusxa, splice o'zgartiradi."
+    },
+    {
+      "id": "code-24-013",
+      "task": "Spread va Rest operatorlari: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
+      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
+      "exp": "Object literal."
+    },
+    {
+      "id": "code-24-014",
+      "task": "Spread va Rest operatorlari: Object.keys va values chiqaring.",
+      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
+      "exp": "keys/values."
+    },
+    {
+      "id": "code-24-015",
+      "task": "Spread va Rest operatorlari: destrukturatsiya {x,y} = point.",
+      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
+      "exp": "Destructuring."
+    },
+    {
+      "id": "code-24-016",
+      "task": "Spread va Rest operatorlari: spread bilan obyekt nusxa + yangi maydon.",
+      "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
+      "exp": "Object spread."
+    }
+  ]
+}
