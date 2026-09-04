@@ -89,8 +89,8 @@
     },
     {
       "id": "js-code-16-007",
-      "task": "for loop: while 5..1 kamaytirib chiqaring.",
-      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "task": "for loop: 5..1 kamaytirib chiqaring.",
+      "sample": "for (let i = 5; i >= 1; i--) {\n  console.log(i);\n}",
       "exp": "while.",
       "difficulty": 3,
       "category": "loops",
@@ -131,8 +131,8 @@
     },
     {
       "id": "js-code-16-010",
-      "task": "while bilan 3 marta chiqaring.",
-      "sample": "let i = 0;\nwhile (i < 3) {\n  console.log(i);\n  i++;\n}",
+      "task": "for bilan 3 marta chiqaring.",
+      "sample": "for (let i = 0; i < 3; i++) {\n  console.log(i);\n}",
       "exp": "while.",
       "difficulty": 2,
       "category": "loops",

@@ -25,7 +25,7 @@
     },
     {
       "id": "js-mcq-24-002",
-      "q": "const a=[1,2]; const b=[...a,3]; b?",
+      "q": "Quyidagi kodning natijasi nima?\nconst a=[1,2]; const b=[...a,3]; b",
       "opts": [
         "[1,2]",
         "[1,2,3]",
@@ -285,7 +285,7 @@
     },
     {
       "id": "js-mcq-24-015",
-      "q": "Rest parametr qayerda turadi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parametr qayerda turadi",
       "opts": [
         "Boshida",
         "Parametrlar ro'yxati oxirida",

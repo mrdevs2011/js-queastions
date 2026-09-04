@@ -25,7 +25,7 @@
     },
     {
       "id": "js-mcq-11-002",
-      "q": "let x=5; x++; console.log(x);",
+      "q": "Quyidagi kodning natijasi nima?\nlet x=5; x++; console.log(x);",
       "opts": [
         "5",
         "6",
@@ -85,7 +85,7 @@
     },
     {
       "id": "js-mcq-11-005",
-      "q": "let a=1; a += 5; a ning qiymati?",
+      "q": "Quyidagi kodning natijasi nima?\nlet a=1; a += 5; a ning qiymati",
       "opts": [
         "1",
         "5",
@@ -265,7 +265,7 @@
     },
     {
       "id": "js-mcq-11-014",
-      "q": "let x=5; x++; console.log(x); (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet x=5; x++; console.log(x);",
       "opts": [
         "5",
         "6",
@@ -325,7 +325,7 @@
     },
     {
       "id": "js-mcq-11-017",
-      "q": "let a=1; a += 5; a ning qiymati (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nlet a=1; a += 5; a ning qiymati",
       "opts": [
         "1",
         "5",

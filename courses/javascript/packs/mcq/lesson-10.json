@@ -85,7 +85,7 @@
     },
     {
       "id": "js-mcq-10-005",
-      "q": "== va === farqi?",
+      "q": "Quyidagi kodning natijasi nima?\n== va === farqi",
       "opts": [
         "Farqi yo'q",
         "== tur o'zgartirib solishtiradi, === qat'iy",
@@ -325,7 +325,7 @@
     },
     {
       "id": "js-mcq-10-017",
-      "q": "== va === farqi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\n== va === farqi",
       "opts": [
         "Farqi yo'q",
         "== tur o'zgartirib solishtiradi, === qat'iy",
@@ -465,7 +465,7 @@
     },
     {
       "id": "js-mcq-10-024",
-      "q": "parseFloat('3.14abc')?",
+      "q": "Quyidagi kodning natijasi nima?\nparseFloat('3.14abc')",
       "opts": [
         "NaN",
         "3.14",
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-10-026",
-      "q": "null == undefined?",
+      "q": "null == undefined taqqoslashining natijasi nima?",
       "opts": [
         "true",
         "false",
@@ -513,7 +513,7 @@
         "NaN"
       ],
       "correct": 0,
-      "exp": "null == undefined true (faqat == da).",
+      "exp": "Faqat == da null va undefined teng. === da false.",
       "difficulty": 2,
       "category": "type-conversion",
       "tags": [

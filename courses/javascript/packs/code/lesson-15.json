@@ -145,8 +145,8 @@
     },
     {
       "id": "js-code-15-011",
-      "task": "switch va ternary operator: while 5..1 kamaytirib chiqaring.",
-      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "task": "switch va ternary operator: for 5..1 kamaytirib chiqaring.",
+      "sample": "for (let i = 5; i >= 1; i--) {\n  console.log(i);\n}",
       "exp": "while.",
       "difficulty": 3,
       "category": "control-flow",
@@ -215,9 +215,9 @@
     },
     {
       "id": "js-code-15-016",
-      "task": "Nested if yozing.",
-      "sample": "let yosh = 20;\nif (yosh >= 18) {\n  if (yosh < 60) console.log(\"Katta\");\n}",
-      "exp": "Nested if.",
+      "task": "Ichma-ich if yozing: agar x > 0 bo'lsa, ichida y > 0 ni tekshiring va 'ok' chiqaring.",
+      "sample": "let x = 1, y = 2;\nif (x > 0) {\n  if (y > 0) {\n    console.log('ok');\n  }\n}",
+      "exp": "Nested if — if ichida yana if.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [

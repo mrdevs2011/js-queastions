@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "js-mcq-23-001",
-      "q": "const [a,b] = [1,2]; — a qiymati?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; — a qiymati",
       "opts": [
         "[1,2]",
         "1",
@@ -25,7 +25,7 @@
     },
     {
       "id": "js-mcq-23-002",
-      "q": "const {ism} = {ism:'Ali', yosh:20}; — ism?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {ism} = {ism:'Ali', yosh:20}; — ism",
       "opts": [
         "object",
         "\"Ali\"",
@@ -45,7 +45,7 @@
     },
     {
       "id": "js-mcq-23-003",
-      "q": "const [x, ...rest] = [1,2,3]; rest?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [x, ...rest] = [1,2,3]; rest",
       "opts": [
         "1",
         "[2,3]",
@@ -245,7 +245,7 @@
     },
     {
       "id": "js-mcq-23-013",
-      "q": "const [a,b] = [1,2]; — a qiymati (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; — a qiymati",
       "opts": [
         "[1,2]",
         "1",
@@ -305,7 +305,7 @@
     },
     {
       "id": "js-mcq-23-016",
-      "q": "Destrukturatsiyada default qiymat (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nDestrukturatsiyada default qiymat",
       "opts": [
         "Mumkin emas",
         "const [a=0] = []",
@@ -345,7 +345,7 @@
     },
     {
       "id": "js-mcq-23-018",
-      "q": "const [a,b] = [1,2]; a qiymati?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -365,7 +365,7 @@
     },
     {
       "id": "js-mcq-23-019",
-      "q": "const {name} = {name:'Ali'}; name?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -385,7 +385,7 @@
     },
     {
       "id": "js-mcq-23-020",
-      "q": "const [a,,c] = [1,2,3]; c?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -405,7 +405,7 @@
     },
     {
       "id": "js-mcq-23-021",
-      "q": "const {a:x} = {a:1}; x?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -425,7 +425,7 @@
     },
     {
       "id": "js-mcq-23-022",
-      "q": "const [a=5] = []; a?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -445,7 +445,7 @@
     },
     {
       "id": "js-mcq-23-023",
-      "q": "const {...rest} = {a:1,b:2}; rest?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {...rest} = {a:1,b:2}; rest",
       "opts": [
         "{a:1,b:2}",
         "{b:2}",
@@ -465,7 +465,7 @@
     },
     {
       "id": "js-mcq-23-024",
-      "q": "function f({name}) {..} chaqirish?",
+      "q": "Quyidagi kodning natijasi nima?\nfunction f({name}) {..} chaqirish",
       "opts": [
         "f('Ali')",
         "f({name:'Ali'})",
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-23-026",
-      "q": "const [a,...r] = [1,2,3]; r?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,...r] = [1,2,3]; r",
       "opts": [
         "[2,3]",
         "2",
@@ -525,7 +525,7 @@
     },
     {
       "id": "js-mcq-23-027",
-      "q": "let a,b; [a,b] = [1,2]; mumkinmi?",
+      "q": "Quyidagi kodning natijasi nima?\nlet a,b; [a,b] = [1,2]; mumkinmi",
       "opts": [
         "yo'q",
         "ha",
@@ -545,7 +545,7 @@
     },
     {
       "id": "js-mcq-23-028",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-23-029",
-      "q": "const {name} = {name:'Ali'}; name (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-23-030",
-      "q": "const [a,,c] = [1,2,3]; c (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -605,7 +605,7 @@
     },
     {
       "id": "js-mcq-23-031",
-      "q": "const {a:x} = {a:1}; x (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -625,7 +625,7 @@
     },
     {
       "id": "js-mcq-23-032",
-      "q": "const [a=5] = []; a (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-23-033",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-23-034",
-      "q": "const {name} = {name:'Ali'}; name (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-23-035",
-      "q": "const [a,,c] = [1,2,3]; c (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -705,7 +705,7 @@
     },
     {
       "id": "js-mcq-23-036",
-      "q": "const {a:x} = {a:1}; x (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -725,7 +725,7 @@
     },
     {
       "id": "js-mcq-23-037",
-      "q": "const [a=5] = []; a (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-23-038",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-23-039",
-      "q": "const {name} = {name:'Ali'}; name (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-23-040",
-      "q": "const [a,,c] = [1,2,3]; c (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -805,7 +805,7 @@
     },
     {
       "id": "js-mcq-23-041",
-      "q": "const {a:x} = {a:1}; x (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -825,7 +825,7 @@
     },
     {
       "id": "js-mcq-23-042",
-      "q": "const [a=5] = []; a (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-23-043",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-23-044",
-      "q": "const {name} = {name:'Ali'}; name (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-23-045",
-      "q": "const [a,,c] = [1,2,3]; c (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -905,7 +905,7 @@
     },
     {
       "id": "js-mcq-23-046",
-      "q": "const {a:x} = {a:1}; x (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -925,7 +925,7 @@
     },
     {
       "id": "js-mcq-23-047",
-      "q": "const [a=5] = []; a (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-23-048",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-23-049",
-      "q": "const {name} = {name:'Ali'}; name (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-23-050",
-      "q": "const [a,,c] = [1,2,3]; c (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "js-mcq-23-051",
-      "q": "const {a:x} = {a:1}; x (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "js-mcq-23-052",
-      "q": "const [a=5] = []; a (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-23-053",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-23-054",
-      "q": "const {name} = {name:'Ali'}; name (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-23-055",
-      "q": "const [a,,c] = [1,2,3]; c (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "js-mcq-23-056",
-      "q": "const {a:x} = {a:1}; x (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
       "opts": [
         "1",
         "a",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "js-mcq-23-057",
-      "q": "const [a=5] = []; a (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
       "opts": [
         "undefined",
         "5",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-23-058",
-      "q": "const [a,b] = [1,2]; a qiymati (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
       "opts": [
         "1",
         "2",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-23-059",
-      "q": "const {name} = {name:'Ali'}; name (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
       "opts": [
         "undefined",
         "'Ali'",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-23-060",
-      "q": "const [a,,c] = [1,2,3]; c (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
       "opts": [
         "2",
         "3",

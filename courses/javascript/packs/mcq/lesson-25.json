@@ -365,7 +365,7 @@
     },
     {
       "id": "js-mcq-25-019",
-      "q": "'JS'.toUpperCase()?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -385,7 +385,7 @@
     },
     {
       "id": "js-mcq-25-020",
-      "q": "'hello'.includes('ell')?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -405,7 +405,7 @@
     },
     {
       "id": "js-mcq-25-021",
-      "q": "'a,b,c'.split(',')?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -425,7 +425,7 @@
     },
     {
       "id": "js-mcq-25-022",
-      "q": "'hello'.slice(1,3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -445,7 +445,7 @@
     },
     {
       "id": "js-mcq-25-023",
-      "q": "'  hi  '.trim()?",
+      "q": "Quyidagi kodning natijasi nima?\n'  hi  '.trim()",
       "opts": [
         "'hi'",
         "'  hi'",
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-25-026",
-      "q": "'hello'.charAt(1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.charAt(1)",
       "opts": [
         "'h'",
         "'e'",
@@ -525,7 +525,7 @@
     },
     {
       "id": "js-mcq-25-027",
-      "q": "'js'.repeat(3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'js'.repeat(3)",
       "opts": [
         "'jsjsjs'",
         "'js js js'",
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-25-029",
-      "q": "'JS'.toUpperCase() (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-25-030",
-      "q": "'hello'.includes('ell') (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -605,7 +605,7 @@
     },
     {
       "id": "js-mcq-25-031",
-      "q": "'a,b,c'.split(',') (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -625,7 +625,7 @@
     },
     {
       "id": "js-mcq-25-032",
-      "q": "'hello'.slice(1,3) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-25-034",
-      "q": "'JS'.toUpperCase() (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-25-035",
-      "q": "'hello'.includes('ell') (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -705,7 +705,7 @@
     },
     {
       "id": "js-mcq-25-036",
-      "q": "'a,b,c'.split(',') (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -725,7 +725,7 @@
     },
     {
       "id": "js-mcq-25-037",
-      "q": "'hello'.slice(1,3) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-25-039",
-      "q": "'JS'.toUpperCase() (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-25-040",
-      "q": "'hello'.includes('ell') (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -805,7 +805,7 @@
     },
     {
       "id": "js-mcq-25-041",
-      "q": "'a,b,c'.split(',') (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -825,7 +825,7 @@
     },
     {
       "id": "js-mcq-25-042",
-      "q": "'hello'.slice(1,3) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-25-044",
-      "q": "'JS'.toUpperCase() (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-25-045",
-      "q": "'hello'.includes('ell') (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -905,7 +905,7 @@
     },
     {
       "id": "js-mcq-25-046",
-      "q": "'a,b,c'.split(',') (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -925,7 +925,7 @@
     },
     {
       "id": "js-mcq-25-047",
-      "q": "'hello'.slice(1,3) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-25-049",
-      "q": "'JS'.toUpperCase() (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-25-050",
-      "q": "'hello'.includes('ell') (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "js-mcq-25-051",
-      "q": "'a,b,c'.split(',') (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "js-mcq-25-052",
-      "q": "'hello'.slice(1,3) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-25-054",
-      "q": "'JS'.toUpperCase() (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-25-055",
-      "q": "'hello'.includes('ell') (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "js-mcq-25-056",
-      "q": "'a,b,c'.split(',') (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n'a,b,c'.split(',')",
       "opts": [
         "['a','b','c']",
         "'a b c'",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "js-mcq-25-057",
-      "q": "'hello'.slice(1,3) (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.slice(1,3)",
       "opts": [
         "'el'",
         "'hel'",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-25-059",
-      "q": "'JS'.toUpperCase() (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\n'JS'.toUpperCase()",
       "opts": [
         "'js'",
         "'JS'",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-25-060",
-      "q": "'hello'.includes('ell') (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\n'hello'.includes('ell')",
       "opts": [
         "true",
         "false",

@@ -25,7 +25,7 @@
     },
     {
       "id": "js-mcq-7-002",
-      "q": "Izoh (comment) qanday yoziladi?",
+      "q": "JavaScript da izoh (comment) qanday yoziladi?",
       "opts": [
         "# izoh",
         "// izoh yoki /* izoh */",
@@ -33,7 +33,7 @@
         "-- izoh"
       ],
       "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qatorli izoh.",
+      "exp": "// bir qatorli izoh, /* ... */ ko'p qatorli izoh.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -45,7 +45,7 @@
     },
     {
       "id": "js-mcq-7-003",
-      "q": "Kattaa-kichik harf sezgirligi (case-sensitive) bormi?",
+      "q": "Quyidagi kodning natijasi nima?\nKattaa-kichik harf sezgirligi (case-sensitive) bormi",
       "opts": [
         "Yo'q",
         "Ha",
@@ -65,7 +65,7 @@
     },
     {
       "id": "js-mcq-7-004",
-      "q": "Blok qanday belgilanadi?",
+      "q": "JavaScript da kod bloki qanday belgilanadi?",
       "opts": [
         "()",
         "[]",
@@ -265,7 +265,7 @@
     },
     {
       "id": "js-mcq-7-014",
-      "q": "Izoh (comment) qanday yoziladi (qayta / chuqurroq)?",
+      "q": "JavaScript da izoh (comment) qanday yoziladi?",
       "opts": [
         "# izoh",
         "// izoh yoki /* izoh */",
@@ -273,7 +273,7 @@
         "-- izoh"
       ],
       "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qatorli izoh. Qayta o'qing.",
+      "exp": "// bir qatorli izoh, /* ... */ ko'p qatorli izoh.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -305,7 +305,7 @@
     },
     {
       "id": "js-mcq-7-016",
-      "q": "Blok qanday belgilanadi (qayta / chuqurroq)?",
+      "q": "JavaScript da kod bloki qanday belgilanadi?",
       "opts": [
         "()",
         "[]",
@@ -313,7 +313,7 @@
         "<>"
       ],
       "correct": 2,
-      "exp": "Kod bloki jingalak qavs {} ichida yoziladi. Qayta o'qing.",
+      "exp": "Kod bloki jingalak qavs {} ichida yoziladi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -345,7 +345,7 @@
     },
     {
       "id": "js-mcq-7-018",
-      "q": "JS da statement oxiri?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -353,7 +353,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -365,7 +365,7 @@
     },
     {
       "id": "js-mcq-7-019",
-      "q": "Izoh (comment) sintaksisi?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -385,7 +385,7 @@
     },
     {
       "id": "js-mcq-7-020",
-      "q": "'use strict' nima qiladi?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -393,7 +393,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -425,7 +425,7 @@
     },
     {
       "id": "js-mcq-7-022",
-      "q": "case-sensitive mi JS?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -433,7 +433,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -465,7 +465,7 @@
     },
     {
       "id": "js-mcq-7-024",
-      "q": "Template literal qaysi belgi?",
+      "q": "Template literal (shablon satr) qaysi belgi bilan yoziladi?",
       "opts": [
         "'",
         "\"",
@@ -473,7 +473,7 @@
         "/"
       ],
       "correct": 2,
-      "exp": "Backtick ` ishlatiladi.",
+      "exp": "Backtick (`) bilan: `Salom ${ism}`",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -485,7 +485,7 @@
     },
     {
       "id": "js-mcq-7-025",
-      "q": "Spread operator belgisi?",
+      "q": "Spread operator qaysi belgi bilan yoziladi va nima qiladi?",
       "opts": [
         "*",
         "...",
@@ -493,7 +493,7 @@
         "#"
       ],
       "correct": 1,
-      "exp": "... massiv/obyektni yoyadi.",
+      "exp": "... operatori massiv yoki obyekt elementlarini yoyib beradi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-7-026",
-      "q": "Optional chaining belgisi?",
+      "q": "Optional chaining (?.) nima uchun kerak?",
       "opts": [
         "?.",
         "??",
@@ -513,7 +513,7 @@
         "&&"
       ],
       "correct": 0,
-      "exp": "obj?.prop xavfsiz murojaat.",
+      "exp": "obj?.prop — obj null/undefined bo'lsa xato o'rniga undefined qaytaradi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -525,7 +525,7 @@
     },
     {
       "id": "js-mcq-7-027",
-      "q": "Nullish coalescing belgisi?",
+      "q": "Nullish coalescing (??) operatori nima qiladi?",
       "opts": [
         "||",
         "??",
@@ -533,7 +533,7 @@
         "?:"
       ],
       "correct": 1,
-      "exp": "?? faqat null/undefined da ishlaydi.",
+      "exp": "a ?? b — a null yoki undefined bo'lsa b ni oladi (0 va '' ni saqlaydi).",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -545,7 +545,7 @@
     },
     {
       "id": "js-mcq-7-028",
-      "q": "JS da statement oxiri (misol 1)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -553,7 +553,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-7-029",
-      "q": "Izoh (comment) sintaksisi (misol 1)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-7-030",
-      "q": "'use strict' nima qiladi (misol 1)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -593,7 +593,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -625,7 +625,7 @@
     },
     {
       "id": "js-mcq-7-032",
-      "q": "case-sensitive mi JS (misol 1)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -633,7 +633,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-7-033",
-      "q": "JS da statement oxiri (misol 2)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -653,7 +653,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-7-034",
-      "q": "Izoh (comment) sintaksisi (misol 2)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-7-035",
-      "q": "'use strict' nima qiladi (misol 2)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -693,7 +693,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -725,7 +725,7 @@
     },
     {
       "id": "js-mcq-7-037",
-      "q": "case-sensitive mi JS (misol 2)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -733,7 +733,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-7-038",
-      "q": "JS da statement oxiri (misol 3)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -753,7 +753,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-7-039",
-      "q": "Izoh (comment) sintaksisi (misol 3)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-7-040",
-      "q": "'use strict' nima qiladi (misol 3)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -793,7 +793,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -825,7 +825,7 @@
     },
     {
       "id": "js-mcq-7-042",
-      "q": "case-sensitive mi JS (misol 3)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -833,7 +833,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-7-043",
-      "q": "JS da statement oxiri (misol 4)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -853,7 +853,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-7-044",
-      "q": "Izoh (comment) sintaksisi (misol 4)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-7-045",
-      "q": "'use strict' nima qiladi (misol 4)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -893,7 +893,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -925,7 +925,7 @@
     },
     {
       "id": "js-mcq-7-047",
-      "q": "case-sensitive mi JS (misol 4)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -933,7 +933,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-7-048",
-      "q": "JS da statement oxiri (misol 5)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -953,7 +953,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-7-049",
-      "q": "Izoh (comment) sintaksisi (misol 5)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-7-050",
-      "q": "'use strict' nima qiladi (misol 5)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -993,7 +993,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "js-mcq-7-052",
-      "q": "case-sensitive mi JS (misol 5)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -1033,7 +1033,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-7-053",
-      "q": "JS da statement oxiri (misol 6)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -1053,7 +1053,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-7-054",
-      "q": "Izoh (comment) sintaksisi (misol 6)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-7-055",
-      "q": "'use strict' nima qiladi (misol 6)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -1093,7 +1093,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "js-mcq-7-057",
-      "q": "case-sensitive mi JS (misol 6)?",
+      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
       "opts": [
         "yo'q",
         "ha",
@@ -1133,7 +1133,7 @@
         "faqat o'zgaruvchi"
       ],
       "correct": 1,
-      "exp": "JavaScript case-sensitive.",
+      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-7-058",
-      "q": "JS da statement oxiri (misol 7)?",
+      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
       "opts": [
         "majburiy ;",
         "; ixtiyoriy (ASI)",
@@ -1153,7 +1153,7 @@
         "hech narsa"
       ],
       "correct": 1,
-      "exp": "Automatic Semicolon Insertion bor.",
+      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-7-059",
-      "q": "Izoh (comment) sintaksisi (misol 7)?",
+      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
       "opts": [
         "# izoh",
         "// va /* */",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-7-060",
-      "q": "'use strict' nima qiladi (misol 7)?",
+      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
       "opts": [
         "sekinlashtiradi",
         "qat'iy rejim yoqadi",
@@ -1193,7 +1193,7 @@
         "module qiladi"
       ],
       "correct": 1,
-      "exp": "Strict mode yoqadi.",
+      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [

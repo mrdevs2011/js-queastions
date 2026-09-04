@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "js-mcq-14-001",
-      "q": "if (x) da x qachon true hisoblanadi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (x) da x qachon true hisoblanadi",
       "opts": [
         "Faqat true bo'lsa",
         "Truthy qiymat bo'lsa",
@@ -65,7 +65,7 @@
     },
     {
       "id": "js-mcq-14-004",
-      "q": "Nesting (ichma-ich if) qachon muammo?",
+      "q": "Quyidagi kodning natijasi nima?\nNesting (ichma-ich if) qachon muammo",
       "opts": [
         "Hech qachon",
         "Juda chuqurlashsa o'qish qiyinlashadi",
@@ -285,7 +285,7 @@
     },
     {
       "id": "js-mcq-14-015",
-      "q": "if/else o'rniga qisqa yozuv (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else o'rniga qisqa yozuv",
       "opts": [
         "for",
         "ternary (? :)",
@@ -345,7 +345,7 @@
     },
     {
       "id": "js-mcq-14-018",
-      "q": "if (0) {...} ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -445,7 +445,7 @@
     },
     {
       "id": "js-mcq-14-023",
-      "q": "if (null) ishlaydimi?",
+      "q": "Quyidagi kodning natijasi nima?\nif (null) ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -465,7 +465,7 @@
     },
     {
       "id": "js-mcq-14-024",
-      "q": "switch (x) { case 1: ...} da x tipi?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch (x) { case 1: ...} da x tipi",
       "opts": [
         "faqat number",
         "har qanday",
@@ -525,15 +525,15 @@
     },
     {
       "id": "js-mcq-14-027",
-      "q": "nested if nima?",
+      "q": "nested if (ichma-ich if) nima degani?",
       "opts": [
-        "bitta if",
-        "if ichida if",
-        "switch",
-        "loop"
+        "Bitta if operatori",
+        "if bloki ichida yana if yozish",
+        "switch operatori",
+        "for yoki while sikli"
       ],
       "correct": 1,
-      "exp": "If ichida yana if yozish.",
+      "exp": "Nested if — if ichida yana if yozish. Masalan: if (a) { if (b) { ... } }",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
@@ -545,7 +545,7 @@
     },
     {
       "id": "js-mcq-14-028",
-      "q": "if (0) {...} ishlaydimi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-14-029",
-      "q": "ternary operator sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-14-030",
-      "q": "switch da break bo'lmasa (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -605,7 +605,7 @@
     },
     {
       "id": "js-mcq-14-031",
-      "q": "if/else if/else da nechta shart (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-14-033",
-      "q": "if (0) {...} ishlaydimi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-14-034",
-      "q": "ternary operator sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-14-035",
-      "q": "switch da break bo'lmasa (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -705,7 +705,7 @@
     },
     {
       "id": "js-mcq-14-036",
-      "q": "if/else if/else da nechta shart (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-14-038",
-      "q": "if (0) {...} ishlaydimi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-14-039",
-      "q": "ternary operator sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-14-040",
-      "q": "switch da break bo'lmasa (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -805,7 +805,7 @@
     },
     {
       "id": "js-mcq-14-041",
-      "q": "if/else if/else da nechta shart (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-14-043",
-      "q": "if (0) {...} ishlaydimi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-14-044",
-      "q": "ternary operator sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-14-045",
-      "q": "switch da break bo'lmasa (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -905,7 +905,7 @@
     },
     {
       "id": "js-mcq-14-046",
-      "q": "if/else if/else da nechta shart (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-14-048",
-      "q": "if (0) {...} ishlaydimi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-14-049",
-      "q": "ternary operator sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-14-050",
-      "q": "switch da break bo'lmasa (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "js-mcq-14-051",
-      "q": "if/else if/else da nechta shart (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-14-053",
-      "q": "if (0) {...} ishlaydimi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-14-054",
-      "q": "ternary operator sintaksisi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-14-055",
-      "q": "switch da break bo'lmasa (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "js-mcq-14-056",
-      "q": "if/else if/else da nechta shart (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart",
       "opts": [
         "1",
         "cheksiz else if",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-14-058",
-      "q": "if (0) {...} ishlaydimi (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
       "opts": [
         "ha",
         "yo'q",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-14-059",
-      "q": "ternary operator sintaksisi (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi",
       "opts": [
         "a ? b : c",
         "a : b ? c",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-14-060",
-      "q": "switch da break bo'lmasa (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa",
       "opts": [
         "to'xtaydi",
         "keyingi case larga tushadi (fall-through)",

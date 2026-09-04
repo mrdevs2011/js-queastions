@@ -265,7 +265,7 @@
     },
     {
       "id": "js-mcq-22-014",
-      "q": "obj.x va obj['x'] farqi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nobj.x va obj['x'] farqi",
       "opts": [
         "Butunlay boshqa",
         "Ko'p hollarda bir xil natija (dot vs bracket)",
@@ -345,7 +345,7 @@
     },
     {
       "id": "js-mcq-22-018",
-      "q": "const o = {a:1}; o.a?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -385,7 +385,7 @@
     },
     {
       "id": "js-mcq-22-020",
-      "q": "Object.keys({a:1,b:2})?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -405,7 +405,7 @@
     },
     {
       "id": "js-mcq-22-021",
-      "q": "Object.values({a:1,b:2})?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -445,7 +445,7 @@
     },
     {
       "id": "js-mcq-22-023",
-      "q": "obj.hasOwnProperty('a')?",
+      "q": "Quyidagi kodning natijasi nima?\nobj.hasOwnProperty('a')",
       "opts": [
         "true/false qaytaradi",
         "error",
@@ -485,7 +485,7 @@
     },
     {
       "id": "js-mcq-22-025",
-      "q": "Object.assign({}, o1, o2) ?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.assign({}, o1, o2)",
       "opts": [
         "deep merge",
         "shallow merge",
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-22-026",
-      "q": "JSON.stringify({a:1})?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:1})",
       "opts": [
         "{a:1}",
         "'{\"a\":1}'",
@@ -525,7 +525,7 @@
     },
     {
       "id": "js-mcq-22-027",
-      "q": "JSON.parse('{\"a\":1}')?",
+      "q": "Quyidagi kodning natijasi nima?\nJSON.parse('{\"a\":1}')",
       "opts": [
         "string",
         "{a:1}",
@@ -545,7 +545,7 @@
     },
     {
       "id": "js-mcq-22-028",
-      "q": "const o = {a:1}; o.a (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-22-029",
-      "q": "o['a'] sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-22-030",
-      "q": "Object.keys({a:1,b:2}) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -605,7 +605,7 @@
     },
     {
       "id": "js-mcq-22-031",
-      "q": "Object.values({a:1,b:2}) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-22-033",
-      "q": "const o = {a:1}; o.a (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-22-034",
-      "q": "o['a'] sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-22-035",
-      "q": "Object.keys({a:1,b:2}) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -705,7 +705,7 @@
     },
     {
       "id": "js-mcq-22-036",
-      "q": "Object.values({a:1,b:2}) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-22-038",
-      "q": "const o = {a:1}; o.a (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-22-039",
-      "q": "o['a'] sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-22-040",
-      "q": "Object.keys({a:1,b:2}) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -805,7 +805,7 @@
     },
     {
       "id": "js-mcq-22-041",
-      "q": "Object.values({a:1,b:2}) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-22-043",
-      "q": "const o = {a:1}; o.a (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-22-044",
-      "q": "o['a'] sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-22-045",
-      "q": "Object.keys({a:1,b:2}) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -905,7 +905,7 @@
     },
     {
       "id": "js-mcq-22-046",
-      "q": "Object.values({a:1,b:2}) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-22-048",
-      "q": "const o = {a:1}; o.a (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-22-049",
-      "q": "o['a'] sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-22-050",
-      "q": "Object.keys({a:1,b:2}) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "js-mcq-22-051",
-      "q": "Object.values({a:1,b:2}) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-22-053",
-      "q": "const o = {a:1}; o.a (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-22-054",
-      "q": "o['a'] sintaksisi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-22-055",
-      "q": "Object.keys({a:1,b:2}) (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "js-mcq-22-056",
-      "q": "Object.values({a:1,b:2}) (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
       "opts": [
         "[1,2]",
         "['a','b']",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-22-058",
-      "q": "const o = {a:1}; o.a (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
       "opts": [
         "undefined",
         "1",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-22-059",
-      "q": "o['a'] sintaksisi (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
       "opts": [
         "noto'g'ri",
         "to'g'ri (bracket notation)",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-22-060",
-      "q": "Object.keys({a:1,b:2}) (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
       "opts": [
         "['a','b']",
         "[1,2]",

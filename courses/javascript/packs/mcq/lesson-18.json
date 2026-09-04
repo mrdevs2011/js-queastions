@@ -265,7 +265,7 @@
     },
     {
       "id": "js-mcq-18-014",
-      "q": "return dan keyin kod bajariladimi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nreturn dan keyin kod bajariladimi",
       "opts": [
         "Ha",
         "Yo'q, funksiya to'xtaydi",
@@ -285,7 +285,7 @@
     },
     {
       "id": "js-mcq-18-015",
-      "q": "Parametr va argument farqi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nParametr va argument farqi",
       "opts": [
         "Farqi yo'q",
         "Parametr — e'londagi, argument — chaqiruvdagi qiymat",
@@ -545,7 +545,7 @@
     },
     {
       "id": "js-mcq-18-028",
-      "q": "Function declaration sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -605,7 +605,7 @@
     },
     {
       "id": "js-mcq-18-031",
-      "q": "Default parameter misoli (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -625,7 +625,7 @@
     },
     {
       "id": "js-mcq-18-032",
-      "q": "Rest parameter sintaksisi (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-18-033",
-      "q": "Function declaration sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -705,7 +705,7 @@
     },
     {
       "id": "js-mcq-18-036",
-      "q": "Default parameter misoli (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -725,7 +725,7 @@
     },
     {
       "id": "js-mcq-18-037",
-      "q": "Rest parameter sintaksisi (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-18-038",
-      "q": "Function declaration sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -805,7 +805,7 @@
     },
     {
       "id": "js-mcq-18-041",
-      "q": "Default parameter misoli (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -825,7 +825,7 @@
     },
     {
       "id": "js-mcq-18-042",
-      "q": "Rest parameter sintaksisi (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-18-043",
-      "q": "Function declaration sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -905,7 +905,7 @@
     },
     {
       "id": "js-mcq-18-046",
-      "q": "Default parameter misoli (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -925,7 +925,7 @@
     },
     {
       "id": "js-mcq-18-047",
-      "q": "Rest parameter sintaksisi (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-18-048",
-      "q": "Function declaration sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "js-mcq-18-051",
-      "q": "Default parameter misoli (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": "js-mcq-18-052",
-      "q": "Rest parameter sintaksisi (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-18-053",
-      "q": "Function declaration sintaksisi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "js-mcq-18-056",
-      "q": "Default parameter misoli (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nDefault parameter misoli",
       "opts": [
         "function f(a=1)",
         "function f(a:1)",
@@ -1125,7 +1125,7 @@
     },
     {
       "id": "js-mcq-18-057",
-      "q": "Rest parameter sintaksisi (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi",
       "opts": [
         "...args",
         "*args",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-18-058",
-      "q": "Function declaration sintaksisi (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\nFunction declaration sintaksisi",
       "opts": [
         "function name() {}",
         "let name = () => {}",

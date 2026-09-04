@@ -85,7 +85,7 @@
     },
     {
       "id": "js-mcq-21-005",
-      "q": "[1,2,3,4].filter(x=>x>2) ?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -245,7 +245,7 @@
     },
     {
       "id": "js-mcq-21-013",
-      "q": "slice asl massivni o'zgartiradimi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nslice asl massivni o'zgartiradimi",
       "opts": [
         "Ha",
         "Yo'q, yangi massiv qaytaradi",
@@ -325,7 +325,7 @@
     },
     {
       "id": "js-mcq-21-017",
-      "q": "[1,2,3,4].filter(x=>x>2)  (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -405,7 +405,7 @@
     },
     {
       "id": "js-mcq-21-021",
-      "q": "[1,2,3].map(x=>x*2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -425,7 +425,7 @@
     },
     {
       "id": "js-mcq-21-022",
-      "q": "[1,2,3,4].filter(x=>x>2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -445,7 +445,7 @@
     },
     {
       "id": "js-mcq-21-023",
-      "q": "[1,2,3].find(x=>x>1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].find(x=>x>1)",
       "opts": [
         "1",
         "2",
@@ -465,7 +465,7 @@
     },
     {
       "id": "js-mcq-21-024",
-      "q": "[1,2,3].includes(2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].includes(2)",
       "opts": [
         "true",
         "false",
@@ -485,7 +485,7 @@
     },
     {
       "id": "js-mcq-21-025",
-      "q": "[1,2,3].slice(1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].slice(1)",
       "opts": [
         "[1]",
         "[2,3]",
@@ -505,7 +505,7 @@
     },
     {
       "id": "js-mcq-21-026",
-      "q": "[1,2,3].splice(1,1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].splice(1,1)",
       "opts": [
         "[1,3]",
         "massivni o'zgartiradi",
@@ -525,7 +525,7 @@
     },
     {
       "id": "js-mcq-21-027",
-      "q": "[1,2].concat([3,4])?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2].concat([3,4])",
       "opts": [
         "[1,2,3,4]",
         "[1,2],[3,4]",
@@ -565,7 +565,7 @@
     },
     {
       "id": "js-mcq-21-029",
-      "q": "[1,2,3].reduce((a,b)=>a+b,0)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].reduce((a,b)=>a+b,0)",
       "opts": [
         "6",
         "0",
@@ -585,7 +585,7 @@
     },
     {
       "id": "js-mcq-21-030",
-      "q": "[1,2,3].length (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -645,7 +645,7 @@
     },
     {
       "id": "js-mcq-21-033",
-      "q": "[1,2,3].map(x=>x*2) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -665,7 +665,7 @@
     },
     {
       "id": "js-mcq-21-034",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 1)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -685,7 +685,7 @@
     },
     {
       "id": "js-mcq-21-035",
-      "q": "[1,2,3].length (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -745,7 +745,7 @@
     },
     {
       "id": "js-mcq-21-038",
-      "q": "[1,2,3].map(x=>x*2) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -765,7 +765,7 @@
     },
     {
       "id": "js-mcq-21-039",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 2)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -785,7 +785,7 @@
     },
     {
       "id": "js-mcq-21-040",
-      "q": "[1,2,3].length (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -845,7 +845,7 @@
     },
     {
       "id": "js-mcq-21-043",
-      "q": "[1,2,3].map(x=>x*2) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -865,7 +865,7 @@
     },
     {
       "id": "js-mcq-21-044",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 3)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -885,7 +885,7 @@
     },
     {
       "id": "js-mcq-21-045",
-      "q": "[1,2,3].length (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -945,7 +945,7 @@
     },
     {
       "id": "js-mcq-21-048",
-      "q": "[1,2,3].map(x=>x*2) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -965,7 +965,7 @@
     },
     {
       "id": "js-mcq-21-049",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 4)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -985,7 +985,7 @@
     },
     {
       "id": "js-mcq-21-050",
-      "q": "[1,2,3].length (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "js-mcq-21-053",
-      "q": "[1,2,3].map(x=>x*2) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "js-mcq-21-054",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 5)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "js-mcq-21-055",
-      "q": "[1,2,3].length (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "js-mcq-21-058",
-      "q": "[1,2,3].map(x=>x*2) (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
       "opts": [
         "[1,2,3]",
         "[2,4,6]",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "js-mcq-21-059",
-      "q": "[1,2,3,4].filter(x=>x>2) (misol 6)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
       "opts": [
         "[1,2]",
         "[3,4]",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "js-mcq-21-060",
-      "q": "[1,2,3].length (misol 7)?",
+      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length",
       "opts": [
         "2",
         "3",

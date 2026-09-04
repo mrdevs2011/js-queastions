@@ -265,7 +265,7 @@
     },
     {
       "id": "js-mcq-16-014",
-      "q": "for ning uch qismi (qayta / chuqurroq)?",
+      "q": "Quyidagi kodning natijasi nima?\nfor ning uch qismi",
       "opts": [
         "if, body, else",
         "init, condition, update",
@@ -354,46 +354,6 @@
       ],
       "correct": 1,
       "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-019",
-      "q": "while (false) {...} ishlaydimi?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-020",
-      "q": "do...while kamida necha marta?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
       "difficulty": 2,
       "category": "loops",
       "tags": [
@@ -524,26 +484,6 @@
       "points": 2
     },
     {
-      "id": "js-mcq-16-027",
-      "q": "let i=0; while(i<3){i++} oxirida i?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "0"
-      ],
-      "correct": 1,
-      "exp": "i 3 ga yetganda to'xtaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
       "id": "js-mcq-16-028",
       "q": "for (let i=0; i<3; i++) necha marta (misol 1)?",
       "opts": [
@@ -554,46 +494,6 @@
       ],
       "correct": 1,
       "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-029",
-      "q": "while (false) {...} ishlaydimi (misol 1)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-030",
-      "q": "do...while kamida necha marta (misol 1)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
       "difficulty": 2,
       "category": "loops",
       "tags": [
@@ -664,46 +564,6 @@
       "points": 2
     },
     {
-      "id": "js-mcq-16-034",
-      "q": "while (false) {...} ishlaydimi (misol 2)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-035",
-      "q": "do...while kamida necha marta (misol 2)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
       "id": "js-mcq-16-036",
       "q": "for...of nima uchun (misol 2)?",
       "opts": [
@@ -754,46 +614,6 @@
       ],
       "correct": 1,
       "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-039",
-      "q": "while (false) {...} ishlaydimi (misol 3)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-040",
-      "q": "do...while kamida necha marta (misol 3)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
       "difficulty": 2,
       "category": "loops",
       "tags": [
@@ -864,46 +684,6 @@
       "points": 2
     },
     {
-      "id": "js-mcq-16-044",
-      "q": "while (false) {...} ishlaydimi (misol 4)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-045",
-      "q": "do...while kamida necha marta (misol 4)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
       "id": "js-mcq-16-046",
       "q": "for...of nima uchun (misol 4)?",
       "opts": [
@@ -954,46 +734,6 @@
       ],
       "correct": 1,
       "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-049",
-      "q": "while (false) {...} ishlaydimi (misol 5)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-050",
-      "q": "do...while kamida necha marta (misol 5)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
       "difficulty": 3,
       "category": "loops",
       "tags": [
@@ -1064,46 +804,6 @@
       "points": 3
     },
     {
-      "id": "js-mcq-16-054",
-      "q": "while (false) {...} ishlaydimi (misol 6)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-055",
-      "q": "do...while kamida necha marta (misol 6)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
       "id": "js-mcq-16-056",
       "q": "for...of nima uchun (misol 6)?",
       "opts": [
@@ -1154,46 +854,6 @@
       ],
       "correct": 1,
       "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-059",
-      "q": "while (false) {...} ishlaydimi (misol 7)?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-060",
-      "q": "do...while kamida necha marta (misol 7)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
       "difficulty": 3,
       "category": "loops",
       "tags": [
