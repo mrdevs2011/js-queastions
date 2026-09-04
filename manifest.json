@@ -15,9 +15,9 @@
       "lessons": 30,
       "path": "courses/js-asoslari/",
       "stats": {
-        "mcq": 698,
-        "code": 218,
-        "total": 916
+        "mcq": 1800,
+        "code": 750,
+        "total": 2550
       }
     },
     {
@@ -27,9 +27,9 @@
       "lessons": 29,
       "path": "courses/javascript/",
       "stats": {
-        "mcq": 493,
-        "code": 185,
-        "total": 678
+        "mcq": 1740,
+        "code": 725,
+        "total": 2465
       }
     }
   ],
@@ -56,8 +56,8 @@
   },
   "totals": {
     "courses": 2,
-    "questions": 1594,
-    "mcq": 1191,
-    "code": 403
+    "questions": 5015,
+    "mcq": 3540,
+    "code": 1475
   }
 }
