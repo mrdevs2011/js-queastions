@@ -1,38 +1,48 @@
-# Quest Questions
+# js-queastions
 
 Ulugbek Samigjonov **JavaScript** kurslari uchun ochiq savollar banki.
 
-Kimdir o‘z saytiga yoki ilovasiga **CDN orqali** ulab, savollarni olib ishlatishi mumkin.
+Har kim o‘z sayti yoki ilovasiga **CDN** orqali ulab, kerakli kurs / dars / turdagi savollarni olib ishlatishi mumkin.
+
+**Repo:** [github.com/mrdevs2011/js-queastions](https://github.com/mrdevs2011/js-queastions)
+
+---
+
+## CDN (jsDelivr)
+
+```text
+https://cdn.jsdelivr.net/gh/mrdevs2011/js-queastions@main/
+```
 
 ---
 
 ## Kurslar
 
-| ID | Nom | Darslar | Savollar |
-|----|-----|---------|----------|
-| `js-asoslari` | Javascript asoslari | 30 | ~146 |
-| `javascript` | Javascript | 29 | ~140 |
+| ID | Nom | Darslar | Savollar (taxminan) |
+|----|-----|---------|---------------------|
+| `js-asoslari` | Javascript asoslari | 30 | MCQ + kod |
+| `javascript` | Javascript | 29 | MCQ + kod |
 
-**Jami:** 286 ta savol (test + kod yozish)
+**Jami:** 1500+ savol (test + kod yozish)
 
 ---
 
 ## Tuzilma
 
-```
-quest-questions/
-├── manifest.json                 ← barcha kurslar katalogi
+```text
+js-queastions/
+├── README.md
+├── manifest.json              ← barcha kurslar katalogi
 └── courses/
     ├── js-asoslari/
-    │   ├── lessons.json          ← dars nomlari
-    │   ├── index.json            ← packlar ro‘yxati
+    │   ├── lessons.json       ← dars nomlari
+    │   ├── index.json         ← packlar ro‘yxati + statistika
     │   └── packs/
     │       ├── mcq/
     │       │   ├── lesson-01.json
-    │       │   ├── lesson-02.json
     │       │   └── ...
     │       └── code/
-    │           ├── lesson-04.json
+    │           ├── lesson-01.json
     │           └── ...
     └── javascript/
         ├── lessons.json
@@ -44,53 +54,57 @@ quest-questions/
 
 ---
 
-## Qanday ulash (2 daqiqa)
+## Qanday ulash
 
 ### 1. Base URL
 
-GitHub repongizga joylagach:
-
-```text
-https://cdn.jsdelivr.net/gh/USER/quest-questions@main/
+```js
+const BASE = "https://cdn.jsdelivr.net/gh/mrdevs2011/js-queastions@main/";
 ```
 
-`USER` o‘rniga GitHub username yozing.
-
-### 2. Kerakli faylni olish
+### 2. Katalog va darslar
 
 ```js
-const BASE = "https://cdn.jsdelivr.net/gh/USER/quest-questions@main/";
-
-// Katalog
+// Barcha kurslar
 const manifest = await fetch(BASE + "manifest.json").then(r => r.json());
 
 // Bitta kurs dars nomlari
 const lessons = await fetch(BASE + "courses/js-asoslari/lessons.json").then(r => r.json());
 
-// Bitta dars test savollari
-const mcq = await fetch(BASE + "courses/js-asoslari/packs/mcq/lesson-18.json").then(r => r.json());
-
-// Bitta dars kod savollari
-const code = await fetch(BASE + "courses/js-asoslari/packs/code/lesson-18.json").then(r => r.json());
+// Packlar ro‘yxati (qaysi darsda nechta savol)
+const index = await fetch(BASE + "courses/js-asoslari/index.json").then(r => r.json());
 ```
 
-### 3. Client o‘zi tanlaydi
+### 3. Bitta dars savollari
+
+```js
+// Test (variantli)
+const mcq = await fetch(BASE + "courses/js-asoslari/packs/mcq/lesson-18.json")
+  .then(r => r.json());
+
+// Kod yozish
+const code = await fetch(BASE + "courses/js-asoslari/packs/code/lesson-18.json")
+  .then(r => r.json());
+```
+
+### 4. Client o‘zi tanlaydi
 
 ```js
 const config = {
   course: "js-asoslari",   // yoki "javascript"
   types: ["mcq", "code"],  // qaysi turlar
-  lessons: [1, 2, 3, 18],  // qaysi darslar (yoki "all")
+  lessons: [1, 2, 3, 18],  // qaysi darslar
+  // yoki: lessons: "all"
 };
 ```
 
-Keyin faqat shu dars/pack fayllarini yuklaysiz.
+Keyin faqat kerakli `lesson-XX.json` fayllarini yuklaysiz.
 
 ---
 
 ## Savol formatlari
 
-### Test (mcq)
+### Test (`mcq`)
 
 ```json
 {
@@ -109,9 +123,9 @@ Keyin faqat shu dars/pack fayllarini yuklaysiz.
 }
 ```
 
-`correct` — to‘g‘ri javob indeksi (0 dan boshlanadi).
+`correct` — to‘g‘ri javob indeksi (**0** dan boshlanadi).
 
-### Kod yozish (code)
+### Kod yozish (`code`)
 
 ```json
 {
@@ -131,26 +145,38 @@ Keyin faqat shu dars/pack fayllarini yuklaysiz.
 
 ---
 
-## Tezkor yo‘l (barcha packlar ro‘yxati)
+## Tezkor misol: 1–5 dars MCQ yuklash
 
 ```js
-const index = await fetch(BASE + "courses/js-asoslari/index.json").then(r => r.json());
-// index.mcq  → [{ lesson, file, count }, ...]
-// index.code → [{ lesson, file, count }, ...]
+const BASE = "https://cdn.jsdelivr.net/gh/mrdevs2011/js-queastions@main/";
+const course = "js-asoslari";
+const lessons = [1, 2, 3, 4, 5];
+
+const packs = await Promise.all(
+  lessons.map(n => {
+    const id = String(n).padStart(2, "0");
+    return fetch(`${BASE}courses/${course}/packs/mcq/lesson-${id}.json`).then(r => r.json());
+  })
+);
+
+const allQuestions = packs.flatMap(p => p.questions);
+console.log(allQuestions.length);
 ```
 
 ---
 
 ## Qo‘shish / o‘zgartirish
 
-1. Tegishli `lesson-XX.json` ni tahrirlang
-2. `index.json` dagi `count` ni yangilang (ixtiyoriy)
-3. Push qiling — CDN bir necha daqiqada yangilanadi
+1. Tegishli `lesson-XX.json` ni tahrirlang  
+2. Kerak bo‘lsa `index.json` dagi `count` ni yangilang  
+3. `git push` — CDN odatda bir necha daqiqada yangilanadi  
 
-Yangi dars qo‘shish: yangi `lesson-XX.json` yarating, `lessons.json` ga nom qo‘shing.
+Yangi dars: yangi `lesson-XX.json` + `lessons.json` ga nom qo‘shing.
 
 ---
 
 ## Litsenziya
 
-Ochiq foydalanish uchun. Kurs muallifi: **Ulugbek Samigjonov**.
+Ochiq foydalanish uchun.  
+Kurs muallifi: **Ulugbek Samigjonov**.  
+Repo: [mrdevs2011/js-queastions](https://github.com/mrdevs2011/js-queastions).
