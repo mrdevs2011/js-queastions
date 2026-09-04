@@ -1202,6 +1202,266 @@
         "hard"
       ],
       "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-026",
+      "q": "while (false) {...} ishlaydimi?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-027",
+      "q": "do...while kamida necha marta?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-034",
+      "q": "let i=0; while(i<3){i++} oxirida i?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "correct": 1,
+      "exp": "i 3 ga yetganda to'xtaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-036",
+      "q": "while (false) {...} ishlaydimi (misol 1)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-037",
+      "q": "do...while kamida necha marta (misol 1)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-041",
+      "q": "while (false) {...} ishlaydimi (misol 2)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-042",
+      "q": "do...while kamida necha marta (misol 2)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-046",
+      "q": "while (false) {...} ishlaydimi (misol 3)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-047",
+      "q": "do...while kamida necha marta (misol 3)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-051",
+      "q": "while (false) {...} ishlaydimi (misol 4)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-052",
+      "q": "do...while kamida necha marta (misol 4)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-056",
+      "q": "while (false) {...} ishlaydimi (misol 5)?",
+      "opts": [
+        "ha",
+        "yo'q",
+        "1 marta",
+        "error"
+      ],
+      "correct": 1,
+      "exp": "Shart false bo'lsa umuman kirmaydi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
+    },
+    {
+      "id": "aso-mcq-21-m20-057",
+      "q": "do...while kamida necha marta (misol 5)?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "cheksiz"
+      ],
+      "correct": 1,
+      "exp": "do...while kamida 1 marta bajariladi.",
+      "difficulty": 3,
+      "category": "loops",
+      "tags": [
+        "loops",
+        "test",
+        "hard"
+      ],
+      "points": 3
     }
   ]
 }

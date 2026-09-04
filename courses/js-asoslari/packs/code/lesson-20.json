@@ -117,7 +117,7 @@
     },
     {
       "id": "aso-code-20-009",
-      "task": "for: for 1..5 chiqaring.",
+      "task": "for: 1..5 chiqaring.",
       "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
       "exp": "for.",
       "difficulty": 3,
@@ -131,8 +131,8 @@
     },
     {
       "id": "aso-code-20-010",
-      "task": "for: while 5..1 kamaytirib chiqaring.",
-      "sample": "let i = 5;\nwhile (i >= 1) {\n  console.log(i);\n  i--;\n}",
+      "task": "for: 5..1 kamaytirib chiqaring.",
+      "sample": "for (let i = 5; i >= 1; i--) {\n  console.log(i);\n}",
       "exp": "while.",
       "difficulty": 3,
       "category": "loops",
@@ -145,7 +145,7 @@
     },
     {
       "id": "aso-code-20-011",
-      "task": "for: for da break (i===3).",
+      "task": "for: i===3 bo'lganda break qiling.",
       "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
       "exp": "break.",
       "difficulty": 3,
@@ -173,8 +173,8 @@
     },
     {
       "id": "aso-code-20-013",
-      "task": "while bilan 3 marta chiqaring.",
-      "sample": "let i = 0;\nwhile (i < 3) {\n  console.log(i);\n  i++;\n}",
+      "task": "for bilan 3 marta chiqaring.",
+      "sample": "for (let i = 0; i < 3; i++) {\n  console.log(i);\n}",
       "exp": "while.",
       "difficulty": 3,
       "category": "loops",
