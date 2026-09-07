@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "js-mcq-24-001",
-      "q": "Spread [...] nima qiladi?",
+      "q": "Spread ...arr nima qiladi?",
       "opts": [
-        "Massivni yig'adi",
-        "Massiv/obyektni yoyadi",
+        "Elementlarni yoyadi: math, yangi massiv, argument",
+        "Rest bilan 100% bir xil joyda",
         "O'chiradi",
-        "Saralaydi"
+        "JSON parse"
       ],
-      "correct": 1,
-      "exp": "[...arr] — elementlarni yoyadi.",
-      "difficulty": 2,
-      "category": "operators",
+      "correct": 0,
+      "exp": "const b=[...a]; Math.max(...sonlar).",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-24-002",
-      "q": "Quyidagi kodning natijasi nima?\nconst a=[1,2]; const b=[...a,3]; b",
+      "q": "Rest ...args funksiyada?",
       "opts": [
-        "[1,2]",
-        "[1,2,3]",
-        "[[1,2],3]",
-        "xato"
+        "Qolgan argumentlarni massiv qiladi",
+        "Yoyadi",
+        "DOM",
+        "string split"
       ],
-      "correct": 1,
-      "exp": "Spread bilan yangi massivga nusxa + qo'shish.",
-      "difficulty": 2,
-      "category": "operators",
+      "correct": 0,
+      "exp": "function f(a, ...rest).",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-24-003",
-      "q": "Rest parametr qayerda turadi?",
+      "q": "Qayerda spread, qayerda rest?",
       "opts": [
-        "Boshida",
-        "Parametrlar ro'yxati oxirida",
-        "O'rtada",
-        "Faqat arrow da"
+        "Rest — yig'ish (chap/parametr). Spread — yoyish (o'ng/argument)",
+        "Nomlar teskarisi har doim",
+        "Farq yo'q",
+        "Rest faqat DOM"
       ],
-      "correct": 1,
-      "exp": "function f(a, ...rest) — rest oxirida.",
-      "difficulty": 2,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Bir belgi, ikki rol.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-24-004",
-      "q": "Object spread: { ...obj, x:1 } nima qiladi?",
+      "q": "[...[1,2], ...[3]] ?",
       "opts": [
-        "obj ni o'chiradi",
-        "obj nusxasi + x:1",
-        "Faqat x qoldiradi",
-        "Xato"
+        "[1,2,3]",
+        "[[1,2],[3]]",
+        "[6]",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Yangi obyekt: eski xususiyatlar + yangilari.",
-      "difficulty": 2,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Concat o'rniga.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-24-005",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "{...{a:1}, ...{b:2}} ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "{a:1,b:2}",
+        "{a:1}{b:2}",
+        "[1,2]",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Keyin kelgan kalit yutadi.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-24-006",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "{...{a:1,b:2}, b:9} ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "{a:1,b:9}",
+        "{a:1,b:2}",
+        "{b:9}",
+        "{a:1}"
       ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Overwrite.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-24-007",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "Math.max(...[3,8,4]) ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "8",
+        "[3,8,4]",
+        "NaN",
+        "3"
       ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Yoyilgan argumentlar.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-24-008",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "function f(...n){ return n; } f(1,2) ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "[1,2]",
+        "3",
+        "1",
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
+      "correct": 0,
+      "exp": "Rest massiv.",
+      "difficulty": 1,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-24-009",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "arguments vs rest?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "rest haqiqiy massiv; arguments array-like (oddiy function)",
+        "Ikkalasi arrow da bor",
+        "arguments yo'q hech",
+        "rest string"
       ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-010",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-011",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-012",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-013",
-      "q": "Spread [...] nima qiladi (qayta / chuqurroq)?",
-      "opts": [
-        "Massivni yig'adi",
-        "Massiv/obyektni yoyadi",
-        "O'chiradi",
-        "Saralaydi"
-      ],
-      "correct": 1,
-      "exp": "[...arr] — elementlarni yoyadi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-014",
-      "q": "const a=[1,2]; const b=[...a,3]; b (qayta / chuqurroq)?",
-      "opts": [
-        "[1,2]",
-        "[1,2,3]",
-        "[[1,2],3]",
-        "xato"
-      ],
-      "correct": 1,
-      "exp": "Spread bilan yangi massivga nusxa + qo'shish. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-015",
-      "q": "Quyidagi kodning natijasi nima?\nRest parametr qayerda turadi",
-      "opts": [
-        "Boshida",
-        "Parametrlar ro'yxati oxirida",
-        "O'rtada",
-        "Faqat arrow da"
-      ],
-      "correct": 1,
-      "exp": "function f(a, ...rest) — rest oxirida. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-016",
-      "q": "Object spread: { ...obj, x:1 } nima qiladi (qayta / chuqurroq)?",
-      "opts": [
-        "obj ni o'chiradi",
-        "obj nusxasi + x:1",
-        "Faqat x qoldiradi",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "Yangi obyekt: eski xususiyatlar + yangilari. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-017",
-      "q": "Spread va Rest operatorlari mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Spread va Rest operatorlari bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-018",
-      "q": "5 + '5' natijasi?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
+      "correct": 0,
+      "exp": "Arrow da arguments yo'q (tashqidan meros).",
       "difficulty": 2,
-      "category": "operators",
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "medium"
+        "spread-rest",
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "js-mcq-24-019",
-      "q": "5 - '3' natijasi?",
+      "id": "js-mcq-24-010",
+      "q": "Sayoz nusxa: const b={...a}",
       "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
+        "Birinchi qavat yangi",
+        "Chuqur hammasi yangi",
+        "Referens o'sha",
+        "freeze"
       ],
       "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
-      "difficulty": 3,
-      "category": "operators",
+      "exp": "Ichki obyekt o'sha.",
+      "difficulty": 2,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-020",
-      "q": "2 ** 3 natijasi?",
+      "id": "js-mcq-24-011",
+      "q": "Qaysi xato?",
       "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-021",
-      "q": "10 % 3 natijasi?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-022",
-      "q": "true && false natijasi?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-023",
-      "q": "true || false natijasi?",
-      "opts": [
-        "true",
-        "false",
-        "null",
-        "0"
+        "...faqat oxirida rest parametrda",
+        "...o'rtada rest: (a, ...r, b) xato",
+        "spread o'rtada massivda ruxsat",
+        "[0,...a,9] ruxsat"
       ],
       "correct": 0,
-      "exp": "|| — bittasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
+      "exp": "Rest oxirgi parametr.",
+      "difficulty": 2,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-024",
-      "q": "!true natijasi?",
+      "id": "js-mcq-24-012",
+      "q": "String spread: [...'hi'] ?",
       "opts": [
-        "true",
-        "false",
-        "null",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "! — mantiqiy emas.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-025",
-      "q": "5 == '5' natijasi?",
-      "opts": [
-        "true",
-        "false",
-        "error",
-        "NaN"
+        "[\"h\",\"i\"]",
+        "[\"hi\"]",
+        "['h','i','']",
+        "xato"
       ],
       "correct": 0,
-      "exp": "== type coercion qiladi.",
-      "difficulty": 3,
-      "category": "operators",
+      "exp": "Harflar.",
+      "difficulty": 2,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-026",
-      "q": "5 === '5' natijasi?",
+      "id": "js-mcq-24-013",
+      "q": "Qaysi concat o'rniga?",
       "opts": [
-        "true",
-        "false",
-        "error",
-        "NaN"
-      ],
-      "correct": 1,
-      "exp": "=== type va qiymatni tekshiradi.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-027",
-      "q": "null ?? 'default' natijasi?",
-      "opts": [
-        "null",
-        "'default'",
-        "undefined",
-        "0"
-      ],
-      "correct": 1,
-      "exp": "?? — nullish coalescing.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-028",
-      "q": "0 || 'default' natijasi?",
-      "opts": [
-        "0",
-        "'default'",
-        "null",
-        "true"
-      ],
-      "correct": 1,
-      "exp": "|| falsy ni o'tkazib yuboradi.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-029",
-      "q": "3 > 2 > 1 natijasi?",
-      "opts": [
-        "true",
-        "false",
-        "error",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "true > 1 → 1 > 1 → false.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-030",
-      "q": "5 + '5' natijasi (misol 1)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-031",
-      "q": "5 - '3' natijasi (misol 1)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
+        "[...a, ...b]",
+        "a+b massivda",
+        "a.concat yo'q",
+        "a.push(b) bir xil"
       ],
       "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
-      "difficulty": 3,
-      "category": "operators",
+      "exp": "push butun massivni bitta element qilishi mumkin.",
+      "difficulty": 2,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-032",
-      "q": "2 ** 3 natijasi (misol 1)?",
+      "id": "js-mcq-24-014",
+      "q": "function sum(a,b,c){}; sum(...[1,2,3])",
       "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-033",
-      "q": "10 % 3 natijasi (misol 1)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-034",
-      "q": "true && false natijasi (misol 1)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-035",
-      "q": "5 + '5' natijasi (misol 2)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-036",
-      "q": "5 - '3' natijasi (misol 2)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
+        "a=1,b=2,c=3",
+        "a=[1,2,3]",
+        "xato",
+        "c undefined"
       ],
       "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
-      "difficulty": 3,
-      "category": "operators",
+      "exp": "Call da spread.",
+      "difficulty": 2,
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-037",
-      "q": "2 ** 3 natijasi (misol 2)?",
+      "id": "js-mcq-24-015",
+      "q": "Qaysi foyda obyekt spread?",
       "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-038",
-      "q": "10 % 3 natijasi (misol 2)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-039",
-      "q": "true && false natijasi (misol 2)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-040",
-      "q": "5 + '5' natijasi (misol 3)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-041",
-      "q": "5 - '3' natijasi (misol 3)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
+        "Sozlamalarni birlashtirish: {...default, ...user}",
+        "DOM event",
+        "CSS merge avtomatik",
+        "HTML teg"
       ],
       "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
+      "exp": "user ustun.",
       "difficulty": 3,
-      "category": "operators",
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-24-042",
-      "q": "2 ** 3 natijasi (misol 3)?",
+      "id": "js-mcq-24-016",
+      "q": "limit: juda katta massivni Math.max(...arr)?",
       "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-043",
-      "q": "10 % 3 natijasi (misol 3)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-044",
-      "q": "true && false natijasi (misol 3)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-045",
-      "q": "5 + '5' natijasi (misol 4)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-046",
-      "q": "5 - '3' natijasi (misol 4)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
+        "Argument limiti oshishi mumkin; reduce xavfsizroq",
+        "Har doim 1mln ok",
+        "spread sekin emas muhim emas",
+        "Math.max massiv oladi o'zi"
       ],
       "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
+      "exp": "Math.max(...katta) xavf.",
       "difficulty": 3,
-      "category": "operators",
+      "category": "spread-rest",
       "tags": [
-        "operators",
-        "test",
-        "hard"
+        "spread-rest",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-047",
-      "q": "2 ** 3 natijasi (misol 4)?",
-      "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-048",
-      "q": "10 % 3 natijasi (misol 4)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-049",
-      "q": "true && false natijasi (misol 4)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-050",
-      "q": "5 + '5' natijasi (misol 5)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-051",
-      "q": "5 - '3' natijasi (misol 5)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
-      ],
-      "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-052",
-      "q": "2 ** 3 natijasi (misol 5)?",
-      "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-053",
-      "q": "10 % 3 natijasi (misol 5)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-054",
-      "q": "true && false natijasi (misol 5)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-055",
-      "q": "5 + '5' natijasi (misol 6)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-056",
-      "q": "5 - '3' natijasi (misol 6)?",
-      "opts": [
-        "2",
-        "'53'",
-        "NaN",
-        "8"
-      ],
-      "correct": 0,
-      "exp": "Minus operatori number ga o'tkazadi.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-057",
-      "q": "2 ** 3 natijasi (misol 6)?",
-      "opts": [
-        "6",
-        "8",
-        "9",
-        "5"
-      ],
-      "correct": 1,
-      "exp": "** — daraja operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-058",
-      "q": "10 % 3 natijasi (misol 6)?",
-      "opts": [
-        "3",
-        "1",
-        "0",
-        "10"
-      ],
-      "correct": 1,
-      "exp": "% — qoldiq operatori.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-059",
-      "q": "true && false natijasi (misol 6)?",
-      "opts": [
-        "true",
-        "false",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "&& — ikkalasi true bo'lsa true.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-24-060",
-      "q": "5 + '5' natijasi (misol 7)?",
-      "opts": [
-        "10",
-        "'55'",
-        "NaN",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Number + String → concatenation.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

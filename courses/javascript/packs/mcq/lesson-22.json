@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "js-mcq-22-001",
-      "q": "Object kalit-qiymat juftligi qanday yoziladi?",
+      "q": "Obyekt nima?",
       "opts": [
-        "kalit = qiymat",
-        "kalit: qiymat",
-        "kalit -> qiymat",
-        "kalit => qiymat"
+        "Kalit-qiymat juftliklari to'plami",
+        "Faqat sonlar ro'yxati",
+        "Faqat funksiya",
+        "HTML sahifa"
       ],
-      "correct": 1,
-      "exp": "{ ism: 'Ali', yosh: 20 }",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "const user = { ism: 'Ali', yosh: 15 };",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-22-002",
-      "q": "obj.x va obj['x'] farqi?",
+      "q": "user.ism va user['ism'] farqi?",
       "opts": [
-        "Butunlay boshqa",
-        "Ko'p hollarda bir xil natija (dot vs bracket)",
-        "Faqat array da",
-        "Bracket ishlamaydi"
+        "Nuqta oddiy nom; qavs ifoda yoki bo'sh joyli kalit uchun",
+        "Qavs ishlamaydi",
+        "Nuqta faqat son",
+        "Ikkalasi ham massiv"
       ],
-      "correct": 1,
-      "exp": "Dot oddiy nomlar uchun, bracket dinamik kalit uchun qulay.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "const k='ism'; user[k] ishlaydi, user.k esa 'k' kalitini qidiradi.",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-22-003",
-      "q": "Object ga yangi xususiyat qo'shish?",
+      "q": "Yo'q kalitni o'qisa?",
       "opts": [
-        "Mumkin emas",
-        "obj.yangi = qiymat",
-        "faqat constructor da",
-        "faqat freeze dan oldin"
+        "undefined",
+        "null",
+        "xato har doim",
+        "0"
       ],
-      "correct": 1,
-      "exp": "Oddiy tayinlash bilan qo'shiladi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "user.familiya — kalit yo'q bo'lsa undefined.",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-22-004",
-      "q": "delete obj.x nima qiladi?",
+      "q": "Kalit qo'shish?",
       "opts": [
-        "Qiymatni null qiladi",
-        "Xususiyatni olib tashlaydi",
-        "Xato",
-        "Yashiradi"
+        "user.shahar = 'Namangan';",
+        "user + shahar",
+        "push(user,'shahar')",
+        "user->shahar"
       ],
-      "correct": 1,
-      "exp": "delete kalitni obyektdan olib tashlaydi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Obyekt o'zgaruvchan (const bo'lsa ham ichini o'zgartirish mumkin).",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-22-005",
-      "q": "Object asoslari mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "delete user.yosh nima qiladi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Kalitni o'chiradi",
+        "Qiymatni 0 qiladi",
+        "undefined ga tenglashtirmaydi, kalit qoladi",
+        "Massiv qiladi"
       ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Kalit yo'qoladi. user.yosh = undefined esa kalit qoladi.",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-22-006",
-      "q": "Object asoslari mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "const a = {x:1}; const b = a; b.x=2; a.x?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "2 — bir xil obyekt",
+        "1",
+        "undefined",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Referens. Nusxa: { ...a } yoki Object.assign({}, a).",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-22-007",
-      "q": "Object asoslari mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "Object.keys({a:1,b:2}) ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "[\"a\",\"b\"]",
+        "[1,2]",
+        "{a,b}",
+        "2"
       ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Kalitlar massivi.",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-22-008",
-      "q": "Object asoslari mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "Object.values({a:1,b:2}) ?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "[1,2]",
+        "[\"a\",\"b\"]",
+        "{1,2}",
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Qiymatlar massivi.",
+      "difficulty": 1,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-22-009",
-      "q": "Object asoslari mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "for...in nima aylanadi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Sanab bo'ladigan kalitlar (prototip ham qo'shilishi mumkin)",
+        "Faqat qiymatlar",
+        "Faqat massiv indekslari emas, hech narsa",
+        "Faqat funksiyalar"
       ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-010",
-      "q": "Object asoslari mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-011",
-      "q": "Object asoslari mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-012",
-      "q": "Object asoslari mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-013",
-      "q": "Object kalit-qiymat juftligi qanday yoziladi (qayta / chuqurroq)?",
-      "opts": [
-        "kalit = qiymat",
-        "kalit: qiymat",
-        "kalit -> qiymat",
-        "kalit => qiymat"
-      ],
-      "correct": 1,
-      "exp": "{ ism: 'Ali', yosh: 20 } Qayta o'qing.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-014",
-      "q": "Quyidagi kodning natijasi nima?\nobj.x va obj['x'] farqi",
-      "opts": [
-        "Butunlay boshqa",
-        "Ko'p hollarda bir xil natija (dot vs bracket)",
-        "Faqat array da",
-        "Bracket ishlamaydi"
-      ],
-      "correct": 1,
-      "exp": "Dot oddiy nomlar uchun, bracket dinamik kalit uchun qulay. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-015",
-      "q": "Object ga yangi xususiyat qo'shish (qayta / chuqurroq)?",
-      "opts": [
-        "Mumkin emas",
-        "obj.yangi = qiymat",
-        "faqat constructor da",
-        "faqat freeze dan oldin"
-      ],
-      "correct": 1,
-      "exp": "Oddiy tayinlash bilan qo'shiladi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-016",
-      "q": "delete obj.x nima qiladi (qayta / chuqurroq)?",
-      "opts": [
-        "Qiymatni null qiladi",
-        "Xususiyatni olib tashlaydi",
-        "Xato",
-        "Yashiradi"
-      ],
-      "correct": 1,
-      "exp": "delete kalitni obyektdan olib tashlaydi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-017",
-      "q": "Object asoslari mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Object asoslari bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-018",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
+      "correct": 0,
+      "exp": "O'z kalitlari uchun Object.keys yoki for...of Object.entries.",
       "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "js-mcq-22-019",
-      "q": "o['a'] sintaksisi?",
+      "id": "js-mcq-22-010",
+      "q": "{ ism } = user nima? (destrukturizatsiya)",
       "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-020",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
+        "user.ism ni ism o'zgaruvchisiga olish",
+        "user ni o'chirish",
+        "Massiv qilish",
+        "JSON yuborish"
       ],
       "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
+      "exp": "Keyingi kursda chuqurroq. Qisqa: const {ism} = user;",
+      "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-021",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
+      "id": "js-mcq-22-011",
+      "q": "Qaysi kalit yozuvi to'g'ri?",
       "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
+        "{ \"to'liq ism\": \"Ali Valiyev\" } va ob[\"to'liq ism\"]",
+        "{ to'liq ism: 'Ali' } nuqta bilan ob.to'liq",
+        "{ }",
+        "Kalit faqat son"
       ],
       "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
+      "exp": "Bo'sh joyli kalit — qavs notatsiyasi.",
+      "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-022",
-      "q": "{...obj} nima qiladi?",
+      "id": "js-mcq-22-012",
+      "q": "JSON.stringify({x:1}) ?",
       "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-023",
-      "q": "Quyidagi kodning natijasi nima?\nobj.hasOwnProperty('a')",
-      "opts": [
-        "true/false qaytaradi",
-        "error",
-        "undefined",
-        "null"
+        "'{\"x\":1}'",
+        "{x:1}",
+        "x=1",
+        "['x',1]"
       ],
       "correct": 0,
-      "exp": "O'zining xususiyati borligini tekshiradi.",
-      "difficulty": 3,
+      "exp": "Obyektni matn (JSON) qiladi. Teskari: JSON.parse.",
+      "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-024",
-      "q": "delete obj.a nima qiladi?",
+      "id": "js-mcq-22-013",
+      "q": "Metod nima?",
       "opts": [
-        "qiymatni null qiladi",
-        "xususiyatni o'chiradi",
-        "error",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Xususiyatni obyektdan olib tashlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-025",
-      "q": "Quyidagi kodning natijasi nima?\nObject.assign({}, o1, o2)",
-      "opts": [
-        "deep merge",
-        "shallow merge",
-        "error",
-        "faqat o1"
-      ],
-      "correct": 1,
-      "exp": "Shallow merge qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-026",
-      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:1})",
-      "opts": [
-        "{a:1}",
-        "'{\"a\":1}'",
-        "error",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Obyektni JSON stringga aylantiradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-027",
-      "q": "Quyidagi kodning natijasi nima?\nJSON.parse('{\"a\":1}')",
-      "opts": [
-        "string",
-        "{a:1}",
-        "error",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "JSON stringni obyektga aylantiradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-028",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-029",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-030",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
+        "Qiymati funksiya bo'lgan xususiyat",
+        "Faqat massiv",
+        "Faqat CSS class",
+        "Faqat teg"
       ],
       "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
+      "exp": "user.salom = function(){...} yoki qisqa salom(){}.",
+      "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-031",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
+      "id": "js-mcq-22-014",
+      "q": "Qaysi solishtirish xato ishlaydi?",
       "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
+        "{x:1} === {x:1}  // false, turli obyektlar",
+        "const a={x:1}; const b=a; a===b // true",
+        "1 === 1",
+        "'a'==='a'"
       ],
       "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
+      "exp": "Obyektlar referens bo'yicha solishtiriladi.",
+      "difficulty": 2,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-032",
-      "q": "{...obj} nima qiladi (misol 1)?",
+      "id": "js-mcq-22-015",
+      "q": "in operatori: 'yosh' in user",
       "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-033",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-034",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-035",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
+        "Kalit bor-yo'qini tekshiradi",
+        "Qiymatni qaytaradi",
+        "O'chiradi",
+        "Massiv qiladi"
       ],
       "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
+      "exp": "Prototipdagi kalit ham true bo'lishi mumkin. O'ziniki: Object.hasOwn.",
       "difficulty": 3,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-22-036",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
+      "id": "js-mcq-22-016",
+      "q": "Qisqa maydon: const ism='Ali'; const u = {ism} nima?",
       "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
+        "{ ism: 'Ali' }",
+        "{ ism: ism: 'Ali' }",
+        "xato",
+        "{ 'Ali' }"
       ],
       "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
+      "exp": "Property shorthand.",
       "difficulty": 3,
       "category": "objects",
       "tags": [
         "objects",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-037",
-      "q": "{...obj} nima qiladi (misol 2)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-038",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-039",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-040",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-041",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-042",
-      "q": "{...obj} nima qiladi (misol 3)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-043",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-044",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-045",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-046",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-047",
-      "q": "{...obj} nima qiladi (misol 4)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-048",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-049",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-050",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-051",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-052",
-      "q": "{...obj} nima qiladi (misol 5)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-053",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-054",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-055",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-056",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-057",
-      "q": "{...obj} nima qiladi (misol 6)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-058",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-059",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-22-060",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

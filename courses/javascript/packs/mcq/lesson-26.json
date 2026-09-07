@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "js-mcq-26-001",
-      "q": "Noma'lum xato chiqsa birinchi qadam?",
+      "q": "MDN nima uchun yaxshi manba?",
       "opts": [
-        "Kodni o'chirish",
-        "Xato matnini o'qish va qidirish",
-        "Kompyuterni restart",
-        "Kursni tashlash"
+        "Rasmiyga yaqin, misol va moslik jadvali bor",
+        "Har doim birinchi reklama",
+        "Faqat video",
+        "Tasodifiy blog"
       ],
-      "correct": 1,
-      "exp": "Xato xabari + Google/ChatGPT — eng tezkor yordam.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "developer.mozilla.org",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-26-002",
-      "q": "MDN nima?",
+      "q": "ChatGPT javobini nima qilish kerak?",
       "opts": [
-        "O'yin",
-        "Mozilla Developer Network — ishonchli hujjatlar",
-        "Chatbot",
-        "IDE"
+        "Kichik misolda tekshirish, keyin ishlatish",
+        "To'g'ridan-to'g'ri ishonish",
+        "Hech qachon so'ramaslik",
+        "Konsolsiz qo'yish"
       ],
-      "correct": 1,
-      "exp": "MDN — web texnologiyalar bo'yicha eng ishonchli manba.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "AI xato qilishi mumkin.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-26-003",
-      "q": "AI dan kod so'rashda nima muhim?",
+      "q": "Google da qanday qidiruv aniq?",
       "opts": [
-        "Butun loyihani so'rash",
-        "Tushunib olish va o'zgartira olish",
-        "Hech o'qimasdan nusxa",
-        "Faqat to'liq dastur"
+        "site:developer.mozilla.org Array.map",
+        "faqat 'map nima'",
+        "faqat rasm",
+        "faqat PDF reklama"
       ],
-      "correct": 1,
-      "exp": "AI yordamchi, lekin tushunish o'zingizda qolishi kerak.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Kalit so'z + til + metod.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-26-004",
-      "q": "Stack Overflow nima uchun foydali?",
+      "q": "Stack Overflow da nima qilasiz?",
       "opts": [
-        "Faqat o'yin",
-        "Haqiqiy muammolar va yechimlar muhokamasi",
-        "Faqat yangiliklar",
-        "Video darslar"
+        "Sana, ovoz, kodni o'z muhitingizda sinash",
+        "Eng eski javobni ko'rmasdan olish",
+        "Savol o'qimaslik",
+        "Nusxa va unutish"
       ],
-      "correct": 1,
-      "exp": "Ko'p uchraydigan xatolar bo'yicha jamoaviy javoblar.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Eskirgan javoblar bor.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-26-005",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "Xato matnini qanday qidirasiz?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "To'liq xabar + JavaScript",
+        "faqat 'xato'",
+        "faqat qizil rang",
+        "faqat screenshot siz izoh"
       ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Uniq matn yaxshi topiladi.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-26-006",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "Qaysi manba zaifroq?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Muallifi noma'lum, tekshirilmagan ro'yxat 2014",
+        "MDN",
+        "Rasmiy hujjat",
+        "O'zingiz sinagan minimal misol"
       ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Sana va muallif.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-26-007",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "Nima uchun o'z izohingiz kerak?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Ertaga AI javobi ham unutiladi",
+        "Izoh kodni sekin qiladi yomon ma'noda shart",
+        "Izoh taqiqlangan",
+        "AI o'rni bosadi xotirani"
       ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Tushunganingizni yozing.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-26-008",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "Qidiruvda qaysi so'z yordam?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "javascript mdn 'TypeError null'",
+        "nima qilish umuman",
+        "iltimos kod yoz",
+        "tez javob"
       ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Aniq atama.",
+      "difficulty": 1,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-26-009",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "AI dan qanday so'rash yaxshi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-010",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-011",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-012",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-013",
-      "q": "Noma'lum xato chiqsa birinchi qadam (qayta / chuqurroq)?",
-      "opts": [
-        "Kodni o'chirish",
-        "Xato matnini o'qish va qidirish",
-        "Kompyuterni restart",
-        "Kursni tashlash"
-      ],
-      "correct": 1,
-      "exp": "Xato xabari + Google/ChatGPT — eng tezkor yordam. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-014",
-      "q": "MDN nima (qayta / chuqurroq)?",
-      "opts": [
-        "O'yin",
-        "Mozilla Developer Network — ishonchli hujjatlar",
-        "Chatbot",
-        "IDE"
-      ],
-      "correct": 1,
-      "exp": "MDN — web texnologiyalar bo'yicha eng ishonchli manba. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-015",
-      "q": "AI dan kod so'rashda nima muhim (qayta / chuqurroq)?",
-      "opts": [
-        "Butun loyihani so'rash",
-        "Tushunib olish va o'zgartira olish",
-        "Hech o'qimasdan nusxa",
-        "Faqat to'liq dastur"
-      ],
-      "correct": 1,
-      "exp": "AI yordamchi, lekin tushunish o'zingizda qolishi kerak. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-016",
-      "q": "Stack Overflow nima uchun foydali (qayta / chuqurroq)?",
-      "opts": [
-        "Faqat o'yin",
-        "Haqiqiy muammolar va yechimlar muhokamasi",
-        "Faqat yangiliklar",
-        "Video darslar"
-      ],
-      "correct": 1,
-      "exp": "Ko'p uchraydigan xatolar bo'yicha jamoaviy javoblar. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-017",
-      "q": "Google, ChatGPT va boshqa manbalar mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Google, ChatGPT va boshqa manbalar bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-018",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
+        "Kichik misol, kutilgan natija, nima sinadingiz",
+        "Butun loyihani tushuntirmasdan 'tuzat'",
+        "Faqat 'kod ber'",
+        "Kontekstsiz 1 so'z"
       ],
       "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
+      "exp": "Yaxshi savol — yaxshi javob.",
       "difficulty": 2,
-      "category": "introduction",
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "learning-sources",
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "js-mcq-26-019",
-      "q": "JavaScript qayerda ishlashi mumkin?",
+      "id": "js-mcq-26-010",
+      "q": "Qaysi odat xavfli?",
       "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-020",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
+        "Tushunmagan kodni loyihaga qo'yish",
+        "2 qatorni sinash",
+        "MDN misolini qisqartirish",
+        "console.log"
       ],
       "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
+      "exp": "Tushunish shart.",
+      "difficulty": 2,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-021",
-      "q": "JS qaysi yilda chiqgan?",
+      "id": "js-mcq-26-011",
+      "q": "Versiya nima uchun?",
       "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-022",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-023",
-      "q": "JavaScript qanday turdagi dasturlash tili?",
-      "opts": [
-        "Compiled (oldindan kompilyatsiya)",
-        "Interpreted (interpretatsiya qilinadi)",
-        "Assembly",
-        "Machine code"
-      ],
-      "correct": 1,
-      "exp": "JavaScript odatda interpretatsiya qilinuvchi til — kod ketma-ket bajariladi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-024",
-      "q": "HTML va JavaScript o'rtasidagi asosiy farq nima?",
-      "opts": [
-        "Ikkalasi bir xil",
-        "HTML — struktura, JS — mantiq va interaktivlik",
-        "JS — faqat struktura",
-        "Farqi yo'q"
-      ],
-      "correct": 1,
-      "exp": "HTML sahifa tuzilishini, JavaScript esa dinamika va mantiqni beradi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-025",
-      "q": "Node.js nima?",
-      "opts": [
-        "Brauzer",
-        "Serverda JavaScript ishlatish uchun runtime muhit",
-        "CSS framework",
-        "Ma'lumotlar bazasi"
-      ],
-      "correct": 1,
-      "exp": "Node.js — brauzerdan tashqarida (serverda) JavaScript ishlatish imkonini beruvchi muhit.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-026",
-      "q": "JavaScript da o'zgaruvchini e'lon qilish uchun qaysi kalit so'zlar ishlatiladi?",
-      "opts": [
-        "faqat var",
-        "let, const, var",
-        "faqat let",
-        "faqat const"
-      ],
-      "correct": 1,
-      "exp": "Zamonaviy JS da asosan let va const, eski kodda var ham uchraydi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-027",
-      "q": "typeof operatori nima qiladi?",
-      "opts": [
-        "Qiymatni o'zgartiradi",
-        "Ma'lumot turini qaytaradi",
-        "O'chiradi",
-        "Nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "typeof qiymatning turini string ko'rinishida qaytaradi, masalan typeof 5 → 'number'.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-028",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
+        "Eski post ES5, yangi kod ES2023 bo'lishi mumkin",
+        "Versiya muhim emas",
+        "JS o'zgarmaydi",
+        "Faqat HTML versiyasi"
       ],
       "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
+      "exp": "Sana.",
+      "difficulty": 2,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-029",
-      "q": "JavaScript qayerda ishlashi mumkin?",
+      "id": "js-mcq-26-012",
+      "q": "Rasmiy spec o'qish?",
       "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-030",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
+        "Chuqur savol uchun; kundalikda MDN yetarli",
+        "Har kuni spec shart",
+        "Spec taqiqlangan",
+        "Spec faqat C++"
       ],
       "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
+      "exp": "tc39 / ECMA-262.",
+      "difficulty": 2,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-031",
-      "q": "JS qaysi yilda chiqgan (misol 1)?",
+      "id": "js-mcq-26-013",
+      "q": "Qanday yozuv daftarga?",
       "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-032",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-033",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
+        "Xato + sabab + to'g'ri kod 5 qator",
+        "100 bet nazariya",
+        "Faqat sticker",
+        "Bo'sh sahifa"
       ],
       "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
+      "exp": "Shaxsiy xato jurnali.",
+      "difficulty": 2,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-034",
-      "q": "JavaScript qayerda ishlashi mumkin?",
+      "id": "js-mcq-26-014",
+      "q": "Nima uchun bir nechta manba?",
       "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-035",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
+        "Bir joy xato yoki eskirgan bo'lishi mumkin",
+        "Vaqt yo'qotish har doim",
+        "MDN yetarli emas hech",
+        "AI taqiqlangan"
       ],
       "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
+      "exp": "Solishtiring.",
+      "difficulty": 2,
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-036",
-      "q": "JS qaysi yilda chiqgan (misol 2)?",
+      "id": "js-mcq-26-015",
+      "q": "Kodni ulashda nima qilmang?",
       "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-037",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-038",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
+        "Maxfiy kalit, parol, shaxsiy ma'lumot",
+        "Kichik takrorlanadigan misol",
+        "Xato matni",
+        "Kutilgan natija"
       ],
       "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
+      "exp": "Xavfsizlik.",
       "difficulty": 3,
-      "category": "introduction",
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-26-039",
-      "q": "JavaScript qayerda ishlashi mumkin?",
+      "id": "js-mcq-26-016",
+      "q": "O'rganish maqsadi qidiruvda?",
       "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-040",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
+        "O'zingiz yecha olishni oshirish, nafaqat javob yig'ish",
+        "Nusxalar papkasi",
+        "Bookmark 1000 o'qimasdan",
+        "Savolsiz yashash"
       ],
       "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
+      "exp": "Mustaqillik.",
       "difficulty": 3,
-      "category": "introduction",
+      "category": "learning-sources",
       "tags": [
-        "introduction",
-        "test",
-        "hard"
+        "learning-sources",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-041",
-      "q": "JS qaysi yilda chiqgan (misol 3)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-042",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-043",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-044",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-045",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-046",
-      "q": "JS qaysi yilda chiqgan (misol 4)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-047",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-048",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-049",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-050",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-051",
-      "q": "JS qaysi yilda chiqgan (misol 5)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-052",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-053",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-054",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-055",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-056",
-      "q": "JS qaysi yilda chiqgan (misol 6)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-057",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-058",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-059",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-26-060",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

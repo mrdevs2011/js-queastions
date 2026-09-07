@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-25-001",
-      "task": "ism va yosh o'zgaruvchilari bilan template literal da \"Mening ismim X, yoshim Y\" deb chiqaring.",
-      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nconsole.log(`Mening ismim ${ism}, yoshim ${yosh}`);",
-      "exp": "Template literal ${} interpolatsiyasi.",
-      "difficulty": 2,
-      "category": "strings",
+      "task": "ism='Uma'; `Salom, ${ism}!`",
+      "sample": "const ism = \"Uma\";\nconsole.log(`Salom, ${ism}!`);",
+      "exp": "Salom, Uma!",
+      "difficulty": 1,
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "medium"
+        "template-literal",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-25-002",
-      "task": "Template literal bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "let ism = \"Ali\";\nlet yosh = 20;\nconsole.log(`Mening ismim ${ism}, yoshim ${yosh}`);",
-      "exp": "Template literal ${} interpolatsiyasi.",
-      "difficulty": 2,
-      "category": "strings",
+      "task": "a=4 b=6; `Yigindi: ${a+b}`",
+      "sample": "const a = 4;\nconst b = 6;\nconsole.log(`Yigindi: ${a + b}`);",
+      "exp": "Yigindi: 10",
+      "difficulty": 1,
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "medium"
+        "template-literal",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-25-003",
-      "task": "Template literal: ism ni toUpperCase va length bilan chiqaring.",
-      "sample": "let ism = \"ali\";\nconsole.log(ism.toUpperCase(), ism.length);",
-      "exp": "String metodlari.",
-      "difficulty": 3,
-      "category": "strings",
+      "task": "Ko'p qatorli matn chiqaring: 2 qator.",
+      "sample": "console.log(`birinchi\nikkinchi`);",
+      "exp": "Enter yoki \\n.",
+      "difficulty": 1,
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "hard"
+        "template-literal",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-25-004",
-      "task": "Template literal: template literal da \"Salom, {ism}!\" yozing.",
-      "sample": "let ism = \"Nodira\";\nconsole.log(`Salom, ${ism}!`);",
-      "exp": "Template literal.",
-      "difficulty": 3,
-      "category": "strings",
+      "task": "ok=false; `${ok ? 'ha' : 'yoq'}`",
+      "sample": "const ok = false;\nconsole.log(`${ok ? \"ha\" : \"yoq\"}`);",
+      "exp": "yoq.",
+      "difficulty": 2,
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "hard"
+        "template-literal",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-25-005",
-      "task": "Template literal: \"a-b-c\" ni split qilib massiv chiqaring.",
-      "sample": "console.log(\"a-b-c\".split(\"-\"));",
-      "exp": "split.",
-      "difficulty": 3,
-      "category": "strings",
+      "task": "user={ism:'A',yosh:13}; `${user.ism} ${user.yosh}`",
+      "sample": "const user = { ism: \"A\", yosh: 13 };\nconsole.log(`${user.ism} ${user.yosh}`);",
+      "exp": "A 13.",
+      "difficulty": 2,
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "hard"
+        "template-literal",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-25-006",
-      "task": "Template literal: trim va includes ishlating.",
-      "sample": "let s = \"  javascript  \";\nconsole.log(s.trim());\nconsole.log(s.includes(\"script\"));",
-      "exp": "trim, includes.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-007",
-      "task": "'hello' uzunligini chiqaring.",
-      "sample": "console.log(\"hello\".length);",
-      "exp": "length.",
+      "task": "narx=15000; `Narx: ${narx} so'm`",
+      "sample": "const narx = 15000;\nconsole.log(`Narx: ${narx} so'm`);",
+      "exp": "Ulash.",
       "difficulty": 2,
-      "category": "strings",
+      "category": "template-literal",
       "tags": [
-        "strings",
-        "coding",
-        "medium"
+        "template-literal",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "js-code-25-008",
-      "task": "'js'.toUpperCase() ni chiqaring.",
-      "sample": "console.log(\"js\".toUpperCase());",
-      "exp": "toUpperCase.",
-      "difficulty": 2,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-25-009",
-      "task": "Template literal bilan ism chiqaring.",
-      "sample": "let ism = \"Ali\";\nconsole.log(`Salom, ${ism}`);",
-      "exp": "Template literal.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-010",
-      "task": "'a,b,c'.split(',') ni chiqaring.",
-      "sample": "console.log(\"a,b,c\".split(\",\"));",
-      "exp": "split.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-011",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-012",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-013",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-014",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-015",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-016",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-017",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-018",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-019",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-020",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-021",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-022",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-023",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-024",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-25-025",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "strings",
-      "tags": [
-        "strings",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

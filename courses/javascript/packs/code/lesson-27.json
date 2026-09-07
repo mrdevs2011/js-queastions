@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-27-001",
-      "task": "Kichik amaliyot: sonlar massividan faqat toq sonlarni filter qilib, har birini 2 ga ko'paytirib (map) chiqaring.",
-      "sample": "let sonlar = [1,2,3,4,5,6];\nlet natija = sonlar.filter(x => x % 2 === 1).map(x => x * 2);\nconsole.log(natija); // [2,6,10]",
-      "exp": "filter + map zanjiri.",
-      "difficulty": 2,
-      "category": "introduction",
+      "task": "o'rtacha([10,20,30]) funksiyasi.",
+      "sample": "function ortacha(arr) {\n  const s = arr.reduce((a, n) => a + n, 0);\n  return s / arr.length;\n}\nconsole.log(ortacha([10, 20, 30]));",
+      "exp": "20.",
+      "difficulty": 1,
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "medium"
+        "section2-practice",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-27-002",
-      "task": "2-bo'lim uchun amaliyot bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "let sonlar = [1,2,3,4,5,6];\nlet natija = sonlar.filter(x => x % 2 === 1).map(x => x * 2);\nconsole.log(natija); // [2,6,10]",
-      "exp": "filter + map zanjiri.",
-      "difficulty": 2,
-      "category": "introduction",
+      "task": "passed(ballar) 60+ soni.",
+      "sample": "function passed(ballar) {\n  return ballar.filter((b) => b >= 60).length;\n}\nconsole.log(passed([50, 60, 90]));",
+      "exp": "2.",
+      "difficulty": 1,
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "medium"
+        "section2-practice",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-27-003",
-      "task": "2-bo'lim uchun amaliyot: console.log orqali 2 ta xabar chiqaring.",
-      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
-      "exp": "console.log.",
-      "difficulty": 3,
-      "category": "introduction",
+      "task": "const {ism, ball} = {ism:'A', ball:80}; `${ism}: ${ball}`",
+      "sample": "const { ism, ball } = { ism: \"A\", ball: 80 };\nconsole.log(`${ism}: ${ball}`);",
+      "exp": "A: 80",
+      "difficulty": 1,
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "hard"
+        "section2-practice",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-27-004",
-      "task": "2-bo'lim uchun amaliyot: kichik hisob: 2+2*2 ni chiqaring.",
-      "sample": "console.log(2 + 2 * 2); // 6",
-      "exp": "Ustuvorlik.",
-      "difficulty": 3,
-      "category": "introduction",
+      "task": "yig(...n) rest. yig(1,2,3,4)",
+      "sample": "function yig(...n) {\n  return n.reduce((s, x) => s + x, 0);\n}\nconsole.log(yig(1, 2, 3, 4));",
+      "exp": "10.",
+      "difficulty": 2,
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "hard"
+        "section2-practice",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-27-005",
-      "task": "2-bo'lim uchun amaliyot: massiv va object ni birga ishlating (qisqa).",
-      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
-      "exp": "Nested ma'lumot.",
-      "difficulty": 3,
-      "category": "introduction",
+      "task": "users filter yosh>=16 ismlari map.",
+      "sample": "const users = [\n  { ism: \"A\", yosh: 15 },\n  { ism: \"B\", yosh: 17 },\n];\nconsole.log(users.filter((u) => u.yosh >= 16).map((u) => u.ism));",
+      "exp": "[\"B\"]",
+      "difficulty": 2,
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "hard"
+        "section2-practice",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-27-006",
-      "task": "2-bo'lim uchun amaliyot: for...of bilan satr harflarini chiqaring.",
-      "sample": "for (const ch of \"JS\") console.log(ch);",
-      "exp": "for...of string.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-007",
-      "task": "console.log orqali 'Salom' chiqaring.",
-      "sample": "console.log(\"Salom\");",
-      "exp": "console.log.",
+      "task": "cfg = {...base, dark:true} base={lang:'uz'}",
+      "sample": "const base = { lang: \"uz\" };\nconst cfg = { ...base, dark: true };\nconsole.log(cfg);",
+      "exp": "{lang:'uz', dark:true}.",
       "difficulty": 2,
-      "category": "introduction",
+      "category": "section2-practice",
       "tags": [
-        "introduction",
-        "coding",
-        "medium"
+        "section2-practice",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "js-code-27-008",
-      "task": "2 ta console.log yozing.",
-      "sample": "console.log(1);\nconsole.log(2);",
-      "exp": "Ketma-ket chiqarish.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-27-009",
-      "task": "Matematik ifoda 3+4 ni chiqaring.",
-      "sample": "console.log(3 + 4);",
-      "exp": "Oddiy hisob.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-010",
-      "task": "String va number ni birga chiqaring.",
-      "sample": "console.log(\"Natija:\", 10);",
-      "exp": "Bir nechta argument.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-011",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-012",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-013",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-014",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-015",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-016",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-017",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-018",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-019",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-020",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-021",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-022",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-023",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-024",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-27-025",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

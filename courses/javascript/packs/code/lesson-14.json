@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-14-001",
-      "task": "ball=75. Agar 90+ 'A', 70+ 'B', aks holda 'C' chiqaradigan if/else if/else yozing.",
-      "sample": "let ball = 75;\nif (ball >= 90) {\n  console.log(\"A\");\n} else if (ball >= 70) {\n  console.log(\"B\");\n} else {\n  console.log(\"C\");\n}",
-      "exp": "Ketma-ket shart tekshirish.",
-      "difficulty": 2,
+      "task": "son = 7 juft/toq ekanini chiqaring.",
+      "sample": "const son = 7;\nif (son % 2 === 0) {\n  console.log(\"juft\");\n} else {\n  console.log(\"toq\");\n}",
+      "exp": "toq.",
+      "difficulty": 1,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-14-002",
-      "task": "Shartli operatorlar va boshqaruv oqimi bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "let ball = 75;\nif (ball >= 90) {\n  console.log(\"A\");\n} else if (ball >= 70) {\n  console.log(\"B\");\n} else {\n  console.log(\"C\");\n}",
-      "exp": "Ketma-ket shart tekshirish.",
-      "difficulty": 2,
+      "task": "ball=75; 60+ 'o'tdi', aks holda 'yiqildi'.",
+      "sample": "const ball = 75;\nconsole.log(ball >= 60 ? \"o'tdi\" : \"yiqildi\");",
+      "exp": "o'tdi.",
+      "difficulty": 1,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-14-003",
-      "task": "Shartli operatorlar va boshqaruv oqimi: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
-      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
-      "exp": "Asosiy operatorlar.",
-      "difficulty": 2,
+      "task": "n=0; musbat/manfiy/nol ni if/else if bilan yozing.",
+      "sample": "const n = 0;\nif (n > 0) console.log(\"musbat\");\nelse if (n < 0) console.log(\"manfiy\");\nelse console.log(\"nol\");",
+      "exp": "nol.",
+      "difficulty": 1,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-14-004",
-      "task": "if/else bilan musbat/manfiy aniqlang.",
-      "sample": "let n = 5;\nif (n > 0) console.log(\"musbat\");\nelse console.log(\"manfiy\");",
-      "exp": "if/else.",
-      "difficulty": 1,
+      "task": "ism='' bo'lsa 'Mehmon', aks holda ism chiqsin (if).",
+      "sample": "const ism = \"\";\nif (ism) console.log(ism);\nelse console.log(\"Mehmon\");",
+      "exp": "Mehmon.",
+      "difficulty": 2,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-14-005",
-      "task": "Ternary bilan juft/toq aniqlang.",
-      "sample": "let n = 4;\nconsole.log(n % 2 === 0 ? \"juft\" : \"toq\");",
-      "exp": "Ternary.",
-      "difficulty": 1,
+      "task": "yosh=16; 18+ 'ruxsat', aks holda 'yo\\'q'.",
+      "sample": "const yosh = 16;\nconsole.log(yosh >= 18 ? \"ruxsat\" : \"yo'q\");",
+      "exp": "yo'q.",
+      "difficulty": 2,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-14-006",
-      "task": "switch bilan kun nomini chiqaring.",
-      "sample": "let kun = 1;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  default: console.log(\"Boshqa\");\n}",
-      "exp": "switch.",
-      "difficulty": 1,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-code-14-007",
-      "task": "Ichma-ich if yozing: agar x > 0 bo'lsa, ichida y > 0 ni tekshiring va 'ok' chiqaring.",
-      "sample": "let x = 1, y = 2;\nif (x > 0) {\n  if (y > 0) {\n    console.log('ok');\n  }\n}",
-      "exp": "Nested if — if ichida yana if.",
+      "task": "x=5; if (x===5) 'besh' chiqaring.",
+      "sample": "const x = 5;\nif (x === 5) {\n  console.log(\"besh\");\n}",
+      "exp": "Qat'iy tenglik.",
       "difficulty": 2,
       "category": "control-flow",
       "tags": [
         "control-flow",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "js-code-14-008",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-009",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-010",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-011",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-012",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-013",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-014",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-015",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-016",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-017",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-018",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-019",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-14-020",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-14-021",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-14-022",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-14-023",
-      "task": "Object {x:100, y:200} ni chiqaring.",
-      "sample": "console.log({x: 100, y: 200});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-14-024",
-      "task": "control-flow: oddiy misol yozing. (#21)",
-      "sample": "console.log('control-flow');",
-      "exp": "control-flow",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-14-025",
-      "task": "control-flow bo'yicha kichik kod yozing. (#22)",
-      "sample": "// control-flow\nconsole.log(1);",
-      "exp": "control-flow",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

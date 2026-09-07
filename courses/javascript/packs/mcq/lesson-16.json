@@ -5,863 +5,307 @@
   "questions": [
     {
       "id": "js-mcq-16-001",
-      "q": "for (let i=0; i<3; i++) necha marta ishlaydi?",
+      "q": "for (let i=0; i<3; i++) necha marta aylanadi?",
       "opts": [
+        "3 (i=0,1,2)",
         "2",
-        "3",
         "4",
-        "0"
+        "cheksiz"
       ],
-      "correct": 1,
-      "exp": "i=0,1,2 — uch marta.",
+      "correct": 0,
+      "exp": "i<3: 0,1,2.",
       "difficulty": 1,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "easy"
+        "for",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-16-002",
-      "q": "for ning uch qismi?",
+      "q": "for qismlari tartibi?",
       "opts": [
-        "if, body, else",
-        "init, condition, update",
-        "start, end, step faqat son",
-        "faqat condition"
+        "boshlash; shart; qadam",
+        "shart; boshlash; qadam",
+        "qadam; shart; boshlash",
+        "faqat shart"
       ],
-      "correct": 1,
-      "exp": "for (init; condition; update) { body }",
+      "correct": 0,
+      "exp": "for (let i=0; i<n; i++)",
       "difficulty": 1,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "easy"
+        "for",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-16-003",
-      "q": "Massiv elementlarini aylanib chiqish uchun?",
+      "q": "for...of [10,20] da o'zgaruvchi nima?",
       "opts": [
-        "Faqat while",
-        "for yoki for...of",
-        "Faqat if",
-        "switch"
+        "10 keyin 20",
+        "0 keyin 1",
+        "2",
+        "length"
       ],
-      "correct": 1,
-      "exp": "for va for...of massivlar uchun qulay.",
+      "correct": 0,
+      "exp": "Qiymat. Indeks kerak — oddiy for yoki forEach.",
       "difficulty": 1,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "easy"
+        "for",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-16-004",
-      "q": "for...of nima beradi?",
+      "q": "for...in massivda nima uchun ehtiyot?",
       "opts": [
-        "Indeks",
-        "Qiymat (element)",
-        "Kalit",
-        "length"
+        "Indekslar string va prototip xususiyatlari ham chiqishi mumkin",
+        "for...in ishlamaydi",
+        "Faqat qiymat beradi",
+        "Massivni o'chiradi"
       ],
-      "correct": 1,
-      "exp": "for (const item of arr) — har bir qiymat.",
+      "correct": 0,
+      "exp": "Massiv uchun for...of yoki for.",
       "difficulty": 1,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "easy"
+        "for",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-16-005",
-      "q": "for loop mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "break nima qiladi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Siklni darhol to'xtatadi",
+        "Faqat bitta aylanmani tashlaydi",
+        "Funksiyani return qiladi har doim",
+        "i ni 0 qiladi"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "continue esa shu aylanishning qolganini tashlab, keyingisiga o'tadi.",
+      "difficulty": 1,
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-16-006",
-      "q": "for loop mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "continue nima qiladi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Keyingi aylanishga o'tadi",
+        "Siklni yopadi",
+        "Dasturdan chiqadi",
+        "Massivni tozalaydi"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Juftlarni tashlab o'tish: if (n%2===0) continue;",
+      "difficulty": 1,
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-16-007",
-      "q": "for loop mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "for (;;) nima?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Shartsiz, cheksiz sikl (break bilan to'xtatiladi)",
+        "Xato",
+        "1 marta",
+        "0 marta"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "while(true) ga o'xshaydi. Ehtiyot.",
+      "difficulty": 1,
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-16-008",
-      "q": "for loop mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "Ichma-ich for nima uchun?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Jadval, 2D massiv, kombinatsiyalar",
+        "Faqat string",
+        "if o'rniga",
+        "Funksiya o'rniga"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Tashqi qator, ichki ustun.",
+      "difficulty": 1,
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-16-009",
-      "q": "for loop mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "let i for da qanday scope?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Har bir for bloki (va har aylanish o'z i binding)",
+        "Global",
+        "Faqat var kabi function",
+        "i yo'q"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "var i tashqariga sizib chiqardi.",
       "difficulty": 2,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-16-010",
-      "q": "for loop mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "q": "Quyidagi yig'indi?\nlet s=0; for(let i=1;i<=4;i++) s+=i;",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "10",
+        "4",
+        "24",
+        "0"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "1+2+3+4=10.",
       "difficulty": 2,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-16-011",
-      "q": "for loop mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "q": "for (const x of 'hi') nima chiqadi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "h keyin i (string yuriladi)",
+        "hi bir marta",
+        "2",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "String iterable.",
       "difficulty": 2,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-16-012",
-      "q": "for loop mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "q": "Qaysi sikl indeksi aniq kerak bo'lganda qulay?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "for (let i=0;i<arr.length;i++)",
+        "for...of faqat",
+        "while(false)",
+        "switch"
       ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "i ham, arr[i] ham bor.",
       "difficulty": 2,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-16-013",
-      "q": "for (let i=0; i<3; i++) necha marta ishlaydi (qayta / chuqurroq)?",
+      "q": "off-by-one xato nima?",
       "opts": [
-        "2",
-        "3",
-        "4",
-        "0"
+        "i<=n o'rniga i<n yoki teskarisi — 1 ta ortiq/kam",
+        "typeof xato",
+        "DOM xato",
+        "JSON xato"
       ],
-      "correct": 1,
-      "exp": "i=0,1,2 — uch marta. Qayta o'qing.",
+      "correct": 0,
+      "exp": "0 dan n-1 gacha — i<n. 1 dan n gacha — i<=n.",
       "difficulty": 2,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-16-014",
-      "q": "Quyidagi kodning natijasi nima?\nfor ning uch qismi",
+      "q": "for ichida const x = arr[i] ruxsatmi?",
       "opts": [
-        "if, body, else",
-        "init, condition, update",
-        "start, end, step faqat son",
-        "faqat condition"
+        "Ha, har aylanishda yangi const",
+        "Yo'q, const o'zgarmaydi",
+        "Faqat let",
+        "Faqat var"
       ],
-      "correct": 1,
-      "exp": "for (init; condition; update) { body } Qayta o'qing.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Har blok/aylanish o'z const.",
+      "difficulty": 2,
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "for",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-mcq-16-015",
-      "q": "Massiv elementlarini aylanib chiqish uchun (qayta / chuqurroq)?",
+      "q": "Qaysi kod 2,4,6 chiqaradi?",
       "opts": [
-        "Faqat while",
-        "for yoki for...of",
-        "Faqat if",
-        "switch"
+        "for (const n of [1,2,3]) console.log(n*2);",
+        "for (const n of [1,2,3]) n*2;",
+        "for (let i=0;i<3;i++) break;",
+        "[1,2,3].length"
       ],
-      "correct": 1,
-      "exp": "for va for...of massivlar uchun qulay. Qayta o'qing.",
+      "correct": 0,
+      "exp": "Hisobni console.log qilish kerak.",
       "difficulty": 3,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "for",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-mcq-16-016",
-      "q": "for...of nima beradi (qayta / chuqurroq)?",
+      "q": "arr.length sikl davomida push qilinsa?",
       "opts": [
-        "Indeks",
-        "Qiymat (element)",
-        "Kalit",
-        "length"
+        "Shart har safar qayta o'qiladi — cheksiz bo'lishi mumkin",
+        "length qotirib qo'yiladi",
+        "push ishlamaydi",
+        "for to'xtaydi avtomatik"
       ],
-      "correct": 1,
-      "exp": "for (const item of arr) — har bir qiymat. Qayta o'qing.",
+      "correct": 0,
+      "exp": "const len = arr.length oldindan saqlang yoki for...of nusxada.",
       "difficulty": 3,
-      "category": "loops",
+      "category": "for",
       "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-017",
-      "q": "for loop mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "for loop bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-018",
-      "q": "for (let i=0; i<3; i++) necha marta?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
+        "for",
+        "test"
       ],
       "points": 2
-    },
-    {
-      "id": "js-mcq-16-021",
-      "q": "for...of nima uchun?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-022",
-      "q": "for...in nima uchun?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-023",
-      "q": "break nima qiladi?",
-      "opts": [
-        "keyingi iteratsiyaga o'tadi",
-        "loopni to'xtatadi",
-        "funksiyani to'xtatadi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Eng yaqin loopni to'xtatadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-024",
-      "q": "continue nima qiladi?",
-      "opts": [
-        "loopni to'xtatadi",
-        "joriy iteratsiyani o'tkazib yuboradi",
-        "funksiyani to'xtatadi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Keyingi iteratsiyaga o'tadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-025",
-      "q": "for (;; ) nima?",
-      "opts": [
-        "xato",
-        "cheksiz loop",
-        "1 marta",
-        "0 marta"
-      ],
-      "correct": 1,
-      "exp": "Shartsiz for — cheksiz.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-026",
-      "q": "Array.prototype.forEach break ishlaydimi?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "faqat return"
-      ],
-      "correct": 1,
-      "exp": "forEach ichida break ishlamaydi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-028",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 1)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-031",
-      "q": "for...of nima uchun (misol 1)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-032",
-      "q": "for...in nima uchun (misol 1)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-033",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 2)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-036",
-      "q": "for...of nima uchun (misol 2)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-037",
-      "q": "for...in nima uchun (misol 2)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-038",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 3)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-041",
-      "q": "for...of nima uchun (misol 3)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-042",
-      "q": "for...in nima uchun (misol 3)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-043",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 4)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 2,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-16-046",
-      "q": "for...of nima uchun (misol 4)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-047",
-      "q": "for...in nima uchun (misol 4)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-048",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 5)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-051",
-      "q": "for...of nima uchun (misol 5)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-052",
-      "q": "for...in nima uchun (misol 5)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-053",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 6)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-056",
-      "q": "for...of nima uchun (misol 6)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-057",
-      "q": "for...in nima uchun (misol 6)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-16-058",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 7)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

@@ -5,1201 +5,305 @@
   "questions": [
     {
       "id": "js-mcq-5-001",
-      "q": "Amaliyot darsida asosiy maqsad nima?",
+      "q": "1-bo'lim amaliyoti nima tekshiradi?",
       "opts": [
-        "Faqat nazariya takrorlash",
-        "O'rganilganlarni kod yozib mustahkamlash",
-        "Yangi mavzu ochish",
-        "Kursni tugatish"
+        "Muhit, console, HTML ulanish, JS nima ekani",
+        "Faqat DOM event 20 xil",
+        "Faqat backend",
+        "Faqat CSS grid"
       ],
-      "correct": 1,
-      "exp": "Amaliyot — bilimni qo'llash va mustahkamlash uchun.",
+      "correct": 0,
+      "exp": "Poydevor.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-002",
-      "q": "Xato chiqsa nima qilish kerak?",
+      "q": "console.log('1'+2) ni tushunmasangiz nima qilasiz?",
       "opts": [
-        "Darhol to'xtash",
-        "Xabarini o'qib, tuzatishga harakat qilish",
-        "Kompyuterni o'chirish",
-        "Kodni o'chirish"
+        "O'zingiz yozib ko'rasiz, keyin sababini aytasiz",
+        "O'tkazib yuborasiz",
+        "Brauzerni almashtirasiz darhol framework ga",
+        "Kodni o'chirasiz"
       ],
-      "correct": 1,
-      "exp": "Xato xabari — eng yaxshi o'qituvchi.",
+      "correct": 0,
+      "exp": "'12' — matn tutashtirish.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-003",
-      "q": "Kichik dastur yozish nima uchun foydali?",
+      "q": "Qaysi fayl tuzilmasi tartibli?",
       "opts": [
-        "Vaqt o'tkazish",
-        "Tushunishni chuqurlashtiradi",
-        "Kerak emas",
-        "Faqat imtihon uchun"
+        "index.html, css/, js/app.js",
+        "hamma narsa bitta qator HTML",
+        "20 ta nusxa desktop da",
+        "nomlanmagan fayllar"
       ],
-      "correct": 1,
-      "exp": "Kichik loyihalar orqali bilim mustahkamlanadi.",
+      "correct": 0,
+      "exp": "Keyin oson topiladi.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-004",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "Xato: script src noto'g'ri. Qayerga qarasiz?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "DevTools Network / Console",
+        "Faqat BIOS",
+        "Faqat printer",
+        "Faqat Wi-Fi parol"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "404.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-005",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "Qaysi mashq mos?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "HTML tugma + tashqi JS da console.log",
+        "Katta o'yin dvigateli",
+        "OS yadrosi",
+        "3D dvigatel"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Kichik ulanish.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-006",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "Kod ishlamasa birinchi savol?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Qaysi fayl yuklandi? Qaysi qator? Qanday xato?",
+        "Nima uchun kompyuter yomon?",
+        "Nima uchun internet yo'q har doim?",
+        "Nima uchun JS o'lik?"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Faktlar.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-007",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "Qaysi natija 4?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "console.log(2+2)",
+        "console.log('2+2')",
+        "console.log('2'+'2')",
+        "console.log('2 + 2')"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Hisob vs matn.",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-008",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "Nima uchun izoh yozasiz?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Ertaga o'zingizga tushuntirish",
+        "Brauzer izohni bajaradi",
+        "Izoh tezlik beradi",
+        "Izoh xato yashiradi"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "//",
       "difficulty": 1,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-5-009",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
+      "q": "Amaliyotda muvaffaqiyat?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "O'zingiz yangi xabar chiqara oldingiz",
+        "Faqat darsni ko'rdingiz",
+        "Faqat fayl ochdingiz",
+        "Faqat nom qo'ydingiz"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Natija ko'rindi.",
+      "difficulty": 2,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-mcq-5-010",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
+      "q": "Qaysi xato odatiy?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Qo'shtirnoqni yopmaslik",
+        "console.log yozish",
+        "2+2",
+        "const x = 1"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "SyntaxError.",
+      "difficulty": 2,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-mcq-5-011",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
+      "q": "HTML da id='app' JS da qanday?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "getElementById('app') — keyingi bo'limlarda",
+        "app#",
+        "id.app()",
+        "HTML.qidir(app)"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Hozircha biling: bog'lanish bor.",
+      "difficulty": 2,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-mcq-5-012",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 9: asosiy tushunchani tekshirish.",
+      "q": "Qaysi odat yaxshi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Har mashqni saqlab qo'yish",
+        "O'chirib yuborish darhol",
+        "Screenshot siz ishlash va unutish",
+        "Boshqa nom bilan 50 nusxa izohsiz"
       ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Kichik portfolio.",
+      "difficulty": 2,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
+        "section1-practice",
+        "test"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-mcq-5-013",
-      "q": "Amaliyot darsida asosiy maqsad nima (qayta / chuqurroq)?",
+      "q": "1-bo'lim yakuni: JS qayerda yashaydi?",
       "opts": [
-        "Faqat nazariya takrorlash",
-        "O'rganilganlarni kod yozib mustahkamlash",
-        "Yangi mavzu ochish",
-        "Kursni tugatish"
+        ".js fayl va/yoki script tegi, brauzer bajaradi",
+        "Faqat CSS",
+        "Faqat rasm",
+        "Faqat PDF"
       ],
-      "correct": 1,
-      "exp": "Amaliyot — bilimni qo'llash va mustahkamlash uchun. Qayta o'qing.",
+      "correct": 0,
+      "exp": "Ulanish zanjiri.",
       "difficulty": 2,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "section1-practice",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-5-014",
-      "q": "Xato chiqsa nima qilish kerak (qayta / chuqurroq)?",
+      "q": "Qaysi qator xato matn?",
       "opts": [
-        "Darhol to'xtash",
-        "Xabarini o'qib, tuzatishga harakat qilish",
-        "Kompyuterni o'chirish",
-        "Kodni o'chirish"
+        "console.log(Salom); // o'zgaruvchi qidiriladi",
+        "console.log('Salom');",
+        "console.log(\"Salom\");",
+        "console.log(`Salom`);"
       ],
-      "correct": 1,
-      "exp": "Xato xabari — eng yaxshi o'qituvchi. Qayta o'qing.",
+      "correct": 0,
+      "exp": "Qo'shtirnoq.",
       "difficulty": 2,
-      "category": "introduction",
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "section1-practice",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-5-015",
-      "q": "Kichik dastur yozish nima uchun foydali (qayta / chuqurroq)?",
+      "q": "Nima qo'shish hali erta?",
       "opts": [
-        "Vaqt o'tkazish",
-        "Tushunishni chuqurlashtiradi",
-        "Kerak emas",
-        "Faqat imtihon uchun"
+        "Murakkab framework konfiguratsiyasi",
+        "console.log",
+        "oddiy HTML",
+        "F12"
       ],
-      "correct": 1,
-      "exp": "Kichik loyihalar orqali bilim mustahkamlanadi. Qayta o'qing.",
-      "difficulty": 2,
-      "category": "introduction",
+      "correct": 0,
+      "exp": "Avval asos.",
+      "difficulty": 3,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "section1-practice",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-5-016",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
+      "q": "Keyingi bo'lim nima bo'lishi kutiladi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-017",
-      "q": "1-bo'lim bo'yicha amaliyot mavzusiga oid savol 2: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "1-bo'lim bo'yicha amaliyot bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-018",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
+        "Qiymat, o'zgaruvchi, tur, operator",
+        "Faqat React hooks",
+        "Faqat SQL JOIN",
+        "Faqat Linux yadro"
       ],
       "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 1,
-      "category": "introduction",
+      "exp": "Til poydevori.",
+      "difficulty": 3,
+      "category": "section1-practice",
       "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-019",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-020",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-021",
-      "q": "JS qaysi yilda chiqgan?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-022",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-023",
-      "q": "JavaScript qanday turdagi dasturlash tili?",
-      "opts": [
-        "Compiled (oldindan kompilyatsiya)",
-        "Interpreted (interpretatsiya qilinadi)",
-        "Assembly",
-        "Machine code"
-      ],
-      "correct": 1,
-      "exp": "JavaScript odatda interpretatsiya qilinuvchi til — kod ketma-ket bajariladi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-024",
-      "q": "HTML va JavaScript o'rtasidagi asosiy farq nima?",
-      "opts": [
-        "Ikkalasi bir xil",
-        "HTML — struktura, JS — mantiq va interaktivlik",
-        "JS — faqat struktura",
-        "Farqi yo'q"
-      ],
-      "correct": 1,
-      "exp": "HTML sahifa tuzilishini, JavaScript esa dinamika va mantiqni beradi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-025",
-      "q": "Node.js nima?",
-      "opts": [
-        "Brauzer",
-        "Serverda JavaScript ishlatish uchun runtime muhit",
-        "CSS framework",
-        "Ma'lumotlar bazasi"
-      ],
-      "correct": 1,
-      "exp": "Node.js — brauzerdan tashqarida (serverda) JavaScript ishlatish imkonini beruvchi muhit.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-026",
-      "q": "JavaScript da o'zgaruvchini e'lon qilish uchun qaysi kalit so'zlar ishlatiladi?",
-      "opts": [
-        "faqat var",
-        "let, const, var",
-        "faqat let",
-        "faqat const"
-      ],
-      "correct": 1,
-      "exp": "Zamonaviy JS da asosan let va const, eski kodda var ham uchraydi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-027",
-      "q": "typeof operatori nima qiladi?",
-      "opts": [
-        "Qiymatni o'zgartiradi",
-        "Ma'lumot turini qaytaradi",
-        "O'chiradi",
-        "Nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "typeof qiymatning turini string ko'rinishida qaytaradi, masalan typeof 5 → 'number'.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-028",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-029",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-030",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-031",
-      "q": "JS qaysi yilda chiqgan (misol 1)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-032",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-033",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-034",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-035",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-036",
-      "q": "JS qaysi yilda chiqgan (misol 2)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-037",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-038",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-039",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-040",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-041",
-      "q": "JS qaysi yilda chiqgan (misol 3)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-042",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-5-043",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-044",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-045",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-046",
-      "q": "JS qaysi yilda chiqgan (misol 4)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-047",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-048",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-049",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-050",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-051",
-      "q": "JS qaysi yilda chiqgan (misol 5)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-052",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-053",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-054",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-055",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-056",
-      "q": "JS qaysi yilda chiqgan (misol 6)?",
-      "opts": [
-        "1990",
-        "1995",
-        "2000",
-        "2005"
-      ],
-      "correct": 1,
-      "exp": "1995-yilda yaratilgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-057",
-      "q": "console.log() nima qiladi?",
-      "opts": [
-        "Xatolik chiqaradi",
-        "Konsolga chiqaradi",
-        "Fayl ochadi",
-        "Sahifani yangilaydi"
-      ],
-      "correct": 1,
-      "exp": "Berilgan qiymatlarni brauzer yoki terminal konsoliga chiqaradi — debug uchun juda foydali.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-058",
-      "q": "JavaScript nima?",
-      "opts": [
-        "Dasturlash tili",
-        "Operatsion tizim",
-        "Ma'lumotlar bazasi",
-        "Brauzer"
-      ],
-      "correct": 0,
-      "exp": "JavaScript — veb sahifalarga interaktivlik beradigan yuqori darajali dasturlash tili. Node.js da serverda ham ishlaydi.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-059",
-      "q": "JavaScript qayerda ishlashi mumkin?",
-      "opts": [
-        "Faqat serverda",
-        "Faqat mobil",
-        "Brauzer va Node.js da",
-        "Faqat desktop"
-      ],
-      "correct": 2,
-      "exp": "Asosan brauzerda va Node.js orqali serverda.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-5-060",
-      "q": "JavaScript tilini kim yaratgan?",
-      "opts": [
-        "Brendan Eich",
-        "Bill Gates",
-        "Linus Torvalds",
-        "Guido van Rossum"
-      ],
-      "correct": 0,
-      "exp": "1995-yilda Brendan Eich yaratgan.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "test",
-        "medium"
+        "section1-practice",
+        "test"
       ],
       "points": 2
     }

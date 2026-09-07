@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-23-001",
-      "task": "const point = {x:10, y:20}; dan x va y ni destrukturatsiya qilib oling va chiqaring.",
-      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
-      "exp": "Object destructuring.",
-      "difficulty": 2,
+      "task": "const [bir, ikki] = [7, 9]; ikkalasini chiqaring.",
+      "sample": "const [bir, ikki] = [7, 9];\nconsole.log(bir, ikki);",
+      "exp": "7 9.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-23-002",
-      "task": "Array va Object destruction bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
-      "exp": "Object destructuring.",
-      "difficulty": 2,
+      "task": "const {ism, yosh} = {ism:'Laylo', yosh:14};",
+      "sample": "const { ism, yosh } = { ism: \"Laylo\", yosh: 14 };\nconsole.log(ism, yosh);",
+      "exp": "Laylo 14.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-23-003",
-      "task": "Array va Object destruction: [10,20,30] yarating, push 40, length chiqaring.",
-      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
-      "exp": "push, length.",
-      "difficulty": 2,
+      "task": "[a,b]=[b,a] bilan 1 va 2 ni almashtiring.",
+      "sample": "let a = 1;\nlet b = 2;\n[a, b] = [b, a];\nconsole.log(a, b);",
+      "exp": "2 1.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-23-004",
-      "task": "Array va Object destruction: filter bilan juft sonlar.",
-      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
-      "exp": "filter.",
+      "task": "const [x, y=10] = [3]; y ni chiqaring.",
+      "sample": "const [x, y = 10] = [3];\nconsole.log(y);",
+      "exp": "10.",
       "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-23-005",
-      "task": "Array va Object destruction: map bilan *2.",
-      "sample": "console.log([1,2,3].map(x => x * 2));",
-      "exp": "map.",
-      "difficulty": 3,
+      "task": "const {ism: nick} = {ism:'Omar'}; nick.",
+      "sample": "const { ism: nick } = { ism: \"Omar\" };\nconsole.log(nick);",
+      "exp": "Omar.",
+      "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "hard"
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-23-006",
-      "task": "Array va Object destruction: reduce yig'indi.",
-      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
+      "task": "const [bosh, ...qolgan] = [1,2,3,4]; qolgan.",
+      "sample": "const [bosh, ...qolgan] = [1, 2, 3, 4];\nconsole.log(qolgan);",
+      "exp": "[2,3,4].",
+      "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "coding",
-        "hard"
+        "coding"
       ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-007",
-      "task": "Array va Object destruction: find bilan 10 dan kattasi.",
-      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
-      "exp": "find.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-008",
-      "task": "Array va Object destruction: slice va splice farqini kichik misolda ko'rsating.",
-      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
-      "exp": "slice nusxa, splice o'zgartiradi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-009",
-      "task": "Array va Object destruction: talaba {ism, yosh, kurs} yarating va ism chiqaring.",
-      "sample": "let talaba = { ism: \"Dilshod\", yosh: 20, kurs: 2 };\nconsole.log(talaba.ism);",
-      "exp": "Object literal.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-010",
-      "task": "Array va Object destruction: Object.keys va values chiqaring.",
-      "sample": "let o = { a: 1, b: 2 };\nconsole.log(Object.keys(o));\nconsole.log(Object.values(o));",
-      "exp": "keys/values.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-011",
-      "task": "Array va Object destruction: destrukturatsiya {x,y} = point.",
-      "sample": "const point = { x: 10, y: 20 };\nconst { x, y } = point;\nconsole.log(x, y);",
-      "exp": "Destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-012",
-      "task": "Array va Object destruction: spread bilan obyekt nusxa + yangi maydon.",
-      "sample": "const a = { n: 1 };\nconst b = { ...a, m: 2 };\nconsole.log(b);",
-      "exp": "Object spread.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-013",
-      "task": "Array destructuring qiling.",
-      "sample": "const [a, b] = [10, 20];\nconsole.log(a, b);",
-      "exp": "Array destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-014",
-      "task": "Object destructuring qiling.",
-      "sample": "const { name, age } = { name: \"Ali\", age: 20 };\nconsole.log(name);",
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-015",
-      "task": "Rest bilan destructuring.",
-      "sample": "const [first, ...rest] = [1, 2, 3, 4];\nconsole.log(rest);",
-      "exp": "Rest in destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-016",
-      "task": "Default qiymatli destructuring.",
-      "sample": "const [x = 5] = [];\nconsole.log(x);",
-      "exp": "Default value.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-017",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-018",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-019",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-020",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-021",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-022",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-023",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-024",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-23-025",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "coding",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

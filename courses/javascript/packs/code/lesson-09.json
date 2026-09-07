@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-9-001",
-      "task": "Turli turdagi 4 ta qiymat yarating (string, number, boolean, null) va typeof orqali turlarini chiqaring.",
-      "sample": "console.log(typeof \"matn\");\nconsole.log(typeof 42);\nconsole.log(typeof true);\nconsole.log(typeof null);",
-      "exp": "typeof operator turi qaytaradi (null uchun 'object').",
+      "task": "let son = 8; typeof ni chiqaring.",
+      "sample": "let son = 8;\nconsole.log(typeof son);",
+      "exp": "Kutilgan natija: number",
       "difficulty": 1,
-      "category": "data-types",
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "easy"
+        "types",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-9-002",
-      "task": "Javascriptdagi ma'lumot turlari bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "console.log(typeof \"matn\");\nconsole.log(typeof 42);\nconsole.log(typeof true);\nconsole.log(typeof null);",
-      "exp": "typeof operator turi qaytaradi (null uchun 'object').",
+      "task": "let soz = 'kitob'; typeof ni chiqaring.",
+      "sample": "let soz = \"kitob\";\nconsole.log(typeof soz);",
+      "exp": "Kutilgan natija: string",
       "difficulty": 1,
-      "category": "data-types",
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "easy"
+        "types",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-9-003",
-      "task": "Javascriptdagi ma'lumot turlari: Number(\"42\"), String(42), Boolean(0) chiqaring.",
-      "sample": "console.log(Number(\"42\"), String(42), Boolean(0));",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "data-types",
+      "task": "let ok = true; typeof ni chiqaring.",
+      "sample": "let ok = true;\nconsole.log(typeof ok);",
+      "exp": "Kutilgan natija: boolean",
+      "difficulty": 1,
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "medium"
+        "types",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-9-004",
-      "task": "Javascriptdagi ma'lumot turlari: parseInt(\"42px\") va +\"7\" chiqaring.",
-      "sample": "console.log(parseInt(\"42px\"));\nconsole.log(+\"7\");",
-      "exp": "parseInt va unary +.",
+      "task": "let x; typeof x ni chiqaring.",
+      "sample": "let x;\nconsole.log(typeof x);",
+      "exp": "Qiymat berilmagan — undefined.",
       "difficulty": 2,
-      "category": "data-types",
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "medium"
+        "types",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-9-005",
-      "task": "Javascriptdagi ma'lumot turlari: typeof null va typeof [] chiqaring.",
-      "sample": "console.log(typeof null);\nconsole.log(typeof []);",
-      "exp": "typeof quirks.",
-      "difficulty": 3,
-      "category": "data-types",
+      "task": "typeof null ni chiqaring.",
+      "sample": "console.log(typeof null);",
+      "exp": "Natija object — tilning tarixiy xatosi.",
+      "difficulty": 2,
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "hard"
+        "types",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "js-code-9-006",
-      "task": "Javascriptdagi ma'lumot turlari: == va === farqini \"5\" va 5 bilan ko'rsating.",
-      "sample": "console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);",
-      "exp": "Loose vs strict.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-007",
-      "task": "typeof 42 ni chiqaring.",
-      "sample": "console.log(typeof 42);",
-      "exp": "typeof number.",
+      "task": "Massiv [1, 2, 3] typeof ini va Array.isArray ni chiqaring.",
+      "sample": "const arr = [1, 2, 3];\nconsole.log(typeof arr);\nconsole.log(Array.isArray(arr));",
+      "exp": "typeof object, isArray true.",
       "difficulty": 2,
-      "category": "data-types",
+      "category": "types",
       "tags": [
-        "data-types",
-        "coding",
-        "medium"
+        "types",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "js-code-9-008",
-      "task": "typeof 'text' ni chiqaring.",
-      "sample": "console.log(typeof \"text\");",
-      "exp": "typeof string.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-009",
-      "task": "Array yarating va typeof ni chiqaring.",
-      "sample": "let arr = [1,2];\nconsole.log(typeof arr);",
-      "exp": "typeof array = object.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-010",
-      "task": "boolean true ni e'lon qilib chiqaring.",
-      "sample": "let active = true;\nconsole.log(active);",
-      "exp": "boolean.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-011",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-012",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-013",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-014",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-015",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-016",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-017",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-018",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-019",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-9-020",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-021",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-022",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-023",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-024",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-9-025",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "data-types",
-      "tags": [
-        "data-types",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

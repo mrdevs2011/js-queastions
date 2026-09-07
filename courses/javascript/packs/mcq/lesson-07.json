@@ -5,1201 +5,305 @@
   "questions": [
     {
       "id": "js-mcq-7-001",
-      "q": "JavaScript da gap (statement) odatda nima bilan tugaydi?",
+      "q": "JS da qaysi belgilar identifikatorda ruxsat?",
       "opts": [
-        "nuqta",
-        "nuqta-vergul (;)",
-        "vergul",
-        "ikki nuqta"
+        "Harf, _ , $, keyin raqam ham",
+        "Bo'sh joy",
+        "Defis -",
+        "Nuqta . nom ichida"
       ],
-      "correct": 1,
-      "exp": "Statementlar odatda ; bilan tugaydi (ASI avtomatik qo'shishi ham mumkin).",
+      "correct": 0,
+      "exp": "user_name, $el, n1.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-002",
-      "q": "JavaScript da izoh (comment) qanday yoziladi?",
+      "q": "Qator oxiri ; ?",
       "opts": [
-        "# izoh",
-        "// izoh yoki /* izoh */",
-        "<!-- izoh -->",
-        "-- izoh"
+        "Buyruq chegarasi; ko'p joyda ixtiyoriy, lekin foydali",
+        "Majburiy har doim aks holda til o'chadi",
+        "Taqiqlangan",
+        "Faqat Python uslubi"
       ],
-      "correct": 1,
-      "exp": "// bir qatorli izoh, /* ... */ ko'p qatorli izoh.",
+      "correct": 0,
+      "exp": "ASI ba'zan tuzoq.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-003",
-      "q": "Quyidagi kodning natijasi nima?\nKattaa-kichik harf sezgirligi (case-sensitive) bormi",
+      "q": "Izoh turlari?",
       "opts": [
-        "Yo'q",
-        "Ha",
-        "Faqat string da",
-        "Faqat funksiyada"
+        "// qator va /* blok */",
+        "# qator (Python)",
+        "-- SQL faqat",
+        "<!-- faqat JS da"
       ],
-      "correct": 1,
-      "exp": "ism va Ism — turli identifikatorlar.",
+      "correct": 0,
+      "exp": "HTML izohi HTML da.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-004",
-      "q": "JavaScript da kod bloki qanday belgilanadi?",
+      "q": "Qaysi so'z kalit so'z?",
       "opts": [
-        "()",
-        "[]",
-        "{}",
-        "<>"
+        "return",
+        "ism",
+        "ball",
+        "user"
       ],
-      "correct": 2,
-      "exp": "Kod bloki jingalak qavs {} ichida yoziladi.",
+      "correct": 0,
+      "exp": "Kalit so'zni nom qilib bo'lmaydi.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-005",
-      "q": "Javascript sintaksisi mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "Kod bloki nima?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "{ ... } bir nechta buyruq",
+        "Faqat massiv",
+        "Faqat string",
+        "Faqat fayl nomi"
       ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "if, funksiya, sikl.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-006",
-      "q": "Javascript sintaksisi mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "Qaysi yozuv o'qishga yomon?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "1qatorda 15 ta ; bilan hammasi",
+        "Har mantiqiy qadam alohida qator",
+        "2-bo'sh qator bo'limlar orasida",
+        "Teng ignalash"
       ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Format.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-007",
-      "q": "Javascript sintaksisi mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "template literal qaysi belgi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "backtick `",
+        "faqat '",
+        "faqat \"",
+        "faqat <"
       ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Keyinroq chuqur.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-008",
-      "q": "Javascript sintaksisi mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "Qaysi xato: let a = 1 let b = 2 (bir qator ; yo'q)?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Ba'zan ASI ishlaydi, ba'zan xato — ; qo'ying",
+        "Har doim yaxshi",
+        "let ikki marta taqiqlangan har doim",
+        "b e'lon qilinmaydi hech"
       ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
+      "correct": 0,
+      "exp": "Aniq yozing.",
       "difficulty": 1,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "js-mcq-7-009",
-      "q": "Javascript sintaksisi mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "Qavs ( ) qayerda?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "Chaqiruv, shart, ifoda guruhi",
+        "Faqat massiv",
+        "Faqat obyekt",
+        "Faqat izoh"
       ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-010",
-      "q": "Javascript sintaksisi mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-011",
-      "q": "Javascript sintaksisi mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-012",
-      "q": "Javascript sintaksisi mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-013",
-      "q": "JavaScript da gap (statement) odatda nima bilan tugaydi (qayta / chuqurroq)?",
-      "opts": [
-        "nuqta",
-        "nuqta-vergul (;)",
-        "vergul",
-        "ikki nuqta"
-      ],
-      "correct": 1,
-      "exp": "Statementlar odatda ; bilan tugaydi (ASI avtomatik qo'shishi ham mumkin). Qayta o'qing.",
+      "correct": 0,
+      "exp": "[ ] massiv, { } blok/obyekt.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "medium"
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-7-010",
+      "q": "Qaysi tenglik belgisi assignment?",
+      "opts": [
+        "=",
+        "==",
+        "===",
+        "!="
+      ],
+      "correct": 0,
+      "exp": "Solishtirish ===.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-7-011",
+      "q": "String yozish?",
+      "opts": [
+        "'a' yoki \"a\" yoki `a`",
+        "faqat <>",
+        "faqat %",
+        "faqat #"
+      ],
+      "correct": 0,
+      "exp": "Ichida qo'shtirnoq bo'lsa boshqasini tanlang.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-7-012",
+      "q": "Noto'g'ri joyda vergul?",
+      "opts": [
+        "Trailing comma zamonaviy literal da ruxsat, lekin parametr eski muhitda ehtiyot",
+        "Vergul yo'q JS da",
+        "Vergul faqat HTML",
+        "Vergul xato har doim"
+      ],
+      "correct": 0,
+      "exp": "Obyekt/massiv oxirida ko'p ruxsat.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-7-013",
+      "q": "Qaysi identator odatiy?",
+      "opts": [
+        "2 yoki 4 bo'sh joy, aralashmaslik",
+        "Har qatorda tasodifiy tab/space",
+        "0 joy",
+        "20 joy majburiy"
+      ],
+      "correct": 0,
+      "exp": "Loyiha uslubi.",
+      "difficulty": 2,
+      "category": "syntax",
+      "tags": [
+        "syntax",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-7-014",
-      "q": "JavaScript da izoh (comment) qanday yoziladi?",
+      "q": "Kod nima uchun yuqoridan pastga?",
       "opts": [
-        "# izoh",
-        "// izoh yoki /* izoh */",
-        "<!-- izoh -->",
-        "-- izoh"
+        "Bajarilish tartibi shu (deklaratsiya hoisting bundan mustasno)",
+        "Brauzer pastdan o'qiydi",
+        "Tartib yo'q",
+        "O'ngdan chapga"
       ],
-      "correct": 1,
-      "exp": "// bir qatorli izoh, /* ... */ ko'p qatorli izoh.",
+      "correct": 0,
+      "exp": "Avval e'lon, keyin chaqiruv — expression da.",
       "difficulty": 2,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-7-015",
-      "q": "Kattaa-kichik harf sezgirligi (case-sensitive) bormi (qayta / chuqurroq)?",
+      "q": "Qaysi belgi qatorni davom ettirmaydi?",
       "opts": [
-        "Yo'q",
-        "Ha",
-        "Faqat string da",
-        "Faqat funksiyada"
+        "Yangi qator ifodani teskarisiga bo'lish (ASI tuzog'i)",
+        "\\ n string ichida",
+        "+ keyingi qatorda",
+        "qavs ochiq"
       ],
-      "correct": 1,
-      "exp": "ism va Ism — turli identifikatorlar. Qayta o'qing.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "return dan keyin yangi qator — ehtiyot.",
+      "difficulty": 3,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "js-mcq-7-016",
-      "q": "JavaScript da kod bloki qanday belgilanadi?",
+      "q": "Nima uchun qavslarni juftlash?",
       "opts": [
-        "()",
-        "[]",
-        "{}",
-        "<>"
-      ],
-      "correct": 2,
-      "exp": "Kod bloki jingalak qavs {} ichida yoziladi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-017",
-      "q": "Javascript sintaksisi mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Javascript sintaksisi bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-018",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-019",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-020",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-021",
-      "q": "Identifikator nima bilan boshlanishi mumkin?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-022",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-023",
-      "q": "Reserved word larni o'zgaruvchi qilish?",
-      "opts": [
-        "mumkin",
-        "mumkin emas",
-        "faqat let bilan",
-        "faqat var"
-      ],
-      "correct": 1,
-      "exp": "Reserved word larni ishlatib bo'lmaydi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-024",
-      "q": "Template literal (shablon satr) qaysi belgi bilan yoziladi?",
-      "opts": [
-        "'",
-        "\"",
-        "`",
-        "/"
-      ],
-      "correct": 2,
-      "exp": "Backtick (`) bilan: `Salom ${ism}`",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-025",
-      "q": "Spread operator qaysi belgi bilan yoziladi va nima qiladi?",
-      "opts": [
-        "*",
-        "...",
-        "&",
-        "#"
-      ],
-      "correct": 1,
-      "exp": "... operatori massiv yoki obyekt elementlarini yoyib beradi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-026",
-      "q": "Optional chaining (?.) nima uchun kerak?",
-      "opts": [
-        "?.",
-        "??",
-        "||",
-        "&&"
+        "Ochilgan har bir ( [ { yopilishi kerak",
+        "Yopish ixtiyoriy",
+        "Brauzer o'zi yozadi",
+        "Faqat HTML da juft"
       ],
       "correct": 0,
-      "exp": "obj?.prop — obj null/undefined bo'lsa xato o'rniga undefined qaytaradi.",
-      "difficulty": 1,
+      "exp": "SyntaxError.",
+      "difficulty": 3,
       "category": "syntax",
       "tags": [
         "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-027",
-      "q": "Nullish coalescing (??) operatori nima qiladi?",
-      "opts": [
-        "||",
-        "??",
-        "&&",
-        "?:"
-      ],
-      "correct": 1,
-      "exp": "a ?? b — a null yoki undefined bo'lsa b ni oladi (0 va '' ni saqlaydi).",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-028",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-029",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-030",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-031",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 1)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-032",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-033",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-034",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-035",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-036",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 2)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-037",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-038",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-039",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-040",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-041",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 3)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-042",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 1,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-mcq-7-043",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-044",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-045",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-046",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 4)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-047",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-048",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-049",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-050",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-051",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 5)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-052",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-053",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-054",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-055",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-056",
-      "q": "Identifikator nima bilan boshlanishi mumkin (misol 6)?",
-      "opts": [
-        "raqam",
-        "harf, _, $",
-        "faqat harf",
-        "nuqta"
-      ],
-      "correct": 1,
-      "exp": "Harf, underscore yoki $.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-057",
-      "q": "JavaScript case-sensitive (katta-kichik harf farqi) tilmi?",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat string",
-        "faqat o'zgaruvchi"
-      ],
-      "correct": 1,
-      "exp": "Ha — myVar va myvar boshqa o'zgaruvchilar.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-058",
-      "q": "JavaScript da statement (gap) oxirida nuqta-vergul majburiymi?",
-      "opts": [
-        "majburiy ;",
-        "; ixtiyoriy (ASI)",
-        "faqat ,",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Ko'pincha ASI (Automatic Semicolon Insertion) qo'yadi, lekin aniqlik uchun ; yozish yaxshi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-059",
-      "q": "JavaScript da izoh (comment) sintaksisi qanday?",
-      "opts": [
-        "# izoh",
-        "// va /* */",
-        "-- izoh",
-        "<!-- -->"
-      ],
-      "correct": 1,
-      "exp": "// bir qator, /* */ ko'p qator.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-mcq-7-060",
-      "q": "\"use strict\" (strict mode) yoqilganda nima o'zgaradi?",
-      "opts": [
-        "sekinlashtiradi",
-        "qat'iy rejim yoqadi",
-        "o'chiradi",
-        "module qiladi"
-      ],
-      "correct": 1,
-      "exp": "Strict mode qattiqroq qoidalarni yoqadi — ba'zi xatolar erta chiqadi.",
-      "difficulty": 2,
-      "category": "syntax",
-      "tags": [
-        "syntax",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     }

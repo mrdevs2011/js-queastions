@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "js-mcq-23-001",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; — a qiymati",
+      "q": "Destrukturizatsiya nima?",
       "opts": [
-        "[1,2]",
-        "1",
-        "2",
-        "undefined"
+        "Massiv/obyekt ichidan o'zgaruvchilarga ajratib olish",
+        "Obyektni o'chirish",
+        "JSON yuborish",
+        "DOM ni bo'lish"
       ],
-      "correct": 1,
-      "exp": "Array destructuring: birinchi element a ga.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "const [a,b] = [1,2]; const {ism} = user;",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-23-002",
-      "q": "Quyidagi kodning natijasi nima?\nconst {ism} = {ism:'Ali', yosh:20}; — ism",
+      "q": "const [x,y] = [10,20]; x?",
       "opts": [
-        "object",
-        "\"Ali\"",
-        "undefined",
-        "yosh"
+        "10",
+        "20",
+        "[10,20]",
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Object destructuring kalit bo'yicha oladi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Tartib bo'yicha.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-23-003",
-      "q": "Quyidagi kodning natijasi nima?\nconst [x, ...rest] = [1,2,3]; rest",
+      "q": "const [a,,c] = [1,2,3]; c?",
       "opts": [
+        "3",
+        "2",
         "1",
-        "[2,3]",
-        "[1,2,3]",
-        "3"
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Rest qolgan elementlarni array qilib oladi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "O'rtani tashlash.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-23-004",
-      "q": "Destrukturatsiyada default qiymat?",
+      "q": "const [a,b=5] = [1]; b?",
       "opts": [
-        "Mumkin emas",
-        "const [a=0] = []",
-        "faqat object da",
-        "faqat rest da"
+        "5",
+        "undefined",
+        "1",
+        "0"
       ],
-      "correct": 1,
-      "exp": "Qiymat yo'q bo'lsa default ishlatiladi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Default.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-23-005",
-      "q": "Array va Object destruction mavzusiga oid savol 1: asosiy tushunchani tekshirish.",
+      "q": "const {ism} = {ism:'Ali', yosh:15}; ism?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "\"Ali\"",
+        "15",
+        "{ism:'Ali'}",
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Kalit nomi bilan.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "js-mcq-23-006",
-      "q": "Array va Object destruction mavzusiga oid savol 2: asosiy tushunchani tekshirish.",
+      "q": "const {ism: nomi} = {ism:'Ali'}; nomi?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "\"Ali\"",
+        "undefined",
+        "ism",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Nomni almashtirish.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-23-007",
-      "q": "Array va Object destruction mavzusiga oid savol 3: asosiy tushunchani tekshirish.",
+      "q": "Ichma-ich: const {manzil:{shahar}} = data",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "shahar ni ichki obyektdan oladi",
+        "manzil ni o'chiradi",
+        "xato har doim",
+        "massiv qiladi"
       ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Yo'l mavjud bo'lishi kerak yoki default.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-23-008",
-      "q": "Array va Object destruction mavzusiga oid savol 4: asosiy tushunchani tekshirish.",
+      "q": "const {yosh=0} = {}; yosh?",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
+        "0",
+        "undefined",
+        "null",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Kalit yo'q — default.",
+      "difficulty": 1,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 1
     },
     {
       "id": "js-mcq-23-009",
-      "q": "Array va Object destruction mavzusiga oid savol 5: asosiy tushunchani tekshirish.",
+      "q": "Funksiya parametri: function f({id}) {}",
       "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-010",
-      "q": "Array va Object destruction mavzusiga oid savol 6: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-011",
-      "q": "Array va Object destruction mavzusiga oid savol 7: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-012",
-      "q": "Array va Object destruction mavzusiga oid savol 8: asosiy tushunchani tekshirish.",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-013",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; — a qiymati",
-      "opts": [
-        "[1,2]",
-        "1",
-        "2",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Array destructuring: birinchi element a ga. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-014",
-      "q": "const {ism} = {ism:'Ali', yosh:20}; — ism (qayta / chuqurroq)?",
-      "opts": [
-        "object",
-        "\"Ali\"",
-        "undefined",
-        "yosh"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring kalit bo'yicha oladi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-015",
-      "q": "const [x, ...rest] = [1,2,3]; rest (qayta / chuqurroq)?",
-      "opts": [
-        "1",
-        "[2,3]",
-        "[1,2,3]",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Rest qolgan elementlarni array qilib oladi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-016",
-      "q": "Quyidagi kodning natijasi nima?\nDestrukturatsiyada default qiymat",
-      "opts": [
-        "Mumkin emas",
-        "const [a=0] = []",
-        "faqat object da",
-        "faqat rest da"
-      ],
-      "correct": 1,
-      "exp": "Qiymat yo'q bo'lsa default ishlatiladi. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-017",
-      "q": "Array va Object destruction mavzusiga oid savol 1: asosiy tushunchani tekshirish. (qayta / chuqurroq)?",
-      "opts": [
-        "Noto'g'ri variant A",
-        "To'g'ri yondashuv (asosiy qoida)",
-        "Noto'g'ri variant C",
-        "Noto'g'ri variant D"
-      ],
-      "correct": 1,
-      "exp": "Array va Object destruction bo'yicha asosiy qoidani eslang va amalda qo'llang. Qayta o'qing.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-018",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
+        "Argument obyektidan id ni oladi",
+        "id global",
+        "massiv shart",
+        "HTML id"
       ],
       "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
+      "exp": "Qulay API: f({id:1, name:'A'}).",
       "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "js-mcq-23-019",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
+      "id": "js-mcq-23-010",
+      "q": "Rest destrukturizatsiyada?",
       "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-020",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-021",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
+        "const [a, ...qolgan] = arr",
+        "... faqat funksiyada",
+        "rest obyektda yo'q",
+        "rest push"
       ],
       "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
+      "exp": "const {a, ...rest} = obj ham bor.",
+      "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-23-022",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
+      "id": "js-mcq-23-011",
+      "q": "const [x,y] = [1]; y?",
       "opts": [
         "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-023",
-      "q": "Quyidagi kodning natijasi nima?\nconst {...rest} = {a:1,b:2}; rest",
-      "opts": [
-        "{a:1,b:2}",
-        "{b:2}",
-        "error",
-        "[1,2]"
+        "1",
+        "0",
+        "xato to'xtaydi"
       ],
       "correct": 0,
-      "exp": "Rest object ni oladi (bu holda hammasi).",
-      "difficulty": 3,
+      "exp": "Yetarli element yo'q.",
+      "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-23-024",
-      "q": "Quyidagi kodning natijasi nima?\nfunction f({name}) {..} chaqirish",
+      "id": "js-mcq-23-012",
+      "q": "Qaysi xato?",
       "opts": [
-        "f('Ali')",
-        "f({name:'Ali'})",
-        "f(name:'Ali')",
-        "error"
+        "null ni destruktur qilish: const {a}=null",
+        "const {a}={a:1}",
+        "const [x]=[1]",
+        "const {a=1}={}"
       ],
-      "correct": 1,
-      "exp": "Object uzatish kerak.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "TypeError. Default: const {a}=null??{}.",
+      "difficulty": 2,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-23-025",
-      "q": "nested destructuring mumkinmi?",
+      "id": "js-mcq-23-013",
+      "q": "Massiv almashish?",
       "opts": [
-        "yo'q",
-        "ha",
-        "faqat array",
-        "faqat object"
+        "[a,b] = [b,a];",
+        "a,b = b,a Pythondek qavssiz JS da yo'q",
+        "swap(a b)",
+        "a <=> b"
       ],
-      "correct": 1,
-      "exp": "Ichma-ich destructuring qilish mumkin.",
+      "correct": 0,
+      "exp": "Vaqtinchasiz almashish.",
+      "difficulty": 2,
+      "category": "destructuring",
+      "tags": [
+        "destructuring",
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-23-014",
+      "q": "Qaysi foyda?",
+      "opts": [
+        "Qator qisqaradi, kerakli maydonlar ko'rinadi",
+        "Dastur 100x tez",
+        "DOM avtomatik",
+        "scope yo'qoladi"
+      ],
+      "correct": 0,
+      "exp": "O'qish.",
+      "difficulty": 2,
+      "category": "destructuring",
+      "tags": [
+        "destructuring",
+        "test"
+      ],
+      "points": 2
+    },
+    {
+      "id": "js-mcq-23-015",
+      "q": "const {length} = 'hey'; length?",
+      "opts": [
+        "3 — string obyekt kabi",
+        "undefined",
+        "'hey'",
+        "xato"
+      ],
+      "correct": 0,
+      "exp": "G'alati, lekin ishlaydi. Massiv length ham.",
       "difficulty": 3,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
-      "id": "js-mcq-23-026",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,...r] = [1,2,3]; r",
+      "id": "js-mcq-23-016",
+      "q": "Qoldiq tartib: const [a,...r]=[1,2,3]; r?",
       "opts": [
         "[2,3]",
-        "2",
-        "[1,2,3]",
-        "3"
+        "[1]",
+        "[3]",
+        "6"
       ],
       "correct": 0,
-      "exp": "Rest qolgan elementlarni oladi.",
+      "exp": "Rest oxirida turadi.",
       "difficulty": 3,
       "category": "destructuring",
       "tags": [
         "destructuring",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-027",
-      "q": "Quyidagi kodning natijasi nima?\nlet a,b; [a,b] = [1,2]; mumkinmi",
-      "opts": [
-        "yo'q",
-        "ha",
-        "faqat const",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Avval e'lon qilib keyin assign qilish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-028",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-029",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-030",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-031",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-032",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-033",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-034",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-035",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-036",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-037",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-038",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-039",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-040",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-041",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-042",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-043",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-044",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-045",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-046",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-047",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-048",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-049",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-050",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-051",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-052",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-053",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-054",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-055",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-056",
-      "q": "Quyidagi kodning natijasi nima?\nconst {a:x} = {a:1}; x",
-      "opts": [
-        "1",
-        "a",
-        "undefined",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "Qayta nomlash mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-057",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a=5] = []; a",
-      "opts": [
-        "undefined",
-        "5",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat berish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-058",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,b] = [1,2]; a qiymati",
-      "opts": [
-        "1",
-        "2",
-        "[1,2]",
-        "undefined"
-      ],
-      "correct": 0,
-      "exp": "Birinchi element a ga tushadi.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-059",
-      "q": "Quyidagi kodning natijasi nima?\nconst {name} = {name:'Ali'}; name",
-      "opts": [
-        "undefined",
-        "'Ali'",
-        "{name:'Ali'}",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Object destructuring.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-mcq-23-060",
-      "q": "Quyidagi kodning natijasi nima?\nconst [a,,c] = [1,2,3]; c",
-      "opts": [
-        "2",
-        "3",
-        "1",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Bo'sh joy bilan o'tkazib yuborish mumkin.",
-      "difficulty": 3,
-      "category": "destructuring",
-      "tags": [
-        "destructuring",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

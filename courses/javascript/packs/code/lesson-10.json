@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "js-code-10-001",
-      "task": "String '15' ni songa aylantirib, 5 ga ko'paytirib chiqaring (Number yoki + ishlating).",
-      "sample": "let s = \"15\";\nconsole.log(Number(s) * 5); // 75",
-      "exp": "Number() yoki unary + coercion qiladi.",
-      "difficulty": 2,
-      "category": "type-conversion",
+      "task": "Number('25') ni chiqaring.",
+      "sample": "console.log(Number(\"25\"));",
+      "exp": "25.",
+      "difficulty": 1,
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
+        "coercion",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-10-002",
-      "task": "Ma'lumot turini o'zgartirish va coercion bo'yicha qo'shimcha amaliy vazifa: kichik misol yozing.",
-      "sample": "let s = \"15\";\nconsole.log(Number(s) * 5); // 75",
-      "exp": "Number() yoki unary + coercion qiladi.",
-      "difficulty": 2,
-      "category": "type-conversion",
+      "task": "parseInt('18px') ni chiqaring.",
+      "sample": "console.log(parseInt(\"18px\", 10));",
+      "exp": "18. Ikkilamchi 10 — o'nlik sanoq.",
+      "difficulty": 1,
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
+        "coercion",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "js-code-10-003",
-      "task": "String '25' ni Number ga o'tkazing.",
-      "sample": "let n = Number(\"25\");\nconsole.log(n);",
-      "exp": "Number().",
+      "task": "String(100) typeof ini chiqaring.",
+      "sample": "console.log(typeof String(100));",
+      "exp": "string.",
       "difficulty": 1,
-      "category": "type-conversion",
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "easy"
+        "coercion",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-10-004",
-      "task": "Unary + bilan '10' ni songa o'tkazing.",
-      "sample": "console.log(+\"10\");",
-      "exp": "Unary +.",
-      "difficulty": 1,
-      "category": "type-conversion",
+      "task": "+'9' + 1 ni chiqaring.",
+      "sample": "console.log(+'9' + 1);",
+      "exp": "10.",
+      "difficulty": 2,
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "easy"
+        "coercion",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-10-005",
-      "task": "Boolean('') ni chiqaring.",
-      "sample": "console.log(Boolean(\"\"));",
-      "exp": "Bo'sh string falsy.",
-      "difficulty": 1,
-      "category": "type-conversion",
+      "task": "Boolean(0) va Boolean([]) ni chiqaring.",
+      "sample": "console.log(Boolean(0));\nconsole.log(Boolean([]));",
+      "exp": "false va true.",
+      "difficulty": 2,
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "easy"
+        "coercion",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "js-code-10-006",
-      "task": "parseInt('42px') ni chiqaring.",
-      "sample": "console.log(parseInt(\"42px\"));",
-      "exp": "parseInt.",
-      "difficulty": 1,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "js-code-10-007",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
+      "task": "'7' * '3' ni chiqaring.",
+      "sample": "console.log(\"7\" * \"3\");",
+      "exp": "21 — implicit coercion.",
       "difficulty": 2,
-      "category": "type-conversion",
+      "category": "coercion",
       "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
+        "coercion",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "js-code-10-008",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-009",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-010",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-011",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-012",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-013",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-014",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-015",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-016",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-017",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-018",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-019",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "js-code-10-020",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-10-021",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-10-022",
-      "task": "Object {x:100, y:200} ni chiqaring.",
-      "sample": "console.log({x: 100, y: 200});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-10-023",
-      "task": "type-conversion: oddiy misol yozing. (#21)",
-      "sample": "console.log('type-conversion');",
-      "exp": "type-conversion",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-10-024",
-      "task": "type-conversion bo'yicha kichik kod yozing. (#22)",
-      "sample": "// type-conversion\nconsole.log(1);",
-      "exp": "type-conversion",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "js-code-10-025",
-      "task": "type-conversion: oddiy misol yozing. (#23)",
-      "sample": "console.log('type-conversion');",
-      "exp": "type-conversion",
-      "difficulty": 3,
-      "category": "type-conversion",
-      "tags": [
-        "type-conversion",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }
