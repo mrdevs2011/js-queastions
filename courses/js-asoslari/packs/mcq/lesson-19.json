@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-19-001",
-      "q": "switch operatorida break yozilmasa nima bo'ladi?",
+      "q": "switch nima uchun qulay?",
       "opts": [
-        "Xato chiqadi",
-        "Keyingi case'lar ham bajariladi (fall-through)",
-        "Hech narsa o'zgarmaydi",
-        "switch to'xtaydi"
+        "Bitta qiymatni ko'p variant bilan solishtirish",
+        "Faqat sikl",
+        "Faqat DOM",
+        "Faqat string uzunligi"
       ],
-      "correct": 1,
-      "exp": "break bo'lmasa, kod keyingi case'larga 'tushib' davom etadi.",
+      "correct": 0,
+      "exp": "Kun, holat, buyruq turi kabilar.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-002",
-      "q": "switch da mos kelmasa qaysi qism bajariladi?",
+      "q": "switch qanday solishtiradi?",
       "opts": [
-        "birinchi case",
-        "default",
-        "oxirgi case",
-        "hech narsa"
+        "=== (qat'iy)",
+        "== (bo'sh)",
+        "includes",
+        "typeof"
       ],
-      "correct": 1,
-      "exp": "default — hech qaysi case mos kelmasa bajariladi.",
+      "correct": 0,
+      "exp": "1 va '1' turli case.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-003",
-      "q": "switch (x) case larni nima bilan solishtiradi?",
+      "q": "break qo'yilmasa nima bo'ladi?",
       "opts": [
-        "==",
-        "===",
-        "!=",
-        "typeof"
+        "Fall-through: keyingi case ham bajariladi",
+        "Avtomatik return",
+        "Xato",
+        "switch o'chadi"
       ],
-      "correct": 1,
-      "exp": "switch qat'iy tenglik (===) bilan solishtiradi.",
+      "correct": 0,
+      "exp": "Ba'zan ataylab tushiriladi, odatda break yoziladi.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-004",
-      "q": "Bir case da bir nechta qiymatni qanday yozish mumkin?",
+      "q": "default nima?",
       "opts": [
-        "case 1,2,3:",
-        "case 1: case 2: case 3:",
-        "case [1,2,3]:",
-        "mumkin emas"
+        "Hech qaysi case mos kelmasa",
+        "Har doim birinchi",
+        "Faqat xato",
+        "break o'rniga"
       ],
-      "correct": 1,
-      "exp": "Bir nechta case ni ketma-ket yozib, bitta blokga birlashtirish mumkin.",
+      "correct": 0,
+      "exp": "else ga o'xshaydi.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-005",
-      "q": "switch operatori taqqoslashda qanday tenglik ishlatadi?",
+      "q": "Qaysi yozuv to'g'ri?",
       "opts": [
-        "Bo'sh ==",
-        "Qat'iy ===",
-        "Faqat >",
-        "typeof"
+        "switch (kun) { case 1: ... break; default: ... }",
+        "switch kun: 1 { }",
+        "case switch(kun)",
+        "if switch(kun)"
       ],
-      "correct": 1,
-      "exp": "switch ichida case lar qat'iy tenglik (===) bilan solishtiriladi.",
+      "correct": 0,
+      "exp": "case qiymat:",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-006",
-      "q": "Fall-through?",
+      "q": "case 1: case 2: bir xil kod — ruxsatmi?",
       "opts": [
-        "Xato",
-        "break yo'qsa keyingi case",
-        "Hech narsa",
-        "To'xtaydi"
+        "Ha, break qo'yilmasa 1 va 2 bitta blokka tushadi",
+        "Yo'q",
+        "Faqat string",
+        "Faqat default da"
       ],
-      "correct": 1,
-      "exp": "Qasddan ishlatiladi.",
+      "correct": 0,
+      "exp": "Bir nechta yorliq.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "easy"
+        "switch",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-19-007",
-      "q": "default?",
+      "q": "switch (true) { case n>0: ...} uslubi?",
       "opts": [
-        "Birinchi",
-        "Mos kelmasa",
-        "Oxirgi majburiy",
-        "Xato"
+        "Ishlaydi, lekin oddiy if/else ko'pincha aniqroq",
+        "Har doim eng yaxshi",
+        "JS da taqiqlangan",
+        "Faqat Node da"
       ],
-      "correct": 1,
-      "exp": "Fallback.",
-      "difficulty": 2,
-      "category": "control-flow",
+      "correct": 0,
+      "exp": "Oraliq tekshiruvda if o'qiladi.",
+      "difficulty": 1,
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-19-008",
-      "q": "case 1: case 2:?",
+      "q": "const x='a'; switch(x){ case 'A': ...} mos keladimi?",
       "opts": [
-        "Xato",
-        "Bir nechta qiymat bitta blok",
-        "Faqat 1",
-        "Array"
+        "Yo'q, katta-kichik harf farq qiladi",
+        "Ha, avtomatik",
+        "Faqat default",
+        "Xato"
       ],
-      "correct": 1,
-      "exp": "Ketma-ket case.",
-      "difficulty": 2,
-      "category": "control-flow",
+      "correct": 0,
+      "exp": "Kerak bo'lsa avval toLowerCase().",
+      "difficulty": 1,
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-19-009",
-      "q": "Quyidagi kodning natijasi nima?\nswitch (NaN)",
+      "q": "return switch ichida funksiyada?",
       "opts": [
-        "case NaN ishlaydi",
-        "NaN !== NaN",
-        "Xato",
-        "default o'tmaydi"
+        "Funksiyani tugatadi, break shart emas",
+        "return yozib bo'lmaydi",
+        "Faqat default da",
+        "switch ni qaytaradi"
       ],
-      "correct": 1,
-      "exp": "NaN teng emas.",
+      "correct": 0,
+      "exp": "Funksiya ichidagi switch da return qulay.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-010",
-      "q": "case da let?",
+      "q": "Qaysi vazifa switch ga MOS KELMAYDI?",
       "opts": [
-        "Erkin",
-        "{} blok tavsiya",
-        "Mumkin emas",
-        "Faqat var"
+        "n > 0, n < 0, n === 0 kabi oraliqlar (if yaxshiroq)",
+        "buyruq === 'start'|'stop'|'pause'",
+        "status kodi 200,404,500",
+        "kun 1..7"
       ],
-      "correct": 1,
-      "exp": "Scope muammosi.",
+      "correct": 0,
+      "exp": "Oraliq — if/else if.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-011",
-      "q": "switch vs if?",
+      "q": "default joylashuvi?",
       "opts": [
-        "switch har doim tez",
-        "Ko'p tenglikda switch qulay",
-        "if taqiqlangan",
-        "Farq yo'q"
+        "Odatda oxirida; boshqa joyda ham bo'lishi mumkin, break eslang",
+        "Faqat birinchi qator",
+        "case dan oldin taqiqlangan",
+        "2 ta default shart"
       ],
-      "correct": 1,
-      "exp": "O'qilish.",
+      "correct": 0,
+      "exp": "Bitta default.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-012",
-      "q": "Ternary (uchlik) operatorning to'g'ri sintaksisi qaysi?",
+      "q": "switch (null) { case undefined: } mosmi?",
       "opts": [
-        "shart ? trueQiymat : falseQiymat",
-        "shart : true : false",
-        "shart ?? a ?? b",
-        "shart && a || b"
+        "Yo'q, ===",
+        "Ha, ==",
+        "Har doim default o'chadi",
+        "TypeError"
       ],
-      "correct": 1,
-      "exp": "shart ? qiymat1 : qiymat2 — shart true bo'lsa qiymat1, aks holda qiymat2.",
+      "correct": 0,
+      "exp": "null === undefined false.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-013",
-      "q": "return switch da?",
+      "q": "Quyidagi kod natijasi?\nswitch(2){ case 1: console.log('a'); case 2: console.log('b'); case 3: console.log('c'); break; }",
       "opts": [
-        "Mumkin emas",
-        "Funksiyadan chiqadi",
-        "Xato",
-        "Faqat default"
+        "b va c",
+        "faqat b",
+        "a b c",
+        "faqat c"
       ],
-      "correct": 1,
-      "exp": "return break o'rnini bosadi.",
+      "correct": 0,
+      "exp": "case 2 dan boshlab break gacha.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-014",
-      "q": "Quyidagi kodning natijasi nima?\nswitch (true) pattern",
+      "q": "case ifodasi bo'lishi mumkinmi?",
       "opts": [
-        "Mumkin emas",
-        "Oraliq shartlar uchun mumkin",
-        "Faqat number",
-        "Xato"
+        "Ha, case 1+1: ishlaydi",
+        "Faqat so'z",
+        "Faqat o'zgaruvchisiz",
+        "Faqat string literal"
       ],
-      "correct": 1,
-      "exp": "case x>5:",
+      "correct": 0,
+      "exp": "case ifodasi hisoblanadi, keyin ===.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-015",
-      "q": "switch operatori taqqoslashda qanday tenglik ishlatadi?",
+      "q": "Nima uchun if o'rniga switch?",
       "opts": [
-        "Bo'sh ==",
-        "Qat'iy ===",
-        "Faqat >",
-        "typeof"
+        "Ko'p tenglik tekshiruvi o'qishga tiniqroq bo'lishi mumkin",
+        "switch tezroq har doim kafolat",
+        "if eskirgan",
+        "else yo'qoladi"
       ],
-      "correct": 1,
-      "exp": "switch ichida case lar qat'iy tenglik (===) bilan solishtiriladi.",
-      "difficulty": 2,
-      "category": "control-flow",
+      "correct": 0,
+      "exp": "2-3 ta shart — if yetarli.",
+      "difficulty": 3,
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "medium"
+        "switch",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-19-016",
-      "q": "Fall-through?",
+      "q": "break switch dan tashqaridagi for ni to'xtatadimi?",
       "opts": [
-        "Xato",
-        "break yo'qsa keyingi case",
-        "Hech narsa",
-        "To'xtaydi"
-      ],
-      "correct": 1,
-      "exp": "Qasddan ishlatiladi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-017",
-      "q": "default?",
-      "opts": [
-        "Birinchi",
-        "Mos kelmasa",
-        "Oxirgi majburiy",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "Fallback.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-018",
-      "q": "case 1: case 2:?",
-      "opts": [
-        "Xato",
-        "Bir nechta qiymat bitta blok",
-        "Faqat 1",
-        "Array"
-      ],
-      "correct": 1,
-      "exp": "Ketma-ket case.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-019",
-      "q": "Quyidagi kodning natijasi nima?\nswitch (NaN)",
-      "opts": [
-        "case NaN ishlaydi",
-        "NaN !== NaN",
-        "Xato",
-        "default o'tmaydi"
-      ],
-      "correct": 1,
-      "exp": "NaN teng emas.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-020",
-      "q": "case da let?",
-      "opts": [
-        "Erkin",
-        "{} blok tavsiya",
-        "Mumkin emas",
-        "Faqat var"
-      ],
-      "correct": 1,
-      "exp": "Scope muammosi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-021",
-      "q": "switch vs if?",
-      "opts": [
-        "switch har doim tez",
-        "Ko'p tenglikda switch qulay",
-        "if taqiqlangan",
-        "Farq yo'q"
-      ],
-      "correct": 1,
-      "exp": "O'qilish.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-022",
-      "q": "Ternary (uchlik) operatorning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "shart ? trueQiymat : falseQiymat",
-        "shart : true : false",
-        "shart ?? a ?? b",
-        "shart && a || b"
-      ],
-      "correct": 1,
-      "exp": "shart ? qiymat1 : qiymat2 — shart true bo'lsa qiymat1, aks holda qiymat2.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-023",
-      "q": "return switch da?",
-      "opts": [
-        "Mumkin emas",
-        "Funksiyadan chiqadi",
-        "Xato",
-        "Faqat default"
-      ],
-      "correct": 1,
-      "exp": "return break o'rnini bosadi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-024",
-      "q": "Quyidagi kodning natijasi nima?\nswitch (true) pattern",
-      "opts": [
-        "Mumkin emas",
-        "Oraliq shartlar uchun mumkin",
-        "Faqat number",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "case x>5:",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-025",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-026",
-      "q": "ternary operator sintaksisi?",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
+        "Yo'q, faqat eng yaqin switch/sikl",
+        "Ha, hammasini",
+        "Faqat funksiyani",
+        "Faqat faylni"
       ],
       "correct": 0,
-      "exp": "shart ? true : false.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-027",
-      "q": "switch da break bo'lmasa?",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-028",
-      "q": "if/else if/else da nechta shart?",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-029",
-      "q": "true ? 'a' : 'b' natijasi?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-030",
-      "q": "Quyidagi kodning natijasi nima?\nif (null) ishlaydimi",
-      "opts": [
-        "ha",
-        "yo'q",
-        "error",
-        "ba'zan"
-      ],
-      "correct": 1,
-      "exp": "null — falsy.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-031",
-      "q": "Quyidagi kodning natijasi nima?\nswitch (x) { case 1: ...} da x tipi",
-      "opts": [
-        "faqat number",
-        "har qanday",
-        "faqat string",
-        "faqat boolean"
-      ],
-      "correct": 1,
-      "exp": "Har qanday tip bo'lishi mumkin.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-032",
-      "q": "else majburiymi?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "faqat if da",
-        "switch da"
-      ],
-      "correct": 1,
-      "exp": "else ixtiyoriy.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-033",
-      "q": "if (a = 5) nima bo'ladi?",
-      "opts": [
-        "solishtiradi",
-        "assign qiladi va truthy deb hisoblaydi",
-        "error",
-        "false"
-      ],
-      "correct": 1,
-      "exp": "= assign, == solishtirish.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-034",
-      "q": "nested if (ichma-ich if) nima degani?",
-      "opts": [
-        "Bitta if operatori",
-        "if bloki ichida yana if yozish",
-        "switch operatori",
-        "for yoki while sikli"
-      ],
-      "correct": 1,
-      "exp": "Nested if — if ichida yana if yozish. Masalan: if (a) { if (b) { ... } }",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-035",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 1)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-036",
-      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 1)",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
-      ],
-      "correct": 0,
-      "exp": "shart ? true : false.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-037",
-      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 1)",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-038",
-      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 1)",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-039",
-      "q": "true ? 'a' : 'b' natijasi (misol 1)?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-040",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 2)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-041",
-      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 2)",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
-      ],
-      "correct": 0,
-      "exp": "shart ? true : false.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-042",
-      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 2)",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-043",
-      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 2)",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-044",
-      "q": "true ? 'a' : 'b' natijasi (misol 2)?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-045",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 3)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-19-046",
-      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 3)",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
-      ],
-      "correct": 0,
-      "exp": "shart ? true : false.",
+      "exp": "Tashqi sikl uchun label kerak (kam uchraydi).",
       "difficulty": 3,
-      "category": "control-flow",
+      "category": "switch",
       "tags": [
-        "control-flow",
-        "test",
-        "hard"
+        "switch",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-047",
-      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 3)",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-048",
-      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 3)",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-049",
-      "q": "true ? 'a' : 'b' natijasi (misol 3)?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-050",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 4)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-051",
-      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 4)",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
-      ],
-      "correct": 0,
-      "exp": "shart ? true : false.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-052",
-      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 4)",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-053",
-      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 4)",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-054",
-      "q": "true ? 'a' : 'b' natijasi (misol 4)?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-055",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 5)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-056",
-      "q": "Quyidagi kodning natijasi nima?\nternary operator sintaksisi (misol 5)",
-      "opts": [
-        "a ? b : c",
-        "a : b ? c",
-        "a ?? b : c",
-        "a || b : c"
-      ],
-      "correct": 0,
-      "exp": "shart ? true : false.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-057",
-      "q": "Quyidagi kodning natijasi nima?\nswitch da break bo'lmasa (misol 5)",
-      "opts": [
-        "to'xtaydi",
-        "keyingi case larga tushadi (fall-through)",
-        "error",
-        "default ga"
-      ],
-      "correct": 1,
-      "exp": "break bo'lmasa fall-through bo'ladi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-058",
-      "q": "Quyidagi kodning natijasi nima?\nif/else if/else da nechta shart (misol 5)",
-      "opts": [
-        "1",
-        "cheksiz else if",
-        "faqat 2",
-        "3"
-      ],
-      "correct": 1,
-      "exp": "Istalgancha else if yozish mumkin.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-059",
-      "q": "true ? 'a' : 'b' natijasi (misol 5)?",
-      "opts": [
-        "'a'",
-        "'b'",
-        "true",
-        "false"
-      ],
-      "correct": 0,
-      "exp": "Shart true bo'lsa birinchi qiymat.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-19-060",
-      "q": "Quyidagi kodning natijasi nima?\nif (0) {...} ishlaydimi (misol 6)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "0 — falsy, if ga kirmaydi.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

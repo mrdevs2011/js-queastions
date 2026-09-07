@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-25-001",
-      "q": "Elementning matnini o'zgartirish uchun qaysi xususiyat ishlatiladi?",
+      "q": "element.textContent = 'Salom' nima qiladi?",
       "opts": [
-        "element.text",
-        "element.textContent",
-        "element.value",
-        "element.string"
+        "Ichidagi matnni almashtiradi (teglar ishga tushmaydi)",
+        "Yangi sahifa ochadi",
+        "CSS fayl yozadi",
+        "id ni o'chiradi"
       ],
-      "correct": 1,
-      "exp": "textContent element ichidagi matnni o'qish/o'zgartirish uchun ishlatiladi.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Xavfsizroq variant.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-002",
-      "q": "element.innerHTML nima qiladi?",
+      "q": "element.innerHTML = '<b>A</b>' ?",
       "opts": [
-        "Faqat matn o'qiydi",
-        "HTML bilan birga o'qiydi/yozadi",
-        "Faqat atributlarni o'zgartiradi",
-        "Elementni o'chiradi"
+        "Ichiga HTML qo'yadi, b qalin ko'rinadi",
+        "Matn sifatida teg chiqadi",
+        "Xato",
+        "Faqat konsol"
       ],
-      "correct": 1,
-      "exp": "innerHTML HTML teglarini ham o'qiydi va yozadi.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Ishonchli HTML bo'lsagina.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-003",
-      "q": "element.style.color = 'red' nima qiladi?",
+      "q": "element.setAttribute('id','x') ?",
       "opts": [
-        "Class qo'shadi",
-        "Matn rangini qizil qiladi",
-        "Elementni o'chiradi",
-        "Hech narsa"
+        "id atributini qo'yadi/yangilaydi",
+        "class ni o'chiradi",
+        "Yangi element",
+        "textContent"
       ],
-      "correct": 1,
-      "exp": "style orqali inline CSS o'zgartiriladi.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "getAttribute o'qiydi, removeAttribute o'chiradi.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-004",
-      "q": "element.setAttribute('id', 'x') nima qiladi?",
+      "q": "element.classList.add('active') ?",
       "opts": [
-        "id ni o'qiydi",
-        "id atributini 'x' qilib qo'yadi",
-        "Element yaratadi",
-        "Xato"
+        "class ro'yxatiga qo'shadi (dublikatsiz)",
+        "Barcha class ni o'chiradi",
+        "id qo'shadi",
+        "style ni o'chiradi"
       ],
-      "correct": 1,
-      "exp": "setAttribute atribut qiymatini o'rnatadi.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "toggle, remove, contains ham bor.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-005",
-      "q": "classList.add?",
+      "q": "element.style.color = 'red' ?",
       "opts": [
-        "Almashtiradi",
-        "Qo'shadi",
-        "O'chiradi",
-        "toggle"
+        "Inline style yozadi",
+        "CSS faylni tahrirlaydi",
+        "classList",
+        "atribut id"
       ],
-      "correct": 1,
-      "exp": "class qo'shish.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "JS da cssColor emas, color. background-color → backgroundColor.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-006",
-      "q": "element.classList.toggle('active') nima qiladi?",
+      "q": "classList.toggle('open') ?",
       "opts": [
-        "Doim qo'shadi",
-        "Class bo'lsa olib tashlaydi, bo'lmasa qo'shadi",
-        "Faqat o'chiradi",
-        "HTML ni o'chiradi"
+        "Bo'lsa olib tashlaydi, bo'lmasa qo'shadi",
+        "Har doim qo'shadi",
+        "Har doim o'chiradi",
+        "Sahifani yopadi"
       ],
-      "correct": 1,
-      "exp": "toggle — class yo'q bo'lsa qo'shadi, bor bo'lsa olib tashlaydi.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Menyu ochish/yopish uchun qulay.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-25-007",
-      "q": "style.backgroundColor?",
+      "q": "element.hidden = true ?",
       "opts": [
-        "css matn",
-        "CamelCase xususiyat",
-        "cssText",
-        "class"
+        "Elementni yashiradi (hidden atributi)",
+        "O'chiradi",
+        "CSS fayl o'chadi",
+        "id yashirinadi"
       ],
-      "correct": 1,
-      "exp": "JS da camelCase.",
-      "difficulty": 2,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Ko'rsatish: hidden = false.",
+      "difficulty": 1,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "medium"
+        "dom-update",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-25-008",
+      "q": "value qaysi elementda muhim?",
+      "opts": [
+        "input, textarea, select",
+        "Faqat p",
+        "Faqat html",
+        "Faqat script"
+      ],
+      "correct": 0,
+      "exp": "Forma qiymati: input.value.",
+      "difficulty": 1,
+      "category": "dom-update",
+      "tags": [
+        "dom-update",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-25-009",
+      "q": "src ni o'zgartirish?",
+      "opts": [
+        "img.src = 'rasm.png'",
+        "img.textContent = 'rasm.png'",
+        "img.classList.src",
+        "img.innerHTML src"
+      ],
+      "correct": 0,
+      "exp": "Atribut/xususiyat. Ba'zida getAttribute farq qiladi.",
+      "difficulty": 2,
+      "category": "dom-update",
+      "tags": [
+        "dom-update",
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "aso-mcq-25-008",
-      "q": "dataset?",
-      "opts": [
-        "Bir xil setAttribute",
-        "data-* uchun qulay",
-        "Yo'q",
-        "Faqat id"
-      ],
-      "correct": 1,
-      "exp": "data-user-id.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-009",
-      "q": "removeAttribute?",
-      "opts": [
-        "Bo'sh qiladi",
-        "Olib tashlaydi",
-        "Xato",
-        "Yashiradi"
-      ],
-      "correct": 1,
-      "exp": "Atribut yo'qoladi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
       "id": "aso-mcq-25-010",
-      "q": "el.hidden=true?",
+      "q": "Qaysi usul class ni butunlay almashtiradi?",
       "opts": [
-        "CSS majburiy",
-        "Yashiradi",
-        "Yo'q",
-        "Faqat class"
+        "element.className = 'a b'",
+        "classList.add faqat",
+        "toggle har doim hammasi",
+        "style.class"
       ],
-      "correct": 1,
-      "exp": "Boolean attribute.",
-      "difficulty": 3,
-      "category": "dom",
+      "correct": 0,
+      "exp": "className butun satr. classList nozikroq.",
+      "difficulty": 2,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-011",
-      "q": "innerHTML=''?",
+      "q": "style.setProperty('--main', '#333') ?",
       "opts": [
-        "Hech narsa",
-        "Bolalarni tozalaydi",
-        "Element o'chadi",
-        "null"
+        "CSS o'zgaruvchisini qo'yadi",
+        "Yangi teg",
+        "id",
+        "HTML izoh"
       ],
-      "correct": 1,
-      "exp": "Ichini bo'shatadi.",
-      "difficulty": 3,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Custom properties.",
+      "difficulty": 2,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-012",
-      "q": "insertAdjacentHTML?",
+      "q": "textContent += '!' nima?",
       "opts": [
-        "Yo'q",
-        "Aniq pozitsiyaga HTML",
-        "Faqat append",
-        "Xato"
+        "Oxiriga ! qo'shadi",
+        "Hammasini ! qiladi",
+        "O'chiradi",
+        "HTML parse"
       ],
-      "correct": 1,
-      "exp": "beforebegin va h.k.",
-      "difficulty": 3,
-      "category": "dom",
+      "correct": 0,
+      "exp": "O'qish + yozish. Ko'p marta qilish sekinroq bo'lishi mumkin.",
+      "difficulty": 2,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-013",
-      "q": "getComputedStyle?",
+      "q": "disabled = true ?",
       "opts": [
-        "Faqat inline",
-        "Yakuniy CSS",
-        "Faqat class",
-        "Yo'q"
+        "Tugma/input ishlamaydi",
+        "Element o'chadi",
+        "class qo'shiladi",
+        "form yuboriladi"
       ],
-      "correct": 1,
-      "exp": "Hisoblangan stillar.",
-      "difficulty": 3,
-      "category": "dom",
+      "correct": 0,
+      "exp": "Qayta yoqish: false.",
+      "difficulty": 2,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-014",
-      "q": "textContent vs innerHTML?",
+      "q": "dataset.userId nima?",
       "opts": [
-        "Bir xil",
-        "textContent matn, innerHTML HTML",
-        "innerHTML xavfsiz",
-        "Farq yo'q"
+        "data-user-id atributiga bog'liq",
+        "id atributi",
+        "class",
+        "value"
       ],
-      "correct": 1,
-      "exp": "Xavfsizlik farqi.",
-      "difficulty": 3,
-      "category": "dom",
+      "correct": 0,
+      "exp": "data-user-id='5' → dataset.userId === '5' (string).",
+      "difficulty": 2,
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-015",
-      "q": "classList.add?",
+      "q": "Qaysi xato?",
       "opts": [
-        "Almashtiradi",
-        "Qo'shadi",
-        "O'chiradi",
-        "toggle"
+        "null elementga textContent yozish",
+        "avval tekshirib yozish",
+        "classList.add mavjud class ga (zararsiz)",
+        "style.color qo'yish"
       ],
-      "correct": 1,
-      "exp": "class qo'shish.",
+      "correct": 0,
+      "exp": "TypeError.",
       "difficulty": 3,
-      "category": "dom",
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-25-016",
-      "q": "element.classList.toggle('active') nima qiladi?",
+      "q": "Ko'rinishni CSS class bilan o'zgartirish nima uchun yaxshi?",
       "opts": [
-        "Doim qo'shadi",
-        "Class bo'lsa olib tashlaydi, bo'lmasa qo'shadi",
-        "Faqat o'chiradi",
-        "HTML ni o'chiradi"
+        "Uslub CSS da qoladi, JS faqat holat qo'shadi",
+        "style.color har doim yaxshiroq",
+        "classList sekin",
+        "CSS kerak emas"
       ],
-      "correct": 1,
-      "exp": "toggle — class yo'q bo'lsa qo'shadi, bor bo'lsa olib tashlaydi.",
+      "correct": 0,
+      "exp": "JS: classList.add('dark'). CSS: .dark { }.",
       "difficulty": 3,
-      "category": "dom",
+      "category": "dom-update",
       "tags": [
-        "dom",
-        "test",
-        "hard"
+        "dom-update",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-017",
-      "q": "style.backgroundColor?",
-      "opts": [
-        "css matn",
-        "CamelCase xususiyat",
-        "cssText",
-        "class"
-      ],
-      "correct": 1,
-      "exp": "JS da camelCase.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-018",
-      "q": "dataset?",
-      "opts": [
-        "Bir xil setAttribute",
-        "data-* uchun qulay",
-        "Yo'q",
-        "Faqat id"
-      ],
-      "correct": 1,
-      "exp": "data-user-id.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-019",
-      "q": "removeAttribute?",
-      "opts": [
-        "Bo'sh qiladi",
-        "Olib tashlaydi",
-        "Xato",
-        "Yashiradi"
-      ],
-      "correct": 1,
-      "exp": "Atribut yo'qoladi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-020",
-      "q": "el.hidden=true?",
-      "opts": [
-        "CSS majburiy",
-        "Yashiradi",
-        "Yo'q",
-        "Faqat class"
-      ],
-      "correct": 1,
-      "exp": "Boolean attribute.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-021",
-      "q": "innerHTML=''?",
-      "opts": [
-        "Hech narsa",
-        "Bolalarni tozalaydi",
-        "Element o'chadi",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Ichini bo'shatadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-022",
-      "q": "insertAdjacentHTML?",
-      "opts": [
-        "Yo'q",
-        "Aniq pozitsiyaga HTML",
-        "Faqat append",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "beforebegin va h.k.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-023",
-      "q": "getComputedStyle?",
-      "opts": [
-        "Faqat inline",
-        "Yakuniy CSS",
-        "Faqat class",
-        "Yo'q"
-      ],
-      "correct": 1,
-      "exp": "Hisoblangan stillar.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-024",
-      "q": "textContent vs innerHTML?",
-      "opts": [
-        "Bir xil",
-        "textContent matn, innerHTML HTML",
-        "innerHTML xavfsiz",
-        "Farq yo'q"
-      ],
-      "correct": 1,
-      "exp": "Xavfsizlik farqi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-025",
-      "q": "document.getElementById('id') nima qaytaradi?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-026",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class')",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-027",
-      "q": "querySelectorAll nima qaytaradi?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-028",
-      "q": "element.innerHTML nima?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-029",
-      "q": "element.textContent farqi?",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-030",
-      "q": "Quyidagi kodning natijasi nima?\nelement.classList.add('x')",
-      "opts": [
-        "class ni o'chiradi",
-        "class qo'shadi",
-        "toggle",
-        "replace"
-      ],
-      "correct": 1,
-      "exp": "Yangi class qo'shadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-031",
-      "q": "Quyidagi kodning natijasi nima?\nelement.setAttribute('data-id', '5')",
-      "opts": [
-        "o'chiradi",
-        "attribute o'rnatadi",
-        "style o'zgartiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Attribute qo'shadi yoki o'zgartiradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-032",
-      "q": "Quyidagi kodning natijasi nima?\ndocument.createElement('div')",
-      "opts": [
-        "mavjud elementni oladi",
-        "yangi element yaratadi",
-        "o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Yangi DOM element yaratadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-033",
-      "q": "Quyidagi kodning natijasi nima?\nparent.appendChild(child)",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "replace"
-      ],
-      "correct": 1,
-      "exp": "Bolani oxiriga qo'shadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-034",
-      "q": "Quyidagi kodning natijasi nima?\nelement.remove()",
-      "opts": [
-        "yashiradi",
-        "DOM dan olib tashlaydi",
-        "disable",
-        "clear"
-      ],
-      "correct": 1,
-      "exp": "Elementni olib tashlaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-035",
-      "q": "document.getElementById('id') nima qaytaradi (misol 1)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-036",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 1)",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-037",
-      "q": "querySelectorAll nima qaytaradi (misol 1)?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-038",
-      "q": "element.innerHTML nima (misol 1)?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-039",
-      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 1)",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-040",
-      "q": "document.getElementById('id') nima qaytaradi (misol 2)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-041",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 2)",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-042",
-      "q": "querySelectorAll nima qaytaradi (misol 2)?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-043",
-      "q": "element.innerHTML nima (misol 2)?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-044",
-      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 2)",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-045",
-      "q": "document.getElementById('id') nima qaytaradi (misol 3)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-046",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 3)",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-047",
-      "q": "querySelectorAll nima qaytaradi (misol 3)?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-048",
-      "q": "element.innerHTML nima (misol 3)?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-049",
-      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 3)",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-050",
-      "q": "document.getElementById('id') nima qaytaradi (misol 4)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-051",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 4)",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-052",
-      "q": "querySelectorAll nima qaytaradi (misol 4)?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-053",
-      "q": "element.innerHTML nima (misol 4)?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-054",
-      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 4)",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-055",
-      "q": "document.getElementById('id') nima qaytaradi (misol 5)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-056",
-      "q": "Quyidagi kodning natijasi nima?\nquerySelector('.class') (misol 5)",
-      "opts": [
-        "barcha elementlar",
-        "birinchi mos element",
-        "null",
-        "array"
-      ],
-      "correct": 1,
-      "exp": "Birinchi mos kelgan element.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-057",
-      "q": "querySelectorAll nima qaytaradi (misol 5)?",
-      "opts": [
-        "Element",
-        "NodeList",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "NodeList qaytaradi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-058",
-      "q": "element.innerHTML nima (misol 5)?",
-      "opts": [
-        "matn",
-        "HTML kontent",
-        "faqat text",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "Ichidagi HTML ni o'qiydi/yozadi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-059",
-      "q": "Quyidagi kodning natijasi nima?\nelement.textContent farqi (misol 5)",
-      "opts": [
-        "HTML ni parse qiladi",
-        "faqat matn, xavfsizroq",
-        "bir xil",
-        "attribute"
-      ],
-      "correct": 1,
-      "exp": "textContent HTML ni interpretatsiya qilmaydi.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-25-060",
-      "q": "document.getElementById('id') nima qaytaradi (misol 6)?",
-      "opts": [
-        "NodeList",
-        "Element yoki null",
-        "Array",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Bitta element yoki null.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

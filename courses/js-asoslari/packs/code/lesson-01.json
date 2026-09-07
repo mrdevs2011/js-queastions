@@ -5,351 +5,105 @@
   "questions": [
     {
       "id": "aso-code-1-001",
-      "task": "Kirish: console.log orqali 2 ta xabar chiqaring.",
-      "sample": "console.log(\"Birinchi\");\nconsole.log(\"Ikkinchi\");",
-      "exp": "console.log.",
+      "task": "Konsolga Salom, dunyo! matnini chiqaring.",
+      "sample": "console.log(\"Salom, dunyo!\");",
+      "exp": "console.log qavs ichidagi qiymatni Console oynasiga yozadi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-002",
-      "task": "Kirish: kichik hisob: 2+2*2 ni chiqaring.",
-      "sample": "console.log(2 + 2 * 2); // 6",
-      "exp": "Ustuvorlik.",
+      "task": "Konsolga o'z ismingizni chiqaring.",
+      "sample": "console.log(\"Malika\");",
+      "exp": "Qavs ichiga qo'shtirnoqda istalgan matn yoziladi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-003",
-      "task": "Kirish: massiv va object ni birga ishlating (qisqa).",
-      "sample": "let user = { tags: [\"js\", \"web\"] };\nconsole.log(user.tags[0]);",
-      "exp": "Nested ma'lumot.",
+      "task": "Konsolga 7 sonini chiqaring (qo'shtirnoqsiz).",
+      "sample": "console.log(7);",
+      "exp": "Son qo'shtirnoqsiz yoziladi. Qo'shtirnoqda yozilsa, u matn bo'ladi.",
       "difficulty": 1,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-004",
-      "task": "Kirish: for...of bilan satr harflarini chiqaring.",
-      "sample": "for (const ch of \"JS\") console.log(ch);",
-      "exp": "for...of string.",
+      "task": "Ketma-ket ikkita xabar chiqaring: Birinchi qator va Ikkinchi qator.",
+      "sample": "console.log(\"Birinchi qator\");\nconsole.log(\"Ikkinchi qator\");",
+      "exp": "Har bir console.log yangi qatordan chiqaradi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-1-005",
-      "task": "console.log orqali 'Salom' chiqaring.",
-      "sample": "console.log(\"Salom\");",
-      "exp": "console.log.",
-      "difficulty": 1,
+      "task": "2 + 3 yig'indisini konsolga chiqaring.",
+      "sample": "console.log(2 + 3);",
+      "exp": "Hisob avval bajariladi, natija 5 chiqadi.",
+      "difficulty": 2,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-006",
-      "task": "2 ta console.log yozing.",
-      "sample": "console.log(1);\nconsole.log(2);",
-      "exp": "Ketma-ket chiqarish.",
-      "difficulty": 1,
+      "task": "Matn va sonni alohida qatorda chiqaring: Yil va 2026.",
+      "sample": "console.log(\"Yil\");\nconsole.log(2026);",
+      "exp": "Matn qo'shtirnoqda, son qo'shtirnoqsiz.",
+      "difficulty": 2,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-007",
-      "task": "Matematik ifoda 3+4 ni chiqaring.",
-      "sample": "console.log(3 + 4);",
-      "exp": "Oddiy hisob.",
-      "difficulty": 1,
+      "task": "Konsolga true qiymatini chiqaring.",
+      "sample": "console.log(true);",
+      "exp": "true/false — mantiqiy qiymatlar, qo'shtirnoqsiz yoziladi.",
+      "difficulty": 2,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "easy"
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-1-008",
-      "task": "String va number ni birga chiqaring.",
-      "sample": "console.log(\"Natija:\", 10);",
-      "exp": "Bir nechta argument.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-009",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-010",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-011",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-012",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-013",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-014",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-015",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-016",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-017",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 1,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "easy"
-      ],
-      "points": 1
-    },
-    {
-      "id": "aso-code-1-018",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
+      "task": "Izoh qatori yozib, uning ostida console.log(1) qoldiring. Izoh bajarilmasin.",
+      "sample": "// bu izoh, bajarilmaydi\nconsole.log(1);",
+      "exp": "// dan keyingi qator oxirigacha kod hisoblanmaydi.",
       "difficulty": 2,
       "category": "introduction",
       "tags": [
         "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-019",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-020",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-021",
-      "task": "100 dan 200 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 100; i <= 200; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-022",
-      "task": "Massiv [100, 200, 50] yig'indisini toping.",
-      "sample": "console.log([100, 200, 50].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-023",
-      "task": "'100' ni songa o'tkazib 200 ga qo'shing.",
-      "sample": "console.log(Number(\"100\") + 200);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-024",
-      "task": "Object {x:100, y:200} ni chiqaring.",
-      "sample": "console.log({x: 100, y: 200});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-1-025",
-      "task": "introduction: oddiy misol yozing. (#21)",
-      "sample": "console.log('introduction');",
-      "exp": "introduction",
-      "difficulty": 2,
-      "category": "introduction",
-      "tags": [
-        "introduction",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     }

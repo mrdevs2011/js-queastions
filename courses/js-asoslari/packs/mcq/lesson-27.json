@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-27-001",
-      "q": "Elementga bosilganda funksiya ishga tushishi uchun qaysi kod to'g'ri?",
+      "q": "Hodisa (event) nima?",
       "opts": [
-        "element.addEvent('click', fn)",
-        "element.addEventListener('click', fn)",
-        "element.onEvent('click', fn)",
-        "element.click(fn)"
+        "Foydalanuvchi yoki brauzer harakati: click, input, load...",
+        "Faqat CSS animatsiya",
+        "Faqat o'zgaruvchi",
+        "Faqat JSON"
       ],
-      "correct": 1,
-      "exp": "addEventListener() hodisa (event) tinglovchisini qo'shadi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "JS shu hodisaga javob beradi.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-002",
-      "q": "addEventListener birinchi argumenti nima?",
+      "q": "addEventListener('click', fn) ?",
       "opts": [
-        "Funksiya",
-        "Hodisa turi (masalan 'click')",
-        "Element",
-        "CSS selektor"
+        "Element bosilganda fn ni chaqiradi",
+        "Elementni o'chiradi",
+        "Sahifani yuklaydi",
+        "class qo'shadi o'zi"
       ],
-      "correct": 1,
-      "exp": "Birinchi argument — tinglanadigan hodisa nomi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Bir nechta listener qo'yish mumkin.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-003",
-      "q": "Bir elementga bir nechta click listener qo'yish mumkinmi?",
+      "q": "onclick = fn vs addEventListener?",
       "opts": [
-        "Yo'q",
-        "Ha",
-        "Faqat bitta",
-        "Faqat arrow da"
+        "onclick bitta handler; listener ko'p qo'shiladi",
+        "onclick ishlamaydi",
+        "listener faqat 1 ta",
+        "farq yo'q"
       ],
-      "correct": 1,
-      "exp": "addEventListener bir xil hodisaga bir nechta funksiya qo'shishga ruxsat beradi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "addEventListener afzal.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-004",
-      "q": "removeEventListener nima uchun kerak?",
+      "q": "event.target nima?",
       "opts": [
-        "Element o'chirish",
-        "Oldin qo'shilgan tinglovchini olib tashlash",
-        "Sahifani yangilash",
-        "CSS o'zgartirish"
+        "Hodisa chiqqan asl element",
+        "Har doim document",
+        "Listener qo'yilgan element har doim emas — currentTarget shu",
+        "window faqat"
       ],
-      "correct": 1,
-      "exp": "Kerak bo'lmagan listenerlarni olib tashlash uchun ishlatiladi.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Delegation da target muhim.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-005",
-      "q": "Capturing vs bubbling?",
+      "q": "event.currentTarget ?",
       "opts": [
-        "Bir xil",
-        "Yuqoridan past / pastdan yuqori",
-        "Faqat bubble",
-        "Faqat capture"
+        "Listener o'rnatilgan element",
+        "Bosilgan ichki span",
+        "window",
+        "null"
       ],
-      "correct": 1,
-      "exp": "Ikki bosqich.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "target va currentTarget farq qilishi mumkin.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-006",
-      "q": "currentTarget?",
+      "q": "event.preventDefault() ?",
       "opts": [
-        "Asl element",
-        "Listener o'rnatilgan",
-        "window",
-        "null"
+        "Brauzerning odatiy ishini to'xtatadi (form yuborish, havola)",
+        "Elementni o'chiradi",
+        "JS ni to'xtatadi",
+        "CSS ni o'chiradi"
       ],
-      "correct": 1,
-      "exp": "target vs currentTarget.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Forma validatsiyasida ko'p ishlatiladi.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-27-007",
-      "q": "once: true?",
+      "q": "event.stopPropagation() ?",
       "opts": [
-        "Qo'lda remove",
-        "Bir marta ishlaydi",
-        "Mumkin emas",
-        "Faqat click"
+        "Hodisaning ota elementlarga ko'tarilishini to'xtatadi",
+        "preventDefault bilan bir xil",
+        "Listener ni o'chiradi",
+        "Sahifani to'xtatadi"
       ],
-      "correct": 1,
-      "exp": "Avtomatik olib tashlash.",
+      "correct": 0,
+      "exp": "Bubbling ni to'xtatadi.",
+      "difficulty": 1,
+      "category": "events",
+      "tags": [
+        "events",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-27-008",
+      "q": "Bubbling nima?",
+      "opts": [
+        "Hodisa ichki elementdan otalarga qarab ko'tariladi",
+        "Tepadan pastga har doim",
+        "Faqat load",
+        "Faqat CSS"
+      ],
+      "correct": 0,
+      "exp": "click ichki tugmada — ota div ham eshitishi mumkin.",
+      "difficulty": 1,
+      "category": "events",
+      "tags": [
+        "events",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-27-009",
+      "q": "Capturing nima?",
+      "opts": [
+        "Tepadan pastga, bubbling dan oldin (uchinchi argument true)",
+        "Bubbling ning boshqa nomi",
+        "Faqat remove",
+        "Faqat once"
+      ],
+      "correct": 0,
+      "exp": "Kamroq ishlatiladi. {capture:true}.",
       "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "aso-mcq-27-008",
-      "q": "passive: true?",
-      "opts": [
-        "Sekin",
-        "Scroll performance",
-        "O'chiradi",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "preventDefault yo'q deb.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-009",
-      "q": "Delegation?",
-      "opts": [
-        "Har bolaga",
-        "Otada bitta listener",
-        "CSS",
-        "HTTP"
-      ],
-      "correct": 1,
-      "exp": "Dynamic ro'yxat.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
       "id": "aso-mcq-27-010",
-      "q": "removeEventListener?",
+      "q": "removeEventListener ishlashi uchun?",
       "opts": [
-        "Yangi arrow OK",
-        "Xuddi shu reference",
-        "Nom yetarli",
-        "Id"
+        "Bir xil funksiya referensi kerak",
+        "Nom yetarli, istalgan fn",
+        "remove shart emas hech qachon",
+        "Faqat onclick ni o'chirish"
       ],
-      "correct": 1,
-      "exp": "Reference muhim.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Anonim funksiyani keyin olib tashlab bo'lmaydi.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-011",
-      "q": "event.key?",
+      "q": "{once:true} nima?",
       "opts": [
-        "Faqat code",
-        "Enter, a kabi",
-        "Faqat keyCode",
-        "Yo'q"
+        "Listener bir marta ishlaydi, keyin o'chadi",
+        "Cheksiz",
+        "Faqat capturing",
+        "preventDefault"
       ],
-      "correct": 1,
-      "exp": "Zamonaviy key.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Bir martalik tugma.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-012",
-      "q": "preventDefault?",
+      "q": "DOMContentLoaded qachon?",
       "opts": [
-        "stop bilan bir",
-        "Standart harakatni to'xtatadi",
-        "return false standart",
-        "Yo'q"
+        "HTML tahlil qilinib, DOM tayyor bo'lganda (rasmlar kutmasligi mumkin)",
+        "Barcha rasm yuklanganda (bu load)",
+        "JS yozilganda",
+        "F5 dan oldin"
       ],
-      "correct": 1,
-      "exp": "Forma submit va h.k.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Skript body oxirida bo'lsa, ko'pincha shart emas.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-013",
-      "q": "CustomEvent?",
+      "q": "Delegation nima?",
       "opts": [
-        "Yo'q",
-        "O'z hodisasi",
-        "Faqat click",
-        "Server"
+        "Otada bitta listener: event.target orqali bola aniqlanadi",
+        "Har bir bolaga alohida 1000 listener",
+        "preventDefault ning nomi",
+        "CSS hover"
       ],
-      "correct": 1,
-      "exp": "dispatchEvent.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Ro'yxatga yangi li qo'shilsa ham ishlaydi.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-014",
-      "q": "addEventListener 3-arg?",
+      "q": "Qaysi kod to'g'ri?",
       "opts": [
-        "Yo'q",
-        "capture yoki options",
-        "Faqat boolean eski",
-        "Xato"
+        "btn.addEventListener('click', () => { console.log('ok'); });",
+        "btn.listen click console",
+        "btn.event('click')",
+        "on(btn click)"
       ],
-      "correct": 1,
-      "exp": "true = capture.",
-      "difficulty": 3,
+      "correct": 0,
+      "exp": "Tur — string 'click'.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-015",
-      "q": "Capturing vs bubbling?",
+      "q": "this listener ichida (oddiy function)?",
       "opts": [
-        "Bir xil",
-        "Yuqoridan past / pastdan yuqori",
-        "Faqat bubble",
-        "Faqat capture"
+        "currentTarget (element)",
+        "Har doim window strict da",
+        "event faqat",
+        "document"
       ],
-      "correct": 1,
-      "exp": "Ikki bosqich.",
+      "correct": 0,
+      "exp": "Arrow da this tashqi. event.currentTarget ishonchliroq.",
       "difficulty": 3,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-27-016",
-      "q": "currentTarget?",
+      "q": "Nima uchun forma submit ni preventDefault qilishadi?",
       "opts": [
-        "Asl element",
-        "Listener o'rnatilgan",
-        "window",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "target vs currentTarget.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-017",
-      "q": "once: true?",
-      "opts": [
-        "Qo'lda remove",
-        "Bir marta ishlaydi",
-        "Mumkin emas",
-        "Faqat click"
-      ],
-      "correct": 1,
-      "exp": "Avtomatik olib tashlash.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-018",
-      "q": "passive: true?",
-      "opts": [
-        "Sekin",
-        "Scroll performance",
-        "O'chiradi",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "preventDefault yo'q deb.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-019",
-      "q": "Delegation?",
-      "opts": [
-        "Har bolaga",
-        "Otada bitta listener",
-        "CSS",
-        "HTTP"
-      ],
-      "correct": 1,
-      "exp": "Dynamic ro'yxat.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-020",
-      "q": "removeEventListener?",
-      "opts": [
-        "Yangi arrow OK",
-        "Xuddi shu reference",
-        "Nom yetarli",
-        "Id"
-      ],
-      "correct": 1,
-      "exp": "Reference muhim.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-021",
-      "q": "event.key?",
-      "opts": [
-        "Faqat code",
-        "Enter, a kabi",
-        "Faqat keyCode",
-        "Yo'q"
-      ],
-      "correct": 1,
-      "exp": "Zamonaviy key.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-022",
-      "q": "preventDefault?",
-      "opts": [
-        "stop bilan bir",
-        "Standart harakatni to'xtatadi",
-        "return false standart",
-        "Yo'q"
-      ],
-      "correct": 1,
-      "exp": "Forma submit va h.k.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-023",
-      "q": "CustomEvent?",
-      "opts": [
-        "Yo'q",
-        "O'z hodisasi",
-        "Faqat click",
-        "Server"
-      ],
-      "correct": 1,
-      "exp": "dispatchEvent.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-024",
-      "q": "addEventListener 3-arg?",
-      "opts": [
-        "Yo'q",
-        "capture yoki options",
-        "Faqat boolean eski",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "true = capture.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-025",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-026",
-      "q": "event.preventDefault() nima qiladi?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-027",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation()",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-028",
-      "q": "'click' hodisasi nima?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-029",
-      "q": "'DOMContentLoaded' qachon?",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-030",
-      "q": "event.target nima?",
-      "opts": [
-        "tinglovchi element",
-        "hodisa sodir bo'lgan element",
-        "window",
-        "document"
-      ],
-      "correct": 1,
-      "exp": "Aslida hodisa qaysi elementda bo'lgan.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-031",
-      "q": "event.currentTarget?",
-      "opts": [
-        "target bilan bir xil",
-        "tinglovchi o'rnatilgan element",
-        "parent",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Listener o'rnatilgan element.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-032",
-      "q": "removeEventListener qachon kerak?",
-      "opts": [
-        "har doim",
-        "xotira tozalash / kerak bo'lmaganda",
-        "hech qachon",
-        "faqat click da"
-      ],
-      "correct": 1,
-      "exp": "Kerak bo'lmagan listener larni olib tashlash.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-033",
-      "q": "once: true opciyasi?",
-      "opts": [
-        "bir marta ishlaydi va o'zini olib tashlaydi",
-        "cheksiz",
-        "error",
-        "faqat capture"
+        "Sahifa yangilanmasin, JS o'zi tekshirsin/yuborsin",
+        "Tugma o'chsin",
+        "CSS tushsin",
+        "DOM o'chsin"
       ],
       "correct": 0,
-      "exp": "Faqat bir marta ishlaydi.",
+      "exp": "SPA va mashqlarda ham shu.",
       "difficulty": 3,
       "category": "events",
       "tags": [
         "events",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-034",
-      "q": "keydown va keypress farqi?",
-      "opts": [
-        "bir xil",
-        "keydown har qanday tugma, keypress asosan belgilar",
-        "keypress har qanday",
-        "farqi yo'q"
-      ],
-      "correct": 1,
-      "exp": "keydown kengroq qamrovga ega.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-035",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 1)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-036",
-      "q": "event.preventDefault() nima qiladi (misol 1)?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-037",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 1)",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-038",
-      "q": "'click' hodisasi nima (misol 1)?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-039",
-      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 1)",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-040",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 2)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-041",
-      "q": "event.preventDefault() nima qiladi (misol 2)?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-042",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 2)",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-043",
-      "q": "'click' hodisasi nima (misol 2)?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-044",
-      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 2)",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-045",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 3)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-046",
-      "q": "event.preventDefault() nima qiladi (misol 3)?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-047",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 3)",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-048",
-      "q": "'click' hodisasi nima (misol 3)?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-049",
-      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 3)",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-050",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 4)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-051",
-      "q": "event.preventDefault() nima qiladi (misol 4)?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-052",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 4)",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-053",
-      "q": "'click' hodisasi nima (misol 4)?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-054",
-      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 4)",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-055",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 5)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-056",
-      "q": "event.preventDefault() nima qiladi (misol 5)?",
-      "opts": [
-        "hodisani to'xtatadi",
-        "default xatti-harakatni to'xtatadi",
-        "elementni o'chiradi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Brauzerning default ishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-057",
-      "q": "Quyidagi kodning natijasi nima?\nevent.stopPropagation() (misol 5)",
-      "opts": [
-        "default ni to'xtatadi",
-        "bubbling ni to'xtatadi",
-        "elementni o'chiradi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Hodisaning yuqoriga tarqalishini to'xtatadi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-058",
-      "q": "'click' hodisasi nima (misol 5)?",
-      "opts": [
-        "klaviatura",
-        "sichqoncha bosish",
-        "scroll",
-        "load"
-      ],
-      "correct": 1,
-      "exp": "Element ustiga bosilganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-059",
-      "q": "Quyidagi kodning natijasi nima?\n'DOMContentLoaded' qachon (misol 5)",
-      "opts": [
-        "hamma resurs yuklanganda",
-        "HTML parse bo'lganda",
-        "image yuklanganda",
-        "hech qachon"
-      ],
-      "correct": 1,
-      "exp": "HTML to'liq parse bo'lganda.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-27-060",
-      "q": "Quyidagi kodning natijasi nima?\nelement.addEventListener('click', fn)  (misol 6)",
-      "opts": [
-        "onclick o'rniga",
-        "hodisa tinglovchi qo'shadi",
-        "o'chiradi",
-        "faqat bir marta"
-      ],
-      "correct": 1,
-      "exp": "Hodisani tinglashni boshlaydi.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

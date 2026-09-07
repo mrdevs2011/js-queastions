@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-11-001",
-      "q": "Funksiyani to'g'ri e'lon qilish qaysi?",
+      "q": "Funksiya nima?",
       "opts": [
-        "function salom() { return \"Salom\"; }",
-        "func salom() { return \"Salom\"; }",
-        "define salom() { return \"Salom\"; }",
-        "salom function() { return \"Salom\"; }"
+        "Qayta chaqiriladigan kod bloki",
+        "Faqat o'zgaruvchi turi",
+        "HTML tegi",
+        "Brauzer oynasi"
       ],
       "correct": 0,
-      "exp": "Funksiya 'function' kalit so'zi bilan e'lon qilinadi.",
+      "exp": "function salom() { ... } — keyin salom() deb chaqiriladi.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-002",
-      "q": "Funksiya natijasini qaytarish uchun qaysi kalit so'z ishlatiladi?",
+      "q": "Function declaration qanday boshlanadi?",
       "opts": [
-        "yield",
-        "return",
-        "output",
-        "result"
+        "function nom() {}",
+        "let function = {}",
+        "def nom():",
+        "fun nom[]"
       ],
-      "correct": 1,
-      "exp": "return — funksiyadan qiymat qaytaradi va bajarilishni to'xtatadi.",
+      "correct": 0,
+      "exp": "JS da def yo'q (bu Python). function kalit so'zi bor.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-003",
-      "q": "function qosh(a, b) { return a + b; } — bu yerda a va b nima?",
+      "q": "return nima qiladi?",
       "opts": [
-        "Argumentlar",
-        "Parametrlar",
-        "O'zgaruvchilar emas",
-        "Global qiymatlar"
+        "Funksiyadan qiymat qaytaradi va shu yerda to'xtaydi",
+        "Faqat konsolga yozadi",
+        "O'zgaruvchini o'chiradi",
+        "Sahifani yangilaydi"
       ],
-      "correct": 1,
-      "exp": "Funksiya e'lonida yozilganlar — parametrlar, chaqirilganda berilganlar — argumentlar.",
+      "correct": 0,
+      "exp": "return dan keyingi qatorlar shu chaqiruvda bajarilmaydi.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-004",
-      "q": "Funksiya chaqirilmasa nima bo'ladi?",
+      "q": "return yo'q funksiya nima qaytaradi?",
       "opts": [
-        "Avtomatik bajariladi",
-        "Hech narsa bajarilmaydi",
-        "Xato beradi",
-        "Sahifa yangilanadi"
+        "undefined",
+        "0",
+        "null",
+        "false"
       ],
-      "correct": 1,
-      "exp": "Funksiya faqat chaqirilganda ishga tushadi.",
+      "correct": 0,
+      "exp": "console.log ham undefined qaytaradi, u faqat chiqaradi.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-005",
-      "q": "Function declaration hoisting qilinadimi (yuqoriga ko'tariladimi)?",
+      "q": "Parametr va argument farqi?",
       "opts": [
-        "Yo'q",
-        "Ha, butun funksiya yuqoriga ko'tariladi",
-        "Faqat nomi",
-        "Faqat arrow function"
+        "Parametr — e'londagi nom; argument — chaqiruvdagi qiymat",
+        "Ikkalasi ham bir xil, farq yo'q",
+        "Parametr faqat son",
+        "Argument faqat matn"
       ],
-      "correct": 1,
-      "exp": "Function declaration to'liq hoist bo'ladi — e'londan oldin ham chaqirish mumkin.",
+      "correct": 0,
+      "exp": "function kv(x) — x parametr. kv(5) — 5 argument.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-006",
-      "q": "Default parametr qachon ishga tushadi?",
+      "q": "Function declaration hoist qilinadimi?",
       "opts": [
-        "Har doim",
-        "Argument berilmasa yoki undefined bo'lsa",
-        "null bo'lganda ham",
-        "Faqat 0 bo'lganda"
+        "Ha, e'londan oldin chaqirish mumkin",
+        "Yo'q, har doim pastda yoziladi",
+        "Faqat arrow hoist",
+        "Faqat const hoist"
       ],
-      "correct": 1,
-      "exp": "Default qiymat argument yo'q yoki aniq undefined bo'lganda qo'llanadi (null da emas).",
+      "correct": 0,
+      "exp": "function add(){} butun funksiya yuqoriga ko'tariladi.",
       "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "easy"
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-11-007",
-      "q": "JavaScript da funksiya obyekt hisoblanadimi?",
+      "q": "Quyidagi kod natijasi?\nfunction ikki(n){ return n * 2; }\nconsole.log(ikki(4));",
       "opts": [
-        "Yo'q",
-        "Ha, first-class obyekt",
-        "Faqat class ichida",
-        "Faqat arrow function"
+        "8",
+        "4",
+        "undefined",
+        "ikki(4)"
       ],
-      "correct": 1,
-      "exp": "JS da funksiyalar first-class — o'zgaruvchiga saqlash, argument sifatida uzatish mumkin.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "4*2=8 qaytadi va chiqadi.",
+      "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-11-008",
-      "q": "IIFE nima?",
+      "q": "Qaysi kod xato g'oya?",
       "opts": [
-        "Sikl",
-        "Darhol chaqiriladigan funksiya",
-        "HTML",
-        "CSS"
+        "return dan keyin yozilgan console.log ham ishlayveradi",
+        "return qiymat beradi",
+        "Parametr bir nechta bo'lishi mumkin",
+        "Funksiyani qayta chaqirish mumkin"
       ],
-      "correct": 1,
-      "exp": "(function(){})().",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "return funksiyani tugatadi.",
+      "difficulty": 1,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-11-009",
-      "q": "Funksiyada faqat return; yozilsa nima qaytadi?",
+      "q": "Nima uchun funksiya kerak?",
       "opts": [
-        "null",
-        "0",
-        "undefined",
-        "false"
+        "Takror kodni bir joyga yig'ish va qayta ishlatish",
+        "HTML ni o'chirish",
+        "Brauzerni yopish",
+        "Faqat rang berish"
       ],
-      "correct": 2,
-      "exp": "Bo'sh return yoki return siz tugash — undefined qaytaradi.",
+      "correct": 0,
+      "exp": "DRY: Don't Repeat Yourself.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-010",
-      "q": "Funksiya ichida yana funksiya e'lon qilish (nested function) mumkinmi?",
+      "q": "function f(a, b) { return a + b; } f(2) da b nima?",
       "opts": [
-        "Mumkin emas",
-        "Mumkin",
-        "Faqat arrow function bilan",
-        "Faqat global scope da"
+        "undefined, 2+undefined → NaN",
+        "0",
+        "2",
+        "xato, dastur ochilmaydi"
       ],
-      "correct": 1,
-      "exp": "Ha, funksiya ichida yana funksiya yozish mumkin — buni nested (ichma-ich) function deb ataladi.",
+      "correct": 0,
+      "exp": "Berilmagan parametr undefined. Default: function f(a, b=0).",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-011",
-      "q": "arguments.length nima ni anglatadi?",
+      "q": "local o'zgaruvchi tashqarida ko'rinadimi?",
       "opts": [
-        "E'lon qilingan parametrlar soni",
-        "Haqiqatan uzatilgan argumentlar soni",
-        "Doim 0",
-        "Bunday xususiyat yo'q"
+        "Yo'q, funksiya scope ichida qoladi",
+        "Ha, har doim global",
+        "Faqat return qilmasa",
+        "Faqat var da yo'q"
       ],
-      "correct": 1,
-      "exp": "arguments.length — funksiyaga chaqiriqda uzatilgan argumentlar soni.",
+      "correct": 0,
+      "exp": "function ichidagi let tashqarida ReferenceError.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-012",
-      "q": "Pure function (sof funksiya) nima?",
+      "q": "Qaysi yozuv to'g'ri chaqiruv?",
       "opts": [
-        "DOM ni o'zgartiradigan funksiya",
-        "Bir xil input uchun doim bir xil output, side-effect yo'q",
-        "Faqat arrow function",
-        "Random qiymat qaytaradigan"
+        "hisob(3, 4);",
+        "hisob 3, 4;",
+        "hisob = 3, 4;",
+        "call hisob 3 4"
       ],
-      "correct": 1,
-      "exp": "Pure function — tashqi holatni o'zgartirmaydi va bir xil argument uchun bir xil natija beradi.",
+      "correct": 0,
+      "exp": "Qavs — chaqiruv.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-013",
-      "q": "Funksiyani o'zgaruvchiga saqlash mumkinmi?",
+      "q": "function f(){ return 1; return 2; } qaytadi?",
       "opts": [
-        "Mumkin emas",
-        "Ha, mumkin",
-        "Faqat const bilan",
-        "Faqat var bilan"
+        "1",
+        "2",
+        "3",
+        "[1,2]"
       ],
-      "correct": 1,
-      "exp": "JS da funksiyalar first-class — o'zgaruvchiga yozish mumkin.",
+      "correct": 0,
+      "exp": "Birinchi return yetarli.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-014",
-      "q": "Callback nima?",
+      "q": "Side effect nima?",
       "opts": [
-        "Xato funksiya",
-        "Argument sifatida funksiya",
-        "Faqat arrow",
-        "Global"
+        "Qaytarishdan tashqari tashqi o'zgarish: console.log, DOM",
+        "Faqat return",
+        "Faqat parametr nomi",
+        "Faqat izoh"
       ],
-      "correct": 1,
-      "exp": "Uzatiladigan funksiya.",
+      "correct": 0,
+      "exp": "Sof funksiya faqat kirish→chiqish. console.log — side effect.",
       "difficulty": 2,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-015",
-      "q": "Function declaration hoisting qilinadimi (yuqoriga ko'tariladimi)?",
+      "q": "Quyidagi kod?\nfunction s(){ console.log('A'); }\ns();\ns();",
       "opts": [
-        "Yo'q",
-        "Ha, butun funksiya yuqoriga ko'tariladi",
-        "Faqat nomi",
-        "Faqat arrow function"
+        "A ikki marta",
+        "A bir marta",
+        "undefined",
+        "xato"
       ],
-      "correct": 1,
-      "exp": "Function declaration to'liq hoist bo'ladi — e'londan oldin ham chaqirish mumkin.",
-      "difficulty": 2,
+      "correct": 0,
+      "exp": "Har chaqiruv tanani qayta bajaradi.",
+      "difficulty": 3,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "medium"
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-11-016",
-      "q": "Default parametr qachon ishga tushadi?",
+      "q": "Nima uchun nom tushunarli bo'lishi kerak?",
       "opts": [
-        "Har doim",
-        "Argument berilmasa yoki undefined bo'lsa",
-        "null bo'lganda ham",
-        "Faqat 0 bo'lganda"
-      ],
-      "correct": 1,
-      "exp": "Default qiymat argument yo'q yoki aniq undefined bo'lganda qo'llanadi (null da emas).",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-017",
-      "q": "JavaScript da funksiya obyekt hisoblanadimi?",
-      "opts": [
-        "Yo'q",
-        "Ha, first-class obyekt",
-        "Faqat class ichida",
-        "Faqat arrow function"
-      ],
-      "correct": 1,
-      "exp": "JS da funksiyalar first-class — o'zgaruvchiga saqlash, argument sifatida uzatish mumkin.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-018",
-      "q": "IIFE nima?",
-      "opts": [
-        "Sikl",
-        "Darhol chaqiriladigan funksiya",
-        "HTML",
-        "CSS"
-      ],
-      "correct": 1,
-      "exp": "(function(){})().",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-019",
-      "q": "Funksiyada faqat return; yozilsa nima qaytadi?",
-      "opts": [
-        "null",
-        "0",
-        "undefined",
-        "false"
-      ],
-      "correct": 2,
-      "exp": "Bo'sh return yoki return siz tugash — undefined qaytaradi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-020",
-      "q": "Funksiya ichida yana funksiya e'lon qilish (nested function) mumkinmi?",
-      "opts": [
-        "Mumkin emas",
-        "Mumkin",
-        "Faqat arrow function bilan",
-        "Faqat global scope da"
-      ],
-      "correct": 1,
-      "exp": "Ha, funksiya ichida yana funksiya yozish mumkin — buni nested (ichma-ich) function deb ataladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-021",
-      "q": "arguments.length nima ni anglatadi?",
-      "opts": [
-        "E'lon qilingan parametrlar soni",
-        "Haqiqatan uzatilgan argumentlar soni",
-        "Doim 0",
-        "Bunday xususiyat yo'q"
-      ],
-      "correct": 1,
-      "exp": "arguments.length — funksiyaga chaqiriqda uzatilgan argumentlar soni.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-022",
-      "q": "Pure function (sof funksiya) nima?",
-      "opts": [
-        "DOM ni o'zgartiradigan funksiya",
-        "Bir xil input uchun doim bir xil output, side-effect yo'q",
-        "Faqat arrow function",
-        "Random qiymat qaytaradigan"
-      ],
-      "correct": 1,
-      "exp": "Pure function — tashqi holatni o'zgartirmaydi va bir xil argument uchun bir xil natija beradi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-023",
-      "q": "Funksiyani o'zgaruvchiga saqlash mumkinmi?",
-      "opts": [
-        "Mumkin emas",
-        "Ha, mumkin",
-        "Faqat const bilan",
-        "Faqat var bilan"
-      ],
-      "correct": 1,
-      "exp": "JS da funksiyalar first-class — o'zgaruvchiga yozish mumkin.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-024",
-      "q": "Callback nima?",
-      "opts": [
-        "Xato funksiya",
-        "Argument sifatida funksiya",
-        "Faqat arrow",
-        "Global"
-      ],
-      "correct": 1,
-      "exp": "Uzatiladigan funksiya.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-025",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-026",
-      "q": "Arrow function qaytaradi (bitta ifoda)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-027",
-      "q": "arguments obyekti qaysida bor?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-028",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
+        "hisoblaYigindi o'qiladi, f1 esa ma'nosiz",
+        "Nom kodni sekinlashtiradi",
+        "Nom faqat 1 harf bo'lishi shart",
+        "Brauzer uzun nomni o'qimaydi"
       ],
       "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-029",
-      "q": "Rest parameter sintaksisi?",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-030",
-      "q": "Callback nima?",
-      "opts": [
-        "oddiy o'zgaruvchi",
-        "boshqa funksiyaga uzatiladigan funksiya",
-        "loop",
-        "object"
-      ],
-      "correct": 1,
-      "exp": "Funksiya argument sifatida uzatiladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-031",
-      "q": "IIFE nima?",
-      "opts": [
-        "loop turi",
-        "darhol chaqiriladigan funksiya",
-        "class",
-        "module"
-      ],
-      "correct": 1,
-      "exp": "Immediately Invoked Function Expression.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-032",
-      "q": "return dan keyin kod ishlaydimi?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "faqat arrow da"
-      ],
-      "correct": 1,
-      "exp": "return funksiyani to'xtatadi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-033",
-      "q": "Pure function nima?",
-      "opts": [
-        "side effect li",
-        "bir xil input → bir xil output, side effect yo'q",
-        "async",
-        "generator"
-      ],
-      "correct": 1,
-      "exp": "Side effect siz, deterministic.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-034",
-      "q": "Function expression vs declaration?",
-      "opts": [
-        "bir xil",
-        "expression hoisting qilinmaydi",
-        "declaration hoisting qilinmaydi",
-        "farqi yo'q"
-      ],
-      "correct": 1,
-      "exp": "Declaration hoisting qilinadi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-035",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-036",
-      "q": "Arrow function qaytaradi (bitta ifoda) (misol 1)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-037",
-      "q": "arguments obyekti qaysida bor (misol 1)?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-038",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
-      ],
-      "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-039",
-      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 1)",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-040",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-041",
-      "q": "Arrow function qaytaradi (bitta ifoda) (misol 2)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-042",
-      "q": "arguments obyekti qaysida bor (misol 2)?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-043",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
-      ],
-      "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-044",
-      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 2)",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-045",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 2,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-11-046",
-      "q": "Arrow function qaytaradi (bitta ifoda) (misol 3)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
+      "exp": "Funksiya nomi fe'l bo'lsa tushunarli: getUser, hisobla.",
       "difficulty": 3,
       "category": "functions",
       "tags": [
         "functions",
-        "test",
-        "hard"
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-047",
-      "q": "arguments obyekti qaysida bor (misol 3)?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-048",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
-      ],
-      "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-049",
-      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 3)",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-050",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-051",
-      "q": "Arrow function qaytaradi (bitta ifoda) (misol 4)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-052",
-      "q": "arguments obyekti qaysida bor (misol 4)?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-053",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
-      ],
-      "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-054",
-      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 4)",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-055",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-056",
-      "q": "Arrow function qaytaradi (bitta ifoda) (misol 5)?",
-      "opts": [
-        "return kerak",
-        "avtomatik return",
-        "undefined",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Bitta ifoda bo'lsa avtomatik return.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-057",
-      "q": "arguments obyekti qaysida bor (misol 5)?",
-      "opts": [
-        "arrow function",
-        "ordinary function",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 1,
-      "exp": "Arrow function da arguments yo'q.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-058",
-      "q": "Default parametrning to'g'ri yozilishi qaysi?",
-      "opts": [
-        "function f(a = 1) {}",
-        "function f(a:1) {}",
-        "function f(a==1) {}",
-        "function f(a:=1) {}"
-      ],
-      "correct": 0,
-      "exp": "Default parametr: function f(a = 1) {} — a berilmasa 1 bo'ladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-059",
-      "q": "Quyidagi kodning natijasi nima?\nRest parameter sintaksisi (misol 5)",
-      "opts": [
-        "...args",
-        "*args",
-        "args...",
-        "&args"
-      ],
-      "correct": 0,
-      "exp": "...args qolgan argumentlarni oladi.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-11-060",
-      "q": "Function declaration ning to'g'ri sintaksisi qaysi?",
-      "opts": [
-        "function name() {}",
-        "let name = () => {}",
-        "const name = function() {}",
-        "hammasi to'g'ri usul, lekin declaration — function name() {}"
-      ],
-      "correct": 3,
-      "exp": "Function declaration: function name() {}. Expression va arrow — boshqa usullar.",
-      "difficulty": 3,
-      "category": "functions",
-      "tags": [
-        "functions",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

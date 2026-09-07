@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "aso-code-9-001",
-      "task": "yosh o'zgaruvchisi 20 bo'lsin. yosh 18 dan katta VA 65 dan kichik ekanligini tekshiruvchi mantiqiy ifodani yozib, natijasini chiqaring.",
-      "sample": "let yosh = 20;\nconsole.log(yosh > 18 && yosh < 65); // true",
-      "exp": "&& ikkala shart ham to'g'ri bo'lgandagina true qaytaradi.",
+      "task": "true && false ni chiqaring.",
+      "sample": "console.log(true && false);",
+      "exp": "false.",
       "difficulty": 1,
-      "category": "operators",
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "easy"
+        "logic",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-9-002",
-      "task": "Mantiqiy operatorlar: a=17, b=5; qo'shish, ayirish, ko'paytirish, qoldiq, daraja chiqaring.",
-      "sample": "let a = 17, b = 5;\nconsole.log(a + b, a - b, a * b, a % b, a ** 2);",
-      "exp": "Asosiy operatorlar.",
+      "task": "0 || 7 ni chiqaring.",
+      "sample": "console.log(0 || 7);",
+      "exp": "7 — birinchi truthy.",
       "difficulty": 1,
-      "category": "operators",
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "easy"
+        "logic",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-9-003",
-      "task": "Mantiqiy operatorlar: x=10; x+=5; x*=2; x ni chiqaring.",
-      "sample": "let x = 10;\nx += 5;\nx *= 2;\nconsole.log(x); // 30",
-      "exp": "Compound assignment.",
-      "difficulty": 2,
-      "category": "operators",
+      "task": "!false ni chiqaring.",
+      "sample": "console.log(!false);",
+      "exp": "true.",
+      "difficulty": 1,
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "medium"
+        "logic",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-9-004",
-      "task": "Mantiqiy operatorlar: ++x va x++ farqini ikki log bilan ko'rsating (x=5).",
-      "sample": "let x = 5;\nconsole.log(x++);\nconsole.log(++x);",
-      "exp": "Prefix/postfix.",
+      "task": "const ism = ''; ism || 'Mehmon' ni chiqaring.",
+      "sample": "const ism = \"\";\nconsole.log(ism || \"Mehmon\");",
+      "exp": "Bo'sh string falsy.",
       "difficulty": 2,
-      "category": "operators",
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "medium"
+        "logic",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-9-005",
-      "task": "Mantiqiy operatorlar: \"5\" + 3 va \"5\" - 3 natijalarini chiqaring.",
-      "sample": "console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);",
-      "exp": "Coercion farqi.",
+      "task": "const ball = 0; ball ?? 10 ni chiqaring.",
+      "sample": "const ball = 0;\nconsole.log(ball ?? 10);",
+      "exp": "0 null emas — natija 0.",
       "difficulty": 2,
-      "category": "operators",
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "medium"
+        "logic",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-9-006",
-      "task": "Mantiqiy operatorlar: yosh>=18 && yosh<65 ni tekshirib chiqaring.",
-      "sample": "let yosh = 25;\nconsole.log(yosh >= 18 && yosh < 65);",
-      "exp": "&&.",
+      "task": "Boolean('salom') va Boolean('') ni chiqaring.",
+      "sample": "console.log(Boolean(\"salom\"));\nconsole.log(Boolean(\"\"));",
+      "exp": "true va false.",
       "difficulty": 2,
-      "category": "operators",
+      "category": "logic",
       "tags": [
-        "operators",
-        "coding",
-        "medium"
+        "logic",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "aso-code-9-007",
-      "task": "Mantiqiy operatorlar: null ?? \"default\" va 0 ?? 5 ni chiqaring.",
-      "sample": "console.log(null ?? \"default\");\nconsole.log(0 ?? 5);",
-      "exp": "Nullish coalescing.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-008",
-      "task": "Mantiqiy operatorlar: !!\"\" va !![] ni chiqaring.",
-      "sample": "console.log(!!\"\");\nconsole.log(!![]);",
-      "exp": "Boolean coercion.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-009",
-      "task": "Mantiqiy operatorlar: true && 0 || \"ok\" natijasini chiqaring.",
-      "sample": "console.log(true && 0 || \"ok\");",
-      "exp": "Short-circuit.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-010",
-      "task": "5 ** 2 ni chiqaring.",
-      "sample": "console.log(5 ** 2);",
-      "exp": "Daraja.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-011",
-      "task": "10 % 4 ni chiqaring.",
-      "sample": "console.log(10 % 4);",
-      "exp": "Qoldiq.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-012",
-      "task": "true && false natijasini chiqaring.",
-      "sample": "console.log(true && false);",
-      "exp": "AND.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-013",
-      "task": "5 === '5' natijasini chiqaring.",
-      "sample": "console.log(5 === \"5\");",
-      "exp": "Strict equality.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-014",
-      "task": "null ?? 'default' ni chiqaring.",
-      "sample": "console.log(null ?? \"default\");",
-      "exp": "Nullish coalescing.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-015",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-016",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-017",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-018",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-019",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-9-020",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-021",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-022",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-023",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-024",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-9-025",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "operators",
-      "tags": [
-        "operators",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

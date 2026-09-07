@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "aso-code-18-001",
-      "task": "son nomli o'zgaruvchi qiymati 7 bo'lsin. Agar u 10 dan katta bo'lsa \"Katta\", aks holda \"Kichik\" deb chiqaradigan if/else yozing.",
-      "sample": "let son = 7;\nif (son > 10) {\n  console.log(\"Katta\");\n} else {\n  console.log(\"Kichik\");\n}",
-      "exp": "if shartni tekshiradi, false bo'lsa else blokiga o'tadi.",
+      "task": "son = 7 juft/toq ekanini chiqaring.",
+      "sample": "const son = 7;\nif (son % 2 === 0) {\n  console.log(\"juft\");\n} else {\n  console.log(\"toq\");\n}",
+      "exp": "toq.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "easy"
+        "if-else",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-18-002",
-      "task": "Ternary: musbat/manfiy/nol (son=0).",
-      "sample": "let son=0;\nconsole.log(son>0?\"musbat\":son<0?\"manfiy\":\"nol\");",
-      "exp": "Ternary.",
+      "task": "ball=75; 60+ 'o'tdi', aks holda 'yiqildi'.",
+      "sample": "const ball = 75;\nconsole.log(ball >= 60 ? \"o'tdi\" : \"yiqildi\");",
+      "exp": "o'tdi.",
       "difficulty": 1,
-      "category": "control-flow",
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "easy"
+        "if-else",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-18-003",
-      "task": "Ternary: musbat/manfiy/nol (son=0).",
-      "sample": "let son=0;\nconsole.log(son>0?\"musbat\":son<0?\"manfiy\":\"nol\");",
-      "exp": "Ternary.",
-      "difficulty": 2,
-      "category": "control-flow",
+      "task": "n=0; musbat/manfiy/nol ni if/else if bilan yozing.",
+      "sample": "const n = 0;\nif (n > 0) console.log(\"musbat\");\nelse if (n < 0) console.log(\"manfiy\");\nelse console.log(\"nol\");",
+      "exp": "nol.",
+      "difficulty": 1,
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "medium"
+        "if-else",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-18-004",
-      "task": "if/else: if/else: ball=75 uchun A/B/C.",
-      "sample": "let ball = 75;\nif (ball >= 90) console.log(\"A\");\nelse if (ball >= 70) console.log(\"B\");\nelse console.log(\"C\");",
-      "exp": "if/else if.",
+      "task": "ism='' bo'lsa 'Mehmon', aks holda ism chiqsin (if).",
+      "sample": "const ism = \"\";\nif (ism) console.log(ism);\nelse console.log(\"Mehmon\");",
+      "exp": "Mehmon.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "medium"
+        "if-else",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-18-005",
-      "task": "if/else: switch kun=3 → Chorshanba.",
-      "sample": "let kun = 3;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  case 2: console.log(\"Seshanba\"); break;\n  case 3: console.log(\"Chorshanba\"); break;\n  default: console.log(\"Noma'lum\");\n}",
-      "exp": "switch.",
+      "task": "yosh=16; 18+ 'ruxsat', aks holda 'yo\\'q'.",
+      "sample": "const yosh = 16;\nconsole.log(yosh >= 18 ? \"ruxsat\" : \"yo'q\");",
+      "exp": "yo'q.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "medium"
+        "if-else",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-18-006",
-      "task": "if/else: ternary: yosh>=18 ? \"Katta\" : \"Kichik\".",
-      "sample": "let yosh = 16;\nconsole.log(yosh >= 18 ? \"Katta\" : \"Kichik\");",
-      "exp": "Ternary.",
+      "task": "x=5; if (x===5) 'besh' chiqaring.",
+      "sample": "const x = 5;\nif (x === 5) {\n  console.log(\"besh\");\n}",
+      "exp": "Qat'iy tenglik.",
       "difficulty": 2,
-      "category": "control-flow",
+      "category": "if-else",
       "tags": [
-        "control-flow",
-        "coding",
-        "medium"
+        "if-else",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "aso-code-18-007",
-      "task": "if/else: for 1..5 chiqaring.",
-      "sample": "for (let i = 1; i <= 5; i++) console.log(i);",
-      "exp": "for.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-008",
-      "task": "if/else: for 5..1 kamaytirib chiqaring.",
-      "sample": "for (let i = 5; i >= 1; i--) {\n  console.log(i);\n}",
-      "exp": "while.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-009",
-      "task": "if/else: for da break (i===3).",
-      "sample": "for (let i = 0; i < 5; i++) {\n  if (i === 3) break;\n  console.log(i);\n}",
-      "exp": "break.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-010",
-      "task": "if/else bilan musbat/manfiy aniqlang.",
-      "sample": "let n = 5;\nif (n > 0) console.log(\"musbat\");\nelse console.log(\"manfiy\");",
-      "exp": "if/else.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-011",
-      "task": "Ternary bilan juft/toq aniqlang.",
-      "sample": "let n = 4;\nconsole.log(n % 2 === 0 ? \"juft\" : \"toq\");",
-      "exp": "Ternary.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-012",
-      "task": "switch bilan kun nomini chiqaring.",
-      "sample": "let kun = 1;\nswitch (kun) {\n  case 1: console.log(\"Dushanba\"); break;\n  default: console.log(\"Boshqa\");\n}",
-      "exp": "switch.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-013",
-      "task": "Ichma-ich if yozing: agar x > 0 bo'lsa, ichida y > 0 ni tekshiring va 'ok' chiqaring.",
-      "sample": "let x = 1, y = 2;\nif (x > 0) {\n  if (y > 0) {\n    console.log('ok');\n  }\n}",
-      "exp": "Nested if — if ichida yana if. Shartlar ketma-ket tekshiriladi.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-014",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-015",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-016",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-017",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-018",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-019",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-18-020",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-021",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-022",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-023",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-024",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-18-025",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "control-flow",
-      "tags": [
-        "control-flow",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

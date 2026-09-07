@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "aso-code-26-001",
-      "task": "Yangi <p> elementi yarating, ichiga matn qo'shing va uni document.body ichiga qo'shing.",
-      "sample": "let p = document.createElement('p');\np.textContent = \"Salom!\";\ndocument.body.appendChild(p);",
-      "exp": "createElement bilan yaratilib, appendChild bilan sahifaga qo'shiladi.",
-      "difficulty": 2,
-      "category": "dom",
+      "task": "p yaratib, matni 'Salom', body ga append.",
+      "sample": "const p = document.createElement(\"p\");\np.textContent = \"Salom\";\ndocument.body.append(p);",
+      "exp": "Yarat → yoz → qo'sh.",
+      "difficulty": 1,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "medium"
+        "dom-create",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-26-002",
-      "task": "li yaratib ul#list ga qo'shing.",
-      "sample": "let li=document.createElement(\"li\");\nli.textContent=\"Band\";\ndocument.getElementById(\"list\").appendChild(li);",
-      "exp": "create+append.",
-      "difficulty": 2,
-      "category": "dom",
+      "task": "ul#list ga yangi li 'anor'.",
+      "sample": "const list = document.getElementById(\"list\");\nconst li = document.createElement(\"li\");\nli.textContent = \"anor\";\nif (list) list.append(li);",
+      "exp": "Ro'yxatga qo'shish.",
+      "difficulty": 1,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "medium"
+        "dom-create",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-26-003",
-      "task": "li yaratib ul#list ga qo'shing.",
-      "sample": "let li=document.createElement(\"li\");\nli.textContent=\"Band\";\ndocument.getElementById(\"list\").appendChild(li);",
-      "exp": "create+append.",
-      "difficulty": 2,
-      "category": "dom",
+      "task": "id=eski elementni remove qiling.",
+      "sample": "const eski = document.getElementById(\"eski\");\nif (eski) eski.remove();",
+      "exp": "el.remove().",
+      "difficulty": 1,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "medium"
+        "dom-create",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-26-004",
-      "task": "Elementlarni qo'shish va o'chirish: getElementById('title') ni o'zgaruvchiga oling.",
-      "sample": "let el = document.getElementById('title');",
-      "exp": "getElementById.",
-      "difficulty": 3,
-      "category": "dom",
+      "task": "span yaratib, box.prepend qiling, matn '!'.",
+      "sample": "const s = document.createElement(\"span\");\ns.textContent = \"!\";\nconst box = document.getElementById(\"box\");\nif (box) box.prepend(s);",
+      "exp": "Boshiga.",
+      "difficulty": 2,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "hard"
+        "dom-create",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-code-26-005",
-      "task": "Elementlarni qo'shish va o'chirish: querySelector('.btn') matnini o'zgartiring.",
-      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
-      "exp": "querySelector + textContent.",
-      "difficulty": 3,
-      "category": "dom",
+      "task": "DocumentFragment ga 3 ta li (1,2,3) yig'ib ul ga qo'shing.",
+      "sample": "const frag = document.createDocumentFragment();\nfor (const n of [1, 2, 3]) {\n  const li = document.createElement(\"li\");\n  li.textContent = String(n);\n  frag.append(li);\n}\nconst ul = document.querySelector(\"ul\");\nif (ul) ul.append(frag);",
+      "exp": "Bir martalik qo'shish.",
+      "difficulty": 2,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "hard"
+        "dom-create",
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-code-26-006",
-      "task": "Elementlarni qo'shish va o'chirish: createElement('p') + appendChild body.",
-      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
-      "exp": "create + append.",
-      "difficulty": 3,
-      "category": "dom",
+      "task": "img yaratib src va alt qo'ying, #galereya ga qo'shing.",
+      "sample": "const img = document.createElement(\"img\");\nimg.src = \"cat.png\";\nimg.alt = \"mushuk\";\nconst g = document.getElementById(\"galereya\");\nif (g) g.append(img);",
+      "exp": "Atributlar.",
+      "difficulty": 2,
+      "category": "dom-create",
       "tags": [
-        "dom",
-        "coding",
-        "hard"
+        "dom-create",
+        "coding"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-007",
-      "task": "Elementlarni qo'shish va o'chirish: addEventListener click log.",
-      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
-      "exp": "addEventListener.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-008",
-      "task": "Elementlarni qo'shish va o'chirish: classList.toggle('active').",
-      "sample": "document.querySelector('.card').classList.toggle('active');",
-      "exp": "classList.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-009",
-      "task": "Elementlarni qo'shish va o'chirish: preventDefault forma submit.",
-      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
-      "exp": "preventDefault.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-010",
-      "task": "getElementById bilan element oling (kod).",
-      "sample": "let el = document.getElementById(\"app\");\nconsole.log(el);",
-      "exp": "getElementById.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-011",
-      "task": "querySelector ishlating.",
-      "sample": "let el = document.querySelector(\".box\");\nconsole.log(el);",
-      "exp": "querySelector.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-012",
-      "task": "Yangi div yarating.",
-      "sample": "let div = document.createElement(\"div\");\ndiv.textContent = \"Salom\";\nconsole.log(div);",
-      "exp": "createElement.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-013",
-      "task": "classList.add qiling.",
-      "sample": "let el = document.querySelector(\"div\");\nel.classList.add(\"active\");",
-      "exp": "classList.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-014",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-015",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-016",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-017",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-018",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-019",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-020",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-021",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-022",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-023",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-024",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-26-025",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "dom",
-      "tags": [
-        "dom",
-        "coding",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

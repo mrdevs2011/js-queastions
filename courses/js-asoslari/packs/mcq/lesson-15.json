@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-15-001",
-      "q": "let arr=[1,2,3]; arr.push(4); console.log(arr.length); natija?",
+      "q": "map nima qiladi?",
       "opts": [
-        "3",
-        "4",
-        "5",
-        "Xato"
+        "Har elementdan yangi massiv yasaydi, aslini o'zgartirmaydi",
+        "Aslini o'chiradi",
+        "Faqat birinchi element",
+        "Faqat sonlarni qo'shadi"
       ],
-      "correct": 1,
-      "exp": "push() oxiriga element qo'shadi: [1,2,3,4] -> length 4.",
+      "correct": 0,
+      "exp": "[1,2].map(x=>x*2) → [2,4].",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-002",
-      "q": "pop() metodi nima qiladi?",
+      "q": "filter nima qiladi?",
       "opts": [
-        "Boshidagi elementni olib tashlaydi",
-        "Oxirgi elementni olib tashlaydi",
-        "Hammasini tozalaydi",
-        "Teskari qiladi"
+        "Shartga mos elementlardan yangi massiv",
+        "Hammasini o'chiradi",
+        "Saralaydi",
+        "Birinchi mosni son qilib qaytaradi"
       ],
-      "correct": 1,
-      "exp": "pop() oxirgi elementni olib tashlaydi va uni qaytaradi.",
+      "correct": 0,
+      "exp": "[1,2,3,4].filter(x=>x%2===0) → [2,4].",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-003",
-      "q": "[1,2,3,4].filter(x => x > 2) natijasi?",
+      "q": "find nima qaytaradi?",
       "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[1,2,3,4]"
+        "Birinchi mos element yoki undefined",
+        "Barcha moslar massivi",
+        "true/false",
+        "indeks har doim"
       ],
-      "correct": 1,
-      "exp": "filter shartga mos elementlarni yangi array qilib qaytaradi.",
+      "correct": 0,
+      "exp": "Topilmasa undefined. findIndex esa -1.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-004",
-      "q": "map() metodi nima qiladi?",
+      "q": "some va every farqi?",
       "opts": [
-        "Elementlarni o'chiradi",
-        "Har bir elementni o'zgartirib yangi array qaytaradi",
-        "Faqat qidiradi",
-        "Saralaydi"
+        "some — hech bo'lmasa 1 ta true; every — hammasi true",
+        "Ikkalasi bir xil",
+        "every faqat string",
+        "some massivni o'chiradi"
       ],
-      "correct": 1,
-      "exp": "map() har bir elementga funksiya qo'llab, yangi array qaytaradi.",
+      "correct": 0,
+      "exp": "[2,4].every(x=>x%2===0) true.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-005",
-      "q": "arr.includes(5) nima qaytaradi (agar 5 bo'lmasa)?",
+      "q": "reduce ning asosiy ishi?",
       "opts": [
-        "undefined",
-        "false",
-        "-1",
-        "null"
+        "Massivni bitta qiymatga 'qisqartirish' (yig'indi, obyekt...)",
+        "Faqat filter",
+        "Faqat nusxa",
+        "Faqat sort"
       ],
-      "correct": 1,
-      "exp": "includes() element bor-yo'qligini boolean qilib qaytaradi.",
+      "correct": 0,
+      "exp": "[1,2,3].reduce((s,n)=>s+n,0) → 6.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-006",
-      "q": "map aslni o'zgartiradimi?",
+      "q": "slice(1,3) [10,20,30,40] da?",
       "opts": [
-        "Ha",
-        "Yo'q",
-        "Faqat object",
-        "Faqat number"
+        "[20,30]",
+        "[20,30,40]",
+        "[10,20,30]",
+        "[30]"
       ],
-      "correct": 1,
-      "exp": "Yangi massiv.",
+      "correct": 0,
+      "exp": "Oxirgi indeks kirmaydi. Asl o'zgarmaydi.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "easy"
+        "array-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-15-007",
-      "q": "forEach return?",
+      "q": "splice(1,1) [10,20,30] ni nima qiladi?",
       "opts": [
-        "Yangi array",
-        "undefined",
-        "true",
-        "length"
+        "20 ni olib tashlaydi, asl [10,30]",
+        "Nusxa qaytaradi, asl o'sha",
+        "Hammasini o'chiradi",
+        "Faqat 30 ni oladi"
       ],
-      "correct": 1,
-      "exp": "undefined.",
-      "difficulty": 2,
-      "category": "arrays",
+      "correct": 0,
+      "exp": "splice aslini o'zgartiradi.",
+      "difficulty": 1,
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-15-008",
-      "q": "reduce initial yo'q?",
+      "q": "sort() ['10','2','1'] ni default qanday?",
       "opts": [
-        "Xato",
-        "Birinchi element initial",
-        "0",
-        "null"
+        "Matn tartibida: '1','10','2'",
+        "Son bo'yicha 1,2,10",
+        "O'zgartirmaydi",
+        "Xato"
       ],
-      "correct": 1,
-      "exp": "Birinchi element.",
-      "difficulty": 2,
-      "category": "arrays",
+      "correct": 0,
+      "exp": "arr.sort((a,b)=>a-b) sonlar uchun.",
+      "difficulty": 1,
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-15-009",
-      "q": "some() qaytaradi?",
+      "q": "forEach return qiladimi?",
       "opts": [
-        "array",
-        "boolean",
-        "element",
-        "count"
+        "undefined; asosiy ishi har birida funksiya chaqirish",
+        "Yangi massiv",
+        "filter",
+        "length"
       ],
-      "correct": 1,
-      "exp": "Kamida bittasi.",
+      "correct": 0,
+      "exp": "Yangi massiv kerak bo'lsa map.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-010",
-      "q": "Quyidagi kodning natijasi nima?\nevery()",
+      "q": "Qaysi usul aslini o'zgartiradi?",
       "opts": [
-        "Birortasi",
-        "Hammasi mosmi",
-        "map",
-        "filter"
+        "sort, reverse, splice, push",
+        "map, filter, slice",
+        "concat",
+        "includes"
       ],
-      "correct": 1,
-      "exp": "Barchasi true.",
+      "correct": 0,
+      "exp": "Mutating vs non-mutating ni biling.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-011",
-      "q": "findIndex element topilmasa nima qaytaradi?",
+      "q": "[1,2,3].map(x=>x).filter(x=>x>1) ?",
       "opts": [
-        "0",
-        "-1",
-        "null",
+        "[2,3]",
+        "[1,2,3]",
+        "[1]",
         "undefined"
       ],
-      "correct": 1,
-      "exp": "Topilmasa findIndex -1 qaytaradi (indexOf kabi).",
+      "correct": 0,
+      "exp": "Zanjir: avval map (nusxa), keyin filter.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-012",
-      "q": "Quyidagi kodning natijasi nima?\nsort() aslni",
+      "q": "findIndex topilmasa?",
       "opts": [
-        "O'zgartirmaydi",
-        "O'zgartiradi",
-        "Faqat nusxa",
-        "Xato"
+        "-1",
+        "0",
+        "undefined",
+        "false"
       ],
-      "correct": 1,
-      "exp": "In-place.",
+      "correct": 0,
+      "exp": "indexOf ham -1.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-013",
-      "q": "Quyidagi kodning natijasi nima?\n[10,2].sort() default",
+      "q": "flat() nima qiladi?",
       "opts": [
-        "[2,10]",
-        "[10,2] string tartib",
-        "xato",
-        "[10,2,0]"
+        "Ichki massivlarni bir qavat ochadi",
+        "Saralaydi",
+        "O'chiradi",
+        "Obyekt qiladi"
       ],
-      "correct": 1,
-      "exp": "Comparator yozing.",
+      "correct": 0,
+      "exp": "[1,[2,3]].flat() → [1,2,3].",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-014",
-      "q": "Quyidagi kodning natijasi nima?\nflat()",
+      "q": "Qaysi kod juft sonlar yig'indisi?",
       "opts": [
-        "Saralaydi",
-        "Ichki massivlarni yoyadi",
-        "O'chiradi",
-        "Nusxa"
+        "arr.filter(x=>x%2===0).reduce((s,x)=>s+x,0)",
+        "arr.map(x=>x%2)",
+        "arr.find(x=>x%2===0)",
+        "arr.some(x=>x%2===0)"
       ],
-      "correct": 1,
-      "exp": "[1,[2]].flat().",
+      "correct": 0,
+      "exp": "Avval filter, keyin reduce.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-015",
-      "q": "Quyidagi kodning natijasi nima?\nincludes(NaN)",
+      "q": "at(-1) nima?",
       "opts": [
-        "false",
-        "true",
-        "xato",
-        "undefined"
+        "Oxirgi element",
+        "Birinchi",
+        "length-1 massivi",
+        "xato har doim"
       ],
-      "correct": 1,
-      "exp": "NaN topiladi.",
-      "difficulty": 2,
-      "category": "arrays",
+      "correct": 0,
+      "exp": "Manfiy indeks oxiridan.",
+      "difficulty": 3,
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-15-016",
-      "q": "map aslni o'zgartiradimi?",
+      "q": "Qaysi gap TO'G'RI?",
       "opts": [
-        "Ha",
-        "Yo'q",
-        "Faqat object",
-        "Faqat number"
-      ],
-      "correct": 1,
-      "exp": "Yangi massiv.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-017",
-      "q": "forEach return?",
-      "opts": [
-        "Yangi array",
-        "undefined",
-        "true",
-        "length"
-      ],
-      "correct": 1,
-      "exp": "undefined.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-018",
-      "q": "reduce initial yo'q?",
-      "opts": [
-        "Xato",
-        "Birinchi element initial",
-        "0",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Birinchi element.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-019",
-      "q": "some() qaytaradi?",
-      "opts": [
-        "array",
-        "boolean",
-        "element",
-        "count"
-      ],
-      "correct": 1,
-      "exp": "Kamida bittasi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-020",
-      "q": "Quyidagi kodning natijasi nima?\nevery()",
-      "opts": [
-        "Birortasi",
-        "Hammasi mosmi",
-        "map",
-        "filter"
-      ],
-      "correct": 1,
-      "exp": "Barchasi true.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-021",
-      "q": "findIndex element topilmasa nima qaytaradi?",
-      "opts": [
-        "0",
-        "-1",
-        "null",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Topilmasa findIndex -1 qaytaradi (indexOf kabi).",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-022",
-      "q": "Quyidagi kodning natijasi nima?\nsort() aslni",
-      "opts": [
-        "O'zgartirmaydi",
-        "O'zgartiradi",
-        "Faqat nusxa",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "In-place.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-023",
-      "q": "Quyidagi kodning natijasi nima?\n[10,2].sort() default",
-      "opts": [
-        "[2,10]",
-        "[10,2] string tartib",
-        "xato",
-        "[10,2,0]"
-      ],
-      "correct": 1,
-      "exp": "Comparator yozing.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-024",
-      "q": "Quyidagi kodning natijasi nima?\nflat()",
-      "opts": [
-        "Saralaydi",
-        "Ichki massivlarni yoyadi",
-        "O'chiradi",
-        "Nusxa"
-      ],
-      "correct": 1,
-      "exp": "[1,[2]].flat().",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-025",
-      "q": "Quyidagi kodning natijasi nima?\nincludes(NaN)",
-      "opts": [
-        "false",
-        "true",
-        "xato",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "NaN topiladi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-026",
-      "q": "[1,2,3].length?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-027",
-      "q": "arr.push(4) nima qiladi?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-028",
-      "q": "arr.pop() nima qiladi?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-029",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2)",
-      "opts": [
-        "[1,2,3]",
-        "[2,4,6]",
-        "[1,4,9]",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "map har bir elementni o'zgartiradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-030",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2)",
-      "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[4]"
-      ],
-      "correct": 1,
-      "exp": "filter shartga moslarni qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-031",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].find(x=>x>1)",
-      "opts": [
-        "1",
-        "2",
-        "[2,3]",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "find birinchi mos elementni qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-032",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].includes(2)",
-      "opts": [
-        "true",
-        "false",
-        "2",
-        "undefined"
+        "map har doim kirish bilan bir xil uzunlikda massiv qaytaradi",
+        "filter ham har doim bir xil uzunlik",
+        "reduce har doim massiv qaytaradi",
+        "find har doim massiv"
       ],
       "correct": 0,
-      "exp": "includes bor-yo'qligini tekshiradi.",
-      "difficulty": 2,
-      "category": "arrays",
+      "exp": "map 1-1. filter qisqarishi mumkin.",
+      "difficulty": 3,
+      "category": "array-methods",
       "tags": [
-        "arrays",
-        "test",
-        "medium"
+        "array-methods",
+        "test"
       ],
       "points": 2
-    },
-    {
-      "id": "aso-mcq-15-033",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].slice(1)",
-      "opts": [
-        "[1]",
-        "[2,3]",
-        "[1,2]",
-        "[3]"
-      ],
-      "correct": 1,
-      "exp": "slice yangi massiv qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-034",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].splice(1,1)",
-      "opts": [
-        "[1,3]",
-        "massivni o'zgartiradi",
-        "ikkala",
-        "hech qaysi"
-      ],
-      "correct": 2,
-      "exp": "splice asl massivni o'zgartiradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-035",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2].concat([3,4])",
-      "opts": [
-        "[1,2,3,4]",
-        "[1,2],[3,4]",
-        "error",
-        "[3,4,1,2]"
-      ],
-      "correct": 0,
-      "exp": "concat birlashtiradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-036",
-      "q": "[...'abc'] natijasi?",
-      "opts": [
-        "['a','b','c']",
-        "'abc'",
-        "error",
-        "['abc']"
-      ],
-      "correct": 0,
-      "exp": "Spread stringni massivga aylantiradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-037",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].reduce((a,b)=>a+b,0)",
-      "opts": [
-        "6",
-        "0",
-        "[1,2,3]",
-        "error"
-      ],
-      "correct": 0,
-      "exp": "reduce yig'indini hisoblaydi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-038",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 1)",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-039",
-      "q": "arr.push(4) nima qiladi (misol 1)?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-040",
-      "q": "arr.pop() nima qiladi (misol 1)?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-041",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 1)",
-      "opts": [
-        "[1,2,3]",
-        "[2,4,6]",
-        "[1,4,9]",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "map har bir elementni o'zgartiradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-042",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 1)",
-      "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[4]"
-      ],
-      "correct": 1,
-      "exp": "filter shartga moslarni qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-043",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 2)",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-044",
-      "q": "arr.push(4) nima qiladi (misol 2)?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-045",
-      "q": "arr.pop() nima qiladi (misol 2)?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-15-046",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 2)",
-      "opts": [
-        "[1,2,3]",
-        "[2,4,6]",
-        "[1,4,9]",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "map har bir elementni o'zgartiradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-047",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 2)",
-      "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[4]"
-      ],
-      "correct": 1,
-      "exp": "filter shartga moslarni qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-048",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 3)",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-049",
-      "q": "arr.push(4) nima qiladi (misol 3)?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-050",
-      "q": "arr.pop() nima qiladi (misol 3)?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-051",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 3)",
-      "opts": [
-        "[1,2,3]",
-        "[2,4,6]",
-        "[1,4,9]",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "map har bir elementni o'zgartiradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-052",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 3)",
-      "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[4]"
-      ],
-      "correct": 1,
-      "exp": "filter shartga moslarni qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-053",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 4)",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-054",
-      "q": "arr.push(4) nima qiladi (misol 4)?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-055",
-      "q": "arr.pop() nima qiladi (misol 4)?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-056",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].map(x=>x*2) (misol 4)",
-      "opts": [
-        "[1,2,3]",
-        "[2,4,6]",
-        "[1,4,9]",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "map har bir elementni o'zgartiradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-057",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3,4].filter(x=>x>2) (misol 4)",
-      "opts": [
-        "[1,2]",
-        "[3,4]",
-        "[2,3,4]",
-        "[4]"
-      ],
-      "correct": 1,
-      "exp": "filter shartga moslarni qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-058",
-      "q": "Quyidagi kodning natijasi nima?\n[1,2,3].length (misol 5)",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Elementlar sonini qaytaradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-059",
-      "q": "arr.push(4) nima qiladi (misol 5)?",
-      "opts": [
-        "boshiga qo'shadi",
-        "oxiriga qo'shadi",
-        "o'chiradi",
-        "nusxa oladi"
-      ],
-      "correct": 1,
-      "exp": "Oxiriga element qo'shadi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-15-060",
-      "q": "arr.pop() nima qiladi (misol 5)?",
-      "opts": [
-        "boshidan olib tashlaydi",
-        "oxiridan olib tashlaydi",
-        "hammasini o'chiradi",
-        "nusxa"
-      ],
-      "correct": 1,
-      "exp": "Oxirgi elementni olib tashlaydi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "test",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

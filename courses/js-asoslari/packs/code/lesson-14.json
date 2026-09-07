@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "aso-code-14-001",
-      "task": "3 ta mevaning nomi bilan array yarating va uni to'liq console.log qiling.",
-      "sample": "let mevalar = [\"olma\", \"banan\", \"uzum\"];\nconsole.log(mevalar);",
-      "exp": "Array kvadrat qavs [] ichida, vergul bilan ajratilgan elementlardan iborat.",
+      "task": "['olma','nok'] yarating, 'anor' push qiling, chiqaring.",
+      "sample": "const meva = [\"olma\", \"nok\"];\nmeva.push(\"anor\");\nconsole.log(meva);",
+      "exp": "3 element.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "easy"
+        "array",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-14-002",
-      "task": "push va unshift qo'shing.",
-      "sample": "let a=[2,3];\na.push(4);\na.unshift(1);\nconsole.log(a);",
-      "exp": "push/unshift.",
+      "task": "const son = [10,20,30]; oxirgisini pop qilib chiqaring (massiv va olingan).",
+      "sample": "const son = [10, 20, 30];\nconst oxirgi = son.pop();\nconsole.log(oxirgi);\nconsole.log(son);",
+      "exp": "30 va [10,20].",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "easy"
+        "array",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-14-003",
-      "task": "slice(1) nusxa.",
-      "sample": "let a=[10,20,30,40];\nconsole.log(a.slice(1));",
-      "exp": "slice.",
+      "task": "for...of bilan [2,4,6] ni chiqaring.",
+      "sample": "for (const n of [2, 4, 6]) {\n  console.log(n);\n}",
+      "exp": "3 qator.",
       "difficulty": 1,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "easy"
+        "array",
+        "coding"
       ],
-      "points": 1
+      "points": 2
     },
     {
       "id": "aso-code-14-004",
-      "task": "push va unshift qo'shing.",
-      "sample": "let a=[2,3];\na.push(4);\na.unshift(1);\nconsole.log(a);",
-      "exp": "push/unshift.",
+      "task": "[5,6,7] length ini chiqaring.",
+      "sample": "console.log([5, 6, 7].length);",
+      "exp": "3.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "medium"
+        "array",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-14-005",
-      "task": "slice(1) nusxa.",
-      "sample": "let a=[10,20,30,40];\nconsole.log(a.slice(1));",
-      "exp": "slice.",
+      "task": "const a = [1,2,3]; slice nusxa qilib push(4); asl va nusxani chiqaring.",
+      "sample": "const a = [1, 2, 3];\nconst b = a.slice();\nb.push(4);\nconsole.log(a);\nconsole.log(b);",
+      "exp": "a [1,2,3], b [1,2,3,4].",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "medium"
+        "array",
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-14-006",
-      "task": "Array: [10,20,30] yarating, push 40, length chiqaring.",
-      "sample": "let a = [10, 20, 30];\na.push(40);\nconsole.log(a, a.length);",
-      "exp": "push, length.",
+      "task": "[3,1,2].includes(1) ni chiqaring.",
+      "sample": "console.log([3, 1, 2].includes(1));",
+      "exp": "true.",
       "difficulty": 2,
-      "category": "arrays",
+      "category": "array",
       "tags": [
-        "arrays",
-        "coding",
-        "medium"
+        "array",
+        "coding"
       ],
       "points": 2
-    },
-    {
-      "id": "aso-code-14-007",
-      "task": "Array: filter bilan juft sonlar.",
-      "sample": "console.log([1,2,3,4,5,6].filter(x => x % 2 === 0));",
-      "exp": "filter.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-008",
-      "task": "Array: map bilan *2.",
-      "sample": "console.log([1,2,3].map(x => x * 2));",
-      "exp": "map.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-009",
-      "task": "Array: reduce yig'indi.",
-      "sample": "console.log([5,10,15].reduce((s, x) => s + x, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-010",
-      "task": "Array: find bilan 10 dan kattasi.",
-      "sample": "console.log([3, 7, 12, 20].find(x => x > 10));",
-      "exp": "find.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-011",
-      "task": "Array: slice va splice farqini kichik misolda ko'rsating.",
-      "sample": "let a = [1,2,3,4];\nconsole.log(a.slice(1,3));\nlet b = [1,2,3,4];\nb.splice(1,2);\nconsole.log(b);",
-      "exp": "slice nusxa, splice o'zgartiradi.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-012",
-      "task": "[1,2,3] yarating, length chiqaring.",
-      "sample": "let arr = [1, 2, 3];\nconsole.log(arr.length);",
-      "exp": "Array length.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-013",
-      "task": "push bilan element qo'shing.",
-      "sample": "let arr = [1, 2];\narr.push(3);\nconsole.log(arr);",
-      "exp": "push.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-014",
-      "task": "map bilan har birini 2 ga ko'paytiring.",
-      "sample": "let arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));",
-      "exp": "map.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-015",
-      "task": "filter bilan juft sonlarni oling.",
-      "sample": "let arr = [1, 2, 3, 4];\nconsole.log(arr.filter(x => x % 2 === 0));",
-      "exp": "filter.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-016",
-      "task": "reduce bilan yig'indi toping.",
-      "sample": "let arr = [1, 2, 3, 4];\nconsole.log(arr.reduce((a, b) => a + b, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-017",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-018",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-019",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 2,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-code-14-020",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-021",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-022",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-023",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-024",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-14-025",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "arrays",
-      "tags": [
-        "arrays",
-        "coding",
-        "hard"
-      ],
-      "points": 3
     }
   ]
 }

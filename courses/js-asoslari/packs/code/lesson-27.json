@@ -5,353 +5,81 @@
   "questions": [
     {
       "id": "aso-code-27-001",
-      "task": "id='btn' bo'lgan tugmaga bosilganda konsolga \"Bosildi!\" deb chiqaradigan hodisa (event) yozing.",
-      "sample": "document.getElementById('btn').addEventListener('click', function() {\n  console.log(\"Bosildi!\");\n});",
-      "exp": "addEventListener('click', fn) tugma bosilganda funksiyani ishga tushiradi.",
-      "difficulty": 2,
+      "task": "btn#save click da 'saqlandi' chiqaring.",
+      "sample": "const btn = document.getElementById(\"save\");\nif (btn) {\n  btn.addEventListener(\"click\", () => {\n    console.log(\"saqlandi\");\n  });\n}",
+      "exp": "addEventListener.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-27-002",
-      "task": "Delegation: button.btn click.",
-      "sample": "document.addEventListener(\"click\", e => {\n  if (e.target.matches(\"button.btn\")) console.log(\"ok\");\n});",
-      "exp": "Delegation.",
-      "difficulty": 2,
+      "task": "link click da preventDefault va 'toxtatildi'.",
+      "sample": "const link = document.querySelector(\"a\");\nif (link) {\n  link.addEventListener(\"click\", (e) => {\n    e.preventDefault();\n    console.log(\"toxtatildi\");\n  });\n}",
+      "exp": "Odatiy o'tish to'xtaydi.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-27-003",
-      "task": "Delegation: button.btn click.",
-      "sample": "document.addEventListener(\"click\", e => {\n  if (e.target.matches(\"button.btn\")) console.log(\"ok\");\n});",
-      "exp": "Delegation.",
-      "difficulty": 2,
+      "task": "forma submit da preventDefault.",
+      "sample": "const form = document.querySelector(\"form\");\nif (form) {\n  form.addEventListener(\"submit\", (e) => {\n    e.preventDefault();\n    console.log(\"yuborilmadi\");\n  });\n}",
+      "exp": "Yangilanish yo'q.",
+      "difficulty": 1,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "medium"
+        "coding"
       ],
       "points": 2
     },
     {
       "id": "aso-code-27-004",
-      "task": "Hodisalar (events): getElementById('title') ni o'zgaruvchiga oling.",
-      "sample": "let el = document.getElementById('title');",
-      "exp": "getElementById.",
-      "difficulty": 3,
+      "task": "document click da event.target tagName.",
+      "sample": "document.addEventListener(\"click\", (e) => {\n  console.log(e.target.tagName);\n});",
+      "exp": "Delegation asosi.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "hard"
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-code-27-005",
-      "task": "Hodisalar (events): querySelector('.btn') matnini o'zgartiring.",
-      "sample": "document.querySelector('.btn').textContent = 'Bosildi';",
-      "exp": "querySelector + textContent.",
-      "difficulty": 3,
+      "task": "bir marta: {once:true} bilan click.",
+      "sample": "btn.addEventListener(\n  \"click\",\n  () => console.log(\"bir marta\"),\n  { once: true }\n);",
+      "exp": "once.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "hard"
+        "coding"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-code-27-006",
-      "task": "Hodisalar (events): createElement('p') + appendChild body.",
-      "sample": "let p = document.createElement(\"p\");\np.textContent = \"Yangi\";\ndocument.body.appendChild(p);",
-      "exp": "create + append.",
-      "difficulty": 3,
+      "task": "list click delegation: LI bo'lsa textContent.",
+      "sample": "list.addEventListener(\"click\", (e) => {\n  const li = e.target.closest(\"li\");\n  if (!li) return;\n  console.log(li.textContent);\n});",
+      "exp": "closest — ishonchli delegation.",
+      "difficulty": 2,
       "category": "events",
       "tags": [
         "events",
-        "coding",
-        "hard"
+        "coding"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-007",
-      "task": "Hodisalar (events): addEventListener click log.",
-      "sample": "document.getElementById(\"btn\").addEventListener(\"click\", () => {\n  console.log(\"click\");\n});",
-      "exp": "addEventListener.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-008",
-      "task": "Hodisalar (events): classList.toggle('active').",
-      "sample": "document.querySelector('.card').classList.toggle('active');",
-      "exp": "classList.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-009",
-      "task": "Hodisalar (events): preventDefault forma submit.",
-      "sample": "document.querySelector(\"form\").addEventListener(\"submit\", e => {\n  e.preventDefault();\n  console.log(\"submit to\\'xtatildi\");\n});",
-      "exp": "preventDefault.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-010",
-      "task": "click listener qo'shing.",
-      "sample": "element.addEventListener(\"click\", () => {\n  console.log(\"bosildi\");\n});",
-      "exp": "addEventListener.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-011",
-      "task": "preventDefault ishlating.",
-      "sample": "element.addEventListener(\"click\", (e) => {\n  e.preventDefault();\n});",
-      "exp": "preventDefault.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-012",
-      "task": "keydown listener yozing.",
-      "sample": "document.addEventListener(\"keydown\", (e) => {\n  console.log(e.key);\n});",
-      "exp": "keydown.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-013",
-      "task": "Bir marta ishlaydigan listener.",
-      "sample": "element.addEventListener(\"click\", () => {\n  console.log(\"bir marta\");\n}, { once: true });",
-      "exp": "once option.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-014",
-      "task": "3 dan 5 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 3; i <= 5; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-015",
-      "task": "Massiv [3, 5, 7] yig'indisini toping.",
-      "sample": "console.log([3, 5, 7].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-016",
-      "task": "'3' ni songa o'tkazib 5 ga qo'shing.",
-      "sample": "console.log(Number(\"3\") + 5);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-017",
-      "task": "Object {x:3, y:5} ni chiqaring.",
-      "sample": "console.log({x: 3, y: 5});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-018",
-      "task": "10 dan 20 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 10; i <= 20; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-019",
-      "task": "Massiv [10, 20, 30] yig'indisini toping.",
-      "sample": "console.log([10, 20, 30].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-020",
-      "task": "'10' ni songa o'tkazib 20 ga qo'shing.",
-      "sample": "console.log(Number(\"10\") + 20);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-021",
-      "task": "Object {x:10, y:20} ni chiqaring.",
-      "sample": "console.log({x: 10, y: 20});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-022",
-      "task": "1 dan 2 gacha sonlarni chiqaring.",
-      "sample": "for (let i = 1; i <= 2; i++) console.log(i);",
-      "exp": "for loop.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-023",
-      "task": "Massiv [1, 2, 3] yig'indisini toping.",
-      "sample": "console.log([1, 2, 3].reduce((x,y) => x+y, 0));",
-      "exp": "reduce.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-024",
-      "task": "'1' ni songa o'tkazib 2 ga qo'shing.",
-      "sample": "console.log(Number(\"1\") + 2);",
-      "exp": "Type conversion.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-code-27-025",
-      "task": "Object {x:1, y:2} ni chiqaring.",
-      "sample": "console.log({x: 1, y: 2});",
-      "exp": "Object.",
-      "difficulty": 3,
-      "category": "events",
-      "tags": [
-        "events",
-        "coding",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

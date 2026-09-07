@@ -5,1203 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-17-001",
-      "q": "Object.keys({a:1,b:2,c:3}) nima qaytaradi?",
+      "q": "this metod ichida odatda nima?",
       "opts": [
-        "[1,2,3]",
-        "[\"a\",\"b\",\"c\"]",
-        "{a:1,b:2,c:3}",
-        "3"
+        "Metod chaqirilgan obyekt",
+        "Har doim window",
+        "Har doim document",
+        "undefined har doim"
       ],
-      "correct": 1,
-      "exp": "Object.keys() kalitlar ro'yxatini array qilib qaytaradi.",
+      "correct": 0,
+      "exp": "user.salom() da this — user (oddiy function metod).",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-002",
-      "q": "Object.values({x:10,y:20}) natijasi?",
+      "q": "Object.assign(a, b) nima qiladi?",
       "opts": [
-        "[\"x\",\"y\"]",
-        "[10,20]",
-        "{x:10,y:20}",
-        "30"
+        "b xususiyatlarini a ga qo'chiradi, a ni qaytaradi",
+        "Yangi massiv",
+        "a ni o'chiradi",
+        "JSON parse"
       ],
-      "correct": 1,
-      "exp": "Object.values() qiymatlar ro'yxatini qaytaradi.",
+      "correct": 0,
+      "exp": "Birinchi argument nishon.",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-003",
-      "q": "Object.entries({a:1}) nima qaytaradi?",
+      "q": "Object.freeze(obj) ?",
       "opts": [
-        "[[\"a\",1]]",
-        "[\"a\",1]",
-        "{a:1}",
-        "1"
+        "Xususiyat qo'shish/o'zgartirish/o'chirish to'xtaydi (strict da xato)",
+        "Obyektni o'chiradi",
+        "Faqat kalitlarni yashiradi",
+        "Massivga aylantiradi"
       ],
       "correct": 0,
-      "exp": "Object.entries() [kalit, qiymat] juftliklari arrayini qaytaradi.",
+      "exp": "Ichki obyektlar chuqur freeze emas (sayoz).",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-004",
-      "q": "obj.hasOwnProperty('x') nima tekshiradi?",
+      "q": "Object.entries({a:1}) ?",
       "opts": [
-        "Qiymatni",
-        "O'zida 'x' kaliti bor-yo'qligini",
-        "Uzunligini",
-        "Turini"
+        "[[\"a\",1]]",
+        "[\"a\",1]",
+        "{a:1}",
+        "[1]"
       ],
-      "correct": 1,
-      "exp": "hasOwnProperty obyektning o'zida shu kalit borligini tekshiradi.",
+      "correct": 0,
+      "exp": "for (const [k,v] of Object.entries(obj)).",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-005",
-      "q": "Object.freeze?",
+      "q": "hasOwnProperty / Object.hasOwn ?",
       "opts": [
-        "O'chiradi",
-        "O'zgartirishni taqiqlaydi",
-        "Nusxa",
-        "Tezlashtiradi"
+        "Kalit shu obyektning o'zinikimi (prototip emas)",
+        "Qiymat bormi",
+        "Funksiya bormi",
+        "JSON bormi"
       ],
-      "correct": 1,
-      "exp": "Shallow freeze.",
+      "correct": 0,
+      "exp": "Zamonaviy: Object.hasOwn(obj,'ism').",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-006",
-      "q": "Object.seal farqi?",
+      "q": "Qisqa metod yozuvi?",
       "opts": [
-        "Bir xil",
-        "Mavjudni o'zgartirish mumkin, yangi yo'q",
-        "Qattiqroq",
-        "Yo'q"
+        "const o = { salom(){ console.log('hi'); } };",
+        "const o = { function salom(){} }",
+        "const o = salom[]",
+        "o.def salom"
       ],
-      "correct": 1,
-      "exp": "seal vs freeze.",
+      "correct": 0,
+      "exp": "ES6 method shorthand.",
       "difficulty": 1,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "easy"
+        "object-methods",
+        "test"
       ],
       "points": 1
     },
     {
       "id": "aso-mcq-17-007",
-      "q": "hasOwn vs in?",
+      "q": "Arrow metod this ni qanday oladi?",
       "opts": [
-        "Bir xil",
-        "in prototipni ham",
-        "hasOwn prototipni ham",
-        "Farq yo'q"
+        "Tashqi scopedan, o.o'z this emas",
+        "Har doim o'zi obyekt",
+        "Har doim document",
+        "this yo'q"
       ],
-      "correct": 1,
-      "exp": "in zanjir bo'ylab.",
-      "difficulty": 2,
-      "category": "objects",
+      "correct": 0,
+      "exp": "Shuning uchun obyekt metodi ko'pincha oddiy function.",
+      "difficulty": 1,
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-17-008",
-      "q": "Object.fromEntries?",
+      "q": "Object.keys freeze qilingan obyektda?",
       "opts": [
-        "O'chiradi",
-        "entries dan obyekt",
-        "freeze",
-        "keys"
+        "Kalitlar o'qiladi, lekin o'zgartirib bo'lmaydi",
+        "Bo'sh massiv",
+        "Xato",
+        "null"
       ],
-      "correct": 1,
-      "exp": "Teskari entries.",
-      "difficulty": 2,
-      "category": "objects",
+      "correct": 0,
+      "exp": "Freeze yozishni to'xtatadi, o'qishni emas.",
+      "difficulty": 1,
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-17-009",
-      "q": "obj.toString default?",
+      "q": "JSON.parse('{\"n\":2}').n ?",
       "opts": [
-        "JSON",
-        "[object Object]",
-        "",
-        "xato"
+        "2",
+        "\"2\"",
+        "undefined",
+        "xato, chunki n"
       ],
-      "correct": 1,
-      "exp": "Default toString.",
+      "correct": 0,
+      "exp": "JSON kalitlari qo'shtirnoqda bo'lishi kerak.",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-010",
-      "q": "Object.keys tartibi?",
+      "q": "Qaysi usul chuqur nusxa uchun yetarli emas?",
       "opts": [
-        "Random",
-        "Integer keyin qo'shilish tartibi",
-        "Alifbo",
-        "Teskari"
+        "{...obj} — ichki obyektlar baribir referens",
+        "structuredClone(obj) (zamonaviy)",
+        "JSON.parse(JSON.stringify(obj)) cheklovli",
+        "Qo'lda har qavatni nusxalash"
       ],
-      "correct": 1,
-      "exp": "Zamonaviy tartib.",
+      "correct": 0,
+      "exp": "Spread sayoz. Funksiya/Date JSON da yo'qolishi mumkin.",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-011",
-      "q": "Object.values(obj) nima qaytaradi?",
+      "q": "Object.fromEntries([['a',1],['b',2]]) ?",
       "opts": [
-        "Kalitlar massivi",
-        "Qiymatlar massivi",
-        "Faqat methodlar",
-        "Obyektning o'zi"
+        "{a:1,b:2}",
+        "[['a',1]]",
+        "[1,2]",
+        "undefined"
       ],
-      "correct": 1,
-      "exp": "Object.values — obyektning qiymatlaridan iborat massiv qaytaradi.",
+      "correct": 0,
+      "exp": "entries teskari.",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-012",
-      "q": "Object.entries?",
+      "q": "seal vs freeze?",
       "opts": [
-        "Faqat keys",
-        "[kalit,qiymat] juftliklari",
-        "Faqat values",
-        "string"
+        "seal yangi kalit qo'shmaydi, mavjud qiymatni o'zgartirish mumkin; freeze qattiqroq",
+        "Ikkalasi bir xil",
+        "seal o'chiradi",
+        "freeze massiv"
       ],
-      "correct": 1,
-      "exp": "Entries.",
+      "correct": 0,
+      "exp": "Object.isSealed / isFrozen.",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-013",
-      "q": "Quyidagi kodning natijasi nima?\nobj?.()",
+      "q": "Quyidagi kod?\nconst u={n:1, getN(){ return this.n; }};\nconst f=u.getN;\nf();",
       "opts": [
-        "Har doim",
-        "Funksiya bo'lsa chaqiradi",
-        "xato",
-        "null"
+        "this yo'qolishi mumkin (undefined.n yoki global)",
+        "1 har doim",
+        "u",
+        "n"
       ],
-      "correct": 1,
-      "exp": "Optional call.",
+      "correct": 0,
+      "exp": "Metodni ajratib chaqirish this ni uzadi. f = u.getN.bind(u).",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-014",
-      "q": "freeze deepmi?",
+      "q": "toString odatda nima beradi obyektda?",
       "opts": [
-        "Ha",
-        "Yo'q, shallow",
-        "Faqat array",
-        "Xato"
+        "\"[object Object]\"",
+        "JSON",
+        "kalitlar",
+        "length"
       ],
-      "correct": 1,
-      "exp": "Ichki obyektlar ochiq.",
+      "correct": 0,
+      "exp": "Shuning uchun + da obyekt g'alati matnga aylanadi.",
       "difficulty": 2,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-015",
-      "q": "Object.freeze?",
+      "q": "Qaysi kod xavfsiz tekshiruv?",
       "opts": [
-        "O'chiradi",
-        "O'zgartirishni taqiqlaydi",
-        "Nusxa",
-        "Tezlashtiradi"
+        "Object.hasOwn(user, 'email')",
+        "user.email.x.y",
+        "user.email.toUpperCase() tekshiruvsiz",
+        "user === true"
       ],
-      "correct": 1,
-      "exp": "Shallow freeze.",
-      "difficulty": 2,
-      "category": "objects",
+      "correct": 0,
+      "exp": "Yo'q kalitda chaqiruv xato beradi.",
+      "difficulty": 3,
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "medium"
+        "object-methods",
+        "test"
       ],
       "points": 2
     },
     {
       "id": "aso-mcq-17-016",
-      "q": "Object.seal farqi?",
+      "q": "prototype nima uchun kerak (qisqa)?",
       "opts": [
-        "Bir xil",
-        "Mavjudni o'zgartirish mumkin, yangi yo'q",
-        "Qattiqroq",
-        "Yo'q"
-      ],
-      "correct": 1,
-      "exp": "seal vs freeze.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-017",
-      "q": "hasOwn vs in?",
-      "opts": [
-        "Bir xil",
-        "in prototipni ham",
-        "hasOwn prototipni ham",
-        "Farq yo'q"
-      ],
-      "correct": 1,
-      "exp": "in zanjir bo'ylab.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-018",
-      "q": "Object.fromEntries?",
-      "opts": [
-        "O'chiradi",
-        "entries dan obyekt",
-        "freeze",
-        "keys"
-      ],
-      "correct": 1,
-      "exp": "Teskari entries.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-019",
-      "q": "obj.toString default?",
-      "opts": [
-        "JSON",
-        "[object Object]",
-        "",
-        "xato"
-      ],
-      "correct": 1,
-      "exp": "Default toString.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-020",
-      "q": "Object.keys tartibi?",
-      "opts": [
-        "Random",
-        "Integer keyin qo'shilish tartibi",
-        "Alifbo",
-        "Teskari"
-      ],
-      "correct": 1,
-      "exp": "Zamonaviy tartib.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-021",
-      "q": "Object.values(obj) nima qaytaradi?",
-      "opts": [
-        "Kalitlar massivi",
-        "Qiymatlar massivi",
-        "Faqat methodlar",
-        "Obyektning o'zi"
-      ],
-      "correct": 1,
-      "exp": "Object.values — obyektning qiymatlaridan iborat massiv qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-022",
-      "q": "Object.entries?",
-      "opts": [
-        "Faqat keys",
-        "[kalit,qiymat] juftliklari",
-        "Faqat values",
-        "string"
-      ],
-      "correct": 1,
-      "exp": "Entries.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-023",
-      "q": "Quyidagi kodning natijasi nima?\nobj?.()",
-      "opts": [
-        "Har doim",
-        "Funksiya bo'lsa chaqiradi",
-        "xato",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "Optional call.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-024",
-      "q": "freeze deepmi?",
-      "opts": [
-        "Ha",
-        "Yo'q, shallow",
-        "Faqat array",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "Ichki obyektlar ochiq.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-025",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-026",
-      "q": "o['a'] sintaksisi?",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-027",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2})",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
+        "Bir xil metodlarni ko'p obyekt baham ko'radi",
+        "Har obyekt uchun internet",
+        "CSS class",
+        "HTML teg"
       ],
       "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-028",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2})",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-029",
-      "q": "{...obj} nima qiladi?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-030",
-      "q": "Quyidagi kodning natijasi nima?\nobj.hasOwnProperty('a')",
-      "opts": [
-        "true/false qaytaradi",
-        "error",
-        "undefined",
-        "null"
-      ],
-      "correct": 0,
-      "exp": "O'zining xususiyati borligini tekshiradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-031",
-      "q": "delete obj.a nima qiladi?",
-      "opts": [
-        "qiymatni null qiladi",
-        "xususiyatni o'chiradi",
-        "error",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Xususiyatni obyektdan olib tashlaydi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-032",
-      "q": "Quyidagi kodning natijasi nima?\nObject.assign({}, o1, o2)",
-      "opts": [
-        "deep merge",
-        "shallow merge",
-        "error",
-        "faqat o1"
-      ],
-      "correct": 1,
-      "exp": "Shallow merge qiladi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-033",
-      "q": "Quyidagi kodning natijasi nima?\nJSON.stringify({a:1})",
-      "opts": [
-        "{a:1}",
-        "'{\"a\":1}'",
-        "error",
-        "undefined"
-      ],
-      "correct": 1,
-      "exp": "Obyektni JSON stringga aylantiradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-034",
-      "q": "Quyidagi kodning natijasi nima?\nJSON.parse('{\"a\":1}')",
-      "opts": [
-        "string",
-        "{a:1}",
-        "error",
-        "null"
-      ],
-      "correct": 1,
-      "exp": "JSON stringni obyektga aylantiradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-035",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 1)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-036",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 1)",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-037",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 1)",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-038",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 1)",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-039",
-      "q": "{...obj} nima qiladi (misol 1)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-040",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 2)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-041",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 2)",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-042",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 2)",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-043",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 2)",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-044",
-      "q": "{...obj} nima qiladi (misol 2)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-045",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 3)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 2,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "medium"
-      ],
-      "points": 2
-    },
-    {
-      "id": "aso-mcq-17-046",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 3)",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
+      "exp": "Hozircha: metodlar zanjir bo'ylab qidiriladi.",
       "difficulty": 3,
-      "category": "objects",
+      "category": "object-methods",
       "tags": [
-        "objects",
-        "test",
-        "hard"
+        "object-methods",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-047",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 3)",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-048",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 3)",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-049",
-      "q": "{...obj} nima qiladi (misol 3)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-050",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 4)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-051",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 4)",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-052",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 4)",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-053",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 4)",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-054",
-      "q": "{...obj} nima qiladi (misol 4)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-055",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 5)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-056",
-      "q": "Quyidagi kodning natijasi nima?\no['a'] sintaksisi (misol 5)",
-      "opts": [
-        "noto'g'ri",
-        "to'g'ri (bracket notation)",
-        "faqat array da",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Bracket notation ham ishlaydi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-057",
-      "q": "Quyidagi kodning natijasi nima?\nObject.keys({a:1,b:2}) (misol 5)",
-      "opts": [
-        "['a','b']",
-        "[1,2]",
-        "error",
-        "{a,b}"
-      ],
-      "correct": 0,
-      "exp": "Kalitlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-058",
-      "q": "Quyidagi kodning natijasi nima?\nObject.values({a:1,b:2}) (misol 5)",
-      "opts": [
-        "[1,2]",
-        "['a','b']",
-        "error",
-        "{1,2}"
-      ],
-      "correct": 0,
-      "exp": "Qiymatlarni massiv qilib qaytaradi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-059",
-      "q": "{...obj} nima qiladi (misol 5)?",
-      "opts": [
-        "o'chiradi",
-        "shallow copy",
-        "deep copy",
-        "merge qilmaydi"
-      ],
-      "correct": 1,
-      "exp": "Spread shallow copy qiladi.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-17-060",
-      "q": "Quyidagi kodning natijasi nima?\nconst o = {a:1}; o.a (misol 6)",
-      "opts": [
-        "undefined",
-        "1",
-        "null",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Nuqta orqali xususiyatga murojaat.",
-      "difficulty": 3,
-      "category": "objects",
-      "tags": [
-        "objects",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }

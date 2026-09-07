@@ -5,1463 +5,307 @@
   "questions": [
     {
       "id": "aso-mcq-21-001",
-      "q": "while va for orasidagi asosiy farq nima?",
+      "q": "while (shart) qachon aylanadi?",
       "opts": [
-        "while shart true bo'lguncha ishlaydi, tuzilishi soddaroq",
-        "while faqat massivlar uchun",
-        "for hech qachon to'xtamaydi",
-        "Farqi yo'q, ikkalasi bir xil"
+        "Shart true ekan",
+        "Har doim 10 marta",
+        "Faqat 1 marta",
+        "Shart false ekan"
       ],
       "correct": 0,
-      "exp": "while faqat shartni tekshiradi, for esa boshlang'ich/shart/qadam uchtasini o'z ichiga oladi.",
-      "difficulty": 2,
-      "category": "loops",
+      "exp": "Avval shart, keyin tanan. Shart yolg'on bo'lsa 0 marta.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-002",
-      "q": "while (false) { ... } necha marta bajariladi?",
+      "q": "do...while farqi?",
       "opts": [
-        "1 marta",
-        "0 marta",
-        "cheksiz",
-        "xato"
+        "Tana kamida 1 marta bajariladi, keyin shart",
+        "do umuman ishlamaydi",
+        "while dan sekin kafolat",
+        "do faqat massiv"
       ],
-      "correct": 1,
-      "exp": "Shart dastlab false bo'lsa, body umuman bajarilmaydi.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "do { ... } while (shart);",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-003",
-      "q": "do...while ning while dan farqi?",
+      "q": "Cheksiz sikl misoli?",
       "opts": [
-        "Farqi yo'q",
-        "do...while kamida 1 marta bajariladi",
-        "do...while tezroq",
-        "do...while eskirgan"
+        "while (true) { } break siz",
+        "while (false) {}",
+        "for (let i=0;i<1;i++)",
+        "if (true)"
       ],
-      "correct": 1,
-      "exp": "do...while avval bajaradi, keyin shartni tekshiradi — kamida 1 marta ishlaydi.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Brauzer 'osib qolishi' mumkin. To'xtatish: break yoki shartni o'zgartirish.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-004",
-      "q": "Cheksiz siklga tushib qolmaslik uchun nima qilish kerak?",
+      "q": "let i=3; while(i>0){ console.log(i); i--; } nima chiqadi?",
       "opts": [
-        "break yozmaslik",
-        "Shartni o'zgartiradigan kod bo'lishi kerak",
-        "faqat for ishlatish",
-        "console.log yozish"
+        "3 2 1",
+        "0",
+        "3 2 1 0",
+        "cheksiz 3"
       ],
-      "correct": 1,
-      "exp": "Shart oxir-oqibat false bo'lishi uchun o'zgaruvchi o'zgarishi kerak.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "i-- qilinmasa cheksiz 3.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-005",
-      "q": "while true bo'lsa?",
+      "q": "Qachon while for dan qulayroq?",
       "opts": [
-        "1 marta",
-        "Cheksiz",
-        "0",
-        "Xato"
+        "Takrorlar soni oldindan noma'lum (foydalanuvchi, qidiruv)",
+        "Har doim",
+        "Hech qachon",
+        "Faqat string da"
       ],
-      "correct": 1,
-      "exp": "break kerak.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Masalan, 'topilmaguncha' qidirish.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-006",
-      "q": "do...while kamida?",
+      "q": "let n=1; while(n<10) n*=2; oxirida n?",
       "opts": [
-        "0",
-        "1",
-        "2",
-        "shart"
+        "16",
+        "8",
+        "10",
+        "1"
       ],
-      "correct": 1,
-      "exp": "Kamida bir.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "1,2,4,8, keyin 16 >=10 to'xtaydi.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
       ],
-      "points": 2
+      "points": 1
     },
     {
       "id": "aso-mcq-21-007",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (x) to'xtash",
+      "q": "while ichida continue nima qiladi?",
       "opts": [
-        "true",
-        "falsy",
-        "faqat false",
-        "faqat 0"
+        "Shartga qaytadi (qadamni unutmang!)",
+        "Siklni yopadi",
+        "return",
+        "n ni 0 qiladi"
       ],
-      "correct": 1,
-      "exp": "Har qanday falsy.",
-      "difficulty": 2,
-      "category": "loops",
+      "correct": 0,
+      "exp": "i++ continue dan oldin bo'lmasa, cheksiz sikl xavfi.",
+      "difficulty": 1,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "medium"
+        "while",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-21-008",
+      "q": "Quyidagi xato?\nlet i=0; while(i<3){ console.log(i); }",
+      "opts": [
+        "i oshirilmagan — cheksiz 0",
+        "while yozilishi xato",
+        "console.log yo'q",
+        "i<3 xato"
+      ],
+      "correct": 0,
+      "exp": "Har aylanishda i++ kerak.",
+      "difficulty": 1,
+      "category": "while",
+      "tags": [
+        "while",
+        "test"
+      ],
+      "points": 1
+    },
+    {
+      "id": "aso-mcq-21-009",
+      "q": "do...while (false) tana necha marta?",
+      "opts": [
+        "1",
+        "0",
+        "cheksiz",
+        "2"
+      ],
+      "correct": 0,
+      "exp": "Avval tana, keyin false — to'xtaydi.",
+      "difficulty": 2,
+      "category": "while",
+      "tags": [
+        "while",
+        "test"
       ],
       "points": 2
     },
     {
-      "id": "aso-mcq-21-008",
-      "q": "Yangilash unutildi?",
-      "opts": [
-        "OK",
-        "Cheksiz xavf",
-        "Tez",
-        "Xato emas"
-      ],
-      "correct": 1,
-      "exp": "Eng ko'p xato.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-009",
-      "q": "while vs for?",
-      "opts": [
-        "Farq yo'q",
-        "for hisobli, while shartli",
-        "while taqiqlangan",
-        "for faqat array"
-      ],
-      "correct": 1,
-      "exp": "Mos tanlov.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
       "id": "aso-mcq-21-010",
-      "q": "break while da?",
+      "q": "break while ni to'xtatadimi?",
       "opts": [
-        "Yo'q",
         "Ha",
-        "Faqat for",
-        "continue"
+        "Yo'q, faqat for",
+        "Faqat switch",
+        "Faqat funksiya"
       ],
-      "correct": 1,
-      "exp": "Ishlaydi.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Eng yaqin sikl/switch.",
+      "difficulty": 2,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-011",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (arr.length) pop",
+      "q": "while va for bir xil ishni qila oladimi?",
       "opts": [
-        "Hech narsa",
-        "Bo'shatadi",
-        "Xato",
-        "Nusxa"
+        "Ha, ko'p sikllar bir-biriga aylantiriladi",
+        "Yo'q, while faqat son",
+        "for faqat string",
+        "while return qilolmaydi"
       ],
-      "correct": 1,
-      "exp": "Bo'shaguncha.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Tanlov — qaysi o'qish oson.",
+      "difficulty": 2,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-012",
-      "q": "Quyidagi kodning natijasi nima?\ndo while(false)",
+      "q": "let s=''; let i=0; while(i<3){ s+='a'; i++; } s?",
       "opts": [
-        "0",
-        "1",
-        "cheksiz",
-        "xato"
+        "\"aaa\"",
+        "\"a\"",
+        "3",
+        "''"
       ],
-      "correct": 1,
-      "exp": "do bir marta.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "3 marta qo'shildi.",
+      "difficulty": 2,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-013",
-      "q": "Cheksiz aniqlash?",
+      "q": "Shart joyida assignment: while (x = get()) yomonmi?",
       "opts": [
-        "Mumkin emas",
-        "DevTools pauza",
-        "Faqat restart",
-        "console yetarli"
+        "Ishlaydi, lekin o'qish qiyin va xato oson; aniqroq yozing",
+        "Har doim yaxshi",
+        "Sintaksis yo'q",
+        "Faqat do da"
       ],
-      "correct": 1,
-      "exp": "Breakpoint.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "O'qilishi: qiymat ol → tekshir → ishlat.",
+      "difficulty": 2,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-014",
-      "q": "while da const i?",
+      "q": "Qaysi kod 5 dan 1 gacha chiqaradi?",
       "opts": [
-        "Har doim OK",
-        "O'zgarishi kerak bo'lsa let",
-        "const mumkin emas",
-        "Xato"
+        "let i=5; while(i>=1){ console.log(i); i--; }",
+        "let i=5; while(i>=1){ console.log(i); }",
+        "while(false) console.log(5);",
+        "for(;;) break;"
       ],
-      "correct": 1,
-      "exp": "let kerak.",
-      "difficulty": 3,
-      "category": "loops",
+      "correct": 0,
+      "exp": "Kamayuvchi hisoblagich.",
+      "difficulty": 2,
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-015",
-      "q": "while true bo'lsa?",
+      "q": "while (arr.length) arr.pop() nima qiladi?",
       "opts": [
-        "1 marta",
-        "Cheksiz",
-        "0",
-        "Xato"
+        "Massivni bo'shatadi",
+        "length ni 1 qiladi",
+        "Xato",
+        "Nusxa oladi"
       ],
-      "correct": 1,
-      "exp": "break kerak.",
+      "correct": 0,
+      "exp": "Har pop length ni kamaytiradi. Bo'sh massiv falsy length 0.",
       "difficulty": 3,
-      "category": "loops",
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
+      "points": 2
     },
     {
       "id": "aso-mcq-21-016",
-      "q": "do...while kamida?",
+      "q": "Nima uchun shartni sodda tutish kerak?",
       "opts": [
-        "0",
-        "1",
-        "2",
-        "shart"
+        "Xato va cheksiz sikl kamayadi",
+        "Shart faqat true yoziladi",
+        "while shartsiz",
+        "JS shartni o'qimaydi"
       ],
-      "correct": 1,
-      "exp": "Kamida bir.",
+      "correct": 0,
+      "exp": "Murakkab shartni o'zgaruvchiga oling: const davom = ...",
       "difficulty": 3,
-      "category": "loops",
+      "category": "while",
       "tags": [
-        "loops",
-        "test",
-        "hard"
+        "while",
+        "test"
       ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-017",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (x) to'xtash",
-      "opts": [
-        "true",
-        "falsy",
-        "faqat false",
-        "faqat 0"
-      ],
-      "correct": 1,
-      "exp": "Har qanday falsy.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-018",
-      "q": "Yangilash unutildi?",
-      "opts": [
-        "OK",
-        "Cheksiz xavf",
-        "Tez",
-        "Xato emas"
-      ],
-      "correct": 1,
-      "exp": "Eng ko'p xato.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-019",
-      "q": "while vs for?",
-      "opts": [
-        "Farq yo'q",
-        "for hisobli, while shartli",
-        "while taqiqlangan",
-        "for faqat array"
-      ],
-      "correct": 1,
-      "exp": "Mos tanlov.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-020",
-      "q": "break while da?",
-      "opts": [
-        "Yo'q",
-        "Ha",
-        "Faqat for",
-        "continue"
-      ],
-      "correct": 1,
-      "exp": "Ishlaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-021",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (arr.length) pop",
-      "opts": [
-        "Hech narsa",
-        "Bo'shatadi",
-        "Xato",
-        "Nusxa"
-      ],
-      "correct": 1,
-      "exp": "Bo'shaguncha.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-022",
-      "q": "Quyidagi kodning natijasi nima?\ndo while(false)",
-      "opts": [
-        "0",
-        "1",
-        "cheksiz",
-        "xato"
-      ],
-      "correct": 1,
-      "exp": "do bir marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-023",
-      "q": "Cheksiz aniqlash?",
-      "opts": [
-        "Mumkin emas",
-        "DevTools pauza",
-        "Faqat restart",
-        "console yetarli"
-      ],
-      "correct": 1,
-      "exp": "Breakpoint.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-024",
-      "q": "while da const i?",
-      "opts": [
-        "Har doim OK",
-        "O'zgarishi kerak bo'lsa let",
-        "const mumkin emas",
-        "Xato"
-      ],
-      "correct": 1,
-      "exp": "let kerak.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-025",
-      "q": "for (let i=0; i<3; i++) necha marta?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-026",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-027",
-      "q": "do...while kamida necha marta?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-028",
-      "q": "for...of nima uchun?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-029",
-      "q": "for...in nima uchun?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-030",
-      "q": "break nima qiladi?",
-      "opts": [
-        "keyingi iteratsiyaga o'tadi",
-        "loopni to'xtatadi",
-        "funksiyani to'xtatadi",
-        "hech narsa"
-      ],
-      "correct": 1,
-      "exp": "Eng yaqin loopni to'xtatadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-031",
-      "q": "continue nima qiladi?",
-      "opts": [
-        "loopni to'xtatadi",
-        "joriy iteratsiyani o'tkazib yuboradi",
-        "funksiyani to'xtatadi",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Keyingi iteratsiyaga o'tadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-032",
-      "q": "for (;; ) nima?",
-      "opts": [
-        "xato",
-        "cheksiz loop",
-        "1 marta",
-        "0 marta"
-      ],
-      "correct": 1,
-      "exp": "Shartsiz for — cheksiz.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-033",
-      "q": "Array.prototype.forEach break ishlaydimi?",
-      "opts": [
-        "ha",
-        "yo'q",
-        "ba'zan",
-        "faqat return"
-      ],
-      "correct": 1,
-      "exp": "forEach ichida break ishlamaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-034",
-      "q": "Quyidagi kodning natijasi nima?\nlet i=0; while(i<3){i++} oxirida i",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "0"
-      ],
-      "correct": 1,
-      "exp": "i 3 ga yetganda to'xtaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-035",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 1)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-036",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 1)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-037",
-      "q": "do...while kamida necha marta (misol 1)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-038",
-      "q": "for...of nima uchun (misol 1)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-039",
-      "q": "for...in nima uchun (misol 1)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-040",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 2)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-041",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 2)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-042",
-      "q": "do...while kamida necha marta (misol 2)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-043",
-      "q": "for...of nima uchun (misol 2)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-044",
-      "q": "for...in nima uchun (misol 2)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-045",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 3)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-046",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 3)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-047",
-      "q": "do...while kamida necha marta (misol 3)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-048",
-      "q": "for...of nima uchun (misol 3)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-049",
-      "q": "for...in nima uchun (misol 3)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-050",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 4)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-051",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 4)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-052",
-      "q": "do...while kamida necha marta (misol 4)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-053",
-      "q": "for...of nima uchun (misol 4)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-054",
-      "q": "for...in nima uchun (misol 4)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-055",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 5)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-056",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 5)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-057",
-      "q": "do...while kamida necha marta (misol 5)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-058",
-      "q": "for...of nima uchun (misol 5)?",
-      "opts": [
-        "object kalitlari",
-        "iterable (array, string)",
-        "faqat number",
-        "faqat object"
-      ],
-      "correct": 1,
-      "exp": "Iterable larni aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-059",
-      "q": "for...in nima uchun (misol 5)?",
-      "opts": [
-        "array elementlari",
-        "object kalitlari",
-        "faqat string",
-        "faqat number"
-      ],
-      "correct": 1,
-      "exp": "Obyekt kalitlarini aylanadi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-060",
-      "q": "for (let i=0; i<3; i++) necha marta (misol 6)?",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "1"
-      ],
-      "correct": 1,
-      "exp": "0,1,2 — 3 marta.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-026",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-027",
-      "q": "do...while kamida necha marta?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-034",
-      "q": "Quyidagi kodning natijasi nima?\nlet i=0; while(i<3){i++} oxirida i",
-      "opts": [
-        "2",
-        "3",
-        "4",
-        "0"
-      ],
-      "correct": 1,
-      "exp": "i 3 ga yetganda to'xtaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-036",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 1)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-037",
-      "q": "do...while kamida necha marta (misol 1)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-041",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 2)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-042",
-      "q": "do...while kamida necha marta (misol 2)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-046",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 3)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-047",
-      "q": "do...while kamida necha marta (misol 3)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-051",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 4)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-052",
-      "q": "do...while kamida necha marta (misol 4)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-056",
-      "q": "Quyidagi kodning natijasi nima?\nwhile (false) {...} ishlaydimi (misol 5)",
-      "opts": [
-        "ha",
-        "yo'q",
-        "1 marta",
-        "error"
-      ],
-      "correct": 1,
-      "exp": "Shart false bo'lsa umuman kirmaydi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
-    },
-    {
-      "id": "aso-mcq-21-m20-057",
-      "q": "do...while kamida necha marta (misol 5)?",
-      "opts": [
-        "0",
-        "1",
-        "2",
-        "cheksiz"
-      ],
-      "correct": 1,
-      "exp": "do...while kamida 1 marta bajariladi.",
-      "difficulty": 3,
-      "category": "loops",
-      "tags": [
-        "loops",
-        "test",
-        "hard"
-      ],
-      "points": 3
+      "points": 2
     }
   ]
 }
